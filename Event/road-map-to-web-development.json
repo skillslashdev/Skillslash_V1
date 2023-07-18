@@ -1,0 +1,132 @@
+{
+  "metaInfo": {
+    "title": "Road map to Web Development",
+    "desc": "Enroll in the Full stack course Event and learn road map of web development. Get Knowledge by working on industry projects.",
+
+    "canonical": "https://skillslash.com/Event/road-map-to-web-development"
+  },
+  "mainData": {
+    "title": "Road map to Web Development For CS/IT Freshers and For Non Tech Professionals",
+    "eventDate": "January 11, 2023",
+    "eventStart": "January 11, 2023 20:00:00",
+    "eventTime": "08:00 pm- 09:00 pm",
+    "tag": "Fullstack",
+    "eventEnd": "January 11, 2023 21:00:00",
+    "img": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/raod-map-to-web-development-abhishek-sharma-11-jan-tab-2023.webp",
+    "Duration": "1 Hours",
+    "register": "7689"
+  },
+  "header": {
+    "title": "Road map to",
+    "titleSpan": "Web Development",
+    "reverseImg": false,
+    "spanStyle": {
+      "background": "linear-gradient(to top, #cbebff 50%, transparent 50%)",
+      "borderRadius": "8px",
+      "color": "#000000",
+      "paddingLeft": "10px",
+      "paddingRight": "10px"
+    },
+    "desc1": "",
+    "desc": "",
+    "eventDate": "11 Jan 2023, Wed",
+    "redirectZoom": false,
+    "eventTime": "8.00 pm - 09.00 pm",
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/free_webinar.webp",
+    "register": "7689",
+    "img1Src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/eicon-event.svg",
+    "link": "https://us06web.zoom.us/meeting/register/tZUtcu6srDspEtSc8b6YzMVPQdgtiis-nUrS",
+    "backImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/raod-map-to-web-development-abhishek-sharma-11-jan-2023.webp",
+    "mBackImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/raod-map-to-web-development-abhishek-sharma-11-jan-mobile-2023.webp",
+    "profileImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/raod-map-to-web-development-abhishek-sharma-11-jan-2023-profile.webp",
+    "profileImgH": "98",
+    "profileImgW": "550",
+
+    "dark": false,
+
+    "lightNew": true
+  },
+  "eventDetails": {
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Online_Registration.svg",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Conference.svg",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Registration.svg",
+    "firstH": "7689+",
+    "firstP": "Enrolled",
+    "secondH": "Online",
+    "secondP": "Conference",
+    "thirdH": "Free",
+    "thirdP": "Registration"
+  },
+  "aboutUs": {
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/About Masterclass_Count.webp",
+    "title": "About the Masterclass",
+    "desc": " Are you a non-tech person looking for a career transition into a tech domain as a web developer?Or are you a Fresher who is aspiring to become a  web developer ",
+    "desc1": "Join us as we host Mr. Abhishek Sharma, SDE at Google, who will walk you through the end-to-end complete preparation guide for Web Development. Win the brownie points in competitive interviews with expert training.",
+    "strong": "",
+    "desc2": "With his vast experience and knowledge, he is sure to make this session insightful and worth your time. Don't miss this chance to learn from one of the best!"
+  },
+  "feature": {
+    "title": "Full Stack Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "With expert guidance and assistance attain your learning purpose and goals.    ",
+    "h2": "Live Classes",
+    "p2": "All our Full stack experts will lead the 100% live sessions.    ",
+    "h3": "Shareable certification",
+    "p3": "Achieve an acknowledged certification as you attend the training.    ",
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning.webp",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live.webp",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/certification.webp",
+    "mImg1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Certification_mobile.webp",
+    "mImg2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning_mobile.webp",
+    "mImg3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live_Mobile.webp"
+  },
+  "profile": {
+    "pImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Abhishek-sharma.webp",
+    "desc": "Software Engineer at Google",
+    "pName": "Abhishek Sharma",
+    "link": "https://www.linkedin.com/in/abhisheksharma8496/",
+    "mIcon": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/google-logo.webp",
+    "list1": "",
+    "list2": "",
+    "list3": "Alumni of KIIT University, Bhubaneswar",
+    "list4": "  Have 100+ hours of mentorship experience.",
+    "list5": "   Have worked in Google, Mfine, Highradius.",
+    "workAt": "",
+    "cIcon1": "",
+    "cIcon2": "",
+    "cIcon3": "",
+    "width": "",
+    "width1": "",
+    "width3": "",
+    "height": "",
+    "height1": "",
+    "height3": ""
+  },
+  "whyUs": {
+    "title": "What will you Learn?",
+    "l1": "Know tips and tricks of Web Development",
+    "l2": "Crafting a kick-ass resume based on your skills",
+    "l3": "Career transition to the Web Development",
+    "l4": "The dos and don'ts of a whiteboard interview"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack    development.",
+    "heading3": "About Skillslash Academy",
+    "para3": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "About": {
+    "title": "About Skillslash Academy",
+    "desc": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur.",
+    "heading1": "Project-based certification",
+    "para1": " We provide project-based certification platform for professionals. Being the leading training provider, we give you the opportunity to work directly with industry experts on latest projects.",
+    "heading2": "Guaranteed referrals",
+    "para2": "  We provide real-time work experience, Guaranteed job referral, customizable courses and project certification from top startups.",
+    "heading3": "Skill Upgradation",
+    "para3": " Our training allows you to develop your abilities and get employed in top businesses. We aim at upgrading your skill set and get first preference in the hiring process."
+  }
+}

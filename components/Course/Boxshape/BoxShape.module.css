@@ -1,0 +1,253 @@
+.boxWrapper {
+  padding-left: 100px;
+  margin: 70px 0 30px 0;
+  padding-right: 100px;
+}
+.boxWrapper h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.BoxDiv {
+  display: grid;
+  grid-template-columns: 59% 32%;
+  gap: 100px;
+}
+.left {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  justify-content: center;
+}
+.boxWrap {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 25px;
+}
+.box {
+  margin-top: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 5px;
+}
+
+.box h5 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+.box p {
+  font-size: 16px;
+  color: #54595f;
+  margin: 0;
+  padding-right: 80px;
+}
+.ImgB {
+  background-color: #f6f4ff;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.ImgC {
+  background-color: #f6f4ff;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 10px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.imgBack {
+  background-position: center center;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+.formWrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background-color: #f9f8ff;
+  border-radius: 12px;
+}
+.formHeadWrap {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-left: 10px solid #4f419a;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: -19px;
+}
+
+.formWrapper h5 {
+  font-size: 24px;
+  margin: 0;
+  text-align: left;
+  font-weight: 400;
+  height: max-content;
+}
+.formWrapper h5 span {
+  color: #4f419a;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@media (max-width: 1281px) {
+  .boxWrapper {
+    padding-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+  }
+  .boxWrapper h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .BoxDiv {
+    grid-template-columns: 55% 42%;
+    gap: 10px;
+  }
+  .box h5 {
+    font-size: 20px;
+  }
+  .box p {
+    padding-right: 0px;
+  }
+  .formWrapper h5 {
+    font-size: 20px;
+  }
+
+  .formWrapper h5 span {
+    font-size: 24px;
+  }
+  .imgBack {
+    width: 100%;
+  }
+}
+@media (max-width: 961px) {
+  .boxWrapper h2 {
+    font-size: 24px;
+  }
+  .left {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+  }
+  .BoxDiv {
+    gap: 10px;
+  }
+  .box {
+    width: 100%;
+  }
+  .box h5 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .box p {
+    padding-right: 0px;
+  }
+
+  .imgBack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .formWrapper h5 {
+    font-size: 18px;
+  }
+  .formWrapper h5 span {
+    font-size: 25px;
+  }
+}
+@media (max-width: 641px) {
+  .boxWrap {
+    display: none;
+  }
+  /* .BoxDiv {
+    display: flex;
+    flex-flow: column;
+  }
+  .imgBack {
+    width: 80%;
+    align-items: center;
+  } */
+}
+/* @media (max-width: 481px) {
+  .boxWrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .boxWrapper h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  .BoxDiv {
+    display: block;
+    grid-template-columns: auto;
+  }
+  .left {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    margin: 0px;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .box h5 {
+    font-size: 16px;
+  }
+  .box {
+    margin-top: 30px;
+    width: 100%;
+    margin-right: 0px;
+    display: flex;
+    flex-flow: column;
+  }
+  .box p {
+    font-size: 14px;
+    padding-right: 0px;
+  }
+  .imgBack {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .ImgB {
+    background-color: #ebf4ff;
+    width: 30%;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  .ImgC {
+    background-color: #ebf4ff;
+    width: 30%;
+    border-radius: 50%;
+    padding: 10px;
+  }
+} */

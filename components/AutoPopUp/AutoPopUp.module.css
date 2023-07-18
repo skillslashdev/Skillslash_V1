@@ -1,0 +1,104 @@
+.wrapper {
+  width: max-content;
+  scroll-behavior: smooth;
+  font-size: 14px;
+  height: max-content;
+  display: flex;
+  z-index: 999;
+
+  top: 150px;
+  right: 0%;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper iframe {
+  position: absolute;
+  border: 0;
+  outline: 0;
+}
+.wrapper:hover iframe {
+  display: none;
+}
+.wrapper button {
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 14px;
+}
+.content {
+  margin-right: 10px;
+  width: max-content;
+  padding: 10px 20px;
+  background-color: white;
+  display: flex;
+  gap: 20px;
+  border-radius: 8px;
+  gap: 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.img {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+/* .content h5 {
+  animation: congratulations 3s infinite;
+} */
+
+/* @keyframes congratulations {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  25% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.75;
+  }
+
+  75% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+} */
+.content h5,
+.content p {
+  margin: 0;
+  font-size: 15px;
+  margin: 5px 0 0 0;
+}
+
+.content a {
+  background-color: #4f419a;
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  font-size: 12px;
+  gap: 5px;
+}
+@media (max-width: 481px) {
+  .wrapper {
+    top: 72.2%;
+    z-index: 9999;
+    right: 40px;
+  }
+}

@@ -1,0 +1,75 @@
+.CtaWrapper {
+  background-color: #4f419a;
+  display: grid;
+  grid-template-columns: 10% 44% 33%;
+  position: relative;
+  margin: 40px 0;
+}
+.leftCta {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.leftCta button {
+  width: max-content;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #4f419a;
+  background-color: #ffffff;
+}
+.leftCta button:hover {
+  background-color: #d7d2f1;
+  color: #4f419a;
+}
+.leftCta h4 {
+  color: #ffffff;
+  margin: 0;
+  font-weight: 700;
+}
+.pTop {
+  color: #ffffff;
+  margin: 0;
+  font-weight: 600;
+}
+.smallCTA {
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+.desc {
+  font-size: 18px;
+  color: #646464;
+  font-weight: 500;
+}
+.imgwrap {
+  position: absolute;
+  bottom: 0px;
+}
+
+@media (max-width: 1281px) {
+  .CtaWrapper {
+    grid-template-columns: 20% 40% 23%;
+    position: relative;
+  }
+  .leftCta h4 {
+    font-size: 30px;
+  }
+  .leftCta button {
+    width: max-content;
+    font-size: 16px;
+  }
+  .leftCta button {
+    gap: 10px;
+    font-size: 14px;
+    color: #4f419a;
+    background-color: #ffffff;
+  }
+}
+@media (max-width: 961px) {
+  .CtaWrapper {
+    display: none;
+  }
+}

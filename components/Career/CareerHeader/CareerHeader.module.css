@@ -1,0 +1,58 @@
+.wrapper {
+  padding: 50px 100px 250px 100px;
+  margin-top: 70px;
+  height: 100%;
+  position: relative;
+}
+
+.contentWrapper {
+  text-align: center;
+  color: white;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  z-index: 100;
+
+  height: max-content;
+}
+.paraWrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageWrapper {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.contentWrapper h2 {
+  font-size: 42px;
+  margin-bottom: 0;
+}
+.contentWrapper p {
+  color: white;
+  width: 70%;
+  font-weight: 300;
+  font-size: 15px;
+}
+.contentWrapper button {
+  margin: auto;
+  color: #4f419a;
+  background-color: white;
+  padding: 10px 15px;
+}
+
+@media (max-width: 641px) {
+  .wrapper {
+    padding: 30px 20px;
+    background-color: #4f419a !important;
+  }
+  .contentWrapper {
+    padding: 0;
+  }
+}

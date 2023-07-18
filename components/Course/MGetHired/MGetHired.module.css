@@ -1,0 +1,207 @@
+.wrapper {
+  margin: 0px 0;
+  padding: 60px 100px;
+  background-color: #f9f8ff;
+}
+.wrapper h4 {
+  margin-bottom: 40px;
+  width: max-content;
+}
+.wrapper h4 span {
+  width: max-content;
+  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
+}
+.bottom {
+  display: none;
+}
+.ReviewBox {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 22px 10px 22px;
+  height: 210px;
+  border-left: 1px dotted #646464;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 0 !important;
+}
+.profile {
+  position: absolute;
+  top: -20px;
+}
+.transition {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+.transition p {
+  background-color: #4f419a;
+  color: white;
+  padding: 4px 15px;
+  border-radius: 20px;
+}
+.button {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1281px) {
+  .wrapper {
+    padding: 17px 40px;
+  }
+}
+@media (max-width: 481px) {
+  .wrapper h4 {
+    text-align: center;
+    font-weight: 500;
+
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    display: flex;
+    flex-flow: column;
+    padding: 40px 10px 10px 10px;
+    background-color: #f9f8ff;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+  }
+  .ReviewBox {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 22px;
+    height: 210px;
+
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px !important;
+    margin-bottom: 40px;
+    border-left: 1px dotted #646464;
+  }
+  .button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .button button {
+    background-color: #4f419a;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 35px;
+  }
+  .downArrow {
+    color: #f28705;
+    font-size: 34px;
+  }
+  .transition {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+  }
+  .transition p {
+    margin: 0;
+  }
+  .innerWrap {
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    background-color: transparent;
+    border-radius: 12px;
+    z-index: 10;
+    gap: 30px;
+  }
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper h4 span {
+    font-weight: 700;
+  }
+
+  .hike {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+
+    justify-content: center;
+  }
+
+  .left,
+  .right {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .right {
+    padding-left: 35px;
+  }
+  .hike1,
+  .hike2 {
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    gap: 10px;
+    width: 100%;
+    justify-content: left;
+  }
+
+  .hike1 p,
+  .hike2 p {
+    font-weight: 700;
+    color: rgb(18, 17, 17);
+    line-height: 18px;
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+  }
+
+  .hike1 span,
+  .hike2 span {
+    font-weight: 400;
+    color: #6d6d6d;
+    line-height: 18px;
+    font-size: 14px;
+  }
+  .bottom {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgb(158, 157, 157);
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .bottom p {
+    position: absolute;
+    background-color: white;
+    width: max-content;
+    top: -18px;
+    left: 70px;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 40px;
+  }
+}

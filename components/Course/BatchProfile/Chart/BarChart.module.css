@@ -1,0 +1,205 @@
+@-webkit-keyframes animate-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@-moz-keyframes animate-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes animate-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@-webkit-keyframes animate-height {
+  0% {
+    height: 0;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@-moz-keyframes animate-height {
+  0% {
+    height: 0;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes animate-height {
+  0% {
+    height: 0;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+#barChart {
+  height: max-content;
+  width: 100%;
+  position: relative;
+  margin: 0px auto 0;
+}
+#barChart * {
+  box-sizing: border-box;
+}
+#barChart .graph {
+  height: 283px;
+  position: relative;
+}
+#barChart .bars {
+  height: 253px;
+  display: flex;
+  padding: 0 2%;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+#barChart .barGroup {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+#barChart .barGroup:last-child {
+  margin-right: 0;
+}
+#barChart .barGroup .bar {
+  visibility: hidden;
+  height: 0;
+  -webkit-animation: animate-height;
+  -moz-animation: animate-height;
+  animation: animate-height;
+  animation-timing-function: cubic-bezier(0.35, 0.95, 0.67, 0.99);
+  -webkit-animation-timing-function: cubic-bezier(0.35, 0.95, 0.67, 0.99);
+  -moz-animation-timing-function: cubic-bezier(0.35, 0.95, 0.67, 0.99);
+  animation-duration: 0.4s;
+  -webkit-animation-duration: 0.4s;
+  -moz-animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  box-shadow: 1px 0 2px rgba(0, 0, 0, 0.15);
+
+  border-radius: 3px 3px 0 0;
+  bottom: 0;
+  cursor: pointer;
+  height: 0;
+  position: absolute;
+  text-align: center;
+  width: 70%;
+}
+#barChart .barGroup .bar:nth-child(2) {
+  left: 35%;
+}
+#barChart .barGroup .bar:nth-child(4) {
+  left: 21%;
+}
+#barChart .barGroup .bar:nth-child(5) {
+  left: 80%;
+}
+#barChart .barGroup .bar:nth-child(3) {
+  left: 70%;
+}
+#barChart .barGroup .bar span {
+  display: none;
+}
+#barChart .barGroup .bar1 {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+#barChart .barGroup .bar2 {
+  animation-delay: 1.4s;
+  -webkit-animation-delay: 1.4s;
+}
+#barChart .barGroup .bar3 {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+#barChart .barGroup .bar4 {
+  animation-delay: 1.6s;
+  -webkit-animation-delay: 1.6s;
+}
+#barChart .barGroup .bar5 {
+  animation-delay: 1.9s;
+  -webkit-animation-delay: 1.9s;
+}
+
+#barChart ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#barChart .xAxis {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+#barChart .xAxis li {
+  float: left;
+  margin-right: 15%;
+  font-size: 11px;
+  width: 11.5%;
+}
+#barChart .xAxis li:last-child {
+  margin-right: 0;
+}
+#barChart .yAxis {
+  position: absolute;
+  text-align: right;
+  width: 100%;
+}
+#barChart .yAxis li {
+  display: block;
+  height: 63.25px;
+  width: 100%;
+}
+#barChart .yAxis li span {
+  display: block;
+  font-size: 11px;
+  margin: -10px 0 0 -60px;
+  padding: 0 10px;
+  width: 40px;
+}
+#barChart .stat1 {
+  background-color: #d7d7d7;
+}
+#barChart .stat2 {
+  background-color: #c2b7ff;
+}
+#barChart .stat3 {
+  background-color: #cee6d0;
+}
+#barChart .stat4 {
+  background-color: #c3e6fe;
+}
+@media (max-width: 641px) {
+  #barChart .graph {
+    height: 253px;
+    position: relative;
+  }
+  #barChart .bars {
+    height: 230px;
+    display: flex;
+    padding: 0 2%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+}
+@media (max-width: 481px) {
+}

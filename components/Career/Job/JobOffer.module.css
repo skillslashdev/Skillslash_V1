@@ -1,0 +1,227 @@
+.jobWrapper {
+  display: flex;
+  flex-flow: column;
+  padding: 40px 100px;
+}
+.jobWrapper h4 {
+  font-size: 37px;
+  width: max-content;
+  margin-bottom: 30px;
+}
+.jobWrapper h4 span {
+  width: max-content;
+  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
+}
+.jobDetailWrap {
+  display: grid;
+  position: relative;
+  grid-template-columns: 25% 73%;
+  gap: 30px;
+}
+.location {
+  font-size: 18px;
+}
+.jobFilter {
+  position: sticky;
+  border-radius: 4px;
+  padding: 10px;
+  top: 90px;
+  height: max-content;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.jobFilter h5 {
+  color: #4f419a;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.inputWrap {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.inputWrap label {
+  color: #646464;
+}
+.inputWrap input[type="radio"] {
+  padding: 0.5em;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  outline: 0.1em solid #646464;
+  outline-offset: 0.1em;
+}
+
+.inputWrap input[type="radio"]:checked {
+  display: inline-block;
+  background-color: #4f419a;
+}
+.jdWrapper {
+  width: 49%;
+  display: flex;
+  flex-flow: column;
+  box-shadow: rgba(79, 79, 79, 0.1) 0px 0px 5px 0px,
+    rgba(82, 82, 82, 0.1) 0px 0px 1px 0px;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header h2 {
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+.header p {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.open {
+  background-color: #e3dfff;
+  color: #4f419a;
+  padding: 1px 5px;
+  width: max-content;
+  border-radius: 4px;
+}
+.close {
+  background-color: #ffc9b8;
+  color: #ff3b3b;
+  padding: 1px 5px;
+  width: max-content;
+  border-radius: 4px;
+}
+.headWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headWrap p {
+  color: #4f419a;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.content p {
+  display: flex;
+  margin: 8px 0px;
+  align-items: center;
+  gap: 3px;
+}
+.bIcon {
+  font-size: 16px;
+  color: #4f419a;
+}
+.jobP {
+  margin-left: 6px !important;
+  display: flex;
+  gap: 6px !important;
+}
+.content span {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button {
+  display: flex;
+  align-items: center;
+  background-color: #4f419a;
+  color: white;
+  height: max-content;
+  border-radius: 4px;
+  gap: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 8px 10px !important;
+}
+.button:hover {
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+.jobDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.footer p {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .jobWrapper {
+    padding: 40px 40px;
+  }
+  .jobDetails {
+    gap: 11px;
+  }
+  .header h2 {
+    font-size: 19px;
+  }
+  .location {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 961px) {
+  .header {
+    gap: 15px;
+  }
+  .header h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 801px) {
+  .jdWrapper {
+    width: 48%;
+  }
+  .content p {
+    font-size: 12px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 641px) {
+  .jobFilter {
+    display: none;
+  }
+  .jobWrapper h4 {
+    font-size: 22px;
+  }
+  .jobDetailWrap {
+    grid-template-columns: 100%;
+  }
+  .jobWrapper {
+    padding: 40px 20px;
+  }
+  .jdWrapper {
+    padding: 10px;
+  }
+  .bIcon {
+    font-size: 14px;
+    color: #4f419a;
+  }
+}
+@media (max-width: 481px) {
+  .jdWrapper {
+    width: 98%;
+    display: flex;
+    flex-flow: column;
+    box-shadow: rgba(79, 79, 79, 0.1) 0px 0px 5px 0px,
+      rgba(82, 82, 82, 0.1) 0px 0px 1px 0px;
+    padding: 20px;
+  }
+}

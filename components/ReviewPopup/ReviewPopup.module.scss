@@ -1,0 +1,385 @@
+.popup {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-color: rgba(87, 87, 87, 0.749);
+  position: fixed;
+  display: flex;
+  backdrop-filter: blur(0px);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: hidden;
+  .popupInner {
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 0px;
+    width: 70%;
+    height: max-content;
+
+    background: transparent;
+
+    text-align: center;
+    .InnerGrid {
+      display: flex;
+      align-items: center;
+
+      .ReviewBox {
+        display: flex;
+        flex-flow: column;
+        position: relative;
+        padding: 20px;
+        gap: 20px;
+        width: 330px;
+        margin-left: 10px;
+        height: 360px;
+        overflow: hidden;
+        max-height: 750px;
+        margin-bottom: 37px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        margin-top: 10px;
+        background: #ffffff;
+        border-radius: 8px;
+      }
+      .ReviewBox:hover {
+        background-color: #4f419a;
+      }
+
+      .nameWrap {
+        width: 100%;
+        display: flex;
+
+        text-align: left;
+        justify-content: flex-start;
+        padding: 10px 0px;
+      }
+      .ReviewBox p {
+        margin-right: 0px;
+        text-align: left;
+      }
+      .ReviewBox:hover p {
+        color: white;
+      }
+      .profileWrapper {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        z-index: 1;
+        background-color: white;
+        border-radius: 1000%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .ReviewBox h5 {
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0;
+        color: #4f419a;
+        text-align: center;
+      }
+
+      .ReviewBox:hover h5 {
+        color: white;
+      }
+      .ReviewBox:hover .readMore {
+        color: #e3dfff;
+      }
+      .ReviewBox:hover .star {
+        color: #efd664;
+      }
+      .points p {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+
+    .closeBtn {
+      position: absolute;
+      background-color: white;
+      cursor: pointer;
+      border-radius: 50%;
+      color: #4f419a;
+      top: -5px;
+
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      left: 64%;
+      z-index: 9;
+      font-size: 29px;
+    }
+  }
+  .popupInnersW {
+    background-color: transparent;
+    position: relative;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #e3dfff;
+    background-color: transparent;
+    text-align: center;
+
+    .closeBtn {
+      position: absolute;
+      background-color: white;
+      cursor: pointer;
+      border-radius: 50%;
+      border: 1px solid #e3dfff;
+      border-color: #4f419a;
+      color: #e3dfff;
+      top: 5px;
+      right: 10px;
+      font-size: 25px;
+    }
+  }
+  .popupInners {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 60px;
+    width: 70%;
+    height: 80%;
+    border-radius: 5px;
+    border: 2px solid #e3dfff;
+    background-color: transparent;
+    text-align: center;
+
+    .closeBtn {
+      position: absolute;
+      background-color: white;
+      cursor: pointer;
+      border-radius: 50%;
+      border: 1px solid #e3dfff;
+      border-color: blue;
+      color: #e3dfff;
+      top: 5px;
+      right: 10px;
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width: 1281px) {
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+
+    .popupInner {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px 60px;
+      width: 80%;
+      border-radius: 5px;
+      border: 2px solid #e3dfff;
+      height: 100%;
+      background-color: transparent;
+
+      .closeBtn {
+        position: absolute;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #e3dfff;
+        border-color: blue;
+        color: #e3dfff;
+        top: 5px;
+        right: 10px;
+        font-size: 25px;
+        font-size: 25px;
+      }
+    }
+    .popupInners {
+      background-color: white;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px 60px;
+      width: max-content;
+      border-radius: 5px;
+      border: 2px solid #e3dfff;
+      max-width: 70%;
+      background-color: transparent;
+
+      .closeBtn {
+        position: absolute;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #e3dfff;
+        border-color: #4f419a;
+        color: #e3dfff;
+        top: 5px;
+        right: 10px;
+        font-size: 25px;
+      }
+    }
+    .popupInnersW {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px 60px;
+      width: max-content;
+      border-radius: 5px;
+      border: 2px solid #e3dfff;
+      max-width: 70%;
+      background-color: transparent;
+
+      .closeBtn {
+        position: absolute;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 1px solid #e3dfff;
+        border-color: blue;
+        color: #e3dfff;
+        top: 5px;
+        right: 10px;
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .popupInner {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(190, 202, 218, 0.75);
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+  .popupInners {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(190, 202, 218, 0.75);
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+  .popupInnersW {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(190, 202, 218, 0.75);
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .popupInner {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: transparent;
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+  .popupInners {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: transparent;
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+}
+@media (max-width: 481px) {
+  .popup {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    .popupInner {
+      background-image: none !important;
+      padding: 30px 10px;
+      max-width: 100%;
+      display: flex;
+      width: 95%;
+      align-items: center;
+      justify-content: center;
+      height: max-content;
+      text-align: center;
+      border: 0;
+
+      background-color: transparent;
+      margin-left: 10px;
+      margin-right: 10px;
+      .InnerGrid {
+        .star {
+          color: #ffd203;
+          font-size: 16px;
+        }
+        .ReviewBox p {
+          margin-right: 10px;
+        }
+        .profileWrapper {
+          right: 10px;
+        }
+        .nameWrap {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+        }
+        .ReviewBox h5 {
+          font-size: 18px;
+        }
+        .ReviewBox {
+          padding: 20px 10px;
+        }
+      }
+    }
+    .popupInners {
+      background-image: none !important;
+      padding: 30px 20px;
+      max-width: 100%;
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: transparent;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .popupInnersW {
+      background-image: none !important;
+      padding: 30px 20px;
+      max-width: 100%;
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: transparent;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}

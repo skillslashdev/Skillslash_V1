@@ -1,0 +1,127 @@
+{
+  "metaInfo": {
+    "title": "Crack SDE Interviews at Product Companies",
+    "desc": "Enroll in the Full stack course Event and learn from live classes. Get Knowledge by working on industry projects.",
+    "canonical": "https://skillslash.com/Event/crack-sde-interview-at-google"
+  },
+  "mainData": {
+    "title": "How to crack SDEs interviews at Product companies?",
+    "eventDate": "December 15, 2022",
+    "eventStart": "December 15, 2022 20:00:00",
+    "eventTime": "08:00 pm- 09:30 pm",
+    "tag": "Fullstack",
+    "eventEnd": "December 15, 2022 21:30:00",
+    "img": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Chirag-goel-sde-interview-product-companies-tab-header-01-12-2022.webp",
+    "Duration": "1.30 Hours",
+    "register": "7189"
+  },
+  "header": {
+    "title": "Crack SDE Interviews at",
+    "titleSpan": "Product companies?",
+    "reverseImg": false,
+    "spanStyle": {
+      "background": "transparent"
+    },
+    "desc1": "",
+
+    "desc": "For IT Professionals with 1+ years Exp",
+    "eventDate": "15th Dec, Thu",
+    "redirectZoom": false,
+    "eventTime": "8.00 pm - 09.30 pm",
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/free_webinar.webp",
+    "register": "7189",
+    "img1Src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/eicon-event.svg",
+    "link": "https://us06web.zoom.us/meeting/register/tZEsf-mppjItHdLknKmcuRz_KlGPELs40kD_",
+    "backImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Chirag-goel-sde-interview-product-companies-header-01-12-2022.webp",
+    "mBackImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/chirag-goel-sde-interview-product-companies-mobile-header-01-12-2022.webp",
+    "profileImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Chirag-goel-sde-interview-product-companies-profile.webp",
+    "profileImgH": "87",
+    "profileImgW": "590",
+    "tag": true,
+    "dark": false,
+    "lightNew": true
+  },
+  "eventDetails": {
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Online_Registration.svg",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Conference.svg",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Registration.svg",
+    "firstH": "7189+",
+    "firstP": "Enrolled",
+    "secondH": "Online",
+    "secondP": "Conference",
+    "thirdH": "Free",
+    "thirdP": "Registration"
+  },
+  "aboutUs": {
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/About Masterclass_Count.webp",
+    "title": "About the Masterclass",
+    "desc": "Are you looking to crack SDE interviews at Product companies? Chirag Goel, a Senior SDE at Microsoft and ex-SDE4 at Adobe, is here to help! Know how to make easy career transitions from service-based to product-based companies. Win the brownie points in competitive interviews with expert training.",
+    "desc1": " With his vast experience and knowledge, he is sure to make this session insightful and worth your time. Don't miss this chance to learn from one of the best!",
+    "strong": "",
+    "desc2": ""
+  },
+  "feature": {
+    "title": "Full Stack Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "With expert guidance and assistance attain your learning purpose and goals.    ",
+    "h2": "Live Classes",
+    "p2": "All our Full stack experts will lead the 100% live sessions.    ",
+    "h3": "Shareable certification",
+    "p3": "Achieve an acknowledged certification as you attend the training.    ",
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning.webp",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live.webp",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/certification.webp",
+    "mImg1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Certification_mobile.webp",
+    "mImg2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning_mobile.webp",
+    "mImg3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live_Mobile.webp"
+  },
+  "profile": {
+    "pImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Chirag-goel-sde-interview-product-companies.webp",
+    "desc": "Software Engineer at Microsoft",
+    "pName": "Chirag Goel",
+    "link": "https://www.linkedin.com/in/engineerchirag/",
+    "mIcon": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/MicroSoft_icon.webp",
+    "list1": "8+ years exp",
+    "list2": "",
+    "list3": "Proficient in building next-generation low-code-no-code platform",
+    "list4": "Ex UI Engg III at Flipkart",
+    "list5": "Worked on technologies like React, Redux, GraphQl, Apollo, Node Js, Express, Typescript, Webpack",
+    "workAt": "",
+    "cIcon1": "",
+    "cIcon2": "",
+    "cIcon3": "",
+    "width": "",
+    "width1": "",
+    "width3": "",
+    "height": "",
+    "height1": "",
+    "height3": ""
+  },
+  "whyUs": {
+    "title": "What will you Learn?",
+    "l1": " Know tips and tricks of Full Stack Development",
+    "l2": " Crafting a kick-ass resume based on your skills",
+    "l3": " Career transition to Product based companies",
+    "l4": " The dos and don'ts of a whiteboard interview"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack    development.",
+    "heading3": "About Skillslash Academy",
+    "para3": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "About": {
+    "title": "About Skillslash Academy",
+    "desc": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur.",
+    "heading1": "Project-based certification",
+    "para1": " We provide project-based certification platform for professionals. Being the leading training provider, we give you the opportunity to work directly with industry experts on latest projects.",
+    "heading2": "Guaranteed referrals",
+    "para2": "  We provide real-time work experience, Guaranteed job referral, customizable courses and project certification from top startups.",
+    "heading3": "Skill Upgradation",
+    "para3": " Our training allows you to develop your abilities and get employed in top businesses. We aim at upgrading your skill set and get first preference in the hiring process."
+  }
+}

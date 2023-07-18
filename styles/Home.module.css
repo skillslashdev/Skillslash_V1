@@ -1,0 +1,747 @@
+.container {
+  padding: 0rem;
+}
+
+.secondSection {
+  margin-top: 2px;
+  padding: 40px 100px;
+  background-color: #f7fdff;
+  border-bottom: 0px solid rgba(217, 217, 217, 0.782);
+  box-shadow: 0px 4px 8px 0px rgba(177, 177, 177, 0.5);
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(174, 232, 255, 0.5);
+  -moz-box-shadow: 0px 4px 8px 0px rgba(174, 232, 255, 0.5);
+}
+.program,
+.Feature {
+  display: flex;
+}
+.secondSection h4 {
+  font-size: 37px;
+  margin-bottom: 47px;
+}
+.boxShapeWrapper {
+  display: flex;
+  gap: 30px;
+}
+.Explore {
+  padding: 40px 100px;
+}
+.advantage {
+  padding: 40px 100px;
+  background-color: white;
+  border-bottom: 0px solid rgba(217, 217, 217, 0.782);
+}
+.stepsWrapper {
+  padding: 40px 100px;
+}
+.CWrap {
+  padding: 40px 100px;
+}
+.ctaWrap {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+  height: max-content;
+  position: relative;
+  background-size: contain;
+  margin: 120px 250px;
+  border-radius: 25px;
+  padding: 40px 00px;
+}
+.cta {
+  display: grid;
+  grid-template-columns: 49% 67%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 55px;
+}
+.cta .right {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-right: 30px;
+  z-index: 0;
+}
+
+.cta .left {
+  display: flex;
+  align-items: center;
+  top: -2px;
+  left: -15px;
+  /* width: 100%; */
+  height: 100%;
+  z-index: 0;
+  /* top: -22px;
+  left: 90px; */
+  position: absolute;
+}
+
+.cta h5 {
+  font-size: 46px;
+  font-weight: 600;
+  margin: 0;
+
+  color: white;
+}
+.cta p {
+  color: white;
+  margin: 0;
+  margin-top: 7px;
+}
+.cta button {
+  background-color: white !important;
+  color: #4f419a !important;
+}
+.img {
+  position: absolute;
+  z-index: 9;
+  right: 10px;
+  top: -40px;
+  height: 200px;
+  width: 400px;
+}
+.cta button {
+  background-color: #4f419a;
+  color: white;
+  padding: 12px 25px;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+.cta button:hover {
+  background-color: #f28705;
+}
+.ExpertWrapper {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-top: 30px;
+  align-items: center;
+  margin: 0px 100px 0px 100px;
+  margin-bottom: 20px;
+}
+.expert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expert h5 {
+  font-weight: 600;
+  margin-top: 45px;
+  margin-left: 40px;
+
+  width: 100%;
+  font-size: 24px;
+}
+.ProjectWrapper {
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-right: 100px;
+}
+.expertBody {
+  margin-top: -90px;
+
+  box-sizing: border-box;
+  margin-left: -2em;
+  margin-right: -2em;
+}
+.slider {
+  height: 400px;
+}
+.ctaBot {
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.PriceH {
+  font-size: 36px;
+  font-family: 600;
+  color: rgb(103, 103, 103);
+}
+.buttonWrap {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: #4f419a;
+}
+/* -----------------------BUTTON ANIMATION START-------------------------------*/
+.button {
+  width: 100px;
+  padding: 15px 20px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  z-index: 1;
+}
+
+.button::after,
+.button::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all 0.4s;
+}
+
+.button::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+.button1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background: black;
+  border: none;
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+
+.button1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.226);
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: bottom right;
+  transform: scale(0);
+}
+
+.button1:hover:before {
+  transition: transform 0.5s;
+  transform-origin: top left;
+  transform: scale(1);
+}
+
+.button1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: bottom right;
+  transform: scale(1);
+}
+
+.button1:hover:after {
+  transition: transform 0.5s;
+  transform-origin: top left;
+  transform: scale(0);
+}
+
+/* -----------------------BUTTON ANIMATION END-------------------------------*/
+/* -----------------------FORM ANIMATION START-------------------------------*/
+.loginbox {
+  width: 400px;
+  padding: 40px;
+  margin: 20px auto;
+  transform: translate(-50%, -55%);
+  background: rgba(0, 0, 0, 0.9);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.loginbox p:first-child {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.loginbox .userbox {
+  position: relative;
+}
+
+.loginbox .userbox input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.loginbox .userbox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.loginbox .userbox input:focus ~ label,
+.loginbox .userbox input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+.loginbox form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 3px;
+}
+
+.loginbox a:hover {
+  background: #fff;
+  color: #272727;
+  border-radius: 5px;
+}
+
+.loginbox a span {
+  position: absolute;
+  display: block;
+}
+
+.loginbox a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #fff);
+  animation: btn-anim1 1.5s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.loginbox a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #fff);
+  animation: btn-anim2 1.5s linear infinite;
+  animation-delay: 0.375s;
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.loginbox a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #fff);
+  animation: btn-anim3 1.5s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.loginbox a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #fff);
+  animation: btn-anim4 1.5s linear infinite;
+  animation-delay: 1.125s;
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.loginbox p:last-child {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.loginbox a.a2 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.loginbox a.a2:hover {
+  background: transparent;
+  color: #aaa;
+  border-radius: 5px;
+}
+/* -----------------------FORM ANIMATION END-------------------------------*/
+@media (max-width: 1281px) {
+  .secondSection,
+  .advantage,
+  .stepsWrapper,
+  .CWrap {
+    padding: 30px 40px;
+  }
+  .Explore {
+    padding: 30px 40px 0px 40px;
+  }
+  .cta {
+    grid-template-columns: 49% 67%;
+    margin: 0 20px;
+    padding: 20px 86px;
+    background-size: cover;
+    gap: 4px;
+  }
+  .cta .right h5 {
+    font-size: 39px;
+  }
+  .cta .left {
+    top: -13px;
+    left: -16px;
+  }
+  .ctaWrap {
+    background-size: contain;
+    margin: 120px 116px;
+    border-radius: 25px;
+    padding: 17px 00px;
+  }
+  .cta h6 {
+    margin-top: 30px;
+    font-size: 22px;
+  }
+  .cta button {
+    margin-top: 20px;
+    /* margin-left: 20px; */
+  }
+  .ExpertWrapper {
+    margin: 0px 20px;
+  }
+  .expertBody {
+    margin: 0;
+    margin-top: -90px;
+  }
+  .ProjectWrapper {
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 1239px) {
+  .ctaWrap {
+    background-size: contain;
+    margin: 120px 80px;
+    border-radius: 25px;
+    padding: 17px 00px;
+  }
+  .cta .left {
+    top: -10px;
+    left: -22px;
+  }
+  .cta {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .cta .right h5 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1024px) {
+  .secondSection,
+  .Explore,
+  .advantage,
+  .stepsWrapper,
+  .CWrap {
+    padding: 30px;
+  }
+}
+@media (max-width: 961px) {
+  .cta {
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .cta .left {
+    display: none !important;
+  }
+  .cta h6 {
+    font-size: 18px;
+    margin: 0;
+  }
+  .cta p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .secondSection,
+  .Explore,
+  .advantage,
+  .stepsWrapper,
+  .CWrap {
+    padding: 30px 20px;
+  }
+  .ExploreH {
+    font-size: 27px;
+  }
+  .secondSection h4,
+  .stepsWrapper h4 {
+    font-size: 30px;
+  }
+  .boxShapeWrapper {
+    gap: 10px;
+  }
+}
+@media (max-width: 801px) {
+  .boxShapeWrapper {
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .program,
+  .Feature {
+    display: none;
+  }
+  .cta {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .cta .left {
+    display: none !important;
+  }
+
+  .cta button {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+  .cta h6 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 641px) {
+  .cta {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .cta .left {
+    display: none !important;
+  }
+  .ctaWrap {
+    margin: 40px;
+  }
+  .cta h6 {
+    font-size: 22px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 120px;
+  }
+  .cta p {
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 25px;
+  }
+  .ctaBot {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .cta button {
+    padding: 10px 15px;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    color: white;
+  }
+  .ExploreH {
+    font-size: 22px;
+  }
+  .secondSection,
+  .Explore,
+  .advantage,
+  .stepsWrapper,
+  .CWrap {
+    padding: 20px;
+  }
+  .cta .right h5 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .cta p {
+    font-size: 15px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 481px) {
+  .ctaWrap {
+    display: flex;
+    margin: 20px 30px;
+    background-color: #4f419a;
+  }
+  .cta {
+    display: grid;
+
+    grid-template-columns: 100%;
+  }
+  .cta .left {
+    display: none !important;
+  }
+  .cta h6 {
+    font-size: 22px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 120px;
+  }
+  .cta p {
+    font-size: 12px;
+
+    line-height: 16px;
+  }
+  .ctaBot {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .cta button {
+    padding: 10px 15px;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    color: white;
+  }
+  .program {
+    display: none;
+  }
+
+  .ProjectWrapper {
+    padding: 0px;
+  }
+  .expertBody {
+    margin-left: -0em;
+    margin-right: -0em;
+  }
+
+  .ExpertWrapper {
+    display: block;
+    grid-template-columns: auto;
+    margin: 0;
+    margin-top: 30px;
+
+    margin-bottom: 20px;
+  }
+  .secondSection {
+    padding: 20px 10px;
+  }
+  .secondSection h4 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .boxShapeWrapper {
+    display: flex;
+    flex-flow: column;
+  }
+  .Explore {
+    padding: 20px 10px;
+    height: 640px;
+  }
+  .advantage {
+    padding: 20px 10px;
+  }
+  .stepsWrapper {
+    padding: 20px 10px;
+  }
+  .CWrap {
+    padding: 20px 0px;
+  }
+}

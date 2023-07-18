@@ -1,0 +1,219 @@
+.Wrapper {
+  display: flex;
+  padding: 30px 100px;
+  position: relative;
+  flex-flow: column;
+  align-items: center;
+  background-color: #f9f8ff;
+  overflow: hidden;
+}
+.imgWrap {
+  position: absolute;
+  left: -50px;
+}
+.contentGrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 27% 27% 27%;
+  gap: 100px;
+  margin-top: 50px;
+}
+.lineWrap {
+  position: absolute;
+  height: 50px;
+  left: 8%;
+  margin: 0px 90px;
+  top: 20px;
+  border-radius: 10px;
+  width: 800px;
+  overflow: hidden;
+  z-index: 0;
+}
+.arrowWrap,
+.arrowWrap1 {
+  position: absolute;
+}
+.arrowWrap {
+  top: 60px;
+  left: 22%;
+}
+.arrowWrap1 {
+  top: 60px;
+  right: 30%;
+}
+.contentGrid div {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  color: white;
+  border-radius: 34px;
+  padding-top: 10px;
+
+  justify-content: flex-start;
+}
+.contentGrid div {
+  padding-left: 40px;
+  padding-right: 0 !important;
+}
+.contentWrap {
+  padding-left: 0 !important;
+}
+.contentGrid div h5 {
+  color: #4f419a;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.contentGrid div p {
+  color: #646464;
+  margin: 5px 0 !important;
+  text-align: left;
+}
+.iconWrap {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.iconWrap li {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  list-style: none;
+  transition: all 0.5s;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  font-weight: 600;
+  font-size: 20px;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+@keyframes rotating {
+  0% {
+    transform: scale(0.92) rotate(0deg);
+  }
+
+  100% {
+    transform: scale(0.92) rotate(360deg);
+  }
+}
+
+.iconWrap li:after {
+  opacity: 1;
+  animation: rotating 10s linear infinite;
+}
+@media (max-width: 1281px) {
+  .Wrapper {
+    display: flex;
+    margin: 40px 0px 20px 0px;
+    padding: 30px 40px;
+    position: relative;
+    flex-flow: column;
+    align-items: center;
+    background-color: #f9f8ff;
+    overflow: hidden;
+  }
+  .contentGrid {
+    gap: 70px;
+    grid-template-columns: 29% 29% 29%;
+  }
+  .contentGrid div h5 {
+    font-size: 18px;
+  }
+  .lineWrap {
+    width: 65.2%;
+    height: 61px;
+    top: 8px;
+    left: 9%;
+  }
+  .iconWrap li {
+    top: -21px;
+  }
+}
+@media (max-width: 1024px) {
+  .contentGrid {
+    gap: 52px;
+    grid-template-columns: 29% 29% 29%;
+    margin-top: 20px;
+  }
+  .lineWrap {
+    left: 7%;
+  }
+  .arrowWrap1 {
+    right: 27%;
+  }
+}
+
+@media (max-width: 962px) {
+  .lineWrap {
+    display: none !important;
+  }
+  .Wrapper {
+    /* padding: 8px 45px 1px 12px; */
+    padding: 20px 40px;
+  }
+  .contentGrid {
+    margin-top: 20px;
+    margin-top: 30px;
+  }
+  .contentGrid div h5 {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .contentGrid div p {
+    font-size: 12px;
+    margin-top: 7px;
+  }
+  .contentGrid {
+    gap: 48px;
+  }
+}
+
+@media (max-width: 801px) {
+  .contentGrid {
+    gap: 22px;
+    grid-template-columns: 31% 31% 31%;
+  }
+  .contentGrid {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 641px) {
+  .Wrapper {
+    padding: 20px 50px;
+  }
+  .arrowWrap,
+  .arrowWrap1 {
+    display: none !important;
+  }
+  .contentGrid div {
+    padding-left: 0px;
+    padding-right: 0 !important;
+  }
+  .contentGrid div h5 {
+    font-size: 20px;
+  }
+  .contentGrid div p {
+    font-size: 16px;
+  }
+  .contentGrid {
+    display: flex;
+    flex-flow: column;
+  }
+  .first,
+  .second,
+  .third {
+    display: flex;
+    flex-flow: row !important;
+  }
+}
+@media (max-width: 481px) {
+  .Wrapper {
+    margin: 50px 20px 30px 20px;
+    padding: 50px 20px;
+  }
+}

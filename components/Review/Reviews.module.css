@@ -1,0 +1,235 @@
+.ReviewTop {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  padding: 30px 100px 0px 100px;
+  gap: 30px;
+}
+.ReviewSlider h4 {
+  margin-bottom: 0;
+}
+.readMore {
+  color: #4f419a;
+}
+.headings p {
+  color: #4f419a;
+  font-weight: 600;
+  margin: 0;
+}
+.headings h4 {
+  font-size: 22px;
+  color: #363636;
+}
+.headings h4 span {
+  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
+}
+.headings {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.ReviewRight {
+  padding-right: 110px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.ReviewRight h4 {
+  margin-bottom: 10px;
+  margin-right: 90px;
+}
+
+.ReviewLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.leftPoints p {
+  font-size: 18px;
+}
+.ReviewSlider {
+  background-color: white;
+  padding: 0px 100px 70px 100px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.rating {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.star {
+  color: #efd664;
+  font-size: 18px;
+}
+
+.ReviewBox {
+  display: flex;
+  flex-flow: column;
+  padding: 20px;
+  gap: 10px;
+  margin-left: 10px;
+  height: 278px;
+  overflow: hidden;
+  max-height: 750px;
+  margin-bottom: 37px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.ReviewBox:hover {
+  background-color: #4f419a;
+}
+
+.nameWrap {
+  width: 100%;
+  display: flex;
+
+  text-align: left;
+  justify-content: flex-start;
+  padding: 10px 0px;
+}
+.ReviewBox p {
+  margin-right: 0px;
+  text-align: left;
+}
+.ReviewBox:hover p {
+  color: white;
+}
+.profileWrapper {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 1000%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReviewBox h5 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  color: #4f419a;
+  text-align: center;
+}
+
+.ReviewBox:hover h5 {
+  color: white;
+}
+.ReviewBox:hover .readMore {
+  color: #e3dfff;
+}
+.ReviewBox:hover .star {
+  color: #efd664;
+}
+.points p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width: 1281px) {
+  .ReviewSlider {
+    padding: 0px 40px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+  .ReviewTop {
+    padding: 0px 20px;
+    margin-top: 30px;
+  }
+  .ReviewRight h4 {
+    font-size: 30px;
+    line-height: 37px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1281px) {
+  .ReviewRight {
+    padding-right: 10px;
+  }
+  .ReviewRight h4 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .ReviewSlider h4 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 801px) {
+  .ReviewRight h4 {
+    font-size: 24px;
+  }
+  .ReviewSlider h4 {
+    font-size: 24px;
+  }
+  .ReviewTop {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media (max-width: 481px) {
+  .ReviewSlider {
+    padding: 20px 20px;
+    margin-top: 0px;
+  }
+  .ReviewBox {
+    padding: 20px 10px;
+    background-color: #f9f8ff;
+  }
+
+  .ReviewTop {
+    padding: 20px 10px;
+    display: flex;
+    flex-flow: column;
+  }
+  .ReviewLeft {
+    position: relative;
+  }
+  .ReviewRight {
+    padding-right: 10px;
+  }
+  .ReviewRight h4 {
+    margin-right: 0px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .ReviewBox h5 {
+    font-size: 18px;
+  }
+  .ReviewRight p {
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  .leftPoints p {
+    gap: 5px;
+    font-size: 16px;
+  }
+  .star {
+    color: #ffd203;
+    font-size: 16px;
+  }
+  .ReviewBox p {
+    margin-right: 10px;
+  }
+  .profileWrapper {
+    right: 10px;
+  }
+  .nameWrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+}

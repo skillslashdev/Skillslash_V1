@@ -1,0 +1,127 @@
+.batchProfileWrapper {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  padding: 40px 100px;
+  margin-bottom: 60px;
+}
+.pBot {
+  margin: 5px 0;
+}
+.batchProfileWrapper h4 span {
+  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
+}
+.chartWrap {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 32% 32% 32%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.third {
+  height: 360px !important;
+}
+.first,
+.second,
+.third {
+  background-color: #f9f8ff;
+  border-radius: 20px;
+  padding: 20px;
+  /* border: 1px solid #4f419a; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.second {
+  padding-bottom: 0 !important;
+}
+.second2 {
+  margin-top: 10px;
+}
+.second2 h5 {
+  margin-bottom: 10px !important;
+}
+
+.chartWrap div h5 {
+  font-size: 20px;
+  margin: 0;
+}
+.third {
+  height: 330px;
+}
+.other,
+.PG,
+.inter,
+.grad {
+  font-size: 12px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.noteBox {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.other span,
+.PG span,
+.inter span,
+.grad span {
+  height: 10px;
+  width: 10px;
+  border-radius: 2px;
+  background-color: #31bba9;
+}
+.PG span {
+  background-color: #4f419a !important;
+}
+.inter span {
+  background-color: #042567 !important;
+}
+.grad span {
+  background-color: #f18350 !important;
+}
+
+/* .graph {
+  transform: rotate(45deg);
+} */
+@media (max-width: 1281px) {
+  .batchProfileWrapper {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .batchProfileWrapper {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 801px) {
+  .chartWrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .first {
+    order: 3;
+    flex-basis: 51%;
+  }
+  .secondWrap {
+    order: 1;
+  }
+  .third {
+    order: 2;
+  }
+}
+@media (max-width: 481px) {
+  .batchProfileWrapper,
+  .second2 {
+    padding: 20px;
+  }
+  .secondWrap,
+  .third,
+  .first {
+    flex-basis: 100%;
+  }
+}

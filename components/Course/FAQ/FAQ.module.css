@@ -1,0 +1,152 @@
+.FAQ {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  gap: 20px;
+  padding: 23px 0;
+}
+.headWrap {
+  padding: 20px 100px;
+  width: 100%;
+  background-color: #f4f1ff;
+}
+.headWrap p {
+  margin: 0 ;
+}
+.quesWrap {
+  margin: 0px 100px;
+  border-radius: 4px;
+}
+.pBot {
+  font-size: 16px;
+  font-weight: 500;
+}
+.ques {
+  display: flex;
+  justify-content: space-between;
+  border: 0;
+  padding: 5px 30px;
+  align-items: center;
+  cursor: pointer;
+  height: 70px;
+  margin-bottom: 0px;
+}
+.quesO {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 15px 30px 10px 30px;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.ques h2,
+.quesO h2 {
+  font-size: 18px;
+  margin: 0;
+
+  font-weight: 500;
+  color: 000;
+}
+.icon {
+  color: #4f419a;
+}
+.ans {
+  margin-bottom: 20px;
+}
+.ans a {
+  text-decoration: none;
+  color: #4f419a;
+
+  margin-right: 5px;
+}
+
+.ans p {
+  padding: 15px 30px 10px 30px;
+  color: rgb(90, 90, 90);
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 23px;
+  background-color: transparent;
+  border-radius: 0px 0px 8px 8px;
+}
+.ansV {
+  display: none;
+}
+.FaqWrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+}
+@media (max-width: 1281px) {
+  .FAQ {
+    margin: 0px;
+  }
+  .FAQ h4 {
+    font-size: 30px;
+  }
+  .ans p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .headWrap {
+    padding: 20px 40px;
+  }
+  .quesWrap {
+    margin: 0px 60px;
+  }
+}
+@media (max-width: 641px) {
+  .FAQ h4 {
+    font-size: 24px;
+    margin-bottom: 0px !important;
+  }
+}
+@media (max-width: 481px) {
+  .FAQ {
+    margin: 30px;
+  }
+  .headWrap {
+    padding: 20px 30px;
+  }
+  .quesWrap {
+    margin: 0px 0px;
+  }
+  .ans {
+    margin-bottom: 20px;
+  }
+  .FAQ {
+    margin: 30px 10px 0px 0px;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .ques {
+    padding: 10px 30px;
+    height: max-content;
+  }
+  .quesO {
+    height: max-content;
+  }
+  .ques h2,
+  .quesO h2 {
+    font-size: 14px;
+    margin: 0;
+
+    font-weight: 400;
+    color: 000;
+  }
+    .ans p {
+    font-size: 14px;
+  }
+  .pBot {
+    margin-top: 10px !important;
+  font-size: 13px;
+  font-weight: 500;
+}
+}

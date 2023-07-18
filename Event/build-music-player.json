@@ -1,0 +1,126 @@
+{
+  "metaInfo": {
+    "title": "Create Netflix clone using react Js",
+    "desc": "Enroll in the Full stack course Event and learn from live classes. Get Knowledge by working on industry projects.",
+
+    "canonical": "https://skillslash.com/Event/create-netflix-clone-react-js"
+  },
+  "mainData": {
+    "title": "Build Music Players using LinkedList",
+    "eventDate": "March 16, 2023",
+    "eventStart": "March 16, 2023 20:00:00",
+    "eventTime": "08:00 pm- 09:30 pm",
+    "tag": "Fullstack",
+    "eventEnd": "March 16, 2023 21:30:00",
+    "img": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/chirag-goel-build-music-playlist-16-march-tab.webp",
+    "Duration": "1.5 Hours",
+    "register": "5689"
+  },
+  "header": {
+    "title": "Build Music Players using LinkedList",
+    "titleSpan": "",
+    "spanStyle": {
+      "background": "transparent"
+    },
+    "redirectZoom": false,
+    "desc1": "",
+    "desc": "Get insights on cracking product interviews",
+    "eventDate": "16th March 2022",
+    "eventTime": "08:00 pm - 9:30 pm",
+    "reverseImg": true,
+    "img1Src": "",
+    "profileImgH": "75",
+    "profileImgW": "412",
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/free_webinar.webp",
+    "register": "1489",
+    "link": "https://us06web.zoom.us/meeting/register/tZ0rdu6pqzgsHNNLdN1cZKUsTC7W5XMrcBcL",
+    "backImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/chirag-goel-build-music-playlist-16-march.webp",
+    "mBackImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/chirag-goel-build-music-playlist-16-march-mobile.webp",
+    "profileImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/chirag-goel-free-live-demo-class.webp",
+    "dark": true,
+    "lightNew": false
+  },
+  "eventDetails": {
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Online_Registration.svg",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Conference.svg",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Registration.svg",
+    "firstH": "800+",
+    "firstP": "Enrolled",
+    "secondH": "Online",
+    "secondP": "Conference",
+    "thirdH": "Free",
+    "thirdP": "Registration"
+  },
+  "aboutUs": {
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/About Masterclass_Count.webp",
+    "title": "About the Masterclass",
+    "desc": "About the masterclass Linkedlist in Data Structures are one of the most important topics for a Full-Stack Developer to understand.",
+    "desc1": "Skillslash has brought a Free Demo Class on Linkedlist To build a music player. In this session, apart from learning Linkedlist fundamentals and building the music player, you would also be having a one-on-one session with the trainer where you get all your doubts resolved. Join Mr. Chirag Goel's (SDE @Microsoft) session and gain the maximum out of it.",
+    "strong": "",
+    "desc2": ""
+  },
+  "feature": {
+    "title": "Full Stack Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "With expert guidance and assistance attain your learning purpose and goals.    ",
+    "h2": "Live Classes",
+    "p2": "All our Full stack experts will lead the 100% live sessions.    ",
+    "h3": "Shareable certification",
+    "p3": "Achieve an acknowledged certification as you attend the training.    ",
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning.webp",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live.webp",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/certification.webp",
+    "mImg1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Certification_mobile.webp",
+    "mImg2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning_mobile.webp",
+    "mImg3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live_Mobile.webp"
+  },
+  "profile": {
+    "pImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Chirag-goel-sde-interview-product-companies.webp",
+    "desc": "Software Engineer at Microsoft",
+    "pName": "Chirag Goel",
+    "link": "https://www.linkedin.com/in/engineerchirag/",
+    "mIcon": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/MicroSoft_icon.webp",
+    "list1": "8+ years exp",
+    "list2": "",
+    "list3": "Proficient in building next-generation low-code-no-code platform",
+    "list4": "Ex UI Engg III at Flipkart",
+    "list5": "Worked on technologies like React, Redux, GraphQl, Apollo, Node Js, Express, Typescript, Webpack",
+    "workAt": "",
+    "cIcon1": "",
+    "cIcon2": "",
+    "cIcon3": "",
+    "width": "",
+    "width1": "",
+    "width3": "",
+    "height": "",
+    "height1": "",
+    "height3": ""
+  },
+  "whyUs": {
+    "title": "What will you Learn?",
+    "l1": " Fundamentals of Linkedlist in Data Structures",
+    "l2": " Tips & tricks to crack interviews at tech companies",
+    "l3": " Resume building",
+    "l4": " Live FAQ session with the trainer"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack    development.",
+    "heading3": "About Skillslash Academy",
+    "para3": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "About": {
+    "title": "About Skillslash Academy",
+    "desc": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur.",
+    "heading1": "Project-based certification",
+    "para1": " We provide project-based certification platform for professionals. Being the leading training provider, we give you the opportunity to work directly with industry experts on latest projects.",
+    "heading2": "Guaranteed referrals",
+    "para2": "  We provide real-time work experience, Guaranteed job referral, customizable courses and project certification from top startups.",
+    "heading3": "Skill Upgradation",
+    "para3": " Our training allows you to develop your abilities and get employed in top businesses. We aim at upgrading your skill set and get first preference in the hiring process."
+  }
+}

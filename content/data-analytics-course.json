@@ -1,0 +1,1415 @@
+{
+  "metaInfo": {
+    "title": "Best Data Analytics Course online Certification [2023]",
+    "desc": "Learn Data analytics in live classes directly from Industry mentors. Work in realtime capstone projects implement what you learn from our course. Get a Microsoft Certification after completing the Data Analytics course online.",
+    "keyword": "data analytics course, data analytics course with placement, data analytics course online, data analytics course fee, data analytics course project",
+    "canonical": "https://skillslash.com/data-analytics-course",
+    "ReviewSchema": {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "Data analytics course",
+      "brand": {
+        "@type": "Brand",
+        "name": "Skillslash"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "9.3",
+        "bestRating": "10",
+        "worstRating": "1",
+        "ratingCount": "12657"
+      }
+    },
+    "ReviewSchema6": {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Data Analytics course",
+      "description": "Our Microsoft Certified Data Analytics program lasts for 8 months. Utilizing 18+ technologies, work on 15+ industry-based projects to learn data Analytics.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Skillslash - Data Analytics Project Based Learning Platform.",
+        "sameAs": "https://www.skillslash.com"
+      }
+    },
+    "ReviewSchema5": {
+      "@context": "https://schema.org/",
+      "@type": "HowTo",
+      "name": "How to apply our data Analytics course?",
+      "description": "Follow these 3 simple steps in the admission process",
+      "image": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+      "totalTime": "PT5M",
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": "3"
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "text": "Fill Enquiry Form",
+          "image": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+          "name": "Form Apply for your profile review by filling the form",
+          "url": "https://skillslash.com/data-analytics-course"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Talk To Expert",
+          "image": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+          "name": "Get your career counseling report from the expert",
+          "url": "https://skillslash.com/data-analytics-course"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Get Started",
+          "image": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+          "name": "Join the data Analytics program by enrolling",
+          "url": "https://skillslash.com/data-analytics-course"
+        }
+      ]
+    },
+    "ReviewSchema1": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Skillslash - Data Analytics Project Based Learning Platform.",
+      "url": "https://skillslash.com",
+      "sameAs": [
+        "https://www.facebook.com/SkillSlash-100623872122442",
+        "https://twitter.com/skillslash",
+        "https://www.linkedin.com/company/skillslash",
+        "https://www.instagram.com/skillslash_Academy/",
+        "https://www.youtube.com/c/Skillslash"
+      ],
+      "logo": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+      "legalName": "Skillslash - Project Based Learning Platform.",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "addressCountry": "India",
+          "addressLocality": "Pune",
+          "addressRegion": "karnataka",
+          "postalCode": "560102",
+          "streetAddress": "HSR Layout"
+        }
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "(+91)8391-911-911",
+          "contactType": "Customer Service",
+          "contactOption": "TollFree",
+          "areaServed": "IN"
+        }
+      ]
+    },
+    "ReviewSchema2": {
+      "@context": "https://schema.org/",
+      "@type": "WebPage",
+      "name": "Data Analytics Course",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "xpath": [
+          "/html/head/title",
+          "/html/head/meta[@name='description']/@content"
+        ]
+      },
+      "url": "https://skillslash.com/data-analytics-course"
+    },
+    "ReviewSchema3": {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "SiteNavigationElement",
+          "position": 1,
+          "name": "Data Analytics Course with Certification",
+          "description": "Enrich Your Career by Learning Data Analytics Course directly by Industry mentors in Live classes. Get Job ready With Microsoft Data Analytics Certification",
+          "url": "https://skillslash.com/data-analytics-course"
+        }
+      ]
+    },
+    "ReviewSchema4": {
+      "@context": "https://schema.org",
+      "@type": "EducationEvent",
+      "name": "Data Analytics Course with Certification",
+      "description": "Enrich Your Career by Learning Data Analytics Course directly by Industry mentors in Live classes. Get Job ready With Microsoft Data Analytics Certification",
+      "performer": "Skillslash",
+      "organizer": {
+        "name": "Skillslash",
+        "url": "https://skillslash.com/"
+      },
+      "image": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://skillslash.com/data-analytics-course"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "65,000",
+        "highPrice": "120,000",
+        "url": "https://skillslash.com/data-analytics-course",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2023-08-9",
+        "price": "65,000",
+        "priceCurrency": "INR"
+      },
+      "startDate": "2023-06-9",
+      "endDate": "2023-07-26",
+      "url": "https://skillslash.com/data-analytics-course",
+
+      "duration": "42"
+    }
+  },
+  "form": {
+    "dataAnalytics": false,
+    "blockchain": false,
+    "DataEngineering": false,
+    "BusinessAnalytics": true,
+    "FullStack": false,
+    "dsa": false,
+    "webDevelopment": false,
+    "AboutCourse": true
+  },
+  "FirstSection": {
+    "deskTopPara": "India’s 1st",
+    "mTopPara": "India’s 1st",
+    "title": "Data Analytics Certification Course online ",
+    "spanTitleText": "Live Project Based Learning Partnered with Tech Companies",
+    "desc": "Become a Certified Data analytics professional with best Data analytics course online. This course helps you master Power BI, Data Wrangling, Data Mining, etc. Learn from industry experts through real-time projects. ",
+    "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/business-analytics-header-banner-white.webp",
+    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/business-analytics-new-header-image-white.webp",
+    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/HomepageDataCollection.webp",
+
+    "usp1": " Live Interactive ",
+    "usp2": " Company ",
+    "usp3": " EMI Starting @",
+    "usp4": " 100% Interview",
+    "usp1Span": "Classroom",
+    "usp2Span": "Exp Certifications",
+    "usp3Span": "2950/month",
+    "usp4Span": "Guarantee",
+    "width": "459",
+    "height": "404",
+    "mainAlt": "Get data analytics course"
+  },
+  "ProgramInfo": {
+    "BatchDate": "29 January 2023",
+    "BatchDuration": "09 Months",
+    "Placement": "Guaranteed job referral"
+  },
+  "BoxShape": {
+    "title": "Why Join Data Analytics Courses online?",
+    "Box1h5": "Data analytics projects Certification ",
+    "box1desc": "Bring your own projects and receive the assistance you need to complete them. Besides, get project certification from well-known startups.",
+    "Box2h5": "Tailor-made courses to become Data analyst",
+    "box2desc": "Most importantly, you will be able to design your own course to meet your individual learning requirements and goals.",
+    "Box3h5": "Guaranteed job referral",
+    "box3desc": " Get Guaranteed job referral with interview training and resume building assistance. Also, get free career counseling services and mentorship.",
+    "Box4h5": "Program subscription for Data analytics course",
+    "box4desc": "Above all, with a three-year membership, you will have access to the business analytics course for three years.",
+    "alt1": "Data-analytics-course-with-real-work-experience-icon",
+    "alt2": "build-your-own-course-with-our-Data-analytics-course-online",
+    "alt3": "Guaranteed-job-referral-in-Data-analytics-course",
+    "alt4": "get-job-ready-with-our-Data-analytics-course"
+  },
+  "TopCTA": {
+    "title": "Having Doubts? Talk with our Experts",
+    "BeforeBR": " Talk to our Data Analytics expert to know if your profile is suitable",
+    "AfterBR": " For career transition in Data Analytics."
+  },
+  "Benefits": {
+    "desc": " Learn Data Analytics with multiple domain specialization and become a Data analyst with our Guaranteed job referral program.",
+    "InterviewT": "Become Data Analyst with top Companies",
+    "InterviewD": "Interact and Learn from mentors working in top product based companies to crack interviews for your dream role.",
+    "CertificateT": " Get real work experience from companies",
+    "CertificateD": "Work as a Data Analyst on live projects directly with companies to gain real work experience.",
+    "JobT": "Guaranteed job referral",
+    "JobD": " Our program give assured job referrals that can help you get placed in MNC's"
+  },
+  "Certificate": {
+    "popupHead": "Download Data Analytics Brochure",
+    "title": "Get Certificate directly from empanelled Startups and MNCs",
+    "desc": "Get a chance to work directly with companies as a part of the course on their live Analytics projects. Hence after completing the project successfully you will have experience letter as Data Analyst before you start attending interviews though us.",
+    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Business-analytics-course-certificate-26th-October-2022-new.webp",
+    "altM": "Get Microsoft Certification by taking Business analytics course",
+    "altR": "Get Real Work Experience Certificate by taking Business analytics course in online"
+  },
+  "GetHired": {
+    "heading1": "Get Hired",
+    "heading": "Work on live projects to get hired at:"
+  },
+  "RealWork": {
+    "desc": "Sign up in India’s best Data Analytics course with Guaranteed job referral. The Data Analytics courses are designed with an application-based learning approach. Furthermore, the extensive Artificial Intelligence and Data Analytics Syllabus focuses on helping learners build relevant experience. Especially, in the technologies they upskill to prove expertise."
+  },
+  "popupHead": "Download Data analytics Course Brochure",
+  "syllabusDesc": "Our data analytics course syllabus is curated by leading faculties and industry leaders. Especially, with the aim to provide practical learning experience with live interactive classes and projects. Check out our Data analytics course syllabus:",
+  "syllabus": [
+    {
+      "Module0": {
+        "title": "Module 0 Basics For Data Analytics",
+        "content": [
+          {
+            "chap": {
+              "title": "Chapter 1: Introduction to Programming ( 3 hrs )",
+              "desc": [
+                "Source code Vs bytecode Vs machine code, Compiler Vs Interpreter, C/C++, Java Vs Python."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 2: code editors basics (1 hrs)",
+              "desc": [
+                "Different type of code editors in python, Introduction to Anaconda and IDEs"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 3: python basics (1 hrs)",
+              "desc": [
+                "Variable Vs Identifiers, Strings Operators Vs Operand, Procedure oriented Vs Modular programming."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 4: statistics basics & probability (1 hrs)",
+              "desc": [
+                "Measures of Central Tendency & dispersion, Inferential statistics and Sampling theory."
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": true
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 1 - Programming Essentials",
+        "content": [
+          {
+            "chap": {
+              "title": "Chapter 1:PROGRAMMING INTRODUCTION ( 3 hrs )",
+              "desc": [
+                "Different types of Programming Language.",
+                "What is Compiler?",
+                "What is an Interpreter?"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 2: PYTHON INTRODUCTION (1 hrs)",
+              "desc": [
+                "How a Python Program runs on our system?",
+                "Features of Python Memory Management in Python,",
+                "Different Implementations of Python."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 3: CONDITIONAL AND LOOPS (1 hrs)",
+              "desc": ["Conditional Statement", "Loop Statement."]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 4: PYTHON PROGRAMMING COMPONENTS",
+              "desc": [
+                "Linting",
+                "Formatting",
+                "Understanding Python code",
+                "Command Line Arguments",
+                "Python Operators"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 5: FUNCTION",
+              "desc": [
+                "Working with functions",
+                "Parameters vs Arguments",
+                "Namespace vs Scope",
+                "Function call vs Function referencing"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 6: EXPECTION HANDELING",
+              "desc": [
+                "Introduction to Exception Handling",
+                "Type of Errors",
+                "Nestedtry-except block & Default except for block."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 7: MODULES IN PYTHON",
+              "desc": [
+                "Introduction to Modular Programming",
+                "Importing Modules and different import statement",
+                "Types of Modules."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 8: FILE HANDELING",
+              "desc": [
+                "Use of File Handling?",
+                "Type of Files",
+                "File Operation",
+                "What is File Handling?",
+                "Why do we need File Handling?",
+                "Type of Files",
+                "File Operation"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 9: REGULAR EXPRESSION",
+              "desc": [
+                "Intro & use of Regular Expression?",
+                "Regex module & important methods,",
+                "Regex pattern and it’s interpretation."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 10: NUMPY IN PYTHON",
+              "desc": [
+                "Intro & use of numpy, What is an array?",
+                "Array Operations using Numpy",
+                "Numpy and Scipy,",
+                "Numpy and Pandas"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 11: PANDAS IN PYTHON",
+              "desc": [
+                "Numpy vs Pandas",
+                "Exporting Dataframe to CSV and Excel",
+                "EDA using Pandas."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 12: MatplotLib",
+              "desc": [
+                "Lines & markers",
+                "Figures",
+                "Watermark",
+                "Shapes",
+                "Polygons and arrows Color maps",
+                "Autocorrelation study"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 13: Seaborn",
+              "desc": [
+                "Working with seaborn on titanic dataset",
+                "Introduction & installation",
+                "Controlling figure asthetics",
+                "Different plots in seaborn"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 14: Other visualisation libraries",
+              "desc": ["Plotly", "Pygal", "Geopltlib etc."]
+            }
+          }
+        ],
+        "id": 1,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 2 - Applied Statistics",
+        "content": [
+          {
+            "chap": {
+              "title": "Chapter 1:- Probability and Statistical Inferences ( 4 hrs )",
+              "desc": [
+                "Introduction to Probability Principles",
+                "Random Variables and Probability principles",
+                "Discrete Probability Distributions - Binomial, Poisson etc",
+                "Continuous Probability Distributions - Gaussian, Normal, etc",
+                "Joint and Conditional Probabilities",
+                "Bayes theorem and its applications",
+                "Central Limit Theorem and Applications"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 2: Statistics Foundations (1 hrs)",
+              "desc": [
+                "Elements of Descriptive Statistics",
+                "Measures of Central tendency and Dispersion",
+                "Inferential Statistics fundamentals",
+                "Sampling theory and scales of measurement",
+                "Covariance and correlation"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 3: Hypothesis Testing and its Applications (1 hrs)",
+              "desc": [
+                "Basic Concepts - Formulation of Hypothesis, Making a decision",
+                "Advanced Concepts - Choice of Test - t test vs z test",
+                "Evaluation of Test - P value and Critical Value approach",
+                "Confidence Intervals, Type 1 and 2 errors"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 4: Exploratory Data Analysis (1 hrs)",
+              "desc": [
+                "Ingest data",
+                "Data cleaning",
+                "Outlier detection & Missing value imputation,",
+                "Missing value imputation",
+                "Capstone project for Business Analysis"
+              ]
+            }
+          }
+        ],
+        "id": 2,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 3 - Introduction to  Machine Learning",
+        "content": [
+          {
+            "chap": {
+              "title": "Chapter 1:Primer on Machine Learning ( 3 hrs )",
+              "desc": [
+                "Unsupervised and Reinforcement",
+                "Types of Learning - Supervised",
+                "Statistics vs Machine Learning",
+                "Types of Analysis - Descriptive, Predictive, and Prescriptive",
+                "Bias Variance Tradeoff - Overfitting vs Underfitting"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 2: Regression",
+              "desc": [
+                "Correlation vs Causation",
+                "Simple and Multiple linear regression",
+                "Linear regression with Polynomial features",
+                "What is linear in Linear Regression?",
+                "OLS Estimation and Gradient descent",
+                "Model Evaluation Metrics for regression problems - MAE, RMSE, MSE, and MAP"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 3: Classification",
+              "desc": [
+                "Introduction to Classification problems",
+                "Logistic Regression for Binary problems",
+                "Maximum Likelihood estimation",
+                "Data Imbalance and redressal methodology",
+                "Up sampling, Down sampling and SMOTE"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 4: Clustering-K means",
+              "desc": [
+                "Introduction to Unsupervised Learning",
+                "Hierarchical and Non-Hierarchical techniques",
+                "K Means Algorithms - Partition based model for clustering",
+                "Model Evaluation metrics – Clustering"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 5: KNN",
+              "desc": [
+                "Introduction to KNNs",
+                "KNNs as a classifier",
+                "Non-Parametric algorithms and Lazy learning ideology",
+                "Applications in Missing value imputes and Balancing datasets"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 6: Advance Regression Model",
+              "desc": [
+                "Introduction to regularization",
+                "Understanding ridge regression",
+                "Working with Lasso regression",
+                "Tackling multicollinearitywith regression"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 7: Decision Trees",
+              "desc": [
+                "Nonlinear models for classification",
+                "Intro to decision trees",
+                "Why are they called Greedy Algorithms?",
+                "Information Theory - Measures of Impurity",
+                "Susceptibility to overfitting and high variance ",
+                "Pruning and Truncation."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 8: Ensemble Techniques",
+              "desc": [
+                "Introduction to Bagging as an Ensemble technique",
+                "Bootstrap Aggregation and Out of Bag error",
+                "Random Forests and its Applications in Feature selection",
+                "How Bagging overcomes the overfitting problem?",
+                "Scent and Boosting",
+                "How Boosting overcomes the Bias - Variance Tradeoff",
+                "Gradient Boosting and Xgboost as regularised boosting"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 9: Support Vector Machines",
+              "desc": [
+                "Introduction to Expectation— Maximization Algorithms",
+                "The kernel tricks",
+                "Linear, Polynomia, and RBF kernels, SVMs for regression and classification",
+                "Applications in Multiclass classification."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 10: Bayesian Family Algorithms",
+              "desc": [
+                "Naive Bayes for Text classification",
+                "Bag of words and TF-IDF algorithm",
+                "Multinomial and Gaussian Naive Bayes, Bayesian Belief networks and Path models."
+              ]
+            }
+          },
+
+          {
+            "chap": {
+              "title": "Chapter 11: Time-series Analysis",
+              "desc": [
+                "Intro to Time series",
+                "Autocorrelation and ACF/PACF plots",
+                "The Random Walk model and Stationarity of Time Series",
+                "Tests for Stationarity - ADF and Dickey- Fuller test, AR, MA, ARIMA, SARIMA models",
+                "A regression approach to time series forecasting."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 12: Machine Learning Pipeline & auto ML",
+              "desc": [
+                "Feature engineering & selection techniques",
+                "Principal Component Analysis",
+                "Linear Discriminant Analysis",
+                "Serving the model via Rest API & Keras."
+              ]
+            }
+          }
+        ],
+        "id": 3,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 4 - SQL for business",
+        "content": [
+          {
+            "chap": {
+              "title": "Chapter 1:- Introduction to SQL",
+              "desc": [
+                "Working with MySQL, DDL, TCL, DML commands",
+                "Relational and database schema",
+                "Working with keys",
+                "Database manipu lation, management, and administration"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 2: No SQL Databases",
+              "desc": [
+                "What is HBase?",
+                "HBase Architecture",
+                "HBase Components",
+                "Storage Model of HBase",
+                "HBase vs RDBMS",
+                "Introduction to Mongo DB, CRUD",
+                "Advantages of MongoDB over RDBMS Use cases."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 3: SQL Fundamental Statements",
+              "desc": [
+                "SELECT Statement.",
+                "COUNT.",
+                "SELECT WHERE.",
+                "ORDER BY.",
+                "IN, NOT IN.",
+                "NULL and NOT_NULL.",
+                "Comparison Operators (=, >, >=, <=).",
+                "MySQL Warnings (Understand and Debug)."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 4: Refining Selection.",
+              "desc": [
+                "SELECT DISTINCT.",
+                "LIKE, NOT LIKE, ILIKE.",
+                "LIMIT.",
+                "BETWEEN.",
+                "BETWEEN – AND"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 5: SQL Databases",
+              "desc": [
+                "Introduction to database",
+                "Creating Data base",
+                "Dropping Database",
+                "Using Database",
+                "Introduction to Tables",
+                "Data types in SQL",
+                "Use case of different data",
+                "Working with tables",
+                "Coding best practices in SQL."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 6: JOINS & string function",
+              "desc": [
+                "Introduction to JOINs",
+                "Types of JOINS",
+                "Usage of different types of JOINS",
+                "Loading Data",
+                "Usage of string functions like; CONCAT, SUBSTRING etc",
+                "INNER join,OUTER join, Full join, Left Join, Right Join, UNION."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 7: Basics & CRUD Operations",
+              "desc": [
+                "Data bases",
+                "Collection & Documents",
+                "Shell & MongoDB drivers",
+                "What is JSON Data",
+                "Create, Read, Update, Delete",
+                "Working with Arrays",
+                "Understanding Schemas and Relations."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 8: SQL Statements & functions",
+              "desc": [
+                "Multiple INSERT",
+                "INSERT INTO. GROUP BY HAVING",
+                "WHERE vs HAVING, UPDATE, DELETE, AS",
+                "EXISTS-NOT EXISTS",
+                "Application of g roup by",
+                "Count function, MIN and MAX, Sum Function, Avg Function"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 9: Advance SQL",
+              "desc": [
+                "Local, Session",
+                "Global Variables",
+                "Timestamps and Extract",
+                "CURRENT DATE & TIME",
+                "EXTRACT AGE, TO CHAR",
+                "Mathematical Functions and Operators",
+                "CEIL & FLOOR, POWER, RANDOM",
+                "ROUND, SETSEED",
+                "Operators and their precedence"
+              ]
+            }
+          }
+        ],
+        "id": 4,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 5 - MongoDB (Only In Pro Max)",
+        "content": [
+          {
+            "chap": {
+              "title": "Chapter 1: Mongo DB",
+              "desc": [
+                "What is MongoDB?",
+                "Characteristics, Structure and Features.",
+                "MongoDB Ecosystem.",
+                "Installation process.",
+                "Connecting to MongoDB database.",
+                "What are Object Ids in MongoDb.",
+                "Data Formats in MongoDB.",
+                "MongoDB Aggregation Framework.",
+                "Aggregating Documents.",
+                "What are MongoDB Drivers?",
+                "Finding, Deleting, Updating, Inserting Elements."
+              ]
+            }
+          }
+        ],
+        "id": 5,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 6 - Excel for Business",
+        "content": [
+          {
+            "chap": {
+              "title": "Chapter 1: Excel Fundamentals",
+              "desc": [
+                "Introduction to Excel interface.",
+                "Customizing Excel Quick Access Toolbar.",
+                "Structure of Excel Workbook.",
+                "Excel Menus.",
+                "Excel Toolbars: Hiding, Displaying, and Moving Toolbars.",
+                "Switching Between Sheets in a Workbook.",
+                "Inserting and Deleting Worksheets.",
+                "Renaming and Moving Worksheets.",
+                "Protecting a Workbook.",
+                "Hiding and Unhiding Columns, Rows and Sheets.",
+                "Splitting and Freezing a Window.",
+                "Inserting Page Breaks.",
+                "Advanced Printing Options.",
+                "Opening, saving and closing Excel document.",
+                "Common Excel Shortcut Keys.",
+                "Quiz."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 2: Worksheet Customization",
+              "desc": [
+                "Adjusting Page Margins and Orientation.",
+                "Creating Headers, Footers, and Page Numbers.",
+                "Adding Print Titles and Gridlines.",
+                "Formatting Fonts & Values.",
+                "Adjusting Row Height and Column Width.",
+                "Changing Cell Alignment.",
+                "Adding Borders.",
+                "Applying Colours and Patterns.",
+                "Using the Format Painter.",
+                "Formatting Data as Currency Values.",
+                "Formatting Percentages.",
+                "Merging Cells, Rotating Text.",
+                "Using Auto Fill.",
+                "Moving and Copying Data in an Excel Worksheet.",
+                "Inserting and Deleting Rows and Columns."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 3: Images and Shapes into Excel Worksheet ",
+              "desc": [
+                "Inserting Excel Shapes.",
+                "Formatting Excel Shapes.",
+                "Inserting Images.",
+                "Working with Excel SmartArt."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 4: Basic work on Excel",
+              "desc": [
+                "Entering and selecting values. Using numeric data in excel",
+                "Working with forms menu, cell references, conditional",
+                "Formatting and data validation",
+                "Finding and replacing information from worksheet",
+                "Inserting & deleting cells, rows and columns."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 5: Excel Formulae",
+              "desc": [
+                "Creating basic formulae in excel",
+                "Im plementing excel formulae in worksheet",
+                "Relative cell referencing",
+                "Absolute cell referencing",
+                "Relative vs Absol ute cell references in formulae",
+                "Understanding the order of operation",
+                "Entering and Editing text, Fixing errors in your formulae",
+                "Formulae with several operators, Formulae with cell ranges",
+                "Quiz."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 6: Excel Functions",
+              "desc": [
+                "Working with functions like SUM(), AVERAGE() etc",
+                "Adjacent cells error in excel calculations",
+                "Use of AutoSum & autofill command",
+                "Quiz"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 7: Charts and Graphs",
+              "desc": [
+                "Creating a column chart.",
+                "Working with the excel chart ribbon.",
+                "Adding and modifying data on an Excel chart.",
+                "Formatting an excel chart.",
+                "Moving a chart to another worksheet.",
+                "Resizing a chart.",
+                "Changing a chart’s source data.",
+                "Adding titles, gridlines and a data table.",
+                "Formatting a data series and chart axis.",
+                "Using fill effects.",
+                "Changing a chart type and working with pie charts.",
+                "Quiz."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 8: Support Vector Machines",
+              "desc": [
+                "Intro to Pivot Tables",
+                "Structuring Source Data for Analysis in Excel",
+                "Creating a PivotTable",
+                "Exploring Pivot Ta ble Analyse & Desig n Options",
+                "Working with and on pivot tables",
+                "Dealing with Growing Source Data",
+                "Enriching data with Pivot table calculated values & fields",
+                "Formatting and charting a PivotTable",
+                "Pivot Table Case Study",
+                "Quiz"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 9: Basic Macros",
+              "desc": [
+                "Introduction to macros",
+                "Automating Tasks with Macros",
+                "Recording a Macro",
+                "Playing a Macro",
+                "Assigning a Macro a Shortcut Key."
+              ]
+            }
+          }
+        ],
+        "id": 6,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 7 - TABLEAU for business (Only In Pro Max)",
+        "content": [
+          {
+            "chap": {
+              "title": "Chapter 1: Introduction to TABLEAU",
+              "desc": [
+                "Usage of TABLEAU",
+                "Exporting worksheets",
+                " charts in TABLEAU (bar, pie, histogram)",
+                "Creating dashboard pages and tricks",
+                "Hands on exercise"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 2: Data Types in TABLEAU",
+              "desc": [
+                "Aggregation and Granularity,",
+                "Pre-attentive processing",
+                "Length and position Implementation",
+                " Advance table calculations",
+                "Creating multiple joins in Tableau",
+                "Relationships vs Joins",
+                "Calculated Fields vs Table calculations",
+                " Creating advanced table calculations",
+                "Adding a second layer moving average",
+                "Trendlines for powerinsights."
+              ]
+            }
+          }
+        ],
+        "id": 7,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 8 - Power BI",
+        "content": [
+          {
+            "chap": {
+              "title": "Chapter 1: Introducation To Power BI",
+              "desc": [
+                "Why Power BI?",
+                "Account Types.",
+                "Installing Power BI.",
+                "Understanding the Power BI Desktop Workflow.",
+                "Exploring the Interface of the Data Model.",
+                "Understanding the Query Editor Interface."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 2: Query Editor",
+              "desc": [
+                "Connecting Power BI Desktop to Source Files.",
+                "Keeping & Removing Rows.",
+                "Removing Empty Rows.",
+                "Create calculate columns.",
+                "Make first row as headers.",
+                "Change Data type.",
+                "Rearrange the columns.",
+                "Remove duplicates.",
+                "Unpivot columns and split columns.",
+                "Working with filters.",
+                "Appending queries.",
+                "Working with columns.",
+                "Replacing values.",
+                "Splitting columns.",
+                "Formatting data & handling formatting errors.",
+                "Pivoting & unpivoting data.",
+                "Query duplicates vs references"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 3: Power BI",
+              "desc": [
+                "Power BI",
+                "Working with Time series Understanding aggregation and granularity",
+                "Filters and Slicers in Power BI",
+                "Maps, Scatterplots and BI Reports",
+                "Creating a Customer Seq mentation."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 4: Data Models",
+              "desc": [
+                "Understanding Relationships.",
+                "Many-to-One & One-to-One.",
+                "Cross Filter Direction & Many-to-Many.",
+                "M-Language vs DAX (Data Analysis Expressions).",
+                "Basics of DAX.",
+                "DAX Data Types.",
+                "DAX Operators and Syntax.",
+                "Importing Data for DAX Learning.",
+                "Resources for DAX Learning.",
+                "M vs DAX.",
+                "Understanding IF & RELATED.",
+                "Create a Column.",
+                "Rules to Create Measures.",
+                "Calculated Columns vs Calculated Measures.",
+                "Understanding CALCULATE & FILTER.",
+                "Understanding Data Category",
+                "SUM, AVERAGE, MIN, MAX, SUMX, COUNT, DIVIDE, COUNT, COUNTROOMS, CALCULATE, FILTER, ALL",
+                "Time Intelligence.",
+                "Create date table in M.",
+                "Create date table in DAX.",
+                "Display last refresh date.",
+                "SAMEPERIODLASTYEAR.",
+                "TOTALYTD.",
+                "DATEADD.",
+                "PREVIOUSMONTH."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 5: Time Intelligence",
+              "desc": [
+                "Create data table in M and DAX, Display last refresh Date."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 6: Modelling",
+              "desc": [
+                "Create your first report.",
+                "Modelling basics to advance.",
+                "Modelling and relationship.",
+                "Ways of creating relationship.",
+                "Normalisation – De-normalisation.",
+                "OLTP vs OLAP.",
+                "Star schema vs Snowflake schema."
+              ]
+            }
+          }
+        ],
+        "id": 8,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 9 - Project Management (Only In Pro Max)",
+        "content": [],
+        "id": 8,
+        "open": false
+      }
+    }
+  ],
+  "Review": {
+    "title": "Why pratical learning experience is vital?",
+    "desc": " Online courses designed for creative and made for everyone. Take course with us. Experience the new era of education"
+  },
+  "Fee": {
+    "FullStack": true,
+    "desc": "The data analytics course fee starts from ₹60,000 (Excluding GST). Besides, we aim to deliver to you quality education considering the aspect of feasibility.",
+    "BasicPrice": "₹ 60,000 + GST",
+    "BasicDesc": "3% cashback on creditcard payment",
+    "ProPrice": "₹ 95,000 + GST",
+    "ProDesc": "5% cashback on credit card payment",
+    "ProMaxPrice": "₹ 1,30,000 + GST",
+    "ProMaxDesc": "Guaranteed job referral"
+  },
+  "BatchDates": [
+    {
+      "batchDate": "16",
+      "batchMonth": "DEC",
+      "batchStatus": "New",
+      "batchType": "Morning Batch, ",
+      "batchTime": "08:00 to 10:00",
+      "batchDesc": "Enroll for this batch",
+      "batchWeek": "weekday batch (Mon - Fri)",
+      "batchMsg": "Seats are available",
+      "activeBatch": true
+    },
+    {
+      "batchDate": "24",
+      "batchMonth": "DEC",
+      "batchStatus": "New",
+      "batchType": "Afternoon Batch, ",
+      "batchTime": "12:00 to 2:00",
+      "batchDesc": "Enroll for this batch",
+      "batchWeek": "weekend batch (Sat - Sun)",
+      "batchMsg": "Seats are available",
+      "activeBatch": true
+    }
+  ],
+  "AboutCourseHeading": {
+    "heading": "Why is Data Analytics training popular?",
+    "para": "All industries use Data Analytics since it assists businesses in thoroughly understanding their clients and services. It also sufficiently provides data insights and is helpful in planning future outcomes with the analysis. Every business demand operational efficiency by improvising the technical ability, engaging users, and revenue generation. For the purpose of taking business decisions at their best, the need for Data Analyst professionals has come up. Start your career by enrolling in Data Analytics training that will help you attain success."
+  },
+  "AboutCourse": [
+    {
+      "data": {
+        "heading": "How to choose best data analytics course online?",
+        "para": "A data analytics course typically covers a wide range of topics related to the field of data analysis. Here are some key areas that are often included in such courses:",
+        "list": [
+          {
+            "title": "Introduction to Data Analytics:",
+            "desc": "This module provides an overview of the field of data analytics, its applications, and the importance of data-driven decision-making."
+          },
+          {
+            "title": "Statistics and Probability:",
+            "desc": " Understanding statistical concepts and probability theory is crucial for data analysis. This module covers topics such as descriptive statistics, hypothesis testing, regression analysis, and probability distributions."
+          },
+          {
+            "title": "Data Wrangling and Data Preparation:",
+            "desc": " This module focuses on techniques for data cleaning, data integration, data transformation, and dealing with missing or inconsistent data."
+          },
+          {
+            "title": "Big Data Analytics:",
+            "desc": " With the growing availability of large and complex datasets, this module focuses on handling and analyzing big data. It covers topics such as distributed computing frameworks (e.g., Hadoop, Spark), parallel processing, and scalable data analysis techniques."
+          },
+          {
+            "title": "Tools and Programming Languages:",
+            "desc": " Data analytics courses often include instruction on popular data analytics tools and programming languages, such as R or Python. Students learn how to use these tools to manipulate data, perform statistical analyses, and create visualizations."
+          },
+          {
+            "title": "Practical Projects and Case Studies:",
+            "desc": " Many data analytics courses include hands-on projects and real-world case studies to provide practical experience. Students work on analyzing real datasets and applying the techniques learned throughout the course."
+          }
+        ],
+        "para1": "It's important to note that the specific topics and depth of coverage can vary between different data analytics courses. Some courses may focus more on certain areas depending on the intended audience or the program's objectives. When choosing a data analytics course, it's advisable to review the curriculum and ensure that it aligns with your learning goals and career aspirations.",
+        "listActive": true,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "What is data analytics course?",
+        "para": "A data analytics course is a program of study that teaches students the skills and techniques needed to collect, analyze, and interpret data. Data analytics is a rapidly growing field, with a high demand for skilled professionals. A data analytics course can help you develop the skills you need to land a job in this exciting field. Data analytics courses typically cover a wide range of topics, including:",
+        "list": [
+          {
+            "title": "",
+            "desc": "Data collection and preparation"
+          },
+          {
+            "title": "",
+            "desc": "Data analysis techniques"
+          },
+          {
+            "title": "",
+            "desc": "Data visualization"
+          },
+          {
+            "title": "",
+            "desc": "Business analytics"
+          },
+          {
+            "title": "",
+            "desc": "Machine learning"
+          }
+        ],
+        "para1": "If you are interested in a career in data analytics, a data analytics course can be a great way to get started. There are many different courses available, both online and in person. Choose a course that is accredited and that meets your needs and goals.",
+        "listActive": true,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": " What is the benefits of taking data analytics certification courses?",
+        "para": "Here are some of the benefits of taking a data analytics Certification course:        ",
+        "list": [
+          {
+            "title": "Gain relevant skills",
+            "desc": "You can Develop the skills you need to land a job in a rapidly growing field. Our mentors will help you to prepare for an data analytics interview"
+          },
+          {
+            "title": "Gain Realtime knowledge",
+            "desc": "Gain the knowledge and experience you need to make data-driven decisions."
+          },
+          {
+            "title": "Data analytics projects:",
+            "desc": "Help you to improve your problem-solving and analytical skills"
+          },
+          {
+            "title": "",
+            "desc": "Problem-solving skills: Data Analytics requires a combination of technical and analytical skills, making it an ideal field for those who enjoy solving complex problems."
+          },
+          {
+            "title": "Get Data analytics certification from Microsoft:",
+            "desc": "After completing the course you will get a Microsoft Data analytics certification which will be help you in getting a job."
+          }
+        ],
+        "para1": "Upon completing a data analytics course, individuals can pursue careers as data analysts, data scientists, business analysts, or data consultants in a wide range of industries, including finance, healthcare, marketing, e-commerce, and more. They are equipped with the skills to extract valuable insights from data, identify patterns, and make informed decisions based on data analysis.",
+        "listActive": true,
+        "extraPara": true
+      }
+    },
+
+    {
+      "data": {
+        "heading": "What is best data analytics course duration? ",
+        "para": "The duration of a data analytics course can vary depending on the depth of the curriculum, the level of the course (introductory, intermediate, advanced), and the learning format (full-time, part-time, online). Here are some common durations for data analytics courses:",
+        "list": [
+          {
+            "title": "Short-term Courses:",
+            "desc": " These courses typically range from a few days to a few weeks. They provide a basic introduction to data analytics concepts and tools, focusing on specific topics or skills within the field."
+          },
+          {
+            "title": "Bootcamp-style Courses:",
+            "desc": " These intensive programs often last around 8 to 12 weeks, with full-time, immersive learning experiences. They cover a comprehensive range of topics in data analytics, including data manipulation, statistical analysis, data visualization, and machine learning."
+          },
+          {
+            "title": "Online or Self-paced Courses:",
+            "desc": " Online data analytics courses offer flexibility in terms of learning pace and duration. They can range from a few weeks to several months, Our Course covers total modules and learning path to make some one professional data analyst."
+          }
+        ],
+        "para1": "The best duration for a data analytics course depends on your existing knowledge, learning goals, and the time you can dedicate to the course. Shorter courses can provide a basic understanding and introduction to data analytics, while longer programs offer more comprehensive knowledge and practical experience. Consider your availability, desired level of proficiency, and career aspirations when selecting the duration of a data analytics course.",
+        "listActive": true,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Why Choose Skillslash for data analytics course? ",
+        "para": "Skillslash offers more than just job placement assistance by educating students on improving their online profiles and resumes. In addition, students are required to engage in practice interviews for employment purposes. The recorded lectures will be available to you for three years, allowing you to access them anytime, anywhere, and for any duration you prefer. Taking courses from industry experts in your field is a beneficial step towards advancing your career. Apart from our Data analytics certification, our data analytics courses will equip you with the necessary training to excel in your job. Plus, enjoy the benefits of dual certification – Microsoft-certified and also real-work certification from top MNC/Startups.",
+        "list": [
+          {
+            "title": "",
+            "desc": "Interactive Learning: Instead of passive film-watching, we promote active engagement and lively discussions among students during our live sessions, encouraging their active participation in the learning process."
+          },
+          {
+            "title": "",
+            "desc": "Video Resources: In addition to the scheduled live lectures, students now have access to over 350 hours of recorded lectures, providing them with a valuable video backup for their learning needs."
+          },
+          {
+            "title": "",
+            "desc": "Employment Assurance: Job security is the assurance that your efforts, investments, and work will be rewarded with ongoing employment. Our 100% Job Guarantee program ensures that upon completing our program, you can have confidence in securing a fulfilling role."
+          },
+          {
+            "title": "",
+            "desc": "Hands-on Experience: Through internships with reputable AI companies, students have the opportunity to apply their classroom knowledge to real-world scenarios, fostering the development of critical thinking and independent problem-solving skills."
+          },
+          {
+            "title": "",
+            "desc": "Personalized Learning: The 'Build Your Own Course' (BYOC) approach allows students and counselors to collaborate in designing customized lesson plans tailored to individual needs and preferences."
+          }
+        ],
+        "para1": "",
+        "listActive": true,
+        "extraPara": false
+      }
+    },
+    {
+      "data": {
+        "heading": "What is data analytics courses eligibility?",
+        "para": "The eligibility requirements for data analytics courses can vary depending on the institution or organization offering the course and the level of the course (introductory, intermediate, advanced). Here are some general eligibility criteria for data analytics courses:",
+        "list": [
+          {
+            "title": "Educational Background:",
+            "desc": " Most data analytics courses do not have strict prerequisites in terms of specific educational qualifications. However, courses at the intermediate or advanced level may require a basic understanding of mathematics, statistics, and programming concepts. Some courses may have recommended or required prerequisites in fields such as mathematics, computer Analytics, or statistics."
+          },
+          {
+            "title": "Professional Experience:",
+            "desc": "  Data analytics courses are open to both professionals and individuals with no prior work experience. Some advanced or specialized courses may target professionals who already have a background in data analysis, business analytics, or related fields."
+          },
+          {
+            "title": "Programming Skills: ",
+            "desc": " While not always a mandatory requirement, having basic programming skills can be beneficial for data analytics courses. Many data analytics courses use programming languages such as R or Python, so familiarity with programming concepts and the ability to write code is helpful."
+          },
+          {
+            "title": "Language Proficiency:",
+            "desc": "  Depending on the course delivery mode and language of instruction, applicants may need to meet certain language proficiency requirements. English is commonly used as the language of instruction for data analytics courses offered internationally."
+          }
+        ],
+        "para1": "Skillslash also makes it easy and affordable for you to finance your education. We offer easy financing options including an EMI system, so you don't have to worry about the financial burden of the data analytics course. Finally, our team provides resume preparation training and mock interviews, and we also provide job referrals to help you get placed in a top company after completing the data analytics course. We offer a comprehensive, industry-relevant training program that will give you the skills and experience you need to excel in the field of data Analytics. With live interactive classes, industry expert mentors, real-world experience, easy financing options, and job placement assistance, Skillslash is an excellent choice for anyone looking to start a career in data Analytics.",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Why One Should Take The data analytics course? Is Data analytics certification being worth pursuing as a career?",
+        "para": "Data Analytics is a highly valuable and in-demand field, and taking a data analytics course can help individuals gain the skills and knowledge needed to pursue a career in this field. The course would provide an introduction to the key concepts and tools used in data Analytics, such as programming languages, statistical analysis, and machine learning, as well as hands-on experience working with data. The course could also help individuals understand the business applications of data Analytics and how data can be used to inform decision making.",
+        "list": [],
+        "para1": "Regarding Data analytics certification online training, it depends on the individual's career goals and the specific certification program. Generally, a Data analytics certification can demonstrate that an individual has a certain level of knowledge and skills in the field, which can be helpful for job applicants or those looking to advance their careers. However, it's important to note that a certification alone may not guarantee a job or a promotion, and employers will also look at an individual's experience and portfolio of work. Therefore, it's worth pursuing a Data analytics certification if it aligns with your career goals and you are willing to put in the time and effort to earn it.",
+        "listActive": false,
+        "extraPara": true
+      }
+    }
+  ],
+  "FAQ": {
+    "desc": "Here’s a list of FAQs on Skillslash’s Data Analytics course that brings understanding to enrich an effective career ahead."
+  },
+  "FaqDATA": [
+    {
+      "id": 0,
+      "ques": " What is the duration of the Data Analytics Course and what modules are covered?",
+
+      "ans": "The duration of our Data Analytics Course lasts for five months. But the time you spend learning will vary according to your schedule (weekdays/weekends). You are allowed to choose your preference of modules through customization, for your reference you can check the syllabus part. In particular, the Data Analytics Course will be starting with programming principles like Python and cloud basics and work up to sophisticated Excel, DBMS like SQL and NoSQL, and data visualization with tools like Power BI and Tableau.",
+      "open": false
+    },
+    {
+      "id": 1,
+      "ques": "Is the Data Analytics Course only online? ",
+
+      "ans": "We do provide hybrid learning approaches for both offline and online courses along with real work experience. Due to the pandemic outbreak, we can only provide Data Analytics Course online through interactive live lectures from top-tier working professionals to assist you with the industry metrics and demands. ",
+      "open": false
+    },
+    {
+      "id": 2,
+      "ques": "How does the Data Analytics Course benefit me? ",
+
+      "ans": "The Data Analytics Course has a compact class strength for concentrating on every individual learner thereby clearing doubts and providing clarifications on their weaknesses. Along with 250+ problematic assignments, you are made to tackle errors and come up with creative solutions. You can also have personalized 1:1 mentoring and doubt-solving sessions with mentors in our Data Analytics Course.",
+      "open": false
+    },
+    {
+      "id": 3,
+      "ques": " Is there any possibility to retake the Data Analytics Course classes if missed?",
+      "ans": "Yes, you can always catch up on your missed lectures on the Data Analytics Course with the upcoming cohorts. Also, you will be provided with recorded sessions of the same classes through LMS. This supports you to refer to the previous sessions for any of the doubts that might come up. ",
+      "open": false
+    },
+    {
+      "id": 4,
+      "ques": "Is an academic degree needed to signup for the Data Analytics Course?",
+
+      "ans": "No, you need not have any academic degree particularly. Anybody who is keen on building their career in their preferred field can enroll in Data Analytics Course. If you already have an academic degree that might be an advantage to skill up your knowledge level with respect to the course you studied. Getting a professional certificate is highly recommended, particularly in terms of career transition.",
+      "open": false
+    },
+    {
+      "id": 5,
+      "ques": "Does Skillslash’s Data Analytics Course have EMI and refund policies?",
+
+      "ans": "Skillslash has both EMI and refund policies as per the terms and conditions applied. Concerning EMI, we do provide learner’s preference of payments for up to 12 months. Also, the refund procedure is considered only if it is approached within 15 days of the start of the Data Analytics Course.",
+      "open": false
+    },
+    {
+      "id": 6,
+      "ques": "What kind of certification does the Data Analytics Course provide?",
+
+      "ans": "Regardless of the basic academic certification, Skillslash’s Data Analytics Course provides globally recognized course certification for their learners. Along with this, you will also receive project certification from companies for collaboration with their live projects while doing Data Analytics Course.",
+      "open": false
+    },
+    {
+      "id": 7,
+      "ques": "What are the course fees for the Data Analytics Course?",
+
+      "ans": "The course fees of the Data Analytics Course begin at INR 55,000. We also provide scholarship offers in our courses. That is, your aptitude test qualifies you for up to a 10% scholarship in the course fees. A candidate will be qualified for a 10% discount on the course costs if they receive a score on the aptitude test of greater than 65 percent. ",
+      "open": false
+    }
+  ]
+}

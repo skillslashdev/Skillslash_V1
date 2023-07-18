@@ -1,0 +1,30 @@
+{
+  "name": "skillslash",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": " next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "mongodb": "^4.11.0",
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-use": "^17.4.0",
+    "sass": "^1.52.2",
+    "sharp": "^0.32.1",
+    "swiper": "^8.4.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "8.17.0",
+    "eslint-config-next": "^13.4.4"
+  }
+}

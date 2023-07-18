@@ -1,0 +1,94 @@
+.countdownContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.countdownContainer > form {
+  padding: 0.5rem;
+}
+
+.countdownContainer > form > label {
+  margin-right: 1rem;
+}
+
+.expiredNotice {
+  text-align: center;
+
+ 
+  border-radius: 0.25rem;
+ 
+}
+
+.expiredNotice > span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.expiredNotice > p {
+  font-size: 1.5rem;
+}
+
+
+
+.showCounter .countdownLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+font-size: 12px; 
+  text-decoration: none;
+  color: #000;
+ 
+}
+.dot{
+    font-weight: 900;
+    font-size: 16px;
+}
+.showCounter .countdown {
+
+  padding: 2px 8px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 4px;
+  flex-direction: column;
+}
+
+.showCounter .countdown.danger {
+  color: #ff0000;
+}
+
+.showCounter .countdown > p {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 18px;
+}
+
+.showCounter .countdown > span {
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 8px;
+}
+
+@media only screen and (max-width: 500px) {
+  .showCounter .countdown > span {
+    font-size: 8px;
+    line-height: 10px;
+  }
+.dot{
+    color: white;
+}
+  .showCounter .countdownLink {
+    font-size: 8px;
+  }
+}

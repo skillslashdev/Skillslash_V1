@@ -1,0 +1,132 @@
+{
+  "metaInfo": {
+    "title": "Build Flight Booking App Using React",
+    "desc": "Enroll in the Full stack course Event and learn road map of web development. Get Knowledge by working on industry projects.",
+
+    "canonical": "https://skillslash.com/Event/road-map-to-web-development"
+  },
+  "mainData": {
+    "title": "Build Flight Booking App Using React",
+    "eventDate": "February 16, 2023",
+    "eventStart": "February 16, 2023 20:00:00",
+    "eventTime": "08:00 pm- 09:30 pm",
+    "tag": "Fullstack",
+    "eventEnd": "February 16, 2023 21:30:00",
+    "img": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/flight-booking-application-7th-feb-tab-header.webp",
+    "Duration": "1 Hours",
+    "register": "9689"
+  },
+  "header": {
+    "title": "Build Flight Booking App ",
+    "titleSpan": "Using React",
+    "reverseImg": false,
+    "spanStyle": {
+      "background": "linear-gradient(to top, #cbebff 50%, transparent 50%)",
+      "borderRadius": "8px",
+      "color": "#000000",
+      "paddingLeft": "10px",
+      "paddingRight": "10px"
+    },
+    "desc1": "",
+    "desc": "",
+    "eventDate": "16 Feb 2023, Tue",
+    "redirectZoom": false,
+    "eventTime": "8.00 pm - 09.30 pm",
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/free_webinar.webp",
+    "register": "9689",
+    "img1Src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/eicon-event.svg",
+    "link": "https://us06web.zoom.us/meeting/register/tZcrduCrqjoqE9T_4O9ind9oXfWNkptNcOv8",
+    "backImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/flight-booking-app-in -react-7th-feb-2023.webp",
+    "mBackImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/flight-booking-application-react-7th-feb-2023.webp",
+    "profileImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/chirag-goel-expert-profile-7th-feb-2023.webp",
+    "profileImgH": "122",
+    "profileImgW": "753",
+
+    "dark": false,
+
+    "lightNew": true
+  },
+  "eventDetails": {
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Online_Registration.svg",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Conference.svg",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Registration.svg",
+    "firstH": "7189+",
+    "firstP": "Enrolled",
+    "secondH": "Online",
+    "secondP": "Conference",
+    "thirdH": "Free",
+    "thirdP": "Registration"
+  },
+  "aboutUs": {
+    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/About Masterclass_Count.webp",
+    "title": "About the Masterclass",
+    "desc": "Are you looking to get ahead in the era of technology? Learn how to design a Flight Booking App that stands out.",
+    "desc1": "Join us for this free masterclass hosted by Mr. Chirag Goel who is currently a SDE at Microsoft. At this workshop, you will gain hands-on insights on the architecture and design of the Flight Booking App. This masterclass helps working professionals who is seeking for carrer transition from service-based companies to Product based companies.",
+    "strong": "",
+    "desc2": ""
+  },
+  "feature": {
+    "title": "Full Stack Masterclass Features",
+    "h1": "Customized learning",
+    "p1": "With expert guidance and assistance attain your learning purpose and goals.    ",
+    "h2": "Live Classes",
+    "p2": "All our Full stack experts will lead the 100% live sessions.    ",
+    "h3": "Shareable certification",
+    "p3": "Achieve an acknowledged certification as you attend the training.    ",
+    "img1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning.webp",
+    "img2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live.webp",
+    "img3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/certification.webp",
+    "mImg1": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Certification_mobile.webp",
+    "mImg2": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning_mobile.webp",
+    "mImg3": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Live_Mobile.webp"
+  },
+  "profile": {
+    "pImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Chirag-goel-sde-interview-product-companies.webp",
+    "desc": "Software Engineer at Microsoft",
+    "pName": "Chirag Goel",
+    "link": "https://www.linkedin.com/in/engineerchirag/",
+    "mIcon": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/MicroSoft_icon.webp",
+    "list1": "8+ years exp",
+    "list2": "",
+    "list3": "Proficient in building next-generation low-code-no-code platform",
+    "list4": "Ex UI Engg III at Flipkart",
+    "list5": "Worked on technologies like React, Redux, GraphQl, Apollo, Node Js, Express, Typescript, Webpack",
+    "workAt": "",
+    "cIcon1": "",
+    "cIcon2": "",
+    "cIcon3": "",
+    "width": "",
+    "width1": "",
+    "width3": "",
+    "height": "",
+    "height1": "",
+    "height3": ""
+  },
+  "whyUs": {
+    "title": "What will you Learn?",
+    "l1": "The architecture of Flight Booking App",
+    "l2": "Know tips and tricks of Full Stack Development",
+    "l3": " Career transition to Product based companies",
+    "l4": "The dos and don'ts of a whiteboard interview"
+  },
+  "whoCan": {
+    "title": "This masterclass is for",
+
+    "heading1": "Software Developers",
+    "para1": "  Software developers who are aiming to accelerate their respective careers by upskilling with Full stack development.",
+    "heading2": "Peer Working Professionals",
+    "para2": "Professionals, irrespective of their domains, who have great enthusiasm to make a career transition into Full stack    development.",
+    "heading3": "About Skillslash Academy",
+    "para3": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur."
+  },
+  "About": {
+    "title": "About Skillslash Academy",
+    "desc": " Skillslash Academy is an ed-tech company, founded by alumni of IIT Kharagpur.",
+    "heading1": "Project-based certification",
+    "para1": " We provide project-based certification platform for professionals. Being the leading training provider, we give you the opportunity to work directly with industry experts on latest projects.",
+    "heading2": "Guaranteed referrals",
+    "para2": "  We provide real-time work experience, Guaranteed job referral, customizable courses and project certification from top startups.",
+    "heading3": "Skill Upgradation",
+    "para3": " Our training allows you to develop your abilities and get employed in top businesses. We aim at upgrading your skill set and get first preference in the hiring process."
+  }
+}
