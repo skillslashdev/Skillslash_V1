@@ -89,7 +89,7 @@ const ProjectSlider = ({
         </div>
       </div>
       <div className={styles.sliderWrap}>
-        <div className={styles.categoryBar}>
+        {/* <div className={styles.categoryBar}>
           <div className={styles.categoryWrap}>
             <span className={styles.spanActive}>Banking</span>
             <span className={styles.span}>Automobile</span>
@@ -99,7 +99,7 @@ const ProjectSlider = ({
             <span className={styles.span}>E-commerce</span>
             <span className={styles.span}>Other</span>
           </div>
-        </div>
+        </div> */}
         <ProjectSwiper swiperData={swiperData} redirectFs={redirectFs} />
         {/* {redirectWeb ? <WebSwiper /> : ""} */}
         {/* {redirectBa || redirectDs || redirectDe ? <DsSwiper /> : ""} */}
