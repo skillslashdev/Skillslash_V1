@@ -15,15 +15,77 @@ const ProjectSlider = ({
   redirectDe,
   redirectBa,
   redirectWeb,
-  redirectBl,
   redirectDSA,
 }) => {
-  const [swiperData, setSwiperData] = useState(DsProject);
+  const [swiperData, setSwiperData] = useState(
+    DsProject.filter((DsProject) => {
+      return DsProject.domainName === "Banking";
+    })
+  );
+  const [domainName, setDomainName] = useState("Banking");
+  // console.log(domainName);
+
   useEffect(() => {
-    redirectDs || redirectDe || redirectBa ? setSwiperData(DsProject) : "";
+    redirectDs || redirectDe || redirectBa
+      ? setSwiperData(
+          DsProject.filter((DsProject) => {
+            return DsProject.domainName === "Banking";
+          })
+        )
+      : "";
+    redirectDs && domainName === "Banking"
+      ? setSwiperData(
+          DsProject.filter((DsProject) => {
+            return DsProject.domainName === "Banking";
+          })
+        )
+      : "";
+    redirectDs && domainName === "Automobile"
+      ? setSwiperData(
+          DsProject.filter((DsProject) => {
+            return DsProject.domainName === "Automobile";
+          })
+        )
+      : "";
+    redirectDs && domainName === "HealthCare"
+      ? setSwiperData(
+          DsProject.filter((DsProject) => {
+            return DsProject.domainName === "HealthCare";
+          })
+        )
+      : "";
+    redirectDs && domainName === "Technical"
+      ? setSwiperData(
+          DsProject.filter((DsProject) => {
+            return DsProject.domainName === "Technical";
+          })
+        )
+      : "";
+    redirectDs && domainName === "Telecom"
+      ? setSwiperData(
+          DsProject.filter((DsProject) => {
+            return DsProject.domainName === "Telecom";
+          })
+        )
+      : "";
+    redirectDs && domainName === "Retail"
+      ? setSwiperData(
+          DsProject.filter((DsProject) => {
+            return DsProject.domainName === "Retail";
+          })
+        )
+      : "";
+    redirectDs && domainName === "Other"
+      ? setSwiperData(
+          DsProject.filter((DsProject) => {
+            return DsProject.domainName === "Other";
+          })
+        )
+      : "";
     redirectDSA || redirectFs ? setSwiperData(FsProject) : "";
     redirectWeb ? setSwiperData(webProject) : "";
-  }, []);
+  }, [domainName]);
+
   return (
     <div className={styles.projectWrap}>
       <div className={styles.projectHeader}>
@@ -89,17 +151,85 @@ const ProjectSlider = ({
         </div>
       </div>
       <div className={styles.sliderWrap}>
-        {/* <div className={styles.categoryBar}>
-          <div className={styles.categoryWrap}>
-            <span className={styles.spanActive}>Banking</span>
-            <span className={styles.span}>Automobile</span>
-            <span className={styles.span}>Healthcare</span>
-            <span className={styles.span}>Technical</span>
-            <span className={styles.span}>Telecom</span>
-            <span className={styles.span}>E-commerce</span>
-            <span className={styles.span}>Other</span>
+        {redirectDs ? (
+          <div className={styles.categoryBar}>
+            <div className={styles.categoryWrap}>
+              <span
+                className={
+                  domainName === "Banking" ? styles.spanActive : styles.span
+                }
+                onClick={() => {
+                  setDomainName("Banking");
+                }}
+              >
+                Banking
+              </span>
+              <span
+                className={
+                  domainName === "Automobile" ? styles.spanActive : styles.span
+                }
+                onClick={() => {
+                  setDomainName("Automobile");
+                }}
+              >
+                Automobile
+              </span>
+              <span
+                className={
+                  domainName === "HealthCare" ? styles.spanActive : styles.span
+                }
+                onClick={() => {
+                  setDomainName("HealthCare");
+                }}
+              >
+                Healthcare
+              </span>
+              <span
+                className={
+                  domainName === "Technical" ? styles.spanActive : styles.span
+                }
+                onClick={() => {
+                  setDomainName("Technical");
+                }}
+              >
+                Technical
+              </span>
+              <span
+                className={
+                  domainName === "Telecom" ? styles.spanActive : styles.span
+                }
+                onClick={() => {
+                  setDomainName("Telecom");
+                }}
+              >
+                Telecom
+              </span>
+              <span
+                className={
+                  domainName === "Retail" ? styles.spanActive : styles.span
+                }
+                onClick={() => {
+                  setDomainName("Retail");
+                }}
+              >
+                Retail
+              </span>
+              <span
+                className={
+                  domainName === "Other" ? styles.spanActive : styles.span
+                }
+                onClick={() => {
+                  setDomainName("Other");
+                }}
+              >
+                Other
+              </span>
+            </div>
           </div>
-        </div> */}
+        ) : (
+          ""
+        )}
+
         <ProjectSwiper swiperData={swiperData} redirectFs={redirectFs} />
         {/* {redirectWeb ? <WebSwiper /> : ""} */}
         {/* {redirectBa || redirectDs || redirectDe ? <DsSwiper /> : ""} */}
