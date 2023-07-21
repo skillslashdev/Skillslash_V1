@@ -1,10 +1,13 @@
 import "../styles/globals.css";
 import "../styles/form.css";
 import { Roboto } from "next/font/google";
+
 import Script from "next/script";
 const roboto = Roboto({
   weight: ["100", "400", "700", "900"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
+  display: "swap",
 });
 
 function MyApp({ Component, pageProps }) {

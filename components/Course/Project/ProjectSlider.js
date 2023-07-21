@@ -23,7 +23,6 @@ const ProjectSlider = ({
     })
   );
   const [domainName, setDomainName] = useState("Banking");
-  // console.log(domainName);
 
   useEffect(() => {
     redirectDs || redirectDe || redirectBa
@@ -151,7 +150,7 @@ const ProjectSlider = ({
         </div>
       </div>
       <div className={styles.sliderWrap}>
-        {redirectDs ? (
+        {redirectDs || redirectBa ? (
           <div className={styles.categoryBar}>
             <div className={styles.categoryWrap}>
               <span

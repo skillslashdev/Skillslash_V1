@@ -40,6 +40,7 @@ const ProjectSwiper = ({ swiperData, redirectFs }) => {
   useEffect(() => {
     setMounted(true);
   });
+
   return mounted ? (
     <Swiper
       spaceBetween={20}

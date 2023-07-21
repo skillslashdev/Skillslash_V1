@@ -608,7 +608,6 @@ export default function Home({ DataScienceCourseData }) {
           )}
         </div>
         {redirectDs || redirectBa ? <BatchProfile /> : ""}
-
         {DataScienceCourseData.data.form.AboutCourse ? (
           <AboutCourses
             content={DataScienceCourseData.data.AboutCourse}

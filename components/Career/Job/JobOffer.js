@@ -13,73 +13,57 @@ const JobOffer = () => {
   const [viewJob, setViewJob] = useState(jobData);
   useEffect(() => {
     if (jobType.jobType === "Designer") {
-      console.log("Designer");
       setViewJob(
         jobDetails.filter((jobData) => {
-          console.log(jobData.category);
           return jobData.category === "Designer";
         })
       );
     }
     if (jobType.jobType === "Writer") {
-      console.log("Writer");
       setViewJob(
         jobDetails.filter((jobData) => {
-          console.log(jobData.category);
           return jobData.category === "Writer";
         })
       );
     }
     if (jobType.jobType === "SEO") {
-      console.log("SEO");
       setViewJob(
         jobDetails.filter((jobData) => {
-          console.log(jobData.category);
           return jobData.category === "SEO";
         })
       );
     }
     if (jobType.jobType === "Other") {
-      console.log("Other");
       setViewJob(
         jobDetails.filter((jobData) => {
-          console.log(jobData.category);
           return jobData.category === "Other";
         })
       );
     }
     if (jobType.jobType === "Developer") {
-      console.log("Developer");
       setViewJob(
         jobDetails.filter((jobData) => {
-          console.log(jobData.category);
           return jobData.category === "Developer";
         })
       );
     }
     if (jobType.jobType === "Digital Marketing") {
-      console.log("Digital Marketing");
       setViewJob(
         jobDetails.filter((jobData) => {
-          console.log(jobData.category);
           return jobData.category === "Digital Marketing";
         })
       );
     }
     if (jobType.jobType === "Accountant") {
-      console.log("Accountant");
       setViewJob(
         jobDetails.filter((jobData) => {
-          console.log(jobData.category);
           return jobData.category === "Accountant";
         })
       );
     }
     if (jobType.jobType === "Sales") {
-      console.log("sales");
       setViewJob(
         jobDetails.filter((jobData) => {
-          console.log(jobData.category);
           return jobData.category === "Sales";
         })
       );

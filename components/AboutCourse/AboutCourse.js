@@ -12,7 +12,6 @@ const AboutCourses = ({ content, AboutCourseHeading }) => {
       <p>{AboutCourseHeading.para}</p>
 
       {content.map((data, i) => {
-        //  console.log(data.data);
         return (
           <div key={i} className={read ? styles.view : styles.viewN}>
             <h2>{data.data.heading}</h2>

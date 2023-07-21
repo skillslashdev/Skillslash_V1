@@ -22,7 +22,6 @@ const InternalLinking = ({
 }) => {
   const [other, setOther] = useState(false);
   const { asPath } = useRouter();
-  // console.log(asPath);
 
   const [otherCity, setOtherCity] = useState(DsDataOther);
   const [cityData, setCityData] = useState(DsData);
