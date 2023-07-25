@@ -68,13 +68,6 @@ const ProjectSwiper = ({ swiperData, redirectFs }) => {
           <SwiperSlide className={styles.ReviewBox} key={data.id}>
             <div className={styles.header}>
               <h5>{data.title}</h5>
-              <Image
-                src={data.img}
-                width={data.width}
-                height={data.height}
-                loading="lazy"
-                alt={data.alt}
-              />
             </div>
             <div className={styles.body}>
               <div className={styles.desc}>

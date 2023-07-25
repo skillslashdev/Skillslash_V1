@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import styles from "./VideoTestimonial.module.css";
 import { dsReview } from "./VideoTestimonialData";
-import Image from "next/image";
+import Rating from "./Rating";
 import { useState } from "react";
 const VideoTestimonialSwiper = dynamic(() =>
   import("./VideoTestimonialSwiper")
@@ -27,32 +27,7 @@ const VideoTestimonial = ({ event }) => {
           </h4>
         </div>
         <VideoTestimonialSwiper review={review} />
-        <div className={styles.siteReview}>
-          <div className={styles.imgWrap}>
-            <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/review-line-back.webp"
-              fill={true}
-              style={{ objectFit: "contain" }}
-              alt="rating background"
-            />
-          </div>
-          <div className={styles.ratingText}>
-            <h5>Top Sites That Ranked Us</h5>
-          </div>
-          <div className={styles.rightImg}>
-            {ratingData.map((imgData) => {
-              return (
-                <Image
-                  key={imgData.src}
-                  src={imgData.src}
-                  width={imgData.width}
-                  height={imgData.height}
-                  alt="rating background"
-                />
-              );
-            })}
-          </div>
-        </div>
+        <Rating ratingData={ratingData} />
       </div>
     </>
   );

@@ -648,6 +648,8 @@
     align-items: center;
     grid-template-columns: 100%;
     padding: 40px 20px 20px 20px;
+    height: max-content;
+    overflow: hidden;
   }
   /* .imgWrap {
     top: 150px;
