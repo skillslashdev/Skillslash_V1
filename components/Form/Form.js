@@ -223,7 +223,9 @@ const Form = ({
                       borderRadius: "3px",
                     }
               }
-              initialValueFormat="national"
+              maxLength="12"
+              minLength="12"
+              international={false}
               name="phone"
               rules={{ required: true }}
               defaultCountry="IN"
