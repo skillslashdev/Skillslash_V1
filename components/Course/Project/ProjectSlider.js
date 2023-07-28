@@ -7,7 +7,7 @@ import styles from "./Project.module.css";
 // import FsSwiper from "./FsSwiper";
 
 const ProjectSwiper = dynamic(() => import("./ProjectSwiper"));
-import { DsProject, FsProject, webProject } from "./ProjectData";
+import { DsProject, FsProject, webProject, BaProject } from "./ProjectData";
 
 const ProjectSlider = ({
   redirectDs,
@@ -19,30 +19,37 @@ const ProjectSlider = ({
 }) => {
   const [swiperData, setSwiperData] = useState(
     DsProject.filter((DsProject) => {
-      return DsProject.domainName === "Banking";
+      return DsProject.domainName === "BFSI";
     })
   );
-  const [domainName, setDomainName] = useState("Banking");
+  const [domainName, setDomainName] = useState("BFSI");
 
   useEffect(() => {
     redirectDs || redirectDe || redirectBa
       ? setSwiperData(
           DsProject.filter((DsProject) => {
-            return DsProject.domainName === "Banking";
+            return DsProject.domainName === "BFSI";
           })
         )
       : "";
-    redirectDs && domainName === "Banking"
+    redirectDs && domainName === "BFSI"
       ? setSwiperData(
           DsProject.filter((DsProject) => {
-            return DsProject.domainName === "Banking";
+            return DsProject.domainName === "BFSI";
           })
         )
       : "";
-    redirectDs && domainName === "Automobile"
+    redirectDs && domainName === "HR"
       ? setSwiperData(
           DsProject.filter((DsProject) => {
-            return DsProject.domainName === "Automobile";
+            return DsProject.domainName === "HR";
+          })
+        )
+      : "";
+    redirectDs && domainName === "Manufacturing and Supply Chain"
+      ? setSwiperData(
+          DsProject.filter((DsProject) => {
+            return DsProject.domainName === "Manufacturing and Supply Chain";
           })
         )
       : "";
@@ -53,20 +60,14 @@ const ProjectSlider = ({
           })
         )
       : "";
-    redirectDs && domainName === "Technical"
+    redirectDs && domainName === "Sales"
       ? setSwiperData(
           DsProject.filter((DsProject) => {
-            return DsProject.domainName === "Technical";
+            return DsProject.domainName === "Sales";
           })
         )
       : "";
-    redirectDs && domainName === "Telecom"
-      ? setSwiperData(
-          DsProject.filter((DsProject) => {
-            return DsProject.domainName === "Telecom";
-          })
-        )
-      : "";
+
     redirectDs && domainName === "Retail"
       ? setSwiperData(
           DsProject.filter((DsProject) => {
@@ -74,13 +75,53 @@ const ProjectSlider = ({
           })
         )
       : "";
-    redirectDs && domainName === "Other"
+
+    /**/
+
+    redirectBa && domainName === "BFSI"
       ? setSwiperData(
-          DsProject.filter((DsProject) => {
-            return DsProject.domainName === "Other";
+          BaProject.filter((BaProject) => {
+            return BaProject.domainName === "BFSI";
           })
         )
       : "";
+    redirectBa && domainName === "HR"
+      ? setSwiperData(
+          BaProject.filter((BaProject) => {
+            return BaProject.domainName === "HR";
+          })
+        )
+      : "";
+    redirectBa && domainName === "Manufacturing and Supply Chain"
+      ? setSwiperData(
+          BaProject.filter((BaProject) => {
+            return BaProject.domainName === "Manufacturing and Supply Chain";
+          })
+        )
+      : "";
+    redirectBa && domainName === "HealthCare"
+      ? setSwiperData(
+          BaProject.filter((BaProject) => {
+            return BaProject.domainName === "HealthCare";
+          })
+        )
+      : "";
+    redirectBa && domainName === "Sales"
+      ? setSwiperData(
+          BaProject.filter((BaProject) => {
+            return BaProject.domainName === "Sales";
+          })
+        )
+      : "";
+
+    redirectBa && domainName === "Retail"
+      ? setSwiperData(
+          BaProject.filter((BaProject) => {
+            return BaProject.domainName === "Retail";
+          })
+        )
+      : "";
+
     redirectDSA || redirectFs ? setSwiperData(FsProject) : "";
     redirectWeb ? setSwiperData(webProject) : "";
   }, [domainName]);
@@ -155,23 +196,23 @@ const ProjectSlider = ({
             <div className={styles.categoryWrap}>
               <span
                 className={
-                  domainName === "Banking" ? styles.spanActive : styles.span
+                  domainName === "BFSI" ? styles.spanActive : styles.span
                 }
                 onClick={() => {
-                  setDomainName("Banking");
+                  setDomainName("BFSI");
                 }}
               >
-                Banking
+                BFSI
               </span>
               <span
                 className={
-                  domainName === "Automobile" ? styles.spanActive : styles.span
+                  domainName === "HR" ? styles.spanActive : styles.span
                 }
                 onClick={() => {
-                  setDomainName("Automobile");
+                  setDomainName("HR");
                 }}
               >
-                Automobile
+                HR
               </span>
               <span
                 className={
@@ -185,23 +226,25 @@ const ProjectSlider = ({
               </span>
               <span
                 className={
-                  domainName === "Technical" ? styles.spanActive : styles.span
+                  domainName === "Sales" ? styles.spanActive : styles.span
                 }
                 onClick={() => {
-                  setDomainName("Technical");
+                  setDomainName("Sales");
                 }}
               >
-                Technical
+                Sales
               </span>
               <span
                 className={
-                  domainName === "Telecom" ? styles.spanActive : styles.span
+                  domainName === "Manufacturing"
+                    ? styles.spanActive
+                    : styles.span
                 }
                 onClick={() => {
-                  setDomainName("Telecom");
+                  setDomainName("Manufacturing");
                 }}
               >
-                Telecom
+                Manufacturing
               </span>
               <span
                 className={
@@ -212,16 +255,6 @@ const ProjectSlider = ({
                 }}
               >
                 Retail
-              </span>
-              <span
-                className={
-                  domainName === "Other" ? styles.spanActive : styles.span
-                }
-                onClick={() => {
-                  setDomainName("Other");
-                }}
-              >
-                Other
               </span>
             </div>
           </div>

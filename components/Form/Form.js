@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Form.module.css";
-// import "react-phone-number-input/style.css";
-// import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
+import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
+
 import { useRouter } from "next/router";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import DatePicker from "react-datepicker";
@@ -38,12 +39,12 @@ const Form = ({
 
   //offset to maintain time zone difference
   const [loading, setLoading] = useState(false);
-  // const [value, setValue] = useState();
+  const [value, setValue] = useState();
   const [redirectionZoom, setRedirectionZoom] = useState(false);
   const [query, setQuery] = useState({
     name: "",
     email: "",
-    phone: "",
+    phone: value,
     workExperience: "",
     dateTime: "",
     url: router.asPath,
@@ -51,8 +52,8 @@ const Form = ({
   });
 
   useEffect(() => {
-    setQuery({ ...query, dateTime: startDate });
-  }, [startDate]);
+    setQuery({ ...query, dateTime: startDate, phone: value });
+  }, [startDate, value]);
 
   // Update inputs value
   const handleParam = () => (e) => {
@@ -195,7 +196,7 @@ const Form = ({
         >
           <fieldset style={syllabus ? { color: "white" } : { color: "black" }}>
             <legend>Phone Number*</legend>
-            <input
+            {/* <input
               type="tel"
               name="phone"
               pattern="[0-9]{10}"
@@ -205,8 +206,8 @@ const Form = ({
               minLength="10"
               value={query.phone}
               onChange={handleParam()}
-            />
-            {/* <PhoneInput
+            /> */}
+            <PhoneInput
               style={
                 popup
                   ? {
@@ -222,6 +223,7 @@ const Form = ({
                       borderRadius: "3px",
                     }
               }
+              initialValueFormat="national"
               name="phone"
               rules={{ required: true }}
               defaultCountry="IN"
@@ -235,7 +237,7 @@ const Form = ({
               value={value}
               required
               onChange={setValue}
-            /> */}
+            />
           </fieldset>
         </div>
         <div

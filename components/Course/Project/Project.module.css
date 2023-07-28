@@ -77,20 +77,20 @@
 }
 .sliderWrap {
   display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   flex-flow: column;
-  padding: 40px 100px;
+  margin: 40px 80px;
 }
 .categoryBar {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 100px 30px 100px;
+  padding: 0px 0 40px 0px;
 }
 .categoryWrap {
   width: 100%;
   display: flex;
-  border: 1px solid #4f419a;
-  border-radius: 7px;
+
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
@@ -98,23 +98,25 @@
 .span {
   padding: 10px 20px;
   width: 100%;
-  border-right: 1px solid #646464;
+  border-bottom: 3px solid #cccccc;
   text-align: center;
+
   background-color: white;
 }
 .spanActive {
-  color: white;
+  color: #4f419a;
   padding: 10px 20px;
   width: 100%;
+  border-right: 3px solid #4f419a;
+  border-top: 3px solid #4f419a;
   text-align: center;
-  background-color: #4f419a;
 }
-.categoryWrap span:nth-child(1) {
+/* .categoryWrap span:nth-child(1) {
   border-radius: 7px 0px 0px 7px;
 }
-.categoryWrap span:nth-child(7) {
+.categoryWrap span:nth-child(6) {
   border-radius: 0px 7px 7px 0px;
-}
+} */
 .ReviewBox {
   display: flex;
   flex-flow: column;
@@ -122,8 +124,7 @@
   align-items: center;
   border-radius: 4px;
   margin-bottom: 40px;
-
-  height: 320px !important;
+  height: 360px !important;
   gap: 20px;
   box-shadow: rgba(94, 94, 94, 0.241) 0px 1px 4px;
   justify-content: flex-start;
@@ -148,7 +149,7 @@
 .header h5 {
   font-size: 22px;
   margin: 0;
-  font-weight: 500;
+  font-weight: 700;
   text-align: left;
   color: #4f419a;
 }
@@ -178,13 +179,6 @@
 .mongo,
 .node {
   color: green;
-  background: white;
-  font-size: 33px;
-  border-radius: 4px;
-  padding: 5px;
-}
-.database {
-  color: red;
   background: white;
   font-size: 33px;
   border-radius: 4px;

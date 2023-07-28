@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 // import moment from "moment";
 import styles from "./ContactUsForm.module.css";
-// import "react-phone-number-input/style.css";
-// import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
 import DatePicker from "react-datepicker";
 import setHours from "date-fns/setHours";
@@ -16,11 +16,11 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
   //offset to maintain time zone difference
   const [startDate, setStartDate] = useState();
 
-  // const [value, setValue] = useState();
+  const [value, setValue] = useState();
   const [query, setQuery] = useState({
     name: "",
     email: "",
-    phone: "",
+    phone: value,
     workExperience: "",
     selectCourse: "",
     dateTime: "",
@@ -28,8 +28,8 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
   });
 
   useEffect(() => {
-    setQuery({ ...query, dateTime: startDate });
-  }, [startDate]);
+    setQuery({ ...query, dateTime: startDate, phone: value });
+  }, [startDate, value]);
 
   // Update inputs value
   const handleParam = () => (e) => {
@@ -138,7 +138,7 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
         <div className={styles.formWrapper}>
           <fieldset style={syllabus ? { color: "white" } : { color: "black" }}>
             <legend>Phone Number*</legend>
-            <input
+            {/* <input
               type="tel"
               name="phone"
               pattern="[0-9]{10}"
@@ -148,8 +148,8 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
               minLength="10"
               value={query.phone}
               onChange={handleParam()}
-            />
-            {/* <PhoneInput
+            /> */}
+            <PhoneInput
               style={
                 popup
                   ? {
@@ -178,7 +178,7 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
               value={value}
               required
               onChange={setValue}
-            /> */}
+            />
           </fieldset>
         </div>
         <div className={styles.formWrapper}>
