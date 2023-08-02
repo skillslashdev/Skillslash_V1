@@ -235,6 +235,10 @@
     display: flex;
     gap: 10px;
   }
+  .rightImg img {
+    width: 100%;
+    height: auto;
+  }
   .profileWrapper {
     height: 126px;
   }
@@ -296,7 +300,12 @@
   .ReviewBox p {
     margin-right: 10px;
   }
-
+  .ratingText {
+    padding-left: 0;
+  }
+  .siteReview {
+    margin: 30px 0;
+  }
   .nameWrap {
     width: 100%;
     display: flex;

@@ -192,9 +192,7 @@
   .header h5 {
     font-size: 21px;
   }
-  .sliderWrap {
-    padding: 15px 40px;
-  }
+
   .ReviewBox {
     height: 340px;
   }
@@ -208,6 +206,9 @@
   }
   .categoryWrap span:nth-child(7) {
     border-radius: 0px;
+  }
+  .sliderWrap {
+    margin: 40px;
   }
 }
 @media (max-width: 1239px) {
@@ -225,6 +226,9 @@
   .spanActive {
     font-size: 9px;
   }
+  .sliderWrap {
+    margin: 30px;
+  }
 }
 @media (max-width: 641px) {
   .span {
@@ -241,6 +245,9 @@
   .projectWrap h4 {
     text-align: center;
     width: max-content;
+  }
+  .sliderWrap {
+    margin: 40px 20px;
   }
   .leftWrap {
     display: flex;

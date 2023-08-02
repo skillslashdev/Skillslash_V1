@@ -236,12 +236,12 @@ const ProjectSlider = ({
               </span>
               <span
                 className={
-                  domainName === "Manufacturing"
+                  domainName === "Manufacturing and Supply Chain"
                     ? styles.spanActive
                     : styles.span
                 }
                 onClick={() => {
-                  setDomainName("Manufacturing");
+                  setDomainName("Manufacturing and Supply Chain");
                 }}
               >
                 Manufacturing
