@@ -128,7 +128,7 @@ const Navbar = ({
               </span>
 
               <span onClick={showMenu}>
-                <a href="https://blog.skillslash.com/">Blog</a>
+                <a href="/blog">Blog</a>
               </span>
             </div>
           </div>
@@ -200,7 +200,7 @@ const Navbar = ({
                 <Link href="/Contact-us">Contact us</Link>
               </span>
               <span>
-                <a href="https://blog.skillslash.com/">Blog</a>
+                <a href="/blog">Blog</a>
               </span>
               <button onClick={popupShow}>
                 Apply Now <MdOutlineArrowForward />

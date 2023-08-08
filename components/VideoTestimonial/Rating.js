@@ -18,9 +18,8 @@ const Rating = ({ ratingData }) => {
       <div className={styles.rightImg}>
         {ratingData.map((imgData) => {
           return (
-            <div>
+            <div key={imgData.src}>
               <Image
-                key={imgData.src}
                 src={imgData.src}
                 width={imgData.width}
                 height={imgData.height}

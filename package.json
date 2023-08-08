@@ -20,6 +20,11 @@
     "react-phone-number-input": "^3.3.0",
     "react-use": "^17.4.0",
     "sass": "^1.52.2",
+    "react-share": "^4.4.1",
+    "gray-matter": "^4.0.3",
+    "marked": "^4.0.17",
+    "moment": "^2.29.4",
+    "feed": "^4.2.2",
     "sharp": "^0.32.1",
     "swiper": "^8.4.7"
   },
