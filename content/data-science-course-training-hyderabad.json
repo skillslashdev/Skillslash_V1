@@ -29,7 +29,7 @@
     "FullStack": false,
     "dsa": false,
     "webDevelopment": false,
-    "AboutCourse": false
+    "AboutCourse": true
   },
   "FirstSection": {
     "deskTopPara": "India’s 1st",
@@ -1243,38 +1243,143 @@
     }
   ],
   "AboutCourseHeading": {
-    "heading": "What is data science and who is a data scientist ?",
-    "para": "Data Science is an interdisciplinary field that combines statistical analysis, data mining, and machine learning to extract insights and knowledge from data. A Data Scientist is a professional who applies this knowledge to solve complex business problems. In this article, we will discuss what Data Science is and who a Data Scientist is. "
+    "heading": "About our data science course in Hyderabad with dual certification ",
+    "para": "Skillslash brings to you one of the best data science institute in Hyderabad to you in your own city of hyderabad. Our comprehensive all in one course curriculum of data science training in hyderabad is designed to equip you with the competencies and expertise required to thrive in the ever-evolving and growing field of Data Science. Our Data Science course in Hyderabad is designed by industry experts and skilled data scientists to provide you with an in-depth understanding of the fundamentals of Data Science and how to put them into practice. Whether you are a beginner in Data Science or a seasoned data scientist looking to improve your skills, we have something for everyone."
   },
   "AboutCourse": [
     {
       "data": {
-        "heading": "",
-        "para": "Additionally, we will highlight the importance of a Data Science Course in Hyderabad for aspiring data scientists.",
+        "heading": "What is data science - A quick guide to data science ",
+        "para": "Data Science is a multidisciplinary field of study that utilizes statistical, mathematical and computational techniques to extract valuable insights and knowledge from vast amounts of data. It involves the collection, cleaning and analysis of data to identify patterns and trends, as well as the use of machine learning algorithms to generate predictions and make informed decisions.",
         "list": [],
-        "para1": "Data Science is a rapidly growing field that is critical to the success of modern businesses. In essence, Data Science involves collecting, processing, and analyzing data to uncover patterns, trends, and insights. These insights can be used to make informed business decisions and drive growth. A Data Scientist is someone who has expertise in using data to create solutions that can improve business performance.",
+        "para1": "Data Science is employed in a variety of industries to assist businesses in optimizing processes, providing better customer experiences, and making informed decisions. With the ever-increasing amount of data available, Data Science plays a vital role in transforming information into valuable intelligence and in shaping the future of technology and business.",
         "listActive": false,
         "extraPara": true
       }
     },
     {
       "data": {
-        "heading": "",
-        "para": "The role of a Data Scientist involves a range of tasks, including data collection, cleaning, and analysis. They also need to have strong programming skills to build predictive models that can be used to generate insights. Furthermore, Data Scientists need to be able to communicate their findings effectively to stakeholders in the organization. They are responsible for providing actionable recommendations based on the data to help businesses achieve their objectives.",
+        "heading": "Why select to enroll in a data science course in 2023?",
+        "para": "Data Science 2023 is an intelligent and innovative choice. In today's data-driven world, companies across all industries rely on data for success and innovation. As the demand for qualified Data Scientists continues to grow every day, taking Data Science courses 2023 will keep you ahead of the curve and open up many career opportunities.",
         "list": [],
-        "para1": "If you are interested in pursuing a career in Data Science, it is essential to enroll in a Data Science Course in Hyderabad. The city is home to some of the best Data Science training institutes in the country. Our Data Science Course in Hyderabad can equip you with the knowledge and skills you need to succeed in this field.",
+        "para1": "Become a Data Scientist A Data Scientist is a person with a deep knowledge of the most up-to-date tools, technologies, and machine learning algorithms. You will be able to tackle complex business issues and make informed decisions.        Data Science is a multidisciplinary field. From finance to healthcare, you will have the opportunity to explore a variety of disciplines and work on projects that have a positive effect on society. By taking Data science 2023 you are putting yourself at the forefront of technological advancement, taking your career to a new level and making you a valuable asset to any organization in this ever-evolving and dynamic field.        ",
         "listActive": false,
         "extraPara": true
       }
     },
     {
       "data": {
-        "heading": "",
-        "para": "One of the primary benefits of our Data Science Course in Hyderabad is that it provides hands-on training in the latest Data Science tools and techniques. This includes programming languages like Python and R, as well as popular data analysis tools like Tableau and Excel. Additionally, our Data Science Course in Hyderabad will also cover key topics such as machine learning, data visualization, and statistical analysis.",
+        "heading": "Why is Skillslash one of the best institute for data science in Hyderabad ?",
+        "para": "Our Data Science training in Hyderabad has been developed with care and precision by industry experts and skilled data scientists to provide you with a thorough understanding of the fundamentals of Data Science and its practical application. Whether you are a beginner or an expert looking to hone your skills, our course is perfect for you",
         "list": [],
-        "para1": "Another advantage of our Data Science Course in Hyderabad is that it provides access to a supportive community of fellow learners and industry professionals. This can be invaluable for networking, gaining insights into the latest trends in Data Science, and finding job opportunities. Moreover, our Data Science Course in Hyderabad can also provide mentorship from experienced professionals, which can help you accelerate your learning and career growth.",
+        "para1": "Skillslash’s data science course in Hyderabad stands out from other platforms because we offer our students a real time work experience in addition to providing them with the academic knowledge and tools they need.     With our data science training in Hyderabad, you will get Microsoft certifications and real time work experience certification from leading MNCs & Startups where you will be working on real time industry projects and get real work experience. This real time work experience not only sets you apart from other candidates but also gives you an advantage in the field because you already have work experience to prove to the recruiters that you are an expert in the field.         ",
         "listActive": false,
         "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "What does it mean to experience work in real-time and how is this helpful for you? ",
+        "para": "This idea of “real-time work experience”  behind Skillslash’s data science institutes in Hyderabad is quite simple. We partner with several MNCs and startups. Once you complete our academic training, you will receive your Microsoft certification from us. Then, you will be able to work on the real projects with the real companies. After completing this, you will receive a work experience certificate from the company that provided you with the work experience certificate.",
+        "list": [],
+        "para1": "Today, more than 90% of Data Science Recruiters prefer candidates with real work experience. Therefore, Skillslash will not only give you the opportunity to work in the real working environment but it will also give you an advantage over your competitors.        It will also increase your profile and help recruiters to target you as you will have a certified work experience certificate along with the necessary academic knowledge.         ",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Why Should You Begin Your Data Science Training in Hyderabad with Skillslash? Is Our Data Science Course in Hyderabad A Worthy Investment ?",
+        "para": "Data science in Hyderabad is a highly valued and sought-after field of study. Our Data science Course in Hyderabad can provide individuals with the essential skills and knowledge they need to pursue a career in Data Science. The course will cover the fundamentals of Data Science, such as Programming Languages and Statistical Analysis, Machine Learning, and Hands-on Experience with Data. Furthermore, the course will help individuals to gain an insight into the business impacts of Data Science and the utilization of Data to inform Decision-Making.        ",
+        "list": [],
+        "para1": "In order to pursue a certification course in Data Science Training in Hyderabad city, individuals must consider their career objectives and the type of certification program they would like to pursue. Our Data Science certification course in Hyderabad demonstrates a certain level of Experience and Skills, which can be applied to real-world work projects and can help to secure a job or progress in a career. Additionally, employers will assess the experience and portfolio of the candidate.        ",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "An overview of the learning curriculum of our data science course in hyderabad.",
+        "para": "At Skillslash, We provide an all-inclusive Data Science training in Hyderabad wherein you will learn everything about data science from the very basics to the advanced level. Our course curriculum includes all the fundamental topics of data science.        We provide you with a complete training program in data science. You will get trained in Data science projects in python,  advanced machine learning, deep learning, applied statistics and around 20+ tools (excel, SQL database, etc.).        ",
+        "list": [],
+        "para1": "  Our goal is to provide you with the perfect combination of theoretical knowledge, practical knowledge and data science experience. We will give you the advantage in real life by providing you 350+ live sessions, 15 industry projects and stimulated interviews.        In this course, you will get the chance to forecast your credit default and learn about google mobility data, understand Youtube video analytics and much more.",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "How does one benefit from our data science course in Hyderabad ?",
+        "para": "This comprehensive Data science course in Hyderabad offers a comprehensive curriculum with a high quality syllabus and the opportunity to collaborate with experts to develop a personalized curriculum.       Additionally, students will have the opportunity to gain hands-on experience with over fifteen industry projects in six different fields, as well as quality Live Interactive Sessions and Videos to learn at their own pace, as well as motivated Live Interview sessions to prepare students for the global job market.         ",
+        "list": [],
+        "para1": "  Furthermore, students will receive dual certification, Microsoft Certification, and a Real-Time Work Experience Certification from leading companies and startups, as well as guaranteed job referrals, and a brief duration of approximately five months with lifetime accessibility.",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "What are the data science course fees in Hyderabad ?",
+        "para": "At Skillslash, our data science training in Hyderabad (Advanced Data Science and AI Course, Business Analytics for Professionals) is made available to you in two program payment plans: Pro and Pro Max.",
+        "list": [
+          "The Pro plan is priced at INR 65,00 (excluding GST) and includes a 1-year Live Class Subscription and a 2-year subscription to the Learning Management System dashboard, as well as the completion of 7+ Industry Projects and 1 Capstone Project",
+          "The Pro Max plan, on the other hand, costs INR 1.20,00 (without GST) and includes Job Assistance, a 4-Year Live Class Subscription, Lifetime Access to the Learning Dashboard, Unlimited Job Referrals, 15+ Industry Projects, 3 Capstone Projects, 2 Domain Training, 6 Months Project Certification from Companies, and Microsoft Certification."
+        ],
+        "para1": "",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Who will benefit from this data science course in Hyderabad? Do you need any experience before signing up?",
+        "para": "Our Data Science course in Hyderabad is designed to cater to the needs of learners of all levels, regardless of their prior experience. This course is suitable for both those new to the field and those already interested in exploring it",
+        "list": [
+          "For those new to the subject, this course will provide a solid foundation to get started. We will start with the basics of Data Science and progress from there.",
+          "Data science is an essential subject for students pursuing degrees in computer science, engineering, mathematics, business, and related fields, as it enhances their academic knowledge and enhances their career prospects.",
+          "Whether you are in IT, finance, healthcare, marketing, or any other industry, data-driven decision-making is becoming increasingly important. Having data-driven competencies can help you progress in your current role or transition into a data-centric role",
+          "Data Science is one of the most sought-after skills among entrepreneurs and startups. It helps in understanding the market, customer behavior, and business processes. If you are looking to change your career and enter the data driven world, then our course can provide you with the necessary skills to make the transition."
+        ],
+        "para1": "There is no requirement to have prior experience in Data Science. Even if you are just starting out in Data Science, our course is open to you. Our experienced instructors will guide you through the concepts of Data Science. We will provide you with an environment of hands-on learning with projects and exercises so that you can develop your skills. If you are interested in exploring the world of Data Science, then you can enroll in our Data Science training in Hyderabad.",
+        "listActive": true,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Upon completion of a data science course in Hyderabad, what are the job opportunities available?",
+        "para": "Once one completes their data science training in Hyderabad, you will have plenty of chances to get a job in Hyderabad. It is one of the fastest-growing tech hubs in India and it is full of IT companies, start-ups, and big companies that are always looking for new data experts. You can find jobs in e-commerce and healthcare, finance and more. You can be a Data Analyst or a Machine Learning Engineer. You can also be a Business Intelligence Analyst or a Data Engineer.",
+        "list": [],
+        "para1": "And if you’re looking for a job in Data Science, you can also get one as a Consultant. You’ll have plenty of opportunities to put your data science knowledge to use in real-world situations, since big companies like Microsoft and Amazon, Google and other Indian tech giants are all based in Hyderabad.      In addition, Hyderabad has a great startup scene, with lots of new companies popping up that are focused on data-based solutions. Connecting with local meetups and networking events, as well as using online platforms, can help you get in touch with potential employers. Showcase your skills and keep an eye out for opportunities, and you'll be able to find a great data science job that fits your interests and career aspirations in Hyderabad's vibrant job market.        ",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "What is the scope of a data scientist course in Hyderabad ?",
+        "para": "There are a wide range of data science institutes in Hyderabad that offer a wide range of opportunities for a data scientist course , owing to the city’s expanding technology sector and increasing demand for data-centric insights across various industries. Hyderabad is home to a wide variety of businesses, ranging from multinational corporations to start-ups, all of which necessitate experienced data scientists to generate valuable insights from their expansive data sets.",
+        "list": [],
+        "para1": "Skillslash’s data science course in Hyderabad will give you the skills you need to become a data scientist. You'll learn how to analyze data, use machine learning, write programs to process data, and create visualizations of data. This will help you tackle the real-world problems you'll face in your industry, whether it's e-commerce or healthcare or finance. Businesses are relying more and more on data to help them make decisions, so you'll need to be a data scientist to help them plan their strategies, use predictive modeling, analyze customer behavior, and other important parts of their business.",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Is there scope for data science in Hyderabad ?",
+        "para": "Hyderabad is one of the fastest-growing technology and information technology (IT) centers in India, including the data science sector. Here’s a look at the scope of data science in Hyderabad so far: ",
+        "list": [
+          "IT hub: Hyderabad is a hub of information technology (IT) companies, tech parks and startups. The presence of major IT companies in the city creates a need for data science experts to work on data-related projects.",
+          "Hyderabad is home to some of the top universities and tech institutes in the world when it comes to data science and machine learning. They're a great source of talent for students and researchers.",
+          "Startups and entrepreneurship: The city’s thriving startup scene has seen an explosion of data-centric startups. Data-driven startups often rely on data scientists to crunch numbers, dig deep, and make decisions.",
+          "Many multinational companies have their R&D centers located in Hyderabad. The R&D centers are mainly focused on innovative technologies such as data science to create new products or solutions.",
+          "India's government has been really pushing the tech industry forward with initiatives like Digital India and Make in India, which has had a direct impact on data science.",
+          "Jobs in Hyderabad: Data scientist, machine learning engineer, data analyst, and related jobs are in high demand due to the growing need for data-based insights. These jobs are available in various industries."
+        ],
+        "para1": "",
+        "listActive": false,
+        "extraPara": false
       }
     }
   ],

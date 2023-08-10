@@ -20,9 +20,12 @@ const AboutCourses = ({ content, AboutCourseHeading }) => {
               ? data.data.list.map((list, i) => {
                   return (
                     <div key={i}>
-                      <h3>{list.title}</h3>
+                      {/* <h3>{list.title}</h3>
                       <ul>
                         <li>{list.desc}</li>
+                      </ul> */}
+                      <ul>
+                        <li>{list}</li>
                       </ul>
                     </div>
                   );
