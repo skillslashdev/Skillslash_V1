@@ -36,12 +36,12 @@ export default function DataScienceEvent({ eventData }) {
         <meta name="description" content={eventData.data.metaInfo.desc} />
       </Head>
       <Navbar event={true} />
-      {/* <EventHeaderWrap
+      <EventHeaderWrap
         eventData={eventData}
         today={today}
         eventStart={eventStart}
         eventDateInfo={eventDateInfo}
-      /> */}
+      />
       <div className={today >= eventDateInfo ? styles.Pages : styles.Page2}>
         <div className={styles.left}>
           <EventDetails
