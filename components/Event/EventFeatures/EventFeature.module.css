@@ -1,7 +1,7 @@
 .eFeature {
   display: flex;
   flex-flow: column;
-  margin-left: 100px;
+
   margin-top: 20px;
 }
 .eFeature h2 {
@@ -9,7 +9,8 @@
 }
 .bodyContent {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  gap: 40px;
+  grid-template-columns: 30% 30% 30%;
   justify-content: space-evenly;
 }
 

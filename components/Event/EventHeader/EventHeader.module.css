@@ -132,6 +132,10 @@
   margin-top: 10px;
   margin-left: -5px;
 }
+.profile img {
+  width: 100%;
+  height: auto;
+}
 .middle {
   display: flex;
   align-items: center;
@@ -180,7 +184,7 @@
   font-weight: 500;
 }
 .skewP {
-  background-color:  #4f419a;
+  background-color: #4f419a;
   width: max-content;
   color: white;
   font-weight: 500;

@@ -119,9 +119,14 @@
   color: #3d3d3d;
 }
 .whyRight {
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.whoRight img {
+  width: 100%;
+  height: auto;
 }
 .WhyWrap h6 {
   font-size: 36px;
@@ -507,6 +512,9 @@
     display: flex;
     flex-flow: column;
     background-image: none !important;
+  }
+  .Pages .prgrmFeature {
+    margin: 0 0px;
   }
   .form {
     width: 95%;
