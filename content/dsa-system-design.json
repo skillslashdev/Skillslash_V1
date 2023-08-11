@@ -34,7 +34,7 @@
   "FirstSection": {
     "deskTopPara": "India’s 1st",
     "mTopPara": "India’s 1st",
-    "title": "System Design Course",
+    "title": "DSA + System Design Course",
     "spanTitleText": "Live Interview Based Learning Program",
     "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
     "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fullstack-white-background-banner.webp",
@@ -260,87 +260,9 @@
         "open": false
       }
     },
-
     {
       "Module0": {
-        "title": "Module 4 - Electives & Specialization",
-        "desc": "",
-        "content": [
-          {
-            "chap": {
-              "title": "Module 4 - A : Full Stack",
-              "desc": [""]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 1: Frontend Development ",
-              "desc": [
-                "Web development basics - HTML and CSS",
-                "Bootstrap Basics",
-                "Introduction to Javascript"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Chapter 2: Backend Development",
-              "desc": [
-                "Introduction to MVC",
-                "Learning Node.js",
-                "Mongodb for Developers",
-                "Learning express.js"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Module 4 B: Data Engineering Specialization",
-              "desc": [""]
-            }
-          },
-          {
-            "chap": {
-              "title": "",
-              "desc": [
-                "Introduction of Data Engineering",
-                "Advance SQL, NOSQL Database using Mongodb",
-                "Hadoop Basics"
-              ]
-            }
-          },
-          {
-            "chap": {
-              "title": "Module 4 C : Advance AI & ML Specialization",
-              "desc": [""]
-            }
-          },
-          {
-            "chap": {
-              "title": "",
-              "desc": [
-                "Probability theory",
-                "Statistics foundation",
-                "Exploratory Data Analysis",
-                "Intro to Machine learning"
-              ]
-            }
-          },
-
-          {
-            "chap": {
-              "title": "Note: For more details download Download Brochure",
-              "desc": []
-            }
-          }
-        ],
-        "id": 4,
-        "open": false
-      }
-    },
-    {
-      "Module0": {
-        "title": "Module 5 : Work on End to End Projects in Partnership With Startups",
+        "title": "Module 4 : Work on End to End Projects in Partnership With Startups",
         "desc": "",
         "content": [
           {

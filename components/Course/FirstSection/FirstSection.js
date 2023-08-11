@@ -108,16 +108,20 @@ const FirstSection = ({
           <p className={styles.sidePara}>{spanTitleText}</p>
         </div>
         <h1>{title}</h1>
-        <p className={styles.powered}>
-          Powered by
-          <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoft-icon-logo-black.png"
-            height={20}
-            width={90}
-            priority
-            alt="Microsoft-certification"
-          />
-        </p>
+        {redirectDs || redirectBa ? (
+          <p className={styles.powered}>
+            Powered by
+            <Image
+              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoft-icon-logo-black.png"
+              height={20}
+              width={90}
+              priority
+              alt="Microsoft-certification"
+            />
+          </p>
+        ) : (
+          <p>{desc}</p>
+        )}
 
         <TextAnimation
           homePage={homePage}
