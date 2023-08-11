@@ -20,13 +20,18 @@ const AboutCourses = ({ content, AboutCourseHeading }) => {
               ? data.data.list.map((list, i) => {
                   return (
                     <div key={i}>
-                      {/* <h3>{list.title}</h3>
-                      <ul>
-                        <li>{list.desc}</li>
-                      </ul> */}
-                      <ul>
-                        <li>{list}</li>
-                      </ul>
+                      {list.title === undefined ? (
+                        <ul>
+                          <li>{list}</li>
+                        </ul>
+                      ) : (
+                        <>
+                          <h3>{list.title}</h3>
+                          <ul>
+                            <li>{list.desc}</li>
+                          </ul>
+                        </>
+                      )}
                     </div>
                   );
                 })
