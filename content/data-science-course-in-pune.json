@@ -1381,38 +1381,126 @@
     }
   ],
   "AboutCourseHeading": {
-    "heading": "What is data science and who is a data scientist ?e",
-    "para": "In today's digital age, the amount of data generated every day is enormous. Companies and organizations are always looking for ways to extract value from this data to gain a competitive edge in their respective industries. This is where the field of data science comes in. In this article, we will discuss what data science is and who a data scientist is. We will also explore the benefits of pursuing a data science course in Pune offered by Skillslash."
+    "heading": "A look into Our Data Science certification course in Pune",
+    "para": "Skillslash is providing one of the top data science course in Pune, for you data science wanderers out there. Our professionally selected data science certification course in Pune offers not only the opportunity to acquire data science training in Pune, but also to obtain an accredited and verified microsoft and real-time work experience certification upon completion of the course. This data science training course provides a comprehensive deep learning and practical training experience through a tailored course curriculum that equips participants with the knowledge and skills to master the core concepts of data science through the study and implementation of the Python programming language, Applied Statistics for Business, SQL for Business, Excel for Business and Machine Learning."
   },
   "AboutCourse": [
     {
       "data": {
-        "heading": "What is Data Science?",
-        "para": "Data Science is a multidisciplinary field that involves the use of scientific methods, processes, algorithms, and systems to extract insights and knowledge from data. It combines statistical analysis, data mining, machine learning, and visualization techniques to turn raw data into actionable insights that can be used to make informed business decisions.",
+        "heading": "What is Data Science ? Why become a Data Scientist ?        ",
+        "para": "Data science is a cross-disciplinary field that uses statistical, math, computer, and domain-related skills to get useful insights and knowledge out of data. Data science professionals use their skills in analyzing data, learning from big data, and visualizing it to make decisions based on what's in the data. They're the ones who turn raw data into useful information that can help businesses create better strategies, streamline processes, and tackle complex issues in different industries. There are lots of great reasons to become a data scientist,",
+        "list": [
+          "Data science is leading the way in the digital revolution and the need for data scientists is growing all the time.",
+          "Companies all over the world rely on data to stay ahead of the competition, so there are tons of job opportunities out there. ",
+          "Plus, data scientists get to work on really cool projects, like predictive modeling, fraud detection, personalized recommendations, and optimizing processes.",
+          "It's a really exciting and intellectually stimulating job, perfect for people who like to solve complex problems. Finally, data science has great pay and benefits, so it's a great way to make some extra cash."
+        ],
+        "para1": "Basically, data science is all about analyzing data and using machine learning to get useful information out of it. If you want to be part of the big data revolution, become a data scientist, work on cool projects, and have amazing career opportunities. Data is becoming more and more important in decision-making, and data scientists are playing a huge role in changing industries and making a difference in businesses and society.        ",
+        "listActive": true,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Why Data Science in Pune ?",
+        "para": "Data science is becoming more and more popular all over the world, and it's no different in India. Pune is a great place to work if you're a data scientist, whether you're just starting out or already have a lot of experience. There are a few reasons why Pune is such a data science hub, but here are the most important ones : ",
+        "list": [
+          "Pune has a thriving IT sector, with lots of big companies, startups, and tech-savvy firms setting up shop in the city. It's a great place for data science experts to work on innovative projects and work with different teams.",
+          "Pune is a great place to study and do research because it's home to some of the top-notch educational and research institutes in the world, like IISER, SVPU, and IIT. These institutions create a great academic atmosphere, which helps draw in the best talent and helps build data science knowledge in the area.",
+          "Pune's start-up scene has really taken off in the last 10 years. A lot of tech and analytics start-ups have moved to Pune because of the great business climate, affordability, and access to experienced data scientists.",
+          "Pune has a relatively low cost of living compared to other big cities like Bangalore or Mumbai, which makes it a great choice for data science professionals who want to find the perfect balance between a good job and quality of life.",
+          "Pune hosts a ton of data science events on a regular basis. It's a great place for data science nerds to come together and learn, share ideas, and make professional connections. It's a place where people come together and support each other."
+        ],
+        "para1": "To sum up, the data science scene in Pune has really taken off thanks to a strong IT sector, a great talent pool, great education institutions, and a great start-up scene. Data science is still driving innovation across different industries, so Pune is in a great spot to help shape the future of this ever-changing field.",
+        "listActive": true,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Why should you take up our data science certification course in Pune ?",
+        "para": "Our Data Science training course in Pune has been developed with meticulous attention to detail by experienced industry professionals and data scientists to provide a comprehensive understanding of the fundamentals and how to apply them in practice. Our course is suitable for individuals of all levels, whether they are new to Data Science or experienced professionals seeking to improve their skills.",
         "list": [],
-        "para1": "Data science is used in a wide range of industries, including healthcare, finance, marketing, retail, and many others. Some of the applications of data science include predicting customer behavior, identifying fraud, optimizing business operations, and developing personalized healthcare treatments.",
+        "para1": "Our data science training in Pune program offers Microsoft certification and a real time work experience certification, which will be received from leading multinational corporations and start-ups with whom the candidate will collaborate on live industrial projects and gain real-world experience. This real time work experience will not only differentiate the candidate from other applicants, but will also provide them with an advantage in the field of work, as they already possess the necessary work experience to demonstrate to recruiters their superior capabilities in the field.",
         "listActive": false,
         "extraPara": true
       }
     },
     {
       "data": {
-        "heading": "Who is a Data Scientist?        ",
-        "para": "A data scientist is a professional who has the skills and knowledge to extract insights from large datasets. They have a deep understanding of statistics, machine learning, and data visualization techniques. They are also proficient in programming languages like Python, R, and SQL.",
+        "heading": "The benefits you will get by enrolling in Skillslash’s data science course in Pune?",
+        "para": "Right now, there's a lot of demand for data science and you're seeing lots of other data science courses in Pune popping up, so you're wondering where to sign up. The answer is to pick Skillslash for your online and offline data science journey and avail the benefits of our best data science course in Pune, Gain high-quality applicable skills in real-time - with us, you’ll learn the skills you’ll need to succeed as a data scientist through our live sessions, customized course curricula and stimulating interviews.",
         "list": [],
-        "para1": "Data scientists work with raw data to identify patterns and trends that can help organizations make informed decisions. They are responsible for designing and implementing data-driven solutions to complex business problems. Data scientists also play a crucial role in the development of machine learning models, which are used to automate tasks and improve business processes.",
+        "para1": "Become a Microsoft Certified Data Scientist - After completing a data science course with us you’ll leave with a Microsoft certification. Get Real-time Work Experience Certifications from Top MNC’s/Startups - This certification will give you a competitive edge in the real-world as you'll get to work with real companies on real projects, and when you're done, you'll get a real-time work experience certificate from the company.Learn At Your Own Speed - With 350+ Live Sessions and recorded videos, you can choose to learn at your own comfortable pace.",
         "listActive": false,
         "extraPara": true
       }
     },
     {
       "data": {
-        "heading": "Why Pursue a Data Science Course in Pune?",
-        "para": "Pune is a thriving hub for IT and technology companies in India, making it an ideal location for anyone interested in pursuing a career in data science. Skillslash offers a comprehensive data science course in Pune that is designed to equip students with the skills and knowledge needed to succeed in this field.",
+        "heading": "The benefits you will get by enrolling in Skillslash’s data science course in Pune?",
+        "para": "Our key differentiating point, when it comes to providing data science courses, is that,  Skillslash collaborates with a number of multinational corporations (MNCs) and startups. Upon successful completion of our academic training program, participants will receive their own microsoft certification from Skillslash. Additionally, participants will be able to participate in real-world projects with real-world companies, and upon completion of this process, they will receive a real-world proof of work through real-time work experience certificates from the respective company",
         "list": [],
         "para1": "",
         "listActive": false,
         "extraPara": false
+      }
+    },
+    {
+      "data": {
+        "heading": "What will one learn during the data science training in Pune with Skillslash?",
+        "para": "Our program provides a comprehensive overview of Data Science, ranging from the fundamentals to advanced levels. Our course curriculum covers a wide range of topics, providing you with the knowledge and skills you need to succeed in this field. Our program includes Python, C/C++, advanced machine learning, deep learning, applied statistics, and around 20+ tools, such as Excel and SQL Database",
+        "list": [],
+        "para1": "We strive to provide our students with a combination of theoretical, practical, and applied knowledge, and this is achieved through 350+ live sessions, 15 industry projects, and stimulated interviews to give them the advantage in real life. Additionally, students will have the chance to predict their credit default, gain knowledge of Google Mobility, understand Youtube video analytics, and more.",
+        "listActive": false,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Who can choose to do our data science course in Pune? ",
+        "para": "Our Data Science course is intended for learners from a variety of backgrounds and levels of expertise (graduates, post-graduates, intermediate students, freshers, and professionals) who wish to gain knowledge in the field of data science. The broad range of participants we invite enhances the sessions' discussions and interactions.",
+        "list": [],
+        "para1": "",
+        "listActive": false,
+        "extraPara": false
+      }
+    },
+    {
+      "data": {
+        "heading": "What are the course program options offered in the data science course in Pune? ",
+        "para": "At Skillslash, we offer our course options ( advanced data science and AI course, Business Analytics for professionals ) currently under two program payment plans namely the Pro and the Pro Max",
+        "list": [
+          "The Pro plan with a cost of INR 65,000 (without GST) gives you a 1 year live class subscription and a 2 year subscription to our Learning Management system dashboard, accompanied with 7+ industry projects and 1 capstone project.",
+          "The Pro Max plan o the other hand, at a cost of INR 1,20,000 (without GST) comes with job assistance, 4 year live class subscription, lifetime access to our learning dashboard, unlimited job referrals, 15+ industry projects, 3 capstone projects, 2 domain training, 6 months project certification from companies and a microsoft certification."
+        ],
+        "para1": "",
+        "listActive": false,
+        "extraPara": false
+      }
+    },
+    {
+      "data": {
+        "heading": "How is the Job opportunities spectrum after completion of a data science course in Pune?",
+        "para": "Following a successful data science course, graduates can look forward to a variety of job opportunities in Pune. As Pune has become a hub for technology and analytics, there has been a surge in the demand for experienced data scientists in various industries. Companies are increasingly relying on data-driven decisions to inform their business strategies, and this has led to an increased demand for data scientists. Professionals in the field of data science can find employment in a variety of industries, such as financial institutions, start-up companies, healthcare, manufacturing, and e-commerce.",
+        "list": [
+          "Data Scientist and Data Analyst to,",
+          "Machine Learning Engineer and Business Analys",
+          "as well as AI Engineer and Data Engineer, as well as Research Analyst."
+        ],
+        "para1": "Pune's vibrant start-up scene provides data scientists with the opportunity to get involved in cutting-edge projects that are new and exciting. Start-ups offer a fun and fast-paced atmosphere that encourages people to experiment and learn",
+        "listActive": true,
+        "extraPara": true
+      }
+    },
+    {
+      "data": {
+        "heading": "Is there scope for data scientists in India  in 2023?",
+        "para": "Yes, the scope for data science and data scientists is booming in the current times. The demand for Data Science courses in India is on the rise, as both individuals and employers are recognizing the importance of having Data Science skills in order to remain competitive in the current job market. With India's transformation into a data-driven economy, the demand for Data Science specialists is expected to grow significantly.",
+        "list": [],
+        "para1": "According to a report by the Data Science Recruitment Agency Nasscom and the Social Media Platform Zynga, the number of Jobs related to Data Science in India is expected to rise to 16,500 by 2025, from 2,720 Jobs in 2018. To meet this demand, various courses in Data Science are available in schools, online platforms, and training centers, which cover various aspects of the field, such as data analysis, machine learning, artificial intelligence, and data visualization. As India is on its way to becoming a Data-based economy, there are numerous opportunities for individuals to pursue a successful career in the Data Science field.",
+        "listActive": false,
+        "extraPara": true
       }
     }
   ],
@@ -1473,6 +1561,64 @@
       "id": 6,
       "ques": "Can the data science course in Pune be customized ?",
       "ans": "Through our Build Your Own Course (BYOC) program, students and our experts can collaborate to create a personalized learning program that suits the best interests .",
+      "open": false
+    },
+    {
+      "id": 7,
+      "ques": "What is data science, and Why is it in high demand?",
+      "ans": "Data science is a multidisciplinary discipline that focuses on the extraction of information and insights from data through the utilization of statistical methods, machine learning algorithms, and data visualizations. This discipline is highly sought after as companies increasingly rely on decision-making based on data to gain an advantage over competitors, resulting in an increase in the number of data science jobs.",
+      "open": false
+    },
+    {
+      "id": 8,
+      "ques": "How to enroll for the data science course in Pune? ",
+      "ans": "Check out our website to sign up for our Data Science training",
+      "linkText": "(https://skillslash.com/data-science-course-in-pune)",
+      "ansAfter": "or by contacting the institute directly for further details on the application process and paying online with our payment options. Once you've paid, you'll get an email with your payment details",
+      "linkURL": "https://skillslash.com/data-science-course-in-pune",
+      "link": true,
+      "open": false
+    },
+    {
+      "id": 9,
+      "ques": "Do you provide any placement assistance ?",
+      "ans": "After completing your course at Skillslash, you will receive an opportunity to work on live projects from companies and receive a certification for the same and further we also provide job referrals to help you score a placement of your choice",
+      "open": false
+    },
+    {
+      "id": 10,
+      "ques": "Does the course include any hands-on project work?",
+      "ans": "Yes, our course in data science in Pune includes real-life projects to give you hands-on experience. By working on real-life projects, you'll be able to apply the ideas you've learned and create a portfolio to show off to potential employers",
+      "open": false
+    },
+    {
+      "id": 11,
+      "ques": "Can working professionals enroll in this data science course in Pune?",
+      "ans": "Our Pune-based data science course provides flexible scheduling and self paced learning to meet the needs of working professionals.",
+      "open": false
+    },
+    {
+      "id": 12,
+      "ques": "What tools and software will be taught during the data science courses?",
+      "ans": "Courses typically focus on the use of Python programming languages, R programming languages, SQL programming languages and libraries such as NumPy, Pandas, and scikit-learn.",
+      "open": false
+    },
+    {
+      "id": 13,
+      "ques": "How to become a data scientist?      ",
+      "ans": "If you want to be a data scientist, here's what you need to do: 1) Get a good grounding in math, stats, and programming like Python or R2. 3) Learn how to manipulate data, visualize it, and use machine learning algorithms. 4) Get hands-on experience by working on your own projects, competing in data science contests, or applying for internships. 5) Show off your skills by creating a portfolio and networking with other data scientists. 6) Keep up with the latest developments in data science to stay ahead of the curve",
+      "open": false
+    },
+    {
+      "id": 14,
+      "ques": "Do I need a technical or programming background to opt for this data science course in Pune?",
+      "ans": "Our courses are tailored to meet the requirements of learners from diverse backgrounds. While technical expertise may be advantageous, we provide comprehensive resources and coaching to help non-technical learners comprehend the material.",
+      "open": false
+    },
+    {
+      "id": 15,
+      "ques": "What are the topics covered in the data science course in Pune?",
+      "ans": "Our best data science course in Pune will cover all the basics, like how to manipulate data, how to analyze it, how to use machine learning, how to visualize data, and how to use it in real-world situations. Some courses may also cover more advanced topics like NLP and deep learning.",
       "open": false
     }
   ]

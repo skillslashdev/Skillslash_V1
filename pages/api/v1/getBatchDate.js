@@ -28,12 +28,12 @@ export default async function handler(req, res) {
         id,
       });
 
-      //   let myPost = await db
-      //     .collection("batchDate")
-      //     .find()
-      //     .forEach(function (item) {
-      //       batchDate.push(item);
-      //     });
+      // let myPost = await db
+      //   .collection("batchDate")
+      //   .find()
+      //   .forEach(function (item) {
+      //     batchDate.push(item);
+      //   });
       res.status(200).json({ batchDate, msg: "BatchDate" });
     } catch (error) {
       res.status(400).send(error);
