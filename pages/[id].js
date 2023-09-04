@@ -71,16 +71,23 @@ const MiddlePageCta = dynamic(() =>
   import("../components/MiddlePageCta/MiddlePageCta")
 );
 
-export default function Home({ DataScienceCourseData }) {
+export default function Home({
+  id,
+  form,
+  firstSection,
+  programInfo,
+  metaInfo,
+}) {
+  const [DataScienceCourseData, setDataScienceCourseData] = useState("");
   // const [popups, setPopups] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [tablet, setTablet] = useState(false);
-  const redirectDs = DataScienceCourseData.data.form.dataScience;
-  const redirectFs = DataScienceCourseData.data.form.FullStack;
-  const redirectDSA = DataScienceCourseData.data.form.dsa;
-  const redirectWeb = DataScienceCourseData.data.form.webDevelopment;
-  const redirectBa = DataScienceCourseData.data.form.BusinessAnalytics;
-  const redirectBl = DataScienceCourseData.data.form.blockchain;
+  const redirectDs = form.dataScience;
+  const redirectFs = form.FullStack;
+  const redirectDSA = form.dsa;
+  const redirectWeb = form.webDevelopment;
+  const redirectBa = form.BusinessAnalytics;
+  const redirectBl = form.blockchain;
   let pageName;
   const [popupData, setPopupData] = useState([]);
   const [batchDateData, setBatchDateData] = useState("");
@@ -117,7 +124,7 @@ export default function Home({ DataScienceCourseData }) {
       setTablet(false);
     }
   });
-
+  //useEffect for fetch popup
   useEffect(() => {
     const fetchPopup = async () => {
       const data = await fetch("/api/v1/fetchPopup", {
@@ -142,7 +149,7 @@ export default function Home({ DataScienceCourseData }) {
             }
             if (
               popupData === "Blockchain program and certification" &&
-              DataScienceCourseData.data.form.blockchain
+              form.blockchain
             ) {
               setPopupDate({
                 endDate: new Date(data.endDate),
@@ -165,7 +172,7 @@ export default function Home({ DataScienceCourseData }) {
             }
             if (
               popupData === "Business Analytics Program For Professionals" &&
-              DataScienceCourseData.data.form.BusinessAnalytics
+              form.BusinessAnalytics
             ) {
               setPopupDate({
                 endDate: new Date(data.endDate),
@@ -229,17 +236,85 @@ export default function Home({ DataScienceCourseData }) {
     fetchBatch();
   }, []);
 
+  //for pageData
+  useEffect(() => {
+    const getPageData = async () => {
+      try {
+        const data = await fetch("/api/v1/sendPage", {
+          method: "POST",
+          body: JSON.stringify(id),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+        if (data.status === 200) {
+          const { DataScienceCourseData } = await data.json();
+          setDataScienceCourseData(DataScienceCourseData);
+          console.log(DataScienceCourseData, "in forntend");
+        }
+      } catch (error) {}
+    };
+    getPageData();
+  }, []);
+
   return (
     <>
+      <Head>
+        <title>{metaInfo.title}</title>
+        <meta name="description" content={metaInfo.desc} />
+        <meta name="keywords" content={metaInfo.keyword} />
+        <link rel="canonical" href={metaInfo.canonical} />
+
+        <script
+          defer
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(metaInfo.ReviewSchema),
+          }}
+        />
+
+        <script
+          defer
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(metaInfo.ReviewSchema1),
+          }}
+        />
+
+        <script
+          defer
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(metaInfo.ReviewSchema2),
+          }}
+        />
+
+        <script
+          defer
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(metaInfo.ReviewSchema3),
+          }}
+        />
+
+        <script
+          defer
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(metaInfo.ReviewSchema4),
+          }}
+        />
+      </Head>
       <Navbar
         course={true}
         dataScience={false}
         redirectDs={redirectDs}
         redirectFs={redirectFs}
-        redirectDe={DataScienceCourseData.data.form.DataEngineering}
-        redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-        redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-        redirectDSA={DataScienceCourseData.data.form.dsa}
+        redirectDe={form.DataEngineering}
+        redirectWeb={form.webDevelopment}
+        redirectBa={form.BusinessAnalytics}
+        redirectDSA={form.dsa}
+        seoPage={form.seoPage}
       />
       {/* {tablet ? (
         ""
@@ -258,12 +333,12 @@ export default function Home({ DataScienceCourseData }) {
           batchDate={batchDate}
           faq={faq}
           cta={cta}
-          redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-          redirectDs={DataScienceCourseData.data.form.dataScience}
-          redirectFs={DataScienceCourseData.data.form.FullStack}
-          redirectDe={DataScienceCourseData.data.form.DataEngineering}
-          redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-          redirectDSA={DataScienceCourseData.data.form.dsa}
+          redirectBa={form.BusinessAnalytics}
+          redirectDs={form.dataScience}
+          redirectFs={form.FullStack}
+          redirectDe={form.DataEngineering}
+          redirectWeb={form.webDevelopment}
+          redirectDSA={form.dsa}
         />
       )} */}
 
@@ -279,270 +354,223 @@ export default function Home({ DataScienceCourseData }) {
       {/* {redirectDs || redirectBa ? (
         <CustomPopup
           dataScience={false}
-          redirectDs={DataScienceCourseData.data.form.dataScience}
-          redirectFs={DataScienceCourseData.data.form.FullStack}
-          redirectDe={DataScienceCourseData.data.form.DataEngineering}
-          redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-          redirectDSA={DataScienceCourseData.data.form.dsa}
-          redirectAI={DataScienceCourseData.data.form.ai}
-          redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+          redirectDs={form.dataScience}
+          redirectFs={form.FullStack}
+          redirectDe={form.DataEngineering}
+          redirectBa={form.BusinessAnalytics}
+          redirectDSA={form.dsa}
+          redirectAI={form.ai}
+          redirectWeb={form.webDevelopment}
         />
       ) : (
         ""
       )} */}
       <div className={styles.container}>
-        <Head>
-          <title>{DataScienceCourseData.data.metaInfo.title}</title>
-          <meta
-            name="description"
-            content={DataScienceCourseData.data.metaInfo.desc}
-          />
-          <meta
-            name="keywords"
-            content={DataScienceCourseData.data.metaInfo.keyword}
-          />
-          <link
-            rel="canonical"
-            href={DataScienceCourseData.data.metaInfo.canonical}
-          />
-
-          <script
-            defer
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(
-                DataScienceCourseData.data.metaInfo.ReviewSchema
-              ),
-            }}
-          />
-
-          <script
-            defer
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(
-                DataScienceCourseData.data.metaInfo.ReviewSchema1
-              ),
-            }}
-          />
-
-          <script
-            defer
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(
-                DataScienceCourseData.data.metaInfo.ReviewSchema2
-              ),
-            }}
-          />
-
-          <script
-            defer
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(
-                DataScienceCourseData.data.metaInfo.ReviewSchema3
-              ),
-            }}
-          />
-
-          <script
-            defer
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify(
-                DataScienceCourseData.data.metaInfo.ReviewSchema4
-              ),
-            }}
-          />
-        </Head>
-
         <FirstSection
-          redirectDs={DataScienceCourseData.data.form.dataScience}
-          redirectFs={DataScienceCourseData.data.form.FullStack}
-          redirectDe={DataScienceCourseData.data.form.DataEngineering}
-          redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-          deskTopPara={DataScienceCourseData.data.FirstSection.deskTopPara}
-          mTopPara={DataScienceCourseData.data.FirstSection.mTopPara}
-          redirectDSA={DataScienceCourseData.data.form.dsa}
-          redirectAI={DataScienceCourseData.data.form.ai}
-          title={DataScienceCourseData.data.FirstSection.title}
-          spanTitleText={DataScienceCourseData.data.FirstSection.spanTitleText}
-          desc={DataScienceCourseData.data.FirstSection.desc}
-          mainHeaderImg={DataScienceCourseData.data.FirstSection.mainHeaderImg}
-          mainAlt={DataScienceCourseData.data.FirstSection.mainAlt}
-          backgroundImg={DataScienceCourseData.data.FirstSection.backgroundImg}
-          iconImg={DataScienceCourseData.data.FirstSection.iconImg}
-          width={DataScienceCourseData.data.FirstSection.width}
-          height={DataScienceCourseData.data.FirstSection.height}
-          redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-          usp1={DataScienceCourseData.data.FirstSection.usp1}
-          usp2={DataScienceCourseData.data.FirstSection.usp2}
-          usp3={DataScienceCourseData.data.FirstSection.usp3}
-          usp4={DataScienceCourseData.data.FirstSection.usp4}
-          usp1Span={DataScienceCourseData.data.FirstSection.usp1Span}
-          usp2Span={DataScienceCourseData.data.FirstSection.usp2Span}
-          usp3Span={DataScienceCourseData.data.FirstSection.usp3Span}
-          usp4Span={DataScienceCourseData.data.FirstSection.usp4Span}
+          redirectDs={form.dataScience}
+          redirectFs={form.FullStack}
+          redirectDe={form.DataEngineering}
+          redirectBa={form.BusinessAnalytics}
+          seoPage={form.seoPage}
+          deskTopPara={firstSection.deskTopPara}
+          mTopPara={firstSection.mTopPara}
+          redirectDSA={form.dsa}
+          redirectAI={form.ai}
+          title={firstSection.title}
+          spanTitleText={firstSection.spanTitleText}
+          desc={firstSection.desc}
+          mainHeaderImg={firstSection.mainHeaderImg}
+          mainAlt={firstSection.mainAlt}
+          backgroundImg={firstSection.backgroundImg}
+          iconImg={firstSection.iconImg}
+          width={firstSection.width}
+          height={firstSection.height}
+          redirectWeb={form.webDevelopment}
+          usp1={firstSection.usp1}
+          usp2={firstSection.usp2}
+          usp3={firstSection.usp3}
+          usp4={firstSection.usp4}
+          usp1Span={firstSection.usp1Span}
+          usp2Span={firstSection.usp2Span}
+          usp3Span={firstSection.usp3Span}
+          usp4Span={firstSection.usp4Span}
         />
 
         {/* <AutoPopUp /> */}
 
         <div className={styles.program}>
           <ProgramInfo
-            BatchDate={DataScienceCourseData.data.ProgramInfo.BatchDate}
-            BatchDuration={DataScienceCourseData.data.ProgramInfo.BatchDuration}
+            BatchDate={programInfo.BatchDate}
+            BatchDuration={programInfo.BatchDuration}
             redirectDSA={redirectDSA}
             redirectFs={redirectFs}
-            Emi={DataScienceCourseData.data.FirstSection.usp3Span}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-            Placement={DataScienceCourseData.data.ProgramInfo.Placement}
+            Emi={FirstSection.usp3Span}
+            redirectWeb={form.webDevelopment}
+            Placement={programInfo.Placement}
           />
         </div>
 
         <div id="trainer">
           <TrainerSlider
             dataScience={false}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-            redirectAI={DataScienceCourseData.data.form.ai}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+            redirectDs={form.dataScience}
+            redirectFs={form.FullStack}
+            redirectDe={form.DataEngineering}
+            redirectBa={form.BusinessAnalytics}
+            redirectDSA={form.dsa}
+            redirectAI={form.ai}
+            redirectWeb={form.webDevelopment}
           />
         </div>
-        <div id="hired">
-          <MGetHired
-            heading1={DataScienceCourseData.data.GetHired.heading1}
-            heading={DataScienceCourseData.data.GetHired.heading}
-            dataScience={false}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-          />
-        </div>
-
-        <div className={styles.Feature} id="Feature">
-          <BoxShape
-            dataScience={false}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-            title={DataScienceCourseData.data.BoxShape.title}
-            Box1h5={DataScienceCourseData.data.BoxShape.Box1h5}
-            box1desc={DataScienceCourseData.data.BoxShape.box1desc}
-            Box2h5={DataScienceCourseData.data.BoxShape.Box2h5}
-            box2desc={DataScienceCourseData.data.BoxShape.box2desc}
-            Box3h5={DataScienceCourseData.data.BoxShape.Box3h5}
-            box3desc={DataScienceCourseData.data.BoxShape.box3desc}
-            Box4h5={DataScienceCourseData.data.BoxShape.Box4h5}
-            box4desc={DataScienceCourseData.data.BoxShape.box4desc}
-            alt1={DataScienceCourseData.data.BoxShape.alt1}
-            alt2={DataScienceCourseData.data.BoxShape.alt2}
-            alt3={DataScienceCourseData.data.BoxShape.alt3}
-            alt4={DataScienceCourseData.data.BoxShape.alt4}
-          />
-        </div>
+        {DataScienceCourseData === "" ? (
+          ""
+        ) : (
+          <div id="hired">
+            <MGetHired
+              heading1={DataScienceCourseData.data.GetHired.heading1}
+              heading={DataScienceCourseData.data.GetHired.heading}
+              dataScience={false}
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
+              redirectWeb={form.webDevelopment}
+            />
+          </div>
+        )}
+        {DataScienceCourseData === "" ? (
+          ""
+        ) : (
+          <div className={styles.Feature} id="Feature">
+            <BoxShape
+              dataScience={false}
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
+              redirectWeb={form.webDevelopment}
+              title={DataScienceCourseData.data.BoxShape.title}
+              Box1h5={DataScienceCourseData.data.BoxShape.Box1h5}
+              box1desc={DataScienceCourseData.data.BoxShape.box1desc}
+              Box2h5={DataScienceCourseData.data.BoxShape.Box2h5}
+              box2desc={DataScienceCourseData.data.BoxShape.box2desc}
+              Box3h5={DataScienceCourseData.data.BoxShape.Box3h5}
+              box3desc={DataScienceCourseData.data.BoxShape.box3desc}
+              Box4h5={DataScienceCourseData.data.BoxShape.Box4h5}
+              box4desc={DataScienceCourseData.data.BoxShape.box4desc}
+              alt1={DataScienceCourseData.data.BoxShape.alt1}
+              alt2={DataScienceCourseData.data.BoxShape.alt2}
+              alt3={DataScienceCourseData.data.BoxShape.alt3}
+              alt4={DataScienceCourseData.data.BoxShape.alt4}
+            />
+          </div>
+        )}
 
         <MiddlePageCta
           homePage={false}
-          redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-          redirectDs={DataScienceCourseData.data.form.dataScience}
-          redirectFs={DataScienceCourseData.data.form.FullStack}
-          redirectDe={DataScienceCourseData.data.form.DataEngineering}
-          redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-          redirectDSA={DataScienceCourseData.data.form.dsa}
+          redirectBa={form.BusinessAnalytics}
+          redirectDs={form.dataScience}
+          redirectFs={form.FullStack}
+          redirectDe={form.DataEngineering}
+          redirectWeb={form.webDevelopment}
+          redirectDSA={form.dsa}
         />
-        <div id="certificate">
-          {redirectFs ? (
-            ""
-          ) : (
-            <Certificate
-              dataScience={DataScienceCourseData.data.form.dataScience}
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-              popupHead={DataScienceCourseData.data.Certificate.popupHead}
-              subheading={DataScienceCourseData.data.Certificate.subheading}
-              title={DataScienceCourseData.data.Certificate.title}
-              desc={DataScienceCourseData.data.Certificate.desc}
-              src={DataScienceCourseData.data.Certificate.src}
-              altM={DataScienceCourseData.data.Certificate.altM}
-              altR={DataScienceCourseData.data.Certificate.altR}
+        {DataScienceCourseData === "" ? (
+          ""
+        ) : (
+          <div id="certificate">
+            {redirectFs ? (
+              ""
+            ) : (
+              <Certificate
+                dataScience={form.dataScience}
+                redirectDs={form.dataScience}
+                redirectFs={form.FullStack}
+                redirectDe={form.DataEngineering}
+                redirectBa={form.BusinessAnalytics}
+                redirectDSA={form.dsa}
+                redirectWeb={form.webDevelopment}
+                popupHead={DataScienceCourseData.data.Certificate.popupHead}
+                subheading={DataScienceCourseData.data.Certificate.subheading}
+                title={DataScienceCourseData.data.Certificate.title}
+                desc={DataScienceCourseData.data.Certificate.desc}
+                src={DataScienceCourseData.data.Certificate.src}
+                altM={DataScienceCourseData.data.Certificate.altM}
+                altR={DataScienceCourseData.data.Certificate.altR}
+              />
+            )}
+          </div>
+        )}
+        {DataScienceCourseData === "" ? (
+          ""
+        ) : (
+          <div id="syllabus">
+            <DataScienceSyllabus
+              dataScience={false}
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
+              redirectWeb={form.webDevelopment}
+              syllabus={DataScienceCourseData.data.syllabus}
+              syllabusDesc={DataScienceCourseData.data.syllabusDesc}
+              popupHead={DataScienceCourseData.data.popupHead}
             />
-          )}
-        </div>
-        <div id="syllabus">
-          <DataScienceSyllabus
-            dataScience={false}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-            syllabus={DataScienceCourseData.data.syllabus}
-            syllabusDesc={DataScienceCourseData.data.syllabusDesc}
-            popupHead={DataScienceCourseData.data.popupHead}
-          />
-        </div>
-        {DataScienceCourseData.data.form.FullStack ? <ToolsCovered /> : ""}
+          </div>
+        )}
+
+        {form.FullStack ? <ToolsCovered /> : ""}
         <div id="project">
           <ProjectSlider
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+            redirectDs={form.dataScience}
+            redirectFs={form.FullStack}
+            redirectDe={form.DataEngineering}
+            redirectBa={form.BusinessAnalytics}
+            redirectDSA={form.dsa}
+            redirectWeb={form.webDevelopment}
           />
         </div>
         {redirectDs || redirectBa ? <VideoTestimonial /> : ""}
         <div className="review" id="review">
           <Reviews
             changeReview={true}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+            redirectDs={form.dataScience}
+            redirectFs={form.FullStack}
+            redirectDe={form.DataEngineering}
+            redirectBa={form.BusinessAnalytics}
+            redirectDSA={form.dsa}
+            redirectWeb={form.webDevelopment}
           />
         </div>
-        {DataScienceCourseData.data.form.webDevelopment || redirectFs ? (
+        {DataScienceCourseData === "" ? (
+          ""
+        ) : form.webDevelopment || redirectFs ? (
           <div id="fee">
             <Emi
-              web={DataScienceCourseData.data.form.webDevelopment}
+              web={form.webDevelopment}
               price={DataScienceCourseData.data.Fee.ProPrice}
               emi={DataScienceCourseData.data.Fee.emi}
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectWeb={form.webDevelopment}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
             />
           </div>
         ) : mobile ? (
           <div id="fee">
             <NewPricingTable
               dataScience={false}
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
+              redirectWeb={form.webDevelopment}
               changeFee={DataScienceCourseData.data.Fee.FullStack}
               desc={DataScienceCourseData.data.Fee.desc}
               desc1={DataScienceCourseData.data.Fee.desc1}
@@ -552,7 +580,7 @@ export default function Home({ DataScienceCourseData }) {
               ProDesc={DataScienceCourseData.data.Fee.ProDesc}
               ProMaxPrice={DataScienceCourseData.data.Fee.ProMaxPrice}
               ProMaxDesc={DataScienceCourseData.data.Fee.ProMaxDesc}
-              web={DataScienceCourseData.data.form.webDevelopment}
+              web={form.webDevelopment}
               price={DataScienceCourseData.data.Fee.ProPrice}
               emi={DataScienceCourseData.data.Fee.emi}
             />
@@ -561,12 +589,12 @@ export default function Home({ DataScienceCourseData }) {
           <div id="fee">
             <Fee
               dataScience={false}
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
+              redirectWeb={form.webDevelopment}
               changeFee={DataScienceCourseData.data.Fee.FullStack}
               desc={DataScienceCourseData.data.Fee.desc}
               desc1={DataScienceCourseData.data.Fee.desc1}
@@ -576,39 +604,42 @@ export default function Home({ DataScienceCourseData }) {
               ProDesc={DataScienceCourseData.data.Fee.ProDesc}
               ProMaxPrice={DataScienceCourseData.data.Fee.ProMaxPrice}
               ProMaxDesc={DataScienceCourseData.data.Fee.ProMaxDesc}
-              web={DataScienceCourseData.data.form.webDevelopment}
+              web={form.webDevelopment}
               price={DataScienceCourseData.data.Fee.ProPrice}
               emi={DataScienceCourseData.data.Fee.emi}
             />
           </div>
         )}
+
         <div id="date">
           {batchDateData === "" ? (
             ""
           ) : batchDateData === null ? (
             <BatchDates
               batchDetails=""
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
+              redirectWeb={form.webDevelopment}
             />
           ) : (
             <BatchDates
               batchDetails={batchDateData.batchDetails}
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
+              redirectWeb={form.webDevelopment}
             />
           )}
         </div>
         {redirectDs || redirectBa ? <BatchProfile /> : ""}
-        {DataScienceCourseData.data.form.AboutCourse ? (
+        {DataScienceCourseData === "" ? (
+          ""
+        ) : form.AboutCourse ? (
           <AboutCourses
             content={DataScienceCourseData.data.AboutCourse}
             AboutCourseHeading={DataScienceCourseData.data.AboutCourseHeading}
@@ -616,26 +647,32 @@ export default function Home({ DataScienceCourseData }) {
         ) : (
           ""
         )}
-        <div className="faq" id="faq">
-          <FAQ
-            FaqData={DataScienceCourseData.data.FaqDATA}
-            desc={DataScienceCourseData.data.FAQ.desc}
-          />
-        </div>
+
+        {DataScienceCourseData === "" ? (
+          ""
+        ) : (
+          <div className="faq" id="faq">
+            <FAQ
+              FaqData={DataScienceCourseData.data.FaqDATA}
+              desc={DataScienceCourseData.data.FAQ.desc}
+            />
+          </div>
+        )}
+
         <BottomBar changeBottom={true} />
         {mobile ? (
           ""
         ) : (
           <div className="cta" id="cta">
-            <CTA redirectDSA={DataScienceCourseData.data.form.dsa} />
+            <CTA redirectDSA={form.dsa} />
           </div>
         )}
         <InternalLinking
-          redirectDs={DataScienceCourseData.data.form.dataScience}
-          redirectFs={DataScienceCourseData.data.form.FullStack}
-          redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-          redirectDSA={DataScienceCourseData.data.form.dsa}
-          redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+          redirectDs={form.dataScience}
+          redirectFs={form.FullStack}
+          redirectBa={form.BusinessAnalytics}
+          redirectDSA={form.dsa}
+          redirectWeb={form.webDevelopment}
         />
         <FloatIcon />
 
@@ -658,6 +695,11 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       DataScienceCourseData,
+      id: params.id,
+      metaInfo: DataScienceCourseData.data.metaInfo,
+      form: DataScienceCourseData.data.form,
+      firstSection: DataScienceCourseData.data.FirstSection,
+      programInfo: DataScienceCourseData.data.ProgramInfo,
     },
   };
 }

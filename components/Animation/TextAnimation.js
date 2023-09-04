@@ -1,43 +1,44 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 import { useInterval } from "react-use";
 import styles from "./TextAnimation.module.css";
 
-const TextAnimation = ({ homePage, redirectWeb, redirectFs, redirectDSA }) => {
-  const reactArray =
-    homePage || redirectWeb || redirectFs || redirectDSA
-      ? "Real Work Experience"
-      : "Dual Certification";
-  const swiftArray = "Guaranteed job referral";
+const TextAnimation = memo(
+  ({ homePage, redirectWeb, redirectFs, redirectDSA }) => {
+    const reactArray =
+      homePage || redirectWeb || redirectFs || redirectDSA
+        ? "Real Work Experience"
+        : "Dual Certification";
+    const swiftArray = "Guaranteed job referral";
 
-  const [items, setItems] = useState(reactArray);
-  const [count, setCount] = useState(0);
-  const [play, setPlay] = useState(false);
-  useInterval(
-    () => {
-      setItems(reactArray);
-      setCount(count + 1);
+    const [items, setItems] = useState(reactArray);
+    const [count, setCount] = useState(0);
+    const [play, setPlay] = useState(false);
+    useInterval(
+      () => {
+        setItems(reactArray);
+        setCount(count + 1);
 
-      if (count == 1) {
-        setCount(0);
+        if (count == 1) {
+          setCount(0);
+          setItems(swiftArray);
+        }
+      },
+      play ? 6000 : null
+    );
+
+    useEffect(() => {
+      const timer = setTimeout(() => {
         setItems(swiftArray);
-      }
-    },
-    play ? 6000 : null
-  );
+        setPlay(true);
+      }, 4000);
+    }, []);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setItems(swiftArray);
-      setPlay(true);
-    }, 4000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  return (
-    <span className={styles.span}>
-      <span>{items}</span>
-    </span>
-  );
-};
+    return (
+      <span className={styles.span}>
+        <span>{items}</span>
+      </span>
+    );
+  }
+);
 
 export default TextAnimation;

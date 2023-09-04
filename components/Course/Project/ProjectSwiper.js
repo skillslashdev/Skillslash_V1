@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -11,7 +11,7 @@ import { FaReact, FaDatabase } from "react-icons/fa";
 import { AiOutlineRobot, AiOutlineFileExcel } from "react-icons/ai";
 import { FaNodeJs } from "react-icons/fa";
 
-const ProjectSwiper = ({ swiperData, redirectFs }) => {
+const ProjectSwiper = memo(({ swiperData, redirectFs }) => {
   // const [mobile, setMobile] = useState(false);
   // const [slidesPerView, setSlidesPerView] = useState(3.2);
   // const [spaceBetween, setSpaceBetween] = useState(20);
@@ -99,6 +99,6 @@ const ProjectSwiper = ({ swiperData, redirectFs }) => {
   ) : (
     ""
   );
-};
+});
 
 export default ProjectSwiper;

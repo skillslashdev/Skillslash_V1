@@ -108,6 +108,7 @@ const FirstSection = ({
           <p className={styles.sidePara}>{spanTitleText}</p>
         </div>
         <h1>{title}</h1>
+
         {redirectDs || redirectBa ? (
           <p className={styles.powered}>
             Powered by
