@@ -988,9 +988,9 @@
     "desc": " The business analytics course fee starts from ₹ 60,000 (Excluding GST). Besides, we aim to deliver to you quality education considering the aspect of feasibility",
     "desc1": "We are driven by the idea of program affordability. So, we give you several financial options to manage and budget the course expenses. Because we believe in fair reachability and access to all our carefully curated programs. Therefore, you get options such as EMI to pay the business analytics course fees.",
     "BasicPrice": "₹ 60,000 + GST",
-    "BasicDesc": "3% cashback on creditcard payment",
+    "BasicDesc": "",
     "ProPrice": "₹ 95,000 + GST",
-    "ProDesc": "5% cashback on credit card payment",
+    "ProDesc": "",
     "ProMaxPrice": "₹ 1,30,000 + GST",
     "ProMaxDesc": "Guaranteed job referral"
   },
