@@ -312,6 +312,11 @@
 .tollNo{
         padding: 2px 25px;
 }
+.tollNo p{
+  margin: 0px !important;
+  padding-top: 10px !important; 
+  padding-bottom: 10px !important;
+}
 .tollNo h4{
     font-size: 25px;
     color: rgb(58, 58, 58);
