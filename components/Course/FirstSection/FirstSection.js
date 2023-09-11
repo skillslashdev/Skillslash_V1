@@ -34,6 +34,8 @@ const FirstSection = ({
   usp2Span,
   usp3Span,
   usp4Span,
+  seoPage,
+  seoPara,
 }) => {
   const [mobile, setMobile] = useState(false);
   const [tablet, setTablet] = useState(false);
@@ -108,6 +110,11 @@ const FirstSection = ({
           <p className={styles.sidePara}>{spanTitleText}</p>
         </div>
         <h1>{title}</h1>
+        {/* {seoPage ? (
+          <div dangerouslySetInnerHTML={{ __html: seoPara }}></div>
+        ) : (
+          ""
+        )} */}
 
         {redirectDs || redirectBa ? (
           <p className={styles.powered}>

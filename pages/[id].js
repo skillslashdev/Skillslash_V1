@@ -47,7 +47,7 @@ const CTA = dynamic(() => import("../components/CTA/CTA"));
 const NewPricingTable = dynamic(() =>
   import("../components/Course/NewPricingTable/NewPricingTable")
 );
-
+import SeoAbout from "../components/SeoAbout/SeoAbout";
 const AboutCourses = dynamic(() =>
   import("../components/AboutCourse/AboutCourse")
 );
@@ -77,6 +77,7 @@ export default function Home({
   firstSection,
   programInfo,
   metaInfo,
+  trainerSlider,
 }) {
   const [DataScienceCourseData, setDataScienceCourseData] = useState("");
   // const [popups, setPopups] = useState(false);
@@ -123,7 +124,7 @@ export default function Home({
       setMobile(false);
       setTablet(false);
     }
-  });
+  }, []);
   //useEffect for fetch popup
   useEffect(() => {
     const fetchPopup = async () => {
@@ -132,7 +133,7 @@ export default function Home({
       });
       if (data.status === 200) {
         const { popData } = await data.json();
-        if (popData === []) {
+        if (popData == []) {
           setPopupData({ endDate: "", startDate: "" });
           setPopupData([]);
         }
@@ -250,13 +251,18 @@ export default function Home({
         if (data.status === 200) {
           const { DataScienceCourseData } = await data.json();
           setDataScienceCourseData(DataScienceCourseData);
-          console.log(DataScienceCourseData, "in forntend");
+          // console.log(DataScienceCourseData, "in forntend");
         }
       } catch (error) {}
     };
     getPageData();
   }, []);
 
+  // console.log(DataScienceCourseData.data.seoSection, "id.js-trainer test");
+  // console.log(
+  //   DataScienceCourseData.data.ProjectsPara,
+  //   "DataScienceCourseData.data.ProjectsPara11"
+  // );
   return (
     <>
       <Head>
@@ -379,6 +385,7 @@ export default function Home({
           title={firstSection.title}
           spanTitleText={firstSection.spanTitleText}
           desc={firstSection.desc}
+          seoPara={firstSection.FirstPara}
           mainHeaderImg={firstSection.mainHeaderImg}
           mainAlt={firstSection.mainAlt}
           backgroundImg={firstSection.backgroundImg}
@@ -420,8 +427,11 @@ export default function Home({
             redirectDSA={form.dsa}
             redirectAI={form.ai}
             redirectWeb={form.webDevelopment}
+            seoPage={form.seoPage}
+            trainerSlider={trainerSlider}
           />
         </div>
+
         {DataScienceCourseData === "" ? (
           ""
         ) : (
@@ -436,6 +446,8 @@ export default function Home({
               redirectBa={form.BusinessAnalytics}
               redirectDSA={form.dsa}
               redirectWeb={form.webDevelopment}
+              seoPage={form.seoPage}
+              alumniPara={DataScienceCourseData.data.GetHired.alumniPara}
             />
           </div>
         )}
@@ -464,10 +476,12 @@ export default function Home({
               alt2={DataScienceCourseData.data.BoxShape.alt2}
               alt3={DataScienceCourseData.data.BoxShape.alt3}
               alt4={DataScienceCourseData.data.BoxShape.alt4}
+              seoPage={form.seoPage}
             />
           </div>
         )}
 
+        <SeoAbout />
         <MiddlePageCta
           homePage={false}
           redirectBa={form.BusinessAnalytics}
@@ -499,6 +513,16 @@ export default function Home({
                 src={DataScienceCourseData.data.Certificate.src}
                 altM={DataScienceCourseData.data.Certificate.altM}
                 altR={DataScienceCourseData.data.Certificate.altR}
+                seoPage={form.seoPage}
+                MicrosoftPara={
+                  DataScienceCourseData.data.Certificate.MicrosoftPara
+                }
+                CertificationPara={
+                  DataScienceCourseData.data.Certificate.CertificationPara
+                }
+                RealWorkPara={
+                  DataScienceCourseData.data.Certificate.RealWorkPara
+                }
               />
             )}
           </div>
@@ -523,16 +547,23 @@ export default function Home({
         )}
 
         {form.FullStack ? <ToolsCovered /> : ""}
-        <div id="project">
-          <ProjectSlider
-            redirectDs={form.dataScience}
-            redirectFs={form.FullStack}
-            redirectDe={form.DataEngineering}
-            redirectBa={form.BusinessAnalytics}
-            redirectDSA={form.dsa}
-            redirectWeb={form.webDevelopment}
-          />
-        </div>
+
+        {DataScienceCourseData === "" ? (
+          ""
+        ) : (
+          <div id="project">
+            <ProjectSlider
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
+              redirectWeb={form.webDevelopment}
+              seoPage={form.seoPage}
+              ProjectsPara={DataScienceCourseData.data.seoSection.ProjectsPara}
+            />
+          </div>
+        )}
         {redirectDs || redirectBa ? <VideoTestimonial /> : ""}
         <div className="review" id="review">
           <Reviews
@@ -636,7 +667,16 @@ export default function Home({
             />
           )}
         </div>
-        {redirectDs || redirectBa ? <BatchProfile /> : ""}
+        {redirectDs || redirectBa ? (
+          <BatchProfile
+          // seoPage={form.seoPage}
+          // BatchProfilePara={
+          //   DataScienceCourseData.data.seoSection.BatchProfilePara
+          // }
+          />
+        ) : (
+          ""
+        )}
         {DataScienceCourseData === "" ? (
           ""
         ) : form.AboutCourse ? (
@@ -700,6 +740,7 @@ export async function getStaticProps({ params }) {
       form: DataScienceCourseData.data.form,
       firstSection: DataScienceCourseData.data.FirstSection,
       programInfo: DataScienceCourseData.data.ProgramInfo,
+      trainerSlider: DataScienceCourseData.data.seoSection.trainerMentor,
     },
   };
 }

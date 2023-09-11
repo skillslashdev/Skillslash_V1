@@ -7,7 +7,14 @@ import styles from "./Project.module.css";
 // import FsSwiper from "./FsSwiper";
 
 const ProjectSwiper = dynamic(() => import("./ProjectSwiper"));
-import { DsProject, FsProject, webProject, BaProject } from "./ProjectData";
+import {
+  DsProject,
+  FsProject,
+  webProject,
+  BaProject,
+  ProjectPara,
+  seoPage,
+} from "./ProjectData";
 
 const ProjectSlider = ({
   redirectDs,
@@ -16,6 +23,8 @@ const ProjectSlider = ({
   redirectBa,
   redirectWeb,
   redirectDSA,
+  seoPage,
+  ProjectsPara,
 }) => {
   const [swiperData, setSwiperData] = useState(
     DsProject.filter((DsProject) => {
@@ -152,6 +161,15 @@ const ProjectSlider = ({
           </div>
         </div>
       </div>
+      {seoPage ? (
+        <div
+          dangerouslySetInnerHTML={{ __html: ProjectsPara }}
+          style={{ marginLeft: "95px" }}
+          className={styles.seoPara}
+        ></div>
+      ) : (
+        ""
+      )}
       <div className={styles.line}>
         <div className={styles.left}>
           <p>

@@ -14,8 +14,11 @@ const Certificate = ({
 
   redirectDSA,
   redirectBa,
-
   redirectWeb,
+  seoPage,
+  MicrosoftPara,
+  RealWorkPara,
+  CertificationPara,
 }) => {
   const [mobile, setMobile] = useState(false);
 
@@ -28,6 +31,8 @@ const Certificate = ({
       setMobile(false);
     }
   });
+
+  console.log(MicrosoftPara, "micropara");
 
   return (
     <section className={styles.Certifcate}>
@@ -114,6 +119,14 @@ const Certificate = ({
             <div className={styles.DeskCert}>
               <div className={styles.topWrap}>
                 <h4 className={styles.dualHead}>{subheading}</h4>
+                {seoPage ? (
+                  <div
+                    dangerouslySetInnerHTML={{ __html: CertificationPara }}
+                    className={styles.seoPara}
+                  ></div>
+                ) : (
+                  ""
+                )}
                 {/* <h5>{title}</h5> */}
               </div>
               <div className={styles.top}>
@@ -136,7 +149,15 @@ const Certificate = ({
                 <div className={styles.btRight}>
                   <div className={styles.desc}>
                     <h4>Microsoft Certification</h4>
-                    <p>Be in demand with Microsoft certification</p>
+                    {seoPage ? (
+                      <div
+                        dangerouslySetInnerHTML={{ __html: MicrosoftPara }}
+                        className={styles.seoPara}
+                      ></div>
+                    ) : (
+                      <p>Be in demand with Microsoft certification</p>
+                    )}
+
                     <p className={styles.point}>
                       <BsCheck2Circle className={styles.check} />
                       Be certified in Azure AI Fundamentals
@@ -157,9 +178,17 @@ const Certificate = ({
           <div className={styles.bottom}>
             <div className={styles.desc}>
               <h4>Real Work Experience Certificate</h4>
-              <p className={styles.descPara}>
-                Real work experience gives you the Real edge
-              </p>
+              {seoPage ? (
+                <div
+                  dangerouslySetInnerHTML={{ __html: RealWorkPara }}
+                  className={styles.seoPara}
+                ></div>
+              ) : (
+                <p className={styles.descPara}>
+                  Real work experience gives you the Real edge
+                </p>
+              )}
+
               <p className={styles.point}>
                 <BsCheck2Circle className={styles.check} /> Project
                 certification from top MNCs to gain that edge

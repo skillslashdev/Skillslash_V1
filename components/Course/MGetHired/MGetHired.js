@@ -17,6 +17,8 @@ const MGetHired = ({
   redirectDSA,
   redirectWeb,
   redirectAI,
+  seoPage,
+  alumniPara,
 }) => {
   const [swiperData, setSwiperData] = useState(dsAlumni);
 
@@ -29,7 +31,8 @@ const MGetHired = ({
     redirectDSA || redirectFs ? setSwiperData(FsAlumni) : "";
     redirectWeb ? setSwiperData(webAlumni) : "";
   }, []);
-
+  // console.log(alumniPara, "getHired");
+  console.log(seoPage, "seoPage");
   return (
     <>
       <div className={style.wrapper}>
@@ -58,6 +61,14 @@ const MGetHired = ({
         <h4>
           Our <span>Alumni Placed @</span>
         </h4>
+        {seoPage ? (
+          <div
+            dangerouslySetInnerHTML={{ __html: alumniPara }}
+            className={style.seoPara}
+          ></div>
+        ) : (
+          ""
+        )}
         <div className={style.innerWrap}>
           <div className={style.slider}>
             <GetHiredSwiper swiperData={swiperData} />
