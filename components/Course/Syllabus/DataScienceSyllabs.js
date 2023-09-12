@@ -115,7 +115,7 @@ function DataScienceSyllabus({
                         borderBottom: "4px solid #4f419a",
                       }}
                     >
-                      {Module0.titleClose}
+                      {Module0.title}
                     </h2>
                     {/* {Module0.project
                       ? Module0.projectImgSrc.map((imgData) => {
