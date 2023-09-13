@@ -202,10 +202,8 @@ const Fee = memo(
                 <AiOutlineCloseCircle className={styles.cross} />
               </span>
               <hr className={styles.priceLine} />
-
               {dataScience || redirectDs || redirectBa ? (
                 <>
-                  <hr className={styles.priceLine} />
                   <span className={styles.PFeatures}>
                     <AiOutlineCloseCircle className={styles.cross} />
                   </span>
@@ -251,7 +249,6 @@ const Fee = memo(
             <hr className={styles.priceLine} />
             {dataScience || redirectDs || redirectBa ? (
               <>
-                <hr className={styles.priceLine} />
                 <span className={styles.PFeatures}>
                   <MdCheckCircle className={styles.check} />
                 </span>
