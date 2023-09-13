@@ -73,6 +73,7 @@
 }
 .syllabusLeft p {
   font-size: 18px;
+      line-height: 27px;
 }
 
 .Syllabusbutton {
@@ -210,6 +211,13 @@
   margin-bottom: 15px;
   background-color: #f8f7ff;
   border-radius: 0px 0px 8px 8px;
+}
+.ans li{
+      list-style: disc;
+}
+
+.ans a{
+  color: #49419a;
 }
 .FaqWrapper:nth-child(even) .ans {
   background: white !important;
