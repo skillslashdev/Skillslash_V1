@@ -132,7 +132,7 @@ export default function Home({
       });
       if (data.status === 200) {
         const { popData } = await data.json();
-        if (popData === []) {
+        if (popData == []) {
           setPopupData({ endDate: "", startDate: "" });
           setPopupData([]);
         }
