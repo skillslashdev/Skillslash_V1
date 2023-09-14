@@ -431,6 +431,26 @@ export default function Home({
             trainerSlider={trainerSlider}
           />
         </div>
+        {form.seoPage ? (
+          DataScienceCourseData === "" ? (
+            ""
+          ) : (
+            <SeoAbout
+              dataScience={false}
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
+              redirectWeb={form.webDevelopment}
+              syllabus={DataScienceCourseData.data.syllabus}
+              syllabusDesc={DataScienceCourseData.data.syllabusDesc}
+              popupHead={DataScienceCourseData.data.popupHead}
+            />
+          )
+        ) : (
+          ""
+        )}
 
         {DataScienceCourseData === "" ? (
           ""
@@ -481,7 +501,6 @@ export default function Home({
           </div>
         )}
 
-        <SeoAbout />
         <MiddlePageCta
           homePage={false}
           redirectBa={form.BusinessAnalytics}
