@@ -561,7 +561,7 @@ function Syllabus({ dataScience }) {
                     <b>
                       {" "}
                       Route optimization and Loading strategies to reduce costs
-                      :{" "}
+                      :
                     </b>
                     The goal of this project is to implement efficient and
                     effective routes and loading techniques using data analysis
