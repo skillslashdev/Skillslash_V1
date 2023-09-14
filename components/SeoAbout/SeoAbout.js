@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 import styles from "./SeoAbout.module.css";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp, MdCall } from "react-icons/md";
-
+import Link from "next/link";
 import Form from "../Form/Form";
-
 import { BiCheck } from "react-icons/bi";
-
+import Image from "next/image";
 import Popup from "../Popup/Popup";
 
-function Syllabus({
-  syllabus,
-  syllabusDesc,
+function DataScienceSyllabus({
+  seoAbout,
   popupHead,
   dataScience,
   redirectDs,
@@ -26,7 +24,8 @@ function Syllabus({
   const popupShow = () => {
     setPopups(true);
   };
-  const [state, setState] = useState(syllabus);
+  const [state, setState] = useState(seoAbout);
+  console.log(seoAbout, "seoAbout");
 
   const handleChange = (index) => {
     setState(
@@ -75,16 +74,9 @@ function Syllabus({
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
-            <h4>About Data science course in Pune</h4>
+            <h4>About Course</h4>
           </div>
         </div>
-        <p>
-          Skillslash’s best Data Science course comes with a Guaranteed job
-          referral. Besides, the Data Science and AI courses are curated by
-          leading faculties and industry leaders. Especially, with the aim to
-          provide practical data science learning experience with live
-          interactive classes and projects.
-        </p>
 
         {state.map((syllabusData, i) => {
           const { Module0 } = syllabusData;
@@ -105,26 +97,10 @@ function Syllabus({
                       style={{
                         paddingBottom: "25px",
                         paddingTop: "25px",
-                        borderBottom: "4px solid #4f419a",
                       }}
                     >
-                      {Module0.title}
+                      <b>{Module0.title}</b>
                     </h2>
-                    {/* {Module0.project
-                      ? Module0.projectImgSrc.map((imgData) => {
-                          return (
-                            <div className={styles.imgWrap}>
-                              <Image
-                                key={imgData.id}
-                                src={imgData.src}
-                                width={imgData.width}
-                                height={imgData.height}
-                                alt="Project by skillslash"
-                              />
-                            </div>
-                          );
-                        })
-                      : ""} */}
                   </div>
                   <span>
                     {Module0.open ? (
@@ -137,7 +113,9 @@ function Syllabus({
               ) : (
                 <div className={styles.ques}>
                   <div className={styles.headWrap}>
-                    <h2>{Module0.title}</h2>
+                    <h2>
+                      <b>{Module0.title}</b>
+                    </h2>
                     {Module0.project ? (
                       <div className={styles.logoImgWrap}>
                         {Module0.projectImgSrc.map((imgData) => {
@@ -214,8 +192,8 @@ function Syllabus({
                                     ""
                                   ) : (
                                     <p key={desc} className={styles.points}>
-                                      {" "}
-                                      <BiCheck className={styles.check} />{" "}
+                                      {/* {" "}
+                                      <BiCheck className={styles.check} />{" "} */}
                                       {desc}
                                     </p>
                                   )}
@@ -271,4 +249,4 @@ function Syllabus({
   );
 }
 
-export default Syllabus;
+export default DataScienceSyllabus;

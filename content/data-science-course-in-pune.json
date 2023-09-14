@@ -201,7 +201,420 @@
     "height": "391",
     "mainAlt": "Get Best Data Science Course in Pune"
   },
-
+  "seoAbout": [
+    {
+      "Module0": {
+        "title": "About Skillslash’s Data Science Course powered by Microsoft ",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "The Microsoft Corporation is a global technology renowned for its software products such as Windows operating systems and Office productivity suite, Microsoft has evolved into a diverse technology mixture that includes cloud computing via Azure, gaming via Xbox, and hardware such as the Surface lineup. With a mission to empower individuals and organizations to achieve more, Microsoft plays a pivotal role in the tech industry, driving innovation and providing a wide array of software services and hardware solutions to users worldwide. "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "We at Skillslash have successfully developed a data science course that is powered by the technology giant of Microsoft. Our courses and resources are aimed at equipping individuals with the skills and knowledge needed to excel in the field of data science. The data science course covers a wide arena of topics including data analysis, machine learning, and data visualization, and more and tools and platforms like Power BI, SQL, and Python."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "Furthermore, our data science course provides an opportunity to enhance one's resume with a valuable Microsoft Certification and Real-Time Work Certification (from leading multinational corporations/ startups) upon successful completion of the course. Additionally, our data science training offers placement assistance through our Guaranteed Job Referral Program."
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": true
+      }
+    },
+    {
+      "Module0": {
+        "title": "What are the job opportunities available after completion of this data science course?  ",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "Completing this data science course can open up a wide range of job opportunities in various domains and industries for you. Here are some of the job opportunities you can explore after completing this data science course: "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "1. Data Scientist",
+                "2. Machine Learning Engineer",
+                "3. Data Analyst",
+                "4. Business Intelligence Analyst",
+                "5. Data Engineer",
+                "6. Data Scientist in Healthcare, Finance, E-commerce, Marketing, Retail, Education, Government, and more. ",
+                "7. Statistician",
+                "8. Data Architect",
+                "9. Database Administrator"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "The specific roles and industries you can pursue will vary depending on your interests, skills and the specialization you choose within the field of data science. Further, the demand for data scientists continues to grow as organizations recognize the value of data-driven decision-making. "
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "  What are the projects offered under this Data Science Course?   ",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "This data science course offers you an opportunity to work on 10+ industry-partnered capstone projects in over 6+ domains, while practicing with 20+ tools.  "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "Our Industry-partnered capstone projects, hands-on projects with the aim of providing real world experience include the following domains and projects : "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "BFSI Domain",
+              "desc": [
+                "1. Predicting credit default: (Analyze a customer’s financial records, such as credit line number, age, payment history, and past 6 months’ delinquency history to forecast the likelihood of the customer’s default on future payments. )",
+                "2. Foreign currency exchange rate prediction: (Develop a reliable machine learning model for predicting foreign currency exchange rates while performing tasks of forecasting and time series analysis to make informed decisions in international financial transactions. )",
+                "3. Predicting dynamic interest rates on loans: (Create a predictive model that allows financial institutions to optimize lending strategies, manage risk effectively and offer transparent and competitive interest rates.)",
+                "4. Designing an effective marketing strategy for banks: (You will work to design an effective marketing strategy for banks that enhances customer acquisition, maximizes cross-selling opportunities, to drive sustainable growth and profitability for the institution.)",
+                "6. Fraud detection for online/mobile banking services: (You will implement advanced machine learning algorithms and anomaly detection  techniques to identify and prevent fraudulent activities that ensure the trust of customer’s financial transactions. )"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Healthcare ",
+              "desc": [
+                "1. Heart disease prediction: (You will build a reliable machine learning model for predicting the risks of heart diseases on the basis of patient’s data, to aid early diagnosis and timely medical treatments. )",
+                "2. Google Mobility data prediction: ( You will use historial Google mobility data, leveraging machine learning algorithms and statistical models to analyze future mobility patterns for insights into disease trends and behaviors. )",
+                "3. Statistical Trials for diabetes treatment efficacy prediction: (Here, you will use in-depth experiments and statistical analysis to assess the effectiveness and safety of diabetes treatments to predict their effectiveness, manage and improve patient outcomes.)"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Retail & Ecommerce",
+              "desc": [
+                "1. Recommender Systems (Enhance user experience and increase engagement in various domains of e-commerce, content and online platforms. Learn and use data mining, collaborative filtering and machine learning techniques to predict user preferences. )",
+                "2. Customer Basket Analysis for Marketing campaigns: (Using algorithms and data-mining techniques to analyze frequently recurring customer purchases to discover product associations and patterns that help initiate marketing initiatives, upselling strategies and enhance revenue. )",
+                "3. Amazon reviews for sentiment analysis: (You will analyze and categorize amazon reviews as positive, negative, or neutral by using natural language processing techniques to gauge customer satisfaction and sentiment towards products.) ",
+                "4. Retail Sales Prediction: (Using historical sales data and machine learning algorithms forecast future sales that enables retailers to optimize inventory and make informed business decisions for increased profitability.)",
+                "5. Marketing analytics for Website conversion analysis and tracking: (Identify key performance indicators through data analysis and tracking tools to measure website traffic, user engagement in order to create data-driven decisions and targeted marketing strategies. )"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "HR ",
+              "desc": [
+                "1. Attrition Modeling to predict employee churn: (You will build predictive models to anticipate potential attrition risks by analyzing historical data and enable measures to improve employee retention and organizational stability. )",
+                "2. Workforce management and planning: (Utilizing historical data, forecasting future workforce needs through affecting scheduling, resource allocating and alignment with business goals to reach maximum operational efficiency. )",
+                "3. Resume parsing using NLP: (Identifying and using Natural Language Processing techniques to analyze and interpret the textual content of resumes to create structured and actionable insights. )",
+                "4. Predicting and improving the mental health and satisfaction index of employee: (Predict and improve the mental health and satisfaction of employees by using data analysis and implementing target support systems to create a positive work environment.)",
+                "5. Predicting the Impact of HR Strategies through Prescriptive Analytics: (Using prescriptive analysis, which involves analysis of historical data, identifying patterns and recommending optimal HR actions to improve employee performance and engagement. )"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Sales and Marketing ",
+              "desc": [
+                "1. Analyzing Google Analytics to track customer interactions: (Optimizing user experience by integrating Google analytics with the website and collecting and interpreting user data to understand user preferences, patterns and engagements with the site’s content and features)",
+                "2. Market mix Models to gauge the efficiency of campaigns: (You will employ statistical techniques to analyze historical data and outcomes to build and apply Market Mix Models in order to measure the performance efficiency of campaigns, to optimize resource allocation. )",
+                "3. Sales Forecasting and Planning: (The goal is to develop and improve market performance and efforts by analyzing market trends, customer behavior, external factors and historical data to help meet demands effectively.) ",
+                "4. Dashboarding for Sales Enablement: (The dashboarding process involves the process of data collection, integration and visualization using business intelligence tools to drive sales and revenue growth. )",
+                "5. Promotion modeling to quantify the impact of discounts/promotions (Utilizing multiple machine learning and statistical techniques to analyze the past promotional data and predict the outcome and impact of future promotions. )"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Manufacturing and Supply Chain ",
+              "desc": [
+                "1. Material management and Planning for Factories: (Here, you will implement various advanced inventory management techniques, demand forecasting models, just-in-time practices and effective communication channels to aid coordination between the factory departments and minimize costs.) ",
+                "2. Predictive maintenance of machines: (By analyzing real-time sensor data you will predict potential machine failures and perform maintenance actions. The goal being to reduce machine downtime and improve machine maintenance. )",
+                "3. Hazard/Fire detection in warehouses and factories (You will be introduced to a combination of state-of-the-art sensors, computer vision and machine learning algorithms to identify and alert potential fire risks to ensure timely response. )",
+                "4. Inventory management in warehouses through Object detection methods: (Implement and develop object detection methods to automatically identify and track items. Streamlining the inventory process and minimizing errors and manual effort.)",
+                "5. Route optimization and Loading strategies to reduce costs (The goal of this project is to implement efficient and effective routes and loading techniques using data analysis and algorithms to minimize transportation costs, travel distances and enhance logistical efficiency. )"
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "What are the learning outcomes of this Data Science Course ?  ",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "We at Skillslash, offer a comprehensive course program in Data Science that covers everything you need to know about data science. From the basics to the advanced levels, our course curriculum covers all the essential topics one needs to know to master data science. Our all inclusive data science training program will train you in multiple data science projects from Python, advanced machine learning, deep learning, applied statistics to practicing 20+ data science tools (including Excel, SQL Database, etc).  "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "Our ultimate goal is to provide our students with the best combination of theory and practical experience when it comes to data science. In addition , you will have the opportunity to work within your specialized domains and learn about Google mobility data, Understand Youtube analytics and much more. "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "We do all this by providing you with a rich learning management system with 350+ Live sessions, 15+ industry projects and stimulated live interviews. Through our live sessions, tailored course curricula and stimulating interviews, you will gain quality applicable skills in real-time. With Skillslash, you will be equipped with the necessary skills to become a successful data scientist. "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "Earn a Microsoft certification in data science,  Upon completion of our data science course, you will walk away with a Microsoft certification. In addition, you will also earn a Real-time Work Experience certification from leading MNCs/Startups that will give you a competitive edge in real life. "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "Learn at Your Own Speed, With our hybrid model that combines 350+ live sessions with recorded videos, you can choose to learn data science on your own terms at your own pace. "
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": " What is the demand for data science courses in India? ",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "An analysis conducted by Analytics India Magazine has revealed that data science professionals employed in large companies with over 10,000 employees are salaried on an average of INR 16,8 lakhs per year (US$ 22,800). Conversely, those employed in medium-sized enterprises with between 1,000 and 10,000 employees receive an average of US$ 15,600 per year "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "Professionals employed in small companies with less than one thousand employees receive an average salary of US$ 11,800 per year."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "As India's tech sector continues to grow and develop, data science experts will be the driving force behind growth and innovation across industries. Whether you are new to the world of data science or have been working in the field for several years, keeping up with industry trends and constantly improving your skills will be essential for success in this fast-paced and rewarding field."
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "What are the skills one will take away from this data science course?  ",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "If you are looking to learn data science, our data science course is the way to go as our inclusive and comprehensive course curriculum covers a lot of different topics and tools, to make sure you learn everything important there is to know about data science without leaving anything behind. Our general course syllabus covers all the points in data science from teaching the languages of Python, C/C++, statistics basics and probability, applied statistics, advanced machine learning, deep learning, Data structures and Algorithms. "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "Our professional data science course is designed with the aim of providing a hands-on experience and real-time experience to our students. We do this through our professionally designed 15+ Industry projects in 6+ domains. Our course curriculum includes training in the target areas of, programming introduction, conditional and loops, Python programming concepts along with data science projects in Python, Probability theory, Hypothesis Testing and its Applications, regression, time-series analysis, neural networks. "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "The course also covers 20+ target data science tools such as the Excel interface, Excel menus and toolbars, excel formulae and functions, working with charts and graphs, macros, SQL databases and more.  "
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": " What are the advantages of taking this data science course ?  ",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "Check out our Data science course, with its multiple advantages and benefits, "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "1. We've got a great syllabus that's inclusive and high-quality, plus we can create a personalized curriculum with industry experts.",
+                "2. Plus, we've got real-life project experience from over 15+ industry projects in 6 different domains. ",
+                "3. We've got live interactive sessions and recorded videos that you can watch at your own speed",
+                "4. We also have dual certifications, Microsoft certifications, and real-time job experience certification from some of the biggest MNCs/startups.",
+                "5. Guaranteed job referrals.",
+                "6. And we've got a hybrid course model that you can take online or offline, and it's only about 8-12 months with lifetime accessibility"
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "What are the challenges around data science courses?  ",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "Learning about data science can be an exciting experience, but it comes with its own set of challenges: "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "1. One of the biggest challenges is the long learning curve. ",
+                "2. Data science is a multidisciplinary field that requires knowledge of statistics, programming and machine learning as well as data visualization, domain knowledge, etc.",
+                "3. If you don’t have a background in math or programming, it can be difficult to grasp all these different concepts and skills.",
+                "4. The pace of change in the field also makes it difficult to keep up with the latest techniques and tools.",
+                "5. Finding the right datasets, managing the data and dealing with the messy, real world problems can be overwhelming for students. ",
+                "6. Ethical considerations around data collection and use are also becoming more and more important, which adds to the complexity of the field.  ",
+                "7. Bridging the gap between theoretical and application is a crucial part of data science courses. ",
+                "8. It’s important to have a good theoretical foundation, but it’s also important to have real world experience. "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "It is essential to bridge the gap between theory and application and prepare students for the challenges they will face in their careers. And this is exactly what we at Skillslash aim to do, to prepare students to face all these challenges and prepare them for their real-world data science career experiences.  "
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "What is the average pay range of a Data Scientist? ",
+        "content": [
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "The average salary of a data scientist in India is between Rs. 3.6 lakhs to Rs. 25.9 lakhs with an annual remuneration of Rs. 100 lakhs. Globally, the average remuneration of a data scientist is about Rs. 130 lakh to Rs. 195 lakhs for mid-level data scientists"
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "What can you expect from this Microsoft Powered data science course ? ",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "Skillslash’s Data Science Powered by Microsoft course is an all-in-one Data Science Training & Education course delivered at an affordable Data Science Course Fees Structure. We don’t leave any stone unturned to equip you with the skills you need to be a top data scientist. With our Data Science course, you will have the chance to boost your resume with a Microsoft Certification and real-time work certification (from top multinational companies/ startups) once you complete the course. "
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "In addition to this, our Data Science training also provides you with the opportunity to get help with placement through our guaranteed job referral program.With Skillslash’s unique Data Science Course, you will have access to a professionally curated syllabus that provides you with deep learning and real life training experiences."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "The course curriculum is designed to teach you the fundamentals of Python, Applied Statistics, SQL for Business, Excel for Business and Machine Learning."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " ",
+              "desc": [
+                "So if you want to stay up-to-date with the latest data science trends, then this is the course for you."
+              ]
+            }
+          }
+        ],
+        "id": 0,
+        "open": false
+      }
+    }
+  ],
   "ProgramInfo": {
     "BatchDate": "29 January 2023",
     "BatchDuration": "09 Months",

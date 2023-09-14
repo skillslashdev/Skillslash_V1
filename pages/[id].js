@@ -443,8 +443,8 @@ export default function Home({
               redirectBa={form.BusinessAnalytics}
               redirectDSA={form.dsa}
               redirectWeb={form.webDevelopment}
-              syllabus={DataScienceCourseData.data.syllabus}
-              syllabusDesc={DataScienceCourseData.data.syllabusDesc}
+              seoAbout={DataScienceCourseData.data.seoAbout}
+              // seoAboutDesc={DataScienceCourseData.data.seoAboutDesc}
               popupHead={DataScienceCourseData.data.popupHead}
             />
           )
