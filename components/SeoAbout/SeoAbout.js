@@ -559,7 +559,6 @@ function Syllabus({ dataScience }) {
                   </li>
                   <li>
                     <b>
-                      {" "}
                       Route optimization and Loading strategies to reduce costs
                       :
                     </b>
