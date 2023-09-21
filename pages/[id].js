@@ -64,6 +64,7 @@ import styles from "../styles/Home.module.css";
 import React, { useState, useEffect } from "react";
 import { getAllPostIds, getPostData } from "../lib/page";
 import BatchProfile from "../components/Course/BatchProfile/BatchProfile";
+import RelatedInfo from "../components/SEO/ReleteadInfo/RelatedInfo";
 const VideoTestimonial = dynamic(() =>
   import("../components/VideoTestimonial/VideoTestimonial")
 );
@@ -726,6 +727,21 @@ export default function Home({
             <CTA redirectDSA={form.dsa} />
           </div>
         )}
+
+        {form.seoPage ? (
+          DataScienceCourseData === "" ? (
+            ""
+          ) : (
+            <RelatedInfo
+              pinCode={DataScienceCourseData.data.seoSection.pinCode}
+              relatedArea={DataScienceCourseData.data.seoSection.relatedArea}
+              relatedBlog={DataScienceCourseData.data.seoSection.relatedBlog}
+            />
+          )
+        ) : (
+          ""
+        )}
+
         <InternalLinking
           redirectDs={form.dataScience}
           redirectFs={form.FullStack}

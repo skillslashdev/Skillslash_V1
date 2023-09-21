@@ -29,7 +29,14 @@
     "FullStack": true,
     "dsa": false,
     "webDevelopment": false,
-    "AboutCourse": false
+    "AboutCourse": false,
+    "seoPage": false
+  },
+  "seoSection": {
+    "trainerMentor": "",
+    "ProjectsPara": "",
+    "CohortsPara": "",
+    "BatchProfilePara": ""
   },
   "FirstSection": {
     "deskTopPara": "India’s 1st",

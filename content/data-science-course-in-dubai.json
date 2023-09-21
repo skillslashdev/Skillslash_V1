@@ -28,7 +28,14 @@
     "BusinessAnalytics": false,
     "FullStack": false,
     "dsa": false,
-    "AboutCourse": false
+    "AboutCourse": false,
+    "seoPage": false
+  },
+  "seoSection": {
+    "trainerMentor": "",
+    "ProjectsPara": "",
+    "CohortsPara": "",
+    "BatchProfilePara": ""
   },
   "FirstSection": {
     "deskTopPara": "India’s 1st",

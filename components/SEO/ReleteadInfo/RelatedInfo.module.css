@@ -1,0 +1,53 @@
+.relatedWrap {
+  padding: 30px 100px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-flow: column;
+}
+.pinCode,
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.pinCode h2,
+.pinCode span,
+.location h2,
+.location span {
+  font-size: 12px;
+  margin: 0;
+  color: #646464;
+}
+.rBlog {
+  display: flex;
+  flex-flow: column;
+
+  justify-content: space-between;
+}
+.blog {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+  height: 410px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  border-radius: 4px;
+}
+.blogImg {
+  position: relative;
+  height: 190px;
+}
+.blogWrap {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+
+  gap: 15px;
+}
+.blog p {
+  margin: 5px 0;
+}
+.blog h4 {
+  font-size: 16px;
+  line-height: 20px;
+}
