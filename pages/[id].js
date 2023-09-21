@@ -47,7 +47,10 @@ const CTA = dynamic(() => import("../components/CTA/CTA"));
 const NewPricingTable = dynamic(() =>
   import("../components/Course/NewPricingTable/NewPricingTable")
 );
-import SeoAbout from "../components/SeoAbout/SeoAbout";
+const SeoAbout = dynamic(() => import("../components/SeoComponents/SeoAbout"));
+const SeoSyllabus = dynamic(() =>
+  import("../components/SeoComponents/SeoSyllabus")
+);
 const AboutCourses = dynamic(() =>
   import("../components/AboutCourse/AboutCourse")
 );
@@ -546,6 +549,28 @@ export default function Home({
             )}
           </div>
         )}
+
+        {form.seoPage ? (
+          DataScienceCourseData === "" ? (
+            ""
+          ) : (
+            <SeoSyllabus
+              dataScience={false}
+              redirectDs={form.dataScience}
+              redirectFs={form.FullStack}
+              redirectDe={form.DataEngineering}
+              redirectBa={form.BusinessAnalytics}
+              redirectDSA={form.dsa}
+              redirectWeb={form.webDevelopment}
+              seoSyllabus={DataScienceCourseData.data.seoSyllabus}
+              syllabusDesc={DataScienceCourseData.data.syllabusDesc}
+              popupHead={DataScienceCourseData.data.popupHead}
+            />
+          )
+        ) : (
+          ""
+        )}
+
         {DataScienceCourseData === "" ? (
           ""
         ) : (
