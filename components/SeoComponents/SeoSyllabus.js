@@ -13,6 +13,7 @@ import {
 } from "react-icons/ai";
 import Form from "../Form/Form";
 import { BiCheck } from "react-icons/bi";
+import { BsDot } from "react-icons/bs";
 import Image from "next/image";
 import Popup from "../Popup/Popup";
 
@@ -101,11 +102,15 @@ function DataScienceSyllabus({
               {/* {Module0.open ? ( */}
               <div className={styles.ques} style={{ borderBottom: "0" }}>
                 <div className={styles.headWrap}>
+                  <BsDot className={styles.dot} />
+                  <span className={styles.line}></span>
                   <h2>{Module0.title}</h2>
+
                   <p>
                     <b>{Module0.title1}</b>
                   </p>
                   <p>{Module0.descS}</p>
+
                   {Module0.project ? (
                     <div className={styles.logoImgWrap}>
                       {Module0.projectImgSrc.map((imgData) => {

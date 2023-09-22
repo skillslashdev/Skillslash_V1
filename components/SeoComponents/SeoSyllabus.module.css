@@ -9,6 +9,7 @@
 .syllabusLeft {
   margin: 0px 10px;
   position: relative;
+  overflow: hidden;
 }
 .syllabusLeft h4 {
   background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
@@ -17,6 +18,19 @@
 .headWrap {
   gap: 15px;
   align-items: center;
+  
+}
+.dot{
+  font-size: 45px;
+      position: absolute;
+    left: 0rem;
+     
+}
+.line{
+    border-left: 1px solid rgb(9, 9, 9);
+      height: 200rem;
+    position: absolute;
+   left: -0.4rem;
 }
 .imgWrap {
   display: flex;
@@ -160,7 +174,7 @@
   display: flex;
   justify-content: space-between;
   background-color: transparent;
-  padding: 15px 20px 10px 20px;
+  padding: 15px 20px 10px 40px;
   align-items: center;
   cursor: pointer;
   /* height: 60px; */
@@ -209,7 +223,7 @@
     box-shadow: 0 2px 8px 0 rgba(0,0,0,.1);
     border: solid 1px #dde3e7;
     background-color: #fff;
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 20px 34px;
     padding: 7px 10px;
 }
 .ans h2{
