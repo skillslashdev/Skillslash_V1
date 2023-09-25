@@ -73,7 +73,7 @@
 }
 .syllabusLeft p {
   font-size: 18px;
-      line-height: 27px;
+  line-height: 27px;
 }
 
 .Syllabusbutton {
@@ -212,11 +212,11 @@
   background-color: #f8f7ff;
   border-radius: 0px 0px 8px 8px;
 }
-.ans li{
-      list-style: disc;
+.ans li {
+  list-style: disc;
 }
 
-.ans a{
+.ans a {
   color: #49419a;
 }
 .FaqWrapper:nth-child(even) .ans {
@@ -267,7 +267,6 @@
   margin: 0px 10px;
 }
 .PProgram {
-  border-left: 4px solid #4f419a;
   border-radius: 4px 4px 0px 0px;
 }
 .PProgram > p {
@@ -280,8 +279,8 @@
 
 .PProgramInner {
   font-size: 16px;
-  border-left: 4px solid #4f419a;
-  padding: 10px 20px;
+
+  padding: 0px 00px 30px 0;
 }
 
 .PProgrammain {
@@ -313,6 +312,11 @@
   font-size: 18px;
   width: 100%;
   margin-bottom: 20px;
+}
+.req {
+  padding-top: 30px !important;
+  font-size: 22px !important;
+  text-align: center;
 }
 .PProgramInner p {
   display: flex;

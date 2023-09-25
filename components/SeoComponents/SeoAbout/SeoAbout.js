@@ -99,7 +99,7 @@ function DataScienceSyllabus({
                         paddingTop: "25px",
                       }}
                     >
-                      <b>{Module0.title}</b>
+                      {Module0.title}
                     </h2>
                   </div>
                   <span>
@@ -113,9 +113,7 @@ function DataScienceSyllabus({
               ) : (
                 <div className={styles.ques}>
                   <div className={styles.headWrap}>
-                    <h2>
-                      <b>{Module0.title}</b>
-                    </h2>
+                    <h2>{Module0.title}</h2>
                     {Module0.project ? (
                       <div className={styles.logoImgWrap}>
                         {Module0.projectImgSrc.map((imgData) => {
@@ -237,7 +235,7 @@ function DataScienceSyllabus({
 
           <div className={styles.PProgrammain} style={{ marginTop: "20px" }}>
             <div className={styles.PProgram}>
-              <p>Request More Information</p>
+              <p className={styles.req}>Request More Information</p>
             </div>
             <div className={styles.PProgramInner}>
               <Form />

@@ -6,14 +6,12 @@ import {
   MdOutlineLiveTv,
   MdOutlineLaptopMac,
 } from "react-icons/md";
+
 import Link from "next/link";
-import {
-  AiOutlineFundProjectionScreen,
-  AiOutlineFieldTime,
-} from "react-icons/ai";
+
 import Form from "../../Form/Form";
 import { BiCheck } from "react-icons/bi";
-import { BsDot } from "react-icons/bs";
+import { BsDot, BsClock, BsTools } from "react-icons/bs";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 
@@ -106,10 +104,8 @@ function DataScienceSyllabus({
                 <div className={styles.headWrap}>
                   <h2>{Module0.title}</h2>
 
-                  <p>
-                    <b>{Module0.title1}</b>
-                  </p>
-                  <p>{Module0.descS}</p>
+                  <p className={styles.sTitle}>{Module0.title1}</p>
+                  <p className={styles.sDesc}>{Module0.descS}</p>
 
                   {Module0.project ? (
                     <div className={styles.logoImgWrap}>
@@ -230,7 +226,9 @@ function DataScienceSyllabus({
                       {Module0.content.map((content, i) => {
                         return (
                           <div key={content.chap.title}>
-                            <h5>{content.chap.title}</h5>
+                            <h5 className={styles.chapHead}>
+                              {content.chap.title}
+                            </h5>
                             {content.chap.desc.map((desc, i) => {
                               return (
                                 <div key={desc}>
@@ -261,52 +259,33 @@ function DataScienceSyllabus({
       </div>
 
       <div>
-        {/* <div className={styles.syllabusRight}>
-          <div className={styles.PProgrammain}>
-            <div className={styles.PProgram}>
-              <p className={styles.highlight}>Program Highlights</p>
-            </div>
-            <div className={styles.PProgramInner}>
-              <p>
-                <MdOutlineLiveTv className={styles.PIcons} />
-                {redirectDSA ? "250+ Live sessions" : "350+ Live sessions"}
-              </p>
-              <p>
-                <AiOutlineFundProjectionScreen className={styles.PIcons} />
-                15+ Industry Projects
-              </p>
-              <p>
-                <AiOutlineFieldTime className={styles.PIcons} />
-                Life time accessibility
-              </p>
-              {redirectDSA ? (
-                ""
-              ) : (
-                <p>
-                  <MdOutlineLaptopMac className={styles.PIcons} />
-                  Live project experience
-                </p>
-              )}
+        <div className={styles.syllabusRight}>
+          <h3 className={styles.rightHeading}>
+            Data Science Course in Pune <span>Curriculum</span>
+          </h3>
+          <p className={styles.rightDesc}>
+            Data Science and AI courses Syllabus are curated by leading
+            faculties and industry leaders.
+          </p>
+          <div className={styles.feature}>
+            <BsClock className={styles.clockIcon} />
+            <div className={styles.fContent}>
+              <p className={styles.fHeading}>350+ Hrs</p>
+              <span>Live classes</span>
             </div>
           </div>
-          <div className={styles.PProgramMain} style={{ marginTop: "20px" }}>
-            <div className={styles.PProgram}>
-              <p>Request More Information</p>
-            </div>
-            <div className={styles.PProgramInnerS}>
-              <Form
-                syllabus={true}
-                dataScience={dataScience}
-                redirectDs={redirectDs}
-                redirectFs={redirectFs}
-                redirectBa={redirectBa}
-                redirectBl={redirectBl}
-                redirectDe={redirectDe}
-                redirectDSA={redirectDSA}
-              />
+
+          <div className={styles.feature}>
+            <BsTools className={styles.settingIcon} />
+            <div className={styles.fContent}>
+              <p className={styles.fHeading}>15+ </p>
+              <span>Tools and Project</span>
             </div>
           </div>
-        </div> */}
+          <button className={styles.buttonDownload} onClick={popupShow}>
+            Download Brochure
+          </button>
+        </div>
       </div>
     </section>
   );

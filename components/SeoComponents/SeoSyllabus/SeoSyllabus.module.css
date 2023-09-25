@@ -22,12 +22,14 @@
 .dot {
   font-size: 75px;
   top: 2px;
+  color: rgb(107, 107, 107);
   position: absolute;
+  z-index: 2;
   left: -0.95rem;
 }
 
 .line {
-  border-left: 1px solid rgb(9, 9, 9);
+  border-left: 1px solid rgb(218, 218, 218);
   position: absolute;
   top: 0px;
   height: calc(100% + 200px);
@@ -210,7 +212,16 @@
   font-size: 16px;
   font-weight: 400;
 
-  color: rgb(28, 28, 28);
+  color: #51565e;
+}
+.sTitle {
+  color: #272c37 !important;
+  font-weight: 600;
+}
+.sDesc {
+  width: 70%;
+  font-size: 15px !important;
+  color: #51565e;
 }
 .quesO h2 {
   padding-bottom: 25px;
@@ -220,17 +231,17 @@
   margin-bottom: 5px;
 }
 .ans {
-  border-radius: 13px;
+  border-radius: 4px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
   border: solid 1px #dde3e7;
   background-color: #fff;
   margin: 0px 20px 20px 34px;
-  padding: 7px 10px;
+  padding: 7px 20px;
 }
 .ans h2 {
   font-size: 16px;
-  font-weight: 600;
-  color: #5c5959;
+  font-weight: 400;
+  color: #4f419a;
 }
 .innerAns {
   display: flex;
@@ -246,14 +257,6 @@
 }
 .ansV {
   display: none;
-}
-
-.QInner {
-  display: grid;
-  grid-template-columns: 100%;
-  z-index: 2;
-  background-color: #fff;
-  list-style: none;
 }
 
 .bIcons {
@@ -293,62 +296,57 @@
   position: sticky;
   position: -webkit-sticky;
   top: 80px;
+  background-color: #f5f5f5;
   margin: 0px 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
 }
-.PProgram {
-  border-left: 4px solid #4f419a;
-  border-radius: 4px 4px 0px 0px;
+.rightHeading {
+  font-size: 25px;
+  margin: 10px 0;
+  text-align: center;
 }
-.PProgram > p {
-  font-size: 16px;
-  margin: 0;
-  color: black;
+.rightDesc {
+  text-align: center;
+}
+.feature {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  align-items: center;
+  background-color: white;
+}
+.clockIcon,
+.settingIcon {
+  font-size: 55px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #dde3e7;
+  color: #4f419a;
+}
+.fHeading {
+  color: #000;
+  font-size: 25px;
   font-weight: 600;
-  padding: 15px 20px 0px 20px;
+  margin: 0;
 }
-
-.PProgramInner {
-  font-size: 16px;
-  border-left: 4px solid #4f419a;
-  padding: 10px 20px;
-}
-
-.PProgrammain {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
-    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+.fContent span {
+  color: #6f6f6f;
 }
 .check {
   color: #01c705;
   font-size: 22px;
 }
-.points {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 16px !important;
-  margin: 0;
+.chapHead {
+  font-size: 20px;
+  margin: 20px 0px;
 }
-.PProgramMain {
-  background-color: #4f419a;
-  border-radius: 8px;
-  padding: 20px 0;
-}
-.highlight {
-  color: #4f419a !important;
-  text-align: left !important;
-  margin-bottom: 0px !important;
-}
-.PProgram P {
-  color: white;
-  font-size: 18px;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.PProgramInner p {
-  display: flex;
-  align-items: center;
-}
+
 @media (max-width: 1281px) {
   .Syllabus {
     margin: 85px 31px 0px 30px;

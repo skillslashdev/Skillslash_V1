@@ -477,7 +477,9 @@ export default function Home({
             />
           </div>
         )}
-        {DataScienceCourseData === "" ? (
+        {form.seoPage ? (
+          ""
+        ) : DataScienceCourseData === "" ? (
           ""
         ) : (
           <div className={styles.Feature} id="Feature">
