@@ -47,9 +47,11 @@ const CTA = dynamic(() => import("../components/CTA/CTA"));
 const NewPricingTable = dynamic(() =>
   import("../components/Course/NewPricingTable/NewPricingTable")
 );
-const SeoAbout = dynamic(() => import("../components/SeoComponents/SeoAbout"));
+const SeoAbout = dynamic(() =>
+  import("../components/SeoComponents/SeoAbout/SeoAbout")
+);
 const SeoSyllabus = dynamic(() =>
-  import("../components/SeoComponents/SeoSyllabus")
+  import("../components/SeoComponents/SeoSyllabus/SeoSyllabus")
 );
 const AboutCourses = dynamic(() =>
   import("../components/AboutCourse/AboutCourse")
@@ -67,7 +69,7 @@ import styles from "../styles/Home.module.css";
 import React, { useState, useEffect } from "react";
 import { getAllPostIds, getPostData } from "../lib/page";
 import BatchProfile from "../components/Course/BatchProfile/BatchProfile";
-import RelatedInfo from "../components/SEO/ReleteadInfo/RelatedInfo";
+import RelatedInfo from "../components/SeoComponents/ReleteadInfo/RelatedInfo";
 const VideoTestimonial = dynamic(() =>
   import("../components/VideoTestimonial/VideoTestimonial")
 );

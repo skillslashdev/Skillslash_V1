@@ -18,20 +18,22 @@
 .headWrap {
   gap: 15px;
   align-items: center;
-  
 }
-.dot{
-  font-size: 45px;
-      position: absolute;
-    left: 0rem;
-     
+.dot {
+  font-size: 75px;
+  top: 2px;
+  position: absolute;
+  left: -0.95rem;
 }
-.line{
-    border-left: 1px solid rgb(9, 9, 9);
-      height: 200rem;
-    position: absolute;
-   left: -0.4rem;
+
+.line {
+  border-left: 1px solid rgb(9, 9, 9);
+  position: absolute;
+  top: 0px;
+  height: calc(100% + 200px);
+  left: -0.4rem;
 }
+
 .imgWrap {
   display: flex;
   align-items: center;
@@ -184,7 +186,6 @@
 }
 .FaqWrapper:nth-child(odd) .ques {
   background: #f9f8ff;
- 
 }
 
 .FaqWrapper:nth-child(odd) .ques0 {
@@ -219,25 +220,25 @@
   margin-bottom: 5px;
 }
 .ans {
-    border-radius: 13px;
-    box-shadow: 0 2px 8px 0 rgba(0,0,0,.1);
-    border: solid 1px #dde3e7;
-    background-color: #fff;
-    margin: 0px 20px 20px 34px;
-    padding: 7px 10px;
+  border-radius: 13px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #dde3e7;
+  background-color: #fff;
+  margin: 0px 20px 20px 34px;
+  padding: 7px 10px;
 }
-.ans h2{
+.ans h2 {
   font-size: 16px;
-    font-weight: 600;
-    color: #5c5959;
+  font-weight: 600;
+  color: #5c5959;
 }
-.innerAns{
+.innerAns {
   display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
 }
-.innerAns span{
+.innerAns span {
   color: #6555be;
 }
 .FaqWrapper:nth-child(even) .ans {
@@ -267,20 +268,25 @@
 }
 
 .line {
-  margin-top: 35px;
   z-index: 1;
   margin-left: 28px;
 }
-
+.FaqWrapper:first-child .line {
+  top: 35px;
+}
+.FaqWrapper:last-child .line {
+  height: 35px;
+}
 .FaqWrapper {
   margin-top: 22px;
-  background-color:#f9f8ff;
-      margin-bottom: 10px;
-    padding-bottom: 10px;
+  background-color: #f9f8ff;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   margin-left: 0px;
   padding-top: 2px;
   padding-left: 0px;
   z-index: 0;
+  position: relative;
 }
 
 .syllabusRight {

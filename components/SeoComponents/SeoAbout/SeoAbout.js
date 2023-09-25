@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import styles from "./SeoAbout.module.css";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp, MdCall } from "react-icons/md";
 import Link from "next/link";
-import Form from "../Form/Form";
+import Form from "../../Form/Form";
 import { BiCheck } from "react-icons/bi";
 import Image from "next/image";
-import Popup from "../Popup/Popup";
+import Popup from "../../Popup/Popup";
 
 function DataScienceSyllabus({
   seoAbout,
