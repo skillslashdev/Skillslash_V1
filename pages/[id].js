@@ -53,6 +53,10 @@ const SeoAbout = dynamic(() =>
 const SeoSyllabus = dynamic(() =>
   import("../components/SeoComponents/SeoSyllabus/SeoSyllabus")
 );
+const SeoCertificate = dynamic(() =>
+  import("../components/SeoComponents/SeoCertificate/SeoCertificate")
+);
+
 const AboutCourses = dynamic(() =>
   import("../components/AboutCourse/AboutCourse")
 );
@@ -264,11 +268,12 @@ export default function Home({
     getPageData();
   }, []);
 
-  // console.log(DataScienceCourseData.data.seoSection, "id.js-trainer test");
+  // console.log(DataScienceCourseData.data.SeoCertificate, "test");
   // console.log(
   //   DataScienceCourseData.data.ProjectsPara,
   //   "DataScienceCourseData.data.ProjectsPara11"
   // );
+
   return (
     <>
       <Head>
@@ -516,7 +521,39 @@ export default function Home({
           redirectWeb={form.webDevelopment}
           redirectDSA={form.dsa}
         />
+
         {DataScienceCourseData === "" ? (
+          ""
+        ) : (
+          <SeoCertificate
+            dataScience={form.dataScience}
+            redirectDs={form.dataScience}
+            redirectFs={form.FullStack}
+            redirectDe={form.DataEngineering}
+            redirectBa={form.BusinessAnalytics}
+            redirectDSA={form.dsa}
+            redirectWeb={form.webDevelopment}
+            popupHead={DataScienceCourseData.data.SeoCertificate.popupHead}
+            subheading={DataScienceCourseData.data.SeoCertificate.subheading}
+            title={DataScienceCourseData.data.SeoCertificate.title}
+            desc={DataScienceCourseData.data.SeoCertificate.desc}
+            src={DataScienceCourseData.data.SeoCertificate.src}
+            altM={DataScienceCourseData.data.SeoCertificate.altM}
+            altR={DataScienceCourseData.data.SeoCertificate.altR}
+            seoPage={form.seoPage}
+            MicrosoftPara={
+              DataScienceCourseData.data.SeoCertificate.MicrosoftPara
+            }
+            CertificationPara={
+              DataScienceCourseData.data.SeoCertificate.CertificationPara
+            }
+            RealWorkPara={
+              DataScienceCourseData.data.SeoCertificate.RealWorkPara
+            }
+          />
+        )}
+
+        {/* {DataScienceCourseData === "" ? (
           ""
         ) : (
           <div id="certificate">
@@ -551,7 +588,7 @@ export default function Home({
               />
             )}
           </div>
-        )}
+        )} */}
 
         {DataScienceCourseData === "" ? (
           ""
