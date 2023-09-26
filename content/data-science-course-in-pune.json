@@ -763,6 +763,18 @@
     "JobT": "Comprehensive programs",
     "JobD": " Quality courses from top-notch faculties who are the best in their segment."
   },
+  "SeoCertificate": {
+    "subheading": "Dual Certification",
+    "popupHead": "Download Data Science Brochure",
+    "title": "Get Certification from Top-tier Startups and MNCs",
+    "desc": "Work directly with leading AI companies as a part of the course on their live projects. After successful project completion, you will get Data science training certification as Data Analyst before you start appearing in interviews",
+    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022-new.webp",
+    "altM": "Get Microsoft Certification by taking best data science course in Pune",
+    "altR": "Get Real Work Experience Certificate by taking best data science course in Pune online",
+    "CertificationPara": "Our certifications are a recognized way to demonstrate one’s knowledge. The data science course in Pune comes with not one but two forms of data science certification to provide you with the competitive edge you need in the real world.",
+    "MicrosoftPara": "Join our data science course in Pune, and earn your own Microsoft certification prior to completion of the data science course. Add it to your resume of accomplishments and catch the eye of interviewers. ",
+    "RealWorkPara": "Once you complete the data science course in Pune, you will be awarded an opportunity to work with actual companies on Projects, and earn a real-time work experience certification from the companies. This will boost your job profile and give you the much needed edge."
+  },
   "Certificate": {
     "subheading": "Dual Certification",
     "popupHead": "Download Data Science Brochure",
@@ -788,8 +800,9 @@
     {
       "Module0": {
         "title": "Module 0 ",
+        "project": false,
         "title1": "Introduction",
-        "descS": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "descS": "Our courses start off with this module that offers a basic overview of programming in data science for both beginners and advanced users who wish to strengthen their fundamental skills.",
         "content": [
           {
             "chap": {
@@ -831,8 +844,9 @@
     {
       "Module0": {
         "title": "Module 1 ",
+        "project": false,
         "title1": "Programming Essentials",
-        "descS": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "descS": "Through a hands-on approach, you will learn key programming concepts of Python, MatplotLib, Seaborn and languages commonly used in the data science field. Whether you're aspiring to become a data scientist or simply seeking to harness the power of programming for data analysis, this module equips you with the essential skills to manipulate, analyze, and visualize data effectively.",
         "content": [
           {
             "chap": {
@@ -986,8 +1000,9 @@
     {
       "Module0": {
         "title": "Module 2 ",
+        "project": false,
         "title1": "Applied Statistics",
-        "descS": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "descS": "By the end of the module, you will have mastered statistical tools such as probabilistic theory, hypothesis testing and regression analysis, all in the context of practical data science applications and the knowledge they need to be at the forefront of data science and lead data-driven innovations.",
         "content": [
           {
             "chap": {
@@ -1046,8 +1061,9 @@
     {
       "Module0": {
         "title": "Module 3 ",
+        "project": false,
         "title1": "Advance Machine Learning",
-        "descS": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "descS": "Explore cutting-edge algorithms, model optimization, and deep learning architectures, all while gaining practical experience through hands-on projects. ",
         "content": [
           {
             "chap": {
@@ -1175,8 +1191,52 @@
     {
       "Module0": {
         "title": "Module 4 ",
+        "project": true,
+        "projectImgSrc": [
+          {
+            "id": 1,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Google_logo.webp",
+            "width": "95",
+            "height": "50"
+          },
+          {
+            "id": 2,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Uber.webp",
+            "width": "70",
+            "height": "36"
+          },
+          {
+            "id": 3,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Youtube.webp",
+            "width": "107",
+            "height": "50"
+          }
+        ],
+        "projectInfo": [
+          {
+            "id": 1,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Google_logo.webp",
+            "title": "Mobility data ",
+            "width": "95",
+            "height": "50"
+          },
+          {
+            "id": 2,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Uber.webp",
+            "title": "Fare prediction",
+            "width": "70",
+            "height": "50"
+          },
+          {
+            "id": 3,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Youtube.webp",
+            "title": "Video analytics",
+            "width": "149",
+            "height": "62"
+          }
+        ],
         "title1": "Deep Learning ",
-        "descS": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "descS": "Gain the skills and knowledge you need to make the most of deep learning for everything from image recognition to natural language processing and predictive modeling. Get to know the ins and outs of AI, deep learning, CNNs, RNNs, and other cutting-edge techniques.",
         "content": [
           {
             "chap": {
@@ -1250,7 +1310,51 @@
       "Module0": {
         "title": "Module 5",
         "title1": "NLP",
-        "descS": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "project": true,
+        "projectImgSrc": [
+          {
+            "id": 1,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Razorpay.webp",
+            "width": "107",
+            "height": "50"
+          },
+          {
+            "id": 3,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png",
+            "width": "93",
+            "height": "28"
+          },
+          {
+            "id": 2,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/mercedez-inline-logo.png",
+            "width": "110",
+            "height": "28"
+          }
+        ],
+        "projectInfo": [
+          {
+            "id": 1,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Razorpay.webp",
+            "title": "Understand mobile banking",
+            "width": "107",
+            "height": "50"
+          },
+          {
+            "id": 2,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/mercedez-inline-logo.png",
+            "title": "Reduce time",
+            "width": "110",
+            "height": "28"
+          },
+          {
+            "id": 3,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png",
+            "title": "Food Reviews",
+            "width": "93",
+            "height": "28"
+          }
+        ],
+        "descS": "This module will help you figure out the ins and outs of text data. You'll learn the basics of analyzing, manipulating, and extracting meaning from text, so you can create smart apps, make decisions based on data, and improve your data science abilities.",
         "content": [
           {
             "chap": {
@@ -1305,8 +1409,9 @@
     {
       "Module0": {
         "title": "Module 6",
+        "project": false,
         "title1": "Reinforcement Learning (only in Pro Max)",
-        "descS": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "descS": "Discover the exciting world of Reinforcement Learning (RL) in the context of Data Science. In this module, you will delve into the fundamentals of RL, a powerful machine learning paradigm that enables algorithms to make sequential decisions by learning from their interactions with the environment. ",
         "content": [
           {
             "chap": {
@@ -1330,8 +1435,9 @@
     {
       "Module0": {
         "title": "Module 7",
+        "project": false,
         "title1": "Computer Vision (only in Pro Max)",
-        "descS": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "descS": "Whether you're interested in object detection, image classification, facial recognition, or the countless other applications of Computer Vision, this module will equip you with the knowledge and skills to tackle real-world data challenges and unlock the potential of visual data in the field of data science.",
         "content": [
           {
             "chap": {
@@ -1354,8 +1460,53 @@
     {
       "Module0": {
         "title": "Module 8 ",
+        "project": true,
+        "projectImgSrc": [
+          {
+            "id": 1,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Razorpay.webp",
+            "width": "107",
+            "height": "50"
+          },
+
+          {
+            "id": 3,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png",
+            "width": "93",
+            "height": "28"
+          },
+          {
+            "id": 2,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/mercedez-inline-logo.png",
+            "width": "110",
+            "height": "28"
+          }
+        ],
+        "projectInfo": [
+          {
+            "id": 1,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Razorpay.webp",
+            "title": "Understand mobile banking",
+            "width": "107",
+            "height": "50"
+          },
+          {
+            "id": 2,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/mercedez-inline-logo.png",
+            "title": "Reduce time",
+            "width": "110",
+            "height": "28"
+          },
+          {
+            "id": 3,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png",
+            "title": "Food Reviews",
+            "width": "93",
+            "height": "28"
+          }
+        ],
         "title1": "Data Structures and Algorithms ( 12 Weeks ) (only in Pro Max)",
-        "descS": "This module helps you to master the algorithms and data structures interview in FAANG & top product based MNCs. You will be solving 250+ coding challenges under guidance of expert mentors working in Tier 1 companies like Microsoft, Amazon, Adobe, Facebook, Google etc.",
+        "descS": "From understanding the significance of data structures to mastering algorithmic problem-solving, this module equips you with the critical skills needed to excel in the field of data science. You will be solving 250+ coding challenges under guidance of expert mentors working in Tier 1 companies like Microsoft, Amazon, Adobe, Facebook, Google etc.",
         "content": [
           {
             "chap": {
@@ -1395,7 +1546,51 @@
       "Module0": {
         "title": "Module 9 ",
         "title1": "TOOLS",
-        "descS": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "project": true,
+        "projectImgSrc": [
+          {
+            "id": 2,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/soptify-logo.webp",
+            "width": "110",
+            "height": "60"
+          },
+          {
+            "id": 3,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Bloombreg.webp",
+            "width": "107",
+            "height": "50"
+          },
+          {
+            "id": 1,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Google-play.webp",
+            "width": "110",
+            "height": "60"
+          }
+        ],
+        "projectInfo": [
+          {
+            "id": 1,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Google-play.webp",
+            "title": "Google Playstore analytics",
+            "width": "110",
+            "height": "60"
+          },
+          {
+            "id": 2,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/soptify-logo.webp",
+            "title": "Reduce time",
+            "width": "110",
+            "height": "60"
+          },
+          {
+            "id": 3,
+            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Bloombreg.webp",
+            "title": "Analyze exchange rates",
+            "width": "107",
+            "height": "50"
+          }
+        ],
+        "descS": "Unlock the full potential of data science with our comprehensive module on essential tools: Excel, SQL, Tableau, and Power BI and more. Dive into the world of data manipulation, analysis, visualization, and reporting with hands-on training in these industry-standard applications. ",
         "content": [
           {
             "chap": {
