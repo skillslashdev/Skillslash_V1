@@ -1,17 +1,12 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import styles from "./SeoSyllabus.module.css";
-import {
-  MdKeyboardArrowDown,
-  MdKeyboardArrowUp,
-  MdOutlineLiveTv,
-  MdOutlineLaptopMac,
-} from "react-icons/md";
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
 import Link from "next/link";
-
+import { AiOutlineTool } from "react-icons/ai";
 import Form from "../../Form/Form";
-import { BiCheck } from "react-icons/bi";
-import { BsDot, BsClock, BsTools } from "react-icons/bs";
+import { BiCheck, BiTimeFive } from "react-icons/bi";
+import { BsDot } from "react-icons/bs";
 import Image from "next/image";
 import Popup from "../../Popup/Popup";
 
@@ -268,7 +263,7 @@ function DataScienceSyllabus({
             faculties and industry leaders.
           </p>
           <div className={styles.feature}>
-            <BsClock className={styles.clockIcon} />
+            <BiTimeFive className={styles.clockIcon} />
             <div className={styles.fContent}>
               <p className={styles.fHeading}>350+ Hrs</p>
               <span>Live classes</span>
@@ -276,7 +271,7 @@ function DataScienceSyllabus({
           </div>
 
           <div className={styles.feature}>
-            <BsTools className={styles.settingIcon} />
+            <AiOutlineTool className={styles.settingIcon} />
             <div className={styles.fContent}>
               <p className={styles.fHeading}>15+ </p>
               <span>Tools and Project</span>

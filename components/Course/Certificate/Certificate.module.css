@@ -7,7 +7,7 @@
   padding: 40px 100px;
   background: #f9f8ff;
   grid-template-columns: 40% 40%;
-  gap: 50px
+  gap: 50px;
 }
 .Certifcate img {
   width: 100%;
@@ -55,7 +55,7 @@
 }
 .Certifcate h4 {
   width: max-content;
-  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
+
   border-radius: 0px 0px 8px 8px;
   margin-bottom: 0px !important;
 }
@@ -192,7 +192,7 @@
   border-top-color: #49419a;
   animation-play-state: running;
 }
-.seoPara{
+.seoPara {
   padding-top: 15px;
   padding-bottom: 15px;
 }

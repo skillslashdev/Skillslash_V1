@@ -17,7 +17,6 @@
   margin: 0;
 }
 .leftWrap h4 {
-  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
 }
 .rightWrap {
   display: flex;
@@ -184,7 +183,7 @@
   border-radius: 4px;
   padding: 5px;
 }
-.seoPara{
+.seoPara {
   /* padding-top: 10px; */
   padding-bottom: 15px;
 }

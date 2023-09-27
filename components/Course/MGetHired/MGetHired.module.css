@@ -9,7 +9,6 @@
 }
 .wrapper h4 span {
   width: max-content;
-  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
 }
 .bottom {
   display: none;
@@ -52,7 +51,7 @@
   align-items: center;
   justify-content: center;
 }
-.seoPara{
+.seoPara {
   /* padding-top: 10px; */
   padding-bottom: 15px;
 }

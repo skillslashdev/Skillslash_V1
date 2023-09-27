@@ -20,7 +20,6 @@
   color: #363636;
 }
 .headings h4 span {
-  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
 }
 .headings {
   display: flex;

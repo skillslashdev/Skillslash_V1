@@ -4,11 +4,12 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 0px;
-  padding: 40px 30px;
+  padding: 20px;
   background: #f9f8ff;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 40% 55%;
   gap: 50px;
-  margin: 0px 52px;
+  border-radius: 8px;
+  margin: 10px 100px;
 }
 .Certifcate img {
   width: 100%;
@@ -31,12 +32,12 @@
   display: grid;
   align-items: center;
   justify-content: center;
-margin: 0px 52px;
-    background: #f9f8ff;
-   padding: 40px 30px;
+  margin: 0px 100px;
+  background: #f9f8ff;
+  padding: 20px;
   border-radius: 4px;
-  gap: 80px;
-  grid-template-columns: 40% 40%;
+  gap: 50px;
+  grid-template-columns: 55% 40%;
 }
 
 .btRight {
@@ -57,7 +58,6 @@ margin: 0px 52px;
 }
 .Certifcate h4 {
   width: max-content;
-  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
   border-radius: 0px 0px 8px 8px;
   margin-bottom: 0px !important;
 }
@@ -194,22 +194,24 @@ margin: 0px 52px;
   border-top-color: #49419a;
   animation-play-state: running;
 }
-.seoPara{
+.seoPara {
+  color: #676767;
   padding-top: 15px;
+  font-weight: 400;
   padding-bottom: 15px;
 }
-.sections{
-      display: grid;
-    grid-template-columns: 48% 48%;
-        gap: 20px;
+.sections {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 20px;
 }
 
-.sections p{
+.sections p {
   font-size: 15px !important;
-  color: black;
+  color: #676767;
   line-height: 20px;
 }
-.headingImg{
+.headingImg {
   display: flex;
   text-align: center;
 }
@@ -281,16 +283,15 @@ margin: 0px 52px;
     align-items: center;
   }
 }
-@media(max-width: 1024px){
-   .top {
-     gap: 70px !important;
-        grid-template-columns: 40% 55%;
-   }
-   .bottom{
-     gap: 70px !important;
-        grid-template-columns:  55% 40%;
-   
-   }
+@media (max-width: 1024px) {
+  .top {
+    gap: 70px !important;
+    grid-template-columns: 40% 55%;
+  }
+  .bottom {
+    gap: 70px !important;
+    grid-template-columns: 55% 40%;
+  }
 }
 @media (max-width: 961px) {
   .left {
@@ -312,9 +313,10 @@ margin: 0px 52px;
     line-height: 30px;
     margin-bottom: 10px;
   }
-  .sections p{
-  font-size: 13px !important;}
-  .seoPara{
+  .sections p {
+    font-size: 13px !important;
+  }
+  .seoPara {
     font-size: 15px;
   }
 }
