@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import styles from "./Project.module.css";
+import { IoIosArrowForward } from "react-icons/io";
 // import WebSwiper from "./WebSwiper";
 // import DsSwiper from "./DsSwiper";
 // import FsSwiper from "./FsSwiper";
@@ -220,8 +221,9 @@ const ProjectSlider = ({
                   setDomainName("BFSI");
                 }}
               >
-                BFSI
+                BFSI <IoIosArrowForward />
               </span>
+
               <span
                 className={
                   domainName === "HR" ? styles.spanActive : styles.span
@@ -230,7 +232,7 @@ const ProjectSlider = ({
                   setDomainName("HR");
                 }}
               >
-                HR
+                HR <IoIosArrowForward />
               </span>
               <span
                 className={
@@ -240,7 +242,7 @@ const ProjectSlider = ({
                   setDomainName("HealthCare");
                 }}
               >
-                Healthcare
+                Healthcare <IoIosArrowForward />
               </span>
               <span
                 className={
@@ -250,7 +252,7 @@ const ProjectSlider = ({
                   setDomainName("Sales");
                 }}
               >
-                Sales
+                Sales <IoIosArrowForward />
               </span>
               <span
                 className={
@@ -262,7 +264,7 @@ const ProjectSlider = ({
                   setDomainName("Manufacturing and Supply Chain");
                 }}
               >
-                Manufacturing
+                Manufacturing <IoIosArrowForward />
               </span>
               <span
                 className={
@@ -272,7 +274,7 @@ const ProjectSlider = ({
                   setDomainName("Retail");
                 }}
               >
-                Retail
+                Retail <IoIosArrowForward />
               </span>
             </div>
           </div>
