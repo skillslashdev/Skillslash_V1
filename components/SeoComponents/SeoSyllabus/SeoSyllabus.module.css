@@ -96,10 +96,13 @@
 
 .Syllabusbutton {
   display: flex;
+  align-items:center ;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-
+.Syllabusbutton h4{
+  margin-bottom: 0;
+}
 .buttonDownload {
   display: inline-block;
   position: relative;
@@ -243,6 +246,7 @@
 .ans h2 {
   font-size: 16px;
   font-weight: 400;
+margin: 5px 0;
   color: #4f419a;
 }
 .innerAns {
@@ -358,7 +362,7 @@
     margin: 85px 31px 0px 30px;
   }
   .line {
-    margin-top: 24px;
+    
     margin-left: 26px;
   }
   .white {
@@ -375,16 +379,60 @@
     align-items: center;
   }
 }
+@media(max-width: 1024px){
+  .fContent span {
+    font-size: 14px;
+  }
+  .line{
+    margin-left: 28px;
+  }
+  .rightDesc{
+    font-size: 14px;
+  }
+  .rightHeading {
+    font-size: 21px;
+  }
+  .feature{
+    width: 85%;
+    padding: 5px 10px;
+    gap: 10px;
+  }
+  .fHeading {font-size: 18px;}
+ .clockIcon,
+.settingIcon {
+  font-size: 45px;
+}
+}
+@media(max-width:961px){
+   .rightHeading {
+    font-size: 18px;
+  }
+   .fContent span {
+    font-size: 12px;
+  }
+  .fHeading {font-size: 16px;
+  line-height: 10px}
+   .rightDesc{
+    font-size: 12px;
+    line-height: 16px
+  }
+   .clockIcon,
+.settingIcon {
+  font-size: 35px;
+}
+   .feature {    padding: 10px 10px;}
+}
 @media (max-width: 801px) {
   .line {
-    margin-left: 16px;
+    margin-left: 1.7rem;
   }
   .syllabusLeft h4 {
     font-size: 24px;
   }
   .syllabusLeft button {
     font-size: 14px;
-    padding: 15px;
+    padding: 10px 15px;
+    gap: 5px;
   }
   .Syllabus {
     display: flex;
@@ -430,7 +478,7 @@
   .line {
     margin-top: 15px;
     z-index: 1;
-    margin-left: 12px;
+   
   }
   .ans h5 {
     font-size: 16px;

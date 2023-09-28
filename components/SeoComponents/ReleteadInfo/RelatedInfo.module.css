@@ -55,3 +55,65 @@
   display: flex;
   gap: 10px;
 }
+@media(max-width: 1281px){
+  .relatedWrap{
+    padding: 30px 80px;
+  }
+}
+@media(max-width: 1024px){
+  .relatedWrap{
+    padding: 30px 40px;
+  }
+  .rBlog{
+    flex-wrap: wrap;
+  }
+  .blog{
+    height: max-content;
+  }
+  .blogImg{
+    height: 150px;
+  }
+}
+@media(max-width: 961px){
+  .blog h4{
+    font-size: 14px;
+  }
+  .blog span{
+    font-size: 12px;
+  }
+  .blogImg{
+    height: 120px;
+  }
+}
+@media(max-width: 641px){
+  .relatedWrap {
+  padding: 30px 40px;}
+  .blog{
+    height: 220px;
+  }
+  .blogImg{
+    height: 170px;
+  }
+  .blog h4{
+        font-size: 12px;
+    line-height: 17px;
+  }
+  .blogWrap {
+  display: grid;
+  grid-template-columns: 48% 48% ;
+
+  gap: 15px;
+}
+}
+
+@media(max-width:481px){
+   .relatedWrap {
+      padding: 30px 20px !important;}
+.rBlog {
+  display: flex;
+  flex-flow: column;
+   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+}

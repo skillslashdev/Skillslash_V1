@@ -11,6 +11,8 @@
   padding: 40px 100px;
   align-items: center;
   justify-content: space-between;
+      margin: 0px -22px;
+
 }
 .leftWrap p {
   color: #4f419a;
@@ -192,7 +194,8 @@
   padding: 5px;
 }
 .seoPara {
-  /* padding-top: 10px; */
+margin: 0px 100px;
+
   padding-bottom: 15px;
 }
 
@@ -203,7 +206,9 @@
   .header h5 {
     font-size: 21px;
   }
-
+.seoPara{
+  margin: 0 80px;
+}
   .ReviewBox {
     height: 340px;
   }
@@ -221,6 +226,13 @@
   .sliderWrap {
     margin: 40px;
   }
+   .projectHeader {
+        padding: 40px 100px;
+
+  }
+  .seoPara{
+  margin: 0 40px;
+}
 }
 @media (max-width: 1239px) {
   .desc p {
@@ -249,6 +261,9 @@
 }
 
 @media (max-width: 481px) {
+  .seoPara{
+  margin: 0 20px;
+}
   .projectHeader {
     padding: 20px;
     flex-flow: column;
@@ -286,7 +301,7 @@
     width: 100%;
     display: grid;
     gap: 10px;
-    grid-template-columns: 15% 85%;
+       grid-template-columns: 28% 70%;
   }
   .header h5 {
     font-size: 18px;
