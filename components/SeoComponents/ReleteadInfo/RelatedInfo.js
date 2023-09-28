@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./RelatedInfo.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import { BsCalendarCheck } from "react-icons/bs";
 
 const RelatedInfo = ({ pinCode, relatedArea, relatedBlog }) => {
   return (
@@ -31,8 +32,10 @@ const RelatedInfo = ({ pinCode, relatedArea, relatedBlog }) => {
                     </div>
                   </div>
                   <h4>{data.title}</h4>
-                  <p>{data.desc}</p>
-                  <span>{data.publishDate}</span>
+                  <span>
+                    <BsCalendarCheck />
+                    {data.publishDate}
+                  </span>
                 </div>
               </Link>
             );

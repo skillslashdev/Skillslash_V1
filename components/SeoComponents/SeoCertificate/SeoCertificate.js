@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./SeoCertificate.module.css";
-import { BsCheck2Circle } from "react-icons/bs";
+import { BsCheckLg } from "react-icons/bs";
 import Image from "next/image";
 
 const Certificate = ({
@@ -40,20 +40,20 @@ const Certificate = ({
             )}
             <div className={styles.sections}>
               <p className={styles.point}>
-                <BsCheck2Circle className={styles.check} /> Project
-                certification from top MNCs to gain that edge
+                <BsCheckLg className={styles.check} /> Project certification
+                from top MNCs to gain that edge
               </p>
               <p className={styles.point}>
-                <BsCheck2Circle className={styles.check} />
+                <BsCheckLg className={styles.check} />
                 Practical experience to tackle real-world problems
               </p>
               <p className={styles.point}>
-                <BsCheck2Circle className={styles.check} />
+                <BsCheckLg className={styles.check} />
                 Edge over all those with just course certifications
               </p>
               <p className={styles.point}>
-                <BsCheck2Circle className={styles.check} /> Lorem ipsum lorem
-                Lorem ipsum lorem ipsum
+                <BsCheckLg className={styles.check} /> Lorem ipsum lorem Lorem
+                ipsum lorem ipsum
               </p>
             </div>
           </div>
@@ -80,6 +80,7 @@ const Certificate = ({
               <div
                 dangerouslySetInnerHTML={{ __html: CertificationPara }}
                 className={styles.seoPara}
+                style={{ color: "#646464" }}
               ></div>
             ) : (
               ""
@@ -132,6 +133,29 @@ const Certificate = ({
                 </div>
                 <div className={styles.btRight}>
                   <div className={styles.desc}>
+                    <div className={styles.logo}>
+                      <div>
+                        <Image
+                          src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-new-white-new-logo.webp"
+                          alt="Skillslash"
+                          quality={100}
+                          style={{ objectFit: "contain" }}
+                          width={210}
+                          height={40}
+                        />
+                      </div>
+                      <span
+                        style={{ display: "flex", justifyContent: "flex-end" }}
+                      >
+                        <Image
+                          src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoft-white-1.png"
+                          alt="Skillslash"
+                          quality={100}
+                          width={200}
+                          height={43}
+                        />
+                      </span>
+                    </div>
                     <div className={styles.headingImg}>
                       <h4>Microsoft Certification</h4>
                     </div>
@@ -146,20 +170,20 @@ const Certificate = ({
 
                     <div className={styles.sections}>
                       <p className={styles.point}>
-                        <BsCheck2Circle className={styles.check} />
+                        <BsCheckLg className={styles.check} />
                         Be certified in Azure AI Fundamentals
                       </p>
                       <p className={styles.point}>
-                        <BsCheck2Circle className={styles.check} />
+                        <BsCheckLg className={styles.check} />
                         Be ahead of those who don’t have one
                       </p>
                       <p className={styles.point}>
-                        <BsCheck2Circle className={styles.check} /> Earn the
+                        <BsCheckLg className={styles.check} /> Earn the
                         credibility of a true professional
                       </p>
                       <p className={styles.point}>
-                        <BsCheck2Circle className={styles.check} /> Lorem ipsum
-                        lorem ipsum Lorem ipsum lorem
+                        <BsCheckLg className={styles.check} /> Advance your
+                        career and get hired faster
                       </p>
                     </div>
                   </div>
@@ -198,20 +222,20 @@ const Certificate = ({
                   )}
                   <div className={styles.sections}>
                     <p className={styles.point}>
-                      <BsCheck2Circle className={styles.check} /> Project
-                      certification from top MNCs to gain that edge
+                      <BsCheckLg className={styles.check} /> Project
+                      certification from top MNCs
                     </p>
                     <p className={styles.point}>
-                      <BsCheck2Circle className={styles.check} />
-                      Practical experience to tackle real-world problems
+                      <BsCheckLg className={styles.check} />
+                      Practical experience to tackle problems
                     </p>
                     <p className={styles.point}>
-                      <BsCheck2Circle className={styles.check} />
-                      Edge over all those with just course certifications
+                      <BsCheckLg className={styles.check} />
+                      Edge over all those with Course certifications
                     </p>
                     <p className={styles.point}>
-                      <BsCheck2Circle className={styles.check} /> Lorem ipsum
-                      lorem Lorem ipsum lorem ipsum
+                      <BsCheckLg className={styles.check} /> Get recognized for
+                      new job opportunities
                     </p>
                   </div>
                 </div>

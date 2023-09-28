@@ -44,14 +44,14 @@ const ProjectSwiper = memo(({ swiperData, redirectFs }) => {
   return mounted ? (
     <Swiper
       spaceBetween={20}
-      slidesPerView={3.2}
+      slidesPerView={2.5}
       loop={true}
       pagination={{
         dynamicBullets: true,
         clickable: true,
       }}
       breakpoints={{
-        1024: { slidesPerView: 3.4, spaceBetween: 20 },
+        1024: { slidesPerView: 2.5, spaceBetween: 20 },
         801: { slidesPerView: 2, spaceBetween: 20 },
         641: { slidesPerView: 1.3, spaceBetween: 20 },
         481: { slidesPerView: 1.1, spaceBetween: 10 },
