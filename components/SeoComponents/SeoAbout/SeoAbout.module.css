@@ -3,9 +3,6 @@
   grid-template-columns: 70% 30%;
   margin: 10px 100px 100px 100px;
 }
-.container {
-  background-color: antiquewhite;
-}
 .syllabusLeft {
   margin: 0px 10px;
   position: relative;
@@ -169,16 +166,16 @@
 .ques span {
   color: #6555be;
 }
-.FaqWrapper:nth-child(odd) .ques {
+.FaqWrapper:nth-child(even) .ques {
   background: #f9f8ff;
   border-bottom: 1px solid #4f419a;
 }
 
-.FaqWrapper:nth-child(odd) .ques0 {
+.FaqWrapper:nth-child(even) .ques0 {
   background: #f9f8ff;
   font-size: 45px;
 }
-.FaqWrapper:nth-child(even) .ques0 {
+.FaqWrapper:nth-child(odd) .ques0 {
   background: white;
 }
 
@@ -314,7 +311,6 @@
 }
 .req {
   padding-top: 30px !important;
-  font-size: 22px !important;
   text-align: center;
 }
 .PProgramInner p {
@@ -325,11 +321,11 @@
 }
 .tollNo p {
   margin: 0px !important;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
 }
 .tollNo h4 {
-  font-size: 25px;
+  font-size: 22px;
   color: rgb(58, 58, 58);
 }
 .contactNo {
@@ -344,7 +340,7 @@
 }
 @media (max-width: 1281px) {
   .Syllabus {
-    margin: 85px 31px 0px 30px;
+    margin: 85px 30px;
   }
   .line {
     margin-top: 24px;
@@ -362,6 +358,31 @@
   .PProgramInner p {
     display: flex;
     align-items: center;
+  }
+}
+@media (max-width: 1024px) {
+  .tollNo {
+    padding: 10px 20px;
+  }
+  .tollNo h4 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .tollNo p {
+    padding: 0 !important;
+    font-size: 16px;
+  }
+  .PProgram P {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .syllabusRight {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 80px;
+    margin: 0px 0px 0 10px;
   }
 }
 @media (max-width: 801px) {
@@ -386,10 +407,10 @@
     align-items: center;
   }
   .PProgrammain {
-    width: 70%;
+    width: 100%;
   }
   .PProgramMain {
-    width: 70%;
+    width: 100%;
   }
 }
 @media (max-width: 641px) {
@@ -405,7 +426,7 @@
   .Syllabus {
     display: grid;
     grid-template-columns: auto;
-    margin: 50px 10px;
+    margin: 30px 20px;
   }
   .projectSyllabus button {
     padding: 5px 10px;
@@ -434,7 +455,7 @@
   }
   .points {
     display: grid !important;
-    grid-template-columns: 5% 94%;
+    grid-template-columns: 100%;
     gap: 8px;
     align-items: flex-start;
   }

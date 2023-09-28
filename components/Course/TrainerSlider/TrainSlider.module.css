@@ -5,6 +5,8 @@
   margin-top: 30px;
   width: max-content;
 }
+.seoPara {
+}
 .heading span {
   width: max-content;
 }
@@ -69,6 +71,7 @@
   object-fit: cover;
 }
 .seoPara {
+  color: #646464;
   /* padding-top: 10px; */
   padding-bottom: 15px;
 }
@@ -80,7 +83,7 @@
 @media (max-width: 481px) {
   .heading {
     text-align: center;
-    font-weight: 500;
+
     margin-top: 15px;
     margin-bottom: 0;
   }

@@ -39,9 +39,6 @@
 .certWrap .left {
   display: flex;
 }
-.mobileCert {
-  display: none;
-}
 .topWrap {
   padding: 10px 100px;
 }
@@ -93,7 +90,6 @@
   border-radius: 15px;
 }
 .Certifcate h4 {
-  width: max-content;
   border-radius: 0px 0px 8px 8px;
   margin-bottom: 0px !important;
 }
@@ -272,12 +268,20 @@
     opacity: 0.4;
   }
 }
+.DeskCert {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
 @media (max-width: 1281px) {
-  .top {
-    gap: 94px;
+  .topWrap {
+    padding: 0;
+  }
+  .certWrap {
+    margin: 0;
   }
   .Certifcate {
-    padding: 0 40px;
+    padding: 0 80px;
   }
   .imgWrap {
     position: unset;
@@ -321,8 +325,11 @@
 }
 @media (max-width: 1024px) {
   .top {
-    gap: 70px !important;
+    gap: 40px !important;
     grid-template-columns: 40% 55%;
+  }
+  .Certifcate {
+    padding: 0 40px;
   }
   .bottom {
     gap: 70px !important;
@@ -335,7 +342,7 @@
   }
   .top {
     padding: 20px 20px;
-    grid-template-columns: 49% 49%;
+    grid-template-columns: 36% 60%;
   }
   .topWrap {
     padding: 0 20px;
@@ -361,17 +368,21 @@
     font-size: 14px;
     padding: 15px;
   }
-  .top .bottom {
+  .topWrap {
+    padding: 0;
+  }
+  .top {
     display: flex;
+    flex-flow: column;
+    margin: 20px;
+  }
+  .top .bottom {
+    display: flex !important;
     flex-flow: column;
   }
 }
 @media (max-width: 641px) {
   .Certifcate {
-    display: flex;
-    flex-flow: column;
-  }
-  .mobileCert {
     display: flex;
     flex-flow: column;
   }
@@ -393,38 +404,29 @@
     border-radius: 0;
   }
   .check {
-    color: #49419a;
+    color: white;
   }
-  .DeskCert {
-    display: none;
+  .sections {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5px;
   }
-  .mobileCertificateWrap {
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-    gap: 10px;
-    justify-content: space-between;
-    align-items: center;
+  .topWrap {
+    padding: 0;
+  }
+
+  .top {
+    margin: 0;
   }
   .left p {
     text-align: center;
     color: #575757;
-  }
-  .imgWrap {
-    display: none;
-  }
-  .bottom {
-    display: none;
   }
   .left h5 {
     text-align: center;
     margin-bottom: 0px;
     padding-bottom: 0px;
     color: black;
-  }
-
-  .right .imgWrap {
-    display: none;
   }
   .btnWrapper {
     display: none;
@@ -448,9 +450,5 @@
   }
   .right img {
     border-radius: 6px;
-  }
-
-  .pBotC {
-    display: none;
   }
 }

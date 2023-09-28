@@ -74,7 +74,7 @@ function DataScienceSyllabus({
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
-            <h4>About Course</h4>
+            <h4>About Data Science Course</h4>
           </div>
         </div>
 

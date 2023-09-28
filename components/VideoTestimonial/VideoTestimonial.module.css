@@ -18,9 +18,6 @@
   font-weight: 600;
   margin: 0;
 }
-.headings h4 span {
-}
-
 .ReviewBox {
   display: flex;
   flex-flow: column;
@@ -197,7 +194,7 @@
     flex-flow: column;
   }
   .profileWrapper {
-    height: 160px;
+    height: 190px;
   }
   .nameWrap p {
     font-size: 14px;
