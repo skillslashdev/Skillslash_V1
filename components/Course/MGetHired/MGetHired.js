@@ -30,7 +30,7 @@ const MGetHired = ({
     redirectWeb ? setSwiperData(webAlumni) : "";
   }, []);
   // console.log(alumniPara, "getHired");
-  console.log(seoPage, "seoPage");
+
   return (
     <>
       <div className={style.wrapper}>

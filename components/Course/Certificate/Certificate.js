@@ -32,8 +32,6 @@ const Certificate = ({
     }
   });
 
-  console.log(MicrosoftPara, "micropara");
-
   return (
     <section className={styles.Certifcate}>
       {mobile ? (
