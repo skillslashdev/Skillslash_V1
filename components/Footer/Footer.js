@@ -1,12 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import {
-  FaFacebookF,
-  FaYoutube,
-  FaInstagram,
-  FaTwitter,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaYoutube, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaMeta, FaXTwitter } from "react-icons/fa6";
 import { MdMail, MdCall } from "react-icons/md";
 import { FaAndroid } from "react-icons/fa";
 import Image from "next/image";
@@ -50,7 +45,7 @@ const Footer = () => {
               target="_blank"
               aria-label="Go to the facebook page of skillslash"
             >
-              <FaFacebookF className={styles.FIcon} />
+              <FaMeta className={styles.FIcon} />
             </a>
             <a
               href="https://www.instagram.com/skillslash_Academy/"
@@ -71,7 +66,7 @@ const Footer = () => {
               target="_blank"
               aria-label="Go to the Twitter Page of skillslash"
             >
-              <FaTwitter className={styles.FIcon} />
+              <FaXTwitter className={styles.FIcon} />
             </a>
             <a
               href="https://www.linkedin.com/company/skillslash"
