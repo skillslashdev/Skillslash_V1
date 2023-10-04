@@ -33,7 +33,7 @@ const ThankYou = () => {
           </h4>
           <p className={styles.Ptop}>
             We have shared the program brochure with you over an email. Have a
-            great day !
+            great day. !
           </p>
           <div className={styles.mainb}>
             <div>
