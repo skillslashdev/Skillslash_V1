@@ -9,7 +9,6 @@
 }
 .wrapper h4 span {
   width: max-content;
-  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
 }
 .bottom {
   display: none;
@@ -51,6 +50,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.seoPara {
+  color: #646464;
+  /* padding-top: 10px; */
+  padding-bottom: 15px;
 }
 @media (max-width: 1281px) {
   .wrapper {

@@ -43,7 +43,7 @@
   /* border-bottom: 1px solid grey; */
   outline: none;
   background-color: transparent;
-  height: 30px;
+  height: 35px;
 }
 .NameInputs {
   border-radius: 8px;
@@ -62,7 +62,7 @@
   /* border-bottom: 1px solid grey; */
   outline: none;
   background-color: transparent;
-  height: 30px;
+  height: 35px;
 }
 .EmailInputs {
   border-radius: 8px;
@@ -202,7 +202,7 @@
   color: white;
 }
 .date input:focus-visible {
-  outline: 1px solid  #4f419a;
+  outline: 1px solid #4f419a;
 }
 .button {
   width: max-content;
@@ -354,27 +354,29 @@
   .FormText {
     text-align: center;
   }
-  .NameInput, .NameInputs, .EmailInput, .EmailInputs{
+  .NameInput,
+  .NameInputs,
+  .EmailInput,
+  .EmailInputs {
     height: 25px;
   }
-  .formWrapper{
+  .formWrapper {
     margin-bottom: 10px;
   }
   .FormTextS {
     text-align: center;
   }
-  .formWrappers select{
+  .formWrappers select {
     height: 25px;
   }
   .button {
     margin-top: 0px;
     padding: 10px 15px;
   }
-  .button::after{
+  .button::after {
     width: 25px;
     height: 25px;
   }
-  
 }
 @media (max-width: 481px) {
   .EmailInput,

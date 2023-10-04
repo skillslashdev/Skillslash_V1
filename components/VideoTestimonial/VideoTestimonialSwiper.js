@@ -74,7 +74,7 @@ const VideoTestimonialSwiper = ({ event, review }) => {
                   alt={data.alt}
                   loading="lazy"
                   fill={true}
-                  style={{ objectFit: "contain" }}
+                  style={{ objectFit: "cover" }}
                 />
                 <BsFillPlayFill
                   className={styles.playIcon}

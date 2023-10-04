@@ -17,6 +17,7 @@ const Form = ({
   popup,
   redirectZoom,
   link,
+  placement,
   EventTitle,
   setTrigger,
   downloadBrochure,
@@ -111,28 +112,34 @@ const Form = ({
     }
     if (changeRedirect) {
       router.push("/demo-videos");
-    } else if (redirectDs) {
+    } else if (redirectDs && placement != true) {
       router.push("/Thankyou/data-science");
     }
-    if (redirectFs) {
+    if (redirectFs && placement != true) {
       router.push("/Thankyou/full-stack");
     }
-    if (redirectDSA) {
+    if (redirectDSA && placement != true) {
       router.push("/Thankyou/dsa");
     }
-    if (redirectDe) {
+    if (redirectDe && placement != true) {
       router.push("/Thankyou/data-engineering");
     }
-    if (redirectBa) {
+    if (redirectBa && placement != true) {
       router.push("/Thankyou/business-analytics");
       return;
     }
-    if (redirectBl) {
+    if (redirectBl && placement != true) {
       router.push("/Thankyou/blockchain");
       return;
     }
-    if (redirectWeb) {
+    if (redirectWeb && placement != true) {
       router.push("/Thankyou/web-development");
+    }
+    if (placement && redirectDs) {
+      router.push("/Thankyou/ds/placement-report");
+    }
+    if (placement && redirectBa) {
+      router.push("/Thankyou/ba/placement-report");
     }
 
     if (event) {
@@ -318,6 +325,7 @@ const Form = ({
                       },
                     },
                   ]}
+                  style={{ width: "100% !important" }}
                   minTime={setHours(setMinutes(new Date(), 0), 10)}
                   maxTime={setHours(setMinutes(new Date(), 0), 20)}
                 />

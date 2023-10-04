@@ -6,16 +6,21 @@ const ProgressBar = dynamic(() => import("./Chart/ProgressBar"));
 const PieChart = dynamic(() => import("./Chart/PieChart"));
 const BarChart = dynamic(() => import("./Chart/BarChart"));
 
-const BatchProfile = () => {
+const BatchProfile = ({ seoPage, BatchProfilePara }) => {
   return (
     <div className={styles.batchProfileWrapper}>
       <h4>
         Batch <span>Profile</span>
       </h4>
+      {/* {seoPage ? (
+        <div dangerouslySetInnerHTML={{ __html: BatchProfilePara }}></div>
+      ) : ( */}
       <p className={styles.pBot}>
         The program is designed for people from various sectors. The variety of
         participants enriches discussion and interaction.
       </p>
+      {/* )} */}
+
       <div className={styles.chartWrap}>
         <div className={styles.first}>
           <h5>By Industry</h5>

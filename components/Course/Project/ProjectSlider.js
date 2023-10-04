@@ -2,12 +2,20 @@ import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import styles from "./Project.module.css";
+import { IoIosArrowForward } from "react-icons/io";
 // import WebSwiper from "./WebSwiper";
 // import DsSwiper from "./DsSwiper";
 // import FsSwiper from "./FsSwiper";
 
 const ProjectSwiper = dynamic(() => import("./ProjectSwiper"));
-import { DsProject, FsProject, webProject, BaProject } from "./ProjectData";
+import {
+  DsProject,
+  FsProject,
+  webProject,
+  BaProject,
+  ProjectPara,
+  seoPage,
+} from "./ProjectData";
 
 const ProjectSlider = ({
   redirectDs,
@@ -16,6 +24,8 @@ const ProjectSlider = ({
   redirectBa,
   redirectWeb,
   redirectDSA,
+  seoPage,
+  ProjectsPara,
 }) => {
   const [swiperData, setSwiperData] = useState(
     DsProject.filter((DsProject) => {
@@ -152,7 +162,15 @@ const ProjectSlider = ({
           </div>
         </div>
       </div>
-      <div className={styles.line}>
+      {seoPage ? (
+        <div
+          dangerouslySetInnerHTML={{ __html: ProjectsPara }}
+          className={styles.seoPara}
+        ></div>
+      ) : (
+        ""
+      )}
+      {/* <div className={styles.line}>
         <div className={styles.left}>
           <p>
             <Image
@@ -189,7 +207,7 @@ const ProjectSlider = ({
             Get Real-world Experience
           </p>
         </div>
-      </div>
+      </div> */}
       <div className={styles.sliderWrap}>
         {redirectDs || redirectBa ? (
           <div className={styles.categoryBar}>
@@ -202,8 +220,9 @@ const ProjectSlider = ({
                   setDomainName("BFSI");
                 }}
               >
-                BFSI
+                BFSI <IoIosArrowForward />
               </span>
+
               <span
                 className={
                   domainName === "HR" ? styles.spanActive : styles.span
@@ -212,7 +231,7 @@ const ProjectSlider = ({
                   setDomainName("HR");
                 }}
               >
-                HR
+                HR <IoIosArrowForward />
               </span>
               <span
                 className={
@@ -222,7 +241,7 @@ const ProjectSlider = ({
                   setDomainName("HealthCare");
                 }}
               >
-                Healthcare
+                Healthcare <IoIosArrowForward />
               </span>
               <span
                 className={
@@ -232,7 +251,7 @@ const ProjectSlider = ({
                   setDomainName("Sales");
                 }}
               >
-                Sales
+                Sales <IoIosArrowForward />
               </span>
               <span
                 className={
@@ -244,7 +263,7 @@ const ProjectSlider = ({
                   setDomainName("Manufacturing and Supply Chain");
                 }}
               >
-                Manufacturing
+                Manufacturing <IoIosArrowForward />
               </span>
               <span
                 className={
@@ -254,7 +273,7 @@ const ProjectSlider = ({
                   setDomainName("Retail");
                 }}
               >
-                Retail
+                Retail <IoIosArrowForward />
               </span>
             </div>
           </div>

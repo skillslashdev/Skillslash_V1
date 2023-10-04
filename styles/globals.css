@@ -667,7 +667,7 @@ button {
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 12px;
+    border-radius: 12px 12px 0px 0px;
     border-top: 1px solid rgba(98, 98, 98, 0.125);
     height: 60px;
     width: 100vw;

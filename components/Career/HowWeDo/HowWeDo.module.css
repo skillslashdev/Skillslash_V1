@@ -15,7 +15,6 @@
 }
 .wrapper h4 span {
   width: max-content;
-  background: linear-gradient(to top, #e3dfff 50%, transparent 50%);
 }
 
 @media (max-width: 641px) {

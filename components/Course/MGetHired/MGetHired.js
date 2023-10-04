@@ -6,8 +6,6 @@ import { FsAlumni, dsAlumni, webAlumni } from "./AlumniData";
 const GetHiredSwiper = dynamic(() => import("./GetHiredSwiper"));
 const Popup = dynamic(() => import("../../Popup/Popup"));
 const Form = dynamic(() => import("../../Form/Form"));
-const PartnerSlider = dynamic(() => import("../PartnerSlider/PartnerSlider"));
-import { hPartner } from "../PartnerSlider/PartnerSliderData";
 
 const MGetHired = ({
   redirectDs,
@@ -17,6 +15,8 @@ const MGetHired = ({
   redirectDSA,
   redirectWeb,
   redirectAI,
+  seoPage,
+  alumniPara,
 }) => {
   const [swiperData, setSwiperData] = useState(dsAlumni);
 
@@ -29,6 +29,7 @@ const MGetHired = ({
     redirectDSA || redirectFs ? setSwiperData(FsAlumni) : "";
     redirectWeb ? setSwiperData(webAlumni) : "";
   }, []);
+  // console.log(alumniPara, "getHired");
 
   return (
     <>
@@ -58,6 +59,14 @@ const MGetHired = ({
         <h4>
           Our <span>Alumni Placed @</span>
         </h4>
+        {seoPage ? (
+          <div
+            dangerouslySetInnerHTML={{ __html: alumniPara }}
+            className={style.seoPara}
+          ></div>
+        ) : (
+          ""
+        )}
         <div className={style.innerWrap}>
           <div className={style.slider}>
             <GetHiredSwiper swiperData={swiperData} />
