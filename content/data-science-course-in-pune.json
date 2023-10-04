@@ -175,10 +175,31 @@
   },
 
   "seoSection": {
+    "SeoCertificate": {
+      "subheading": "",
+      "popupHead": "",
+      "title": "",
+      "desc": "",
+      "src": "",
+      "altM": "",
+      "altR": "",
+      "CertificationPara": "",
+      "MicrosoftPara": "J ",
+      "RealWorkPara": ""
+    },
+    "seoAboutHeading": "About our Data Science Program in Pune",
+    "trainerHeading": "Data Science course in Pune Trainer and Mentors",
+    "alumniHeading": "Our Alumni  Placed by Data Science course in Pune",
     "trainerMentor": "Introducing our Trainers and mentors who are here to help you on your data science course journey. With years of experience and knowledge in the field of data science, the trainers and mentors of our <b>data science course in Pune</b> are ready to help you reach your goals and potential. ",
+    "syllabusHead": "Data Science course in pune Syllabus",
+    "projectHead": "Data science course in Pune Projects",
     "ProjectsPara": "At Skillslash, with our data science course in Pune we work towards providing you with a practical hands on-experience learning to help you navigate the real world. ",
     "CohortsPara": "We are thrilled to announce the dates for our upcoming cohorts dates for our data science course in Pune. So, mark your calendars, to begin your data science course journey, improve your skills and discover new opportunities.",
     "BatchProfilePara": "Our data science course in Pune is tailored to meet the needs of people from multiple industries, whether you are a graduate, a post graduate, an intermediate or a professional. We believe the diversity adds to the richness of the data science course discussions.",
+    "aboutCity": {
+      "title": "Data Scientist Course in Bangalore",
+      "desc": "Bangalore, often referred to as Bengaluru, is a vibrant and bustling metropolis in southern India. Known as the Silicon Valley of India, it is a major hub for technology and innovation, hosting numerous tech companies and startups. The city offers a unique blend of modernity and tradition, with a diverse cultural landscape, exquisite cuisine, and a pleasant climate. Bangalore is also renowned for its lush parks, educational institutions, and a thriving arts and music scene, making it a dynamic and sought-after destination for professionals and visitors alike."
+    },
     "pinCode": {
       "heading": "Data Science course Training offered in Pune location:",
       "area": [
@@ -241,6 +262,18 @@
         "Viman Nagar [411014]",
         "Shaniwar Peth [413337]"
       ]
+    },
+    "SeoCertificate": {
+      "subheading": "Get Dual Certification for Data Science course in Pune",
+      "popupHead": "Download Data Science Brochure",
+      "title": "Get Certification from Top-tier Startups and MNCs",
+      "desc": "Work directly with leading AI companies as a part of the course on their live projects. After successful project completion, you will get Data science training certification as Data Analyst before you start appearing in interviews",
+      "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022-new.webp",
+      "altM": "Get Microsoft Certification by taking best data science course in Pune",
+      "altR": "Get Real Work Experience Certificate by taking best data science course in Pune online",
+      "CertificationPara": "Our certifications are a recognized way to demonstrate one’s knowledge. The data science course in Pune comes with not one but two forms of data science certification to provide you with the competitive edge you need in the real world.",
+      "MicrosoftPara": "Join our data science course in Pune, and earn your own Microsoft certification prior to completion of the data science course. Add it to your resume of accomplishments and catch the eye of interviewers. ",
+      "RealWorkPara": "Once you complete the data science course in Pune, you will be awarded an opportunity to work with actual companies on Projects, and earn a real-time work experience certification from the companies. This will boost your job profile and give you the much needed edge."
     },
     "relatedArea": {
       "heading": "Data Science course Near me:",
@@ -318,7 +351,7 @@
   "seoAbout": [
     {
       "Module0": {
-        "title": "About Skillslash’s Data Science Course powered by Microsoft ",
+        "title": "About Skillslash’s Data Science Course in Pune powered by Microsoft ",
         "content": [
           {
             "chap": {
@@ -332,7 +365,7 @@
             "chap": {
               "title": " ",
               "desc": [
-                "We at Skillslash have successfully developed a data science course that is powered by the technology giant of Microsoft. Our courses and resources are aimed at equipping individuals with the skills and knowledge needed to excel in the field of data science. The data science course covers a wide arena of topics including data analysis, machine learning, and data visualization, and more and tools and platforms like Power BI, SQL, and Python."
+                "We at Skillslash have successfully developed a data science course in various cities of India that is powered by the technology giant of Microsoft. Our Data science course in Pune and resources are aimed at equipping individuals with the skills and knowledge needed to excel in the field of data science. The data science course in Pune covers a wide arena of topics including data analysis, machine learning, and data visualization, and more and tools and platforms like Power BI, SQL, and Python."
               ]
             }
           },
@@ -340,7 +373,7 @@
             "chap": {
               "title": " ",
               "desc": [
-                "Furthermore, our data science course provides an opportunity to enhance one's resume with a valuable Microsoft Certification and Real-Time Work Certification (from leading multinational corporations/ startups) upon successful completion of the course. Additionally, our data science training offers placement assistance through our Guaranteed Job Referral Program."
+                "Furthermore, our data science course in Pune provides an opportunity to enhance one's resume with a valuable Microsoft Certification and Real-Time Work Certification (from leading multinational corporations/ startups) upon successful completion of the course. Additionally, our data science training offers placement assistance through our Guaranteed Job Referral Program."
               ]
             }
           }
@@ -351,13 +384,13 @@
     },
     {
       "Module0": {
-        "title": "What are the job opportunities available after completion of this data science course?  ",
+        "title": "What are the job opportunities available after completion of this data science course in Pune?  ",
         "content": [
           {
             "chap": {
               "title": "",
               "desc": [
-                "Completing this data science course can open up a wide range of job opportunities in various domains and industries for you. Here are some of the job opportunities you can explore after completing this data science course: "
+                "Completing this data science course in Pune can open up a wide range of job opportunities in various domains and industries for you. Here are some of the job opportunities you can explore after completing this data science course: "
               ]
             }
           },
@@ -392,13 +425,13 @@
     },
     {
       "Module0": {
-        "title": "  What are the projects offered under this Data Science Course?   ",
+        "title": "  What are the projects offered under this Data Science Course in Pune?   ",
         "content": [
           {
             "chap": {
               "title": "",
               "desc": [
-                "This data science course offers you an opportunity to work on 10+ industry-partnered capstone projects in over 6+ domains, while practicing with 20+ tools.  "
+                "This data science course offers you an opportunity to work on 10+ industry-partnered Data science Projects and Machine Learning projects in over 6+ domains, while practicing with 20+ tools.  "
               ]
             }
           },
@@ -487,7 +520,7 @@
     },
     {
       "Module0": {
-        "title": "What are the learning outcomes of this Data Science Course ?  ",
+        "title": "What are the learning outcomes of this Data Science Course in Pune?  ",
         "content": [
           {
             "chap": {
@@ -569,7 +602,7 @@
     },
     {
       "Module0": {
-        "title": "What are the skills one will take away from this data science course?  ",
+        "title": "What are the skills one will take away from this data science course in Pune?  ",
         "content": [
           {
             "chap": {
@@ -602,7 +635,7 @@
     },
     {
       "Module0": {
-        "title": " What are the advantages of taking this data science course ?  ",
+        "title": " What are the advantages of taking this data science course in Pune?  ",
         "content": [
           {
             "chap": {
@@ -689,7 +722,7 @@
     },
     {
       "Module0": {
-        "title": "What can you expect from this Microsoft Powered data science course ? ",
+        "title": "What can you expect from this Microsoft Powered data science course in Pune ? ",
         "content": [
           {
             "chap": {
@@ -763,18 +796,7 @@
     "JobT": "Comprehensive programs",
     "JobD": " Quality courses from top-notch faculties who are the best in their segment."
   },
-  "SeoCertificate": {
-    "subheading": "Get Dual Certification for Data Science course in Pune",
-    "popupHead": "Download Data Science Brochure",
-    "title": "Get Certification from Top-tier Startups and MNCs",
-    "desc": "Work directly with leading AI companies as a part of the course on their live projects. After successful project completion, you will get Data science training certification as Data Analyst before you start appearing in interviews",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Advance-data-science-course-certificate-26th-october-2022-new.webp",
-    "altM": "Get Microsoft Certification by taking best data science course in Pune",
-    "altR": "Get Real Work Experience Certificate by taking best data science course in Pune online",
-    "CertificationPara": "Our certifications are a recognized way to demonstrate one’s knowledge. The data science course in Pune comes with not one but two forms of data science certification to provide you with the competitive edge you need in the real world.",
-    "MicrosoftPara": "Join our data science course in Pune, and earn your own Microsoft certification prior to completion of the data science course. Add it to your resume of accomplishments and catch the eye of interviewers. ",
-    "RealWorkPara": "Once you complete the data science course in Pune, you will be awarded an opportunity to work with actual companies on Projects, and earn a real-time work experience certification from the companies. This will boost your job profile and give you the much needed edge."
-  },
+
   "Certificate": {
     "subheading": "Dual Certification",
     "popupHead": "Download Data Science Brochure",

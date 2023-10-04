@@ -7,8 +7,9 @@
   margin: 0px 10px;
   position: relative;
 }
-.syllabusLeft h4 {
-  border-radius: 0px 0px 8px 8px;
+.heading {
+  font-size: 36px;
+  margin: 0;
 }
 .headWrap {
   display: flex;
@@ -342,6 +343,10 @@
   .Syllabus {
     margin: 85px 30px;
   }
+  .heading {
+    font-size: 34px;
+    margin: 0;
+  }
   .line {
     margin-top: 24px;
     margin-left: 26px;
@@ -364,9 +369,14 @@
   .tollNo {
     padding: 10px 20px;
   }
+  .heading {
+    font-size: 32px;
+    margin: 0;
+  }
   .tollNo h4 {
     font-size: 18px;
     line-height: 20px;
+    margin-bottom: 0;
   }
   .tollNo p {
     padding: 0 !important;
@@ -388,6 +398,10 @@
 @media (max-width: 801px) {
   .line {
     margin-left: 16px;
+  }
+  .heading {
+    font-size: 27px;
+    margin: 0;
   }
   .syllabusLeft h4 {
     font-size: 24px;
@@ -420,6 +434,10 @@
     flex-flow: column;
     gap: 40px;
   }
+  .heading {
+    font-size: 22px;
+    margin: 0;
+  }
 }
 
 @media (max-width: 481px) {
@@ -427,6 +445,16 @@
     display: grid;
     grid-template-columns: auto;
     margin: 30px 20px;
+  }
+  .headWrap h2 {
+    margin: 0;
+  }
+  .ans {
+    padding: 10px 0 10px 10px;
+  }
+  .ques {
+    height: max-content;
+    padding: 15px 10px 15px 10px;
   }
   .projectSyllabus button {
     padding: 5px 10px;
@@ -469,9 +497,6 @@
     margin: 0;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-  .FaqWrapper {
-    padding-left: 10px;
   }
 
   .syllabusRight {

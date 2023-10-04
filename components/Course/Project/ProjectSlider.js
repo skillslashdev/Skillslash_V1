@@ -165,7 +165,6 @@ const ProjectSlider = ({
       {seoPage ? (
         <div
           dangerouslySetInnerHTML={{ __html: ProjectsPara }}
-          style={{ marginLeft: "95px" }}
           className={styles.seoPara}
         ></div>
       ) : (

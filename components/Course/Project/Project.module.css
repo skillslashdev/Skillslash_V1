@@ -11,6 +11,7 @@
   padding: 40px 100px;
   align-items: center;
   justify-content: space-between;
+  margin: 0px -22px;
 }
 .leftWrap p {
   color: #4f419a;
@@ -190,18 +191,24 @@
   padding: 5px;
 }
 .seoPara {
-  /* padding-top: 10px; */
+  margin: 0px 100px;
+
   padding-bottom: 15px;
 }
 
 @media (max-width: 1281px) {
   .projectHeader {
-    padding: 40px 40px;
+    padding: 40px 60px;
   }
   .header h5 {
     font-size: 21px;
   }
-
+  .sliderWrap {
+    margin: 40px 60px;
+  }
+  .seoPara {
+    margin: 0 60px;
+  }
   .ReviewBox {
     height: 340px;
   }
@@ -210,14 +217,22 @@
   }
 }
 @media (max-width: 1024px) {
-  .span {
-    padding: 0px;
-  }
   .categoryWrap span:nth-child(7) {
     border-radius: 0px;
   }
   .sliderWrap {
     margin: 40px;
+  }
+  .sliderWrap {
+    grid-template-columns: 18% 80%;
+  }
+  .projectHeader {
+    width: 100%;
+    margin: 0;
+    padding: 40px;
+  }
+  .seoPara {
+    margin: 0 40px;
   }
 }
 @media (max-width: 1239px) {
@@ -229,11 +244,20 @@
   .line {
     padding: 10px 40px;
   }
+  .sliderWrap {
+    grid-template-columns: 20% 78%;
+  }
+  .iconBox {
+    width: 120px;
+  }
+  .iconBox p {
+    font-size: 22px;
+  }
   .span {
-    font-size: 11px;
+    font-size: 14px;
   }
   .spanActive {
-    font-size: 9px;
+    font-size: 14px;
   }
   .sliderWrap {
     margin: 30px;
@@ -241,12 +265,31 @@
 }
 @media (max-width: 641px) {
   .span {
-    font-size: 9px;
+    font-size: 14px;
     padding: 6px 6px;
+    align-items: center;
+  }
+  .categoryBar {
+    padding: 0 0 20px 0;
+  }
+  .spanActive {
+    padding: 6px;
+    align-items: center;
+  }
+  .sliderWrap {
+    display: flex;
+    flex-flow: column;
+  }
+  .categoryWrap {
+    display: flex;
+    flex-flow: row;
   }
 }
 
 @media (max-width: 481px) {
+  .seoPara {
+    margin: 0 20px;
+  }
   .projectHeader {
     padding: 20px;
     flex-flow: column;
@@ -284,7 +327,7 @@
     width: 100%;
     display: grid;
     gap: 10px;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 28% 70%;
   }
   .header h5 {
     font-size: 18px;

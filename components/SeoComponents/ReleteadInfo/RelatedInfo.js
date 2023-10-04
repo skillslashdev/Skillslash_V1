@@ -4,9 +4,13 @@ import Link from "next/link";
 import Image from "next/image";
 import { BsCalendarCheck } from "react-icons/bs";
 
-const RelatedInfo = ({ pinCode, relatedArea, relatedBlog }) => {
+const RelatedInfo = ({ pinCode, relatedArea, relatedBlog, aboutCity }) => {
   return (
     <div className={styles.relatedWrap}>
+      <div className={styles.pinCode}>
+        <h2>{aboutCity.title}</h2>
+        <p>{aboutCity.desc}</p>
+      </div>
       <div className={styles.pinCode}>
         <h2>{pinCode.heading}</h2>
         {pinCode.area.map((data, i) => {

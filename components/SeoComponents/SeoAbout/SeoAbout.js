@@ -18,6 +18,7 @@ function DataScienceSyllabus({
   redirectBl,
   redirectWeb,
   redirectDSA,
+  seoAboutHeading,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -25,7 +26,6 @@ function DataScienceSyllabus({
     setPopups(true);
   };
   const [state, setState] = useState(seoAbout);
-  console.log(seoAbout, "seoAbout");
 
   const handleChange = (index) => {
     setState(
@@ -74,7 +74,7 @@ function DataScienceSyllabus({
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
-            <h4>About Data Science Course</h4>
+            <h2 className={styles.heading}>{seoAboutHeading}</h2>
           </div>
         </div>
 
@@ -148,41 +148,11 @@ function DataScienceSyllabus({
                 <>
                   {Module0.open ? (
                     <div className={styles.ans}>
-                      {Module0.project ? (
-                        <div>
-                          <h5 className={styles.projectHead}>
-                            Project You Will Work On
-                          </h5>
-                          <div className={styles.projectView}>
-                            {Module0.projectInfo.map((imgData) => {
-                              return (
-                                <div
-                                  className={styles.projectSyllabus}
-                                  key={imgData.id}
-                                >
-                                  <p>{imgData.title}</p>
-                                  <Image
-                                    src={imgData.src}
-                                    width={imgData.width}
-                                    height={imgData.height}
-                                    alt="Project by skillslash"
-                                  />
-                                  <Link href="#project">
-                                    <button>View Details</button>
-                                  </Link>
-                                </div>
-                              );
-                            })}
-                          </div>
-                        </div>
-                      ) : (
-                        ""
-                      )}
                       <p>{Module0.desc}</p>
                       {Module0.content.map((content, i) => {
                         return (
                           <div key={content.chap.title}>
-                            <h5>{content.chap.title}</h5>
+                            <h3>{content.chap.title}</h3>
                             {content.chap.desc.map((desc, i) => {
                               return (
                                 <div key={desc}>

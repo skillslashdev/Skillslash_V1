@@ -6,8 +6,6 @@ import { FsAlumni, dsAlumni, webAlumni } from "./AlumniData";
 const GetHiredSwiper = dynamic(() => import("./GetHiredSwiper"));
 const Popup = dynamic(() => import("../../Popup/Popup"));
 const Form = dynamic(() => import("../../Form/Form"));
-const PartnerSlider = dynamic(() => import("../PartnerSlider/PartnerSlider"));
-import { hPartner } from "../PartnerSlider/PartnerSliderData";
 
 const MGetHired = ({
   redirectDs,

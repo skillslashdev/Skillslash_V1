@@ -44,7 +44,7 @@ const ProjectSwiper = memo(({ swiperData, redirectFs }) => {
   return mounted ? (
     <Swiper
       spaceBetween={20}
-      slidesPerView={2.5}
+      slidesPerView={3.5}
       loop={true}
       pagination={{
         dynamicBullets: true,
@@ -52,10 +52,11 @@ const ProjectSwiper = memo(({ swiperData, redirectFs }) => {
       }}
       breakpoints={{
         1024: { slidesPerView: 2.5, spaceBetween: 20 },
-        801: { slidesPerView: 2, spaceBetween: 20 },
-        641: { slidesPerView: 1.3, spaceBetween: 20 },
-        481: { slidesPerView: 1.1, spaceBetween: 10 },
-        200: { slidesPerView: 1.1, spaceBetween: 10 },
+        961: { slidesPerView: 1.9, spaceBetween: 20 },
+        801: { slidesPerView: 1.5, spaceBetween: 20 },
+        641: { slidesPerView: 1.2, spaceBetween: 20 },
+        481: { slidesPerView: 1.6, spaceBetween: 10 },
+        200: { slidesPerView: 1, spaceBetween: 10 },
       }}
       loopFillGroupWithBlank={true}
       style={{ width: "100%" }}

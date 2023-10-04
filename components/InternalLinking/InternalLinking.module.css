@@ -1,9 +1,9 @@
 .wrapper {
-  padding: 20px 40px;
+  padding: 20px 100px;
   width: 100%;
   margin-bottom: 40px;
 }
-.wrapper h4 {
+.wrapper h2 {
   display: flex;
 
   align-items: center;
@@ -45,10 +45,19 @@
 }
 
 @media (max-width: 1024px) {
+  .wrapper {
+    padding: 20px;
+    margin-bottom: 0px;
+  }
   .content {
     gap: 10px;
   }
   .content p {
     padding: 0px 6px;
+  }
+}
+@media (max-width: 481px) {
+  .wrapper h2 {
+    font-size: 22px;
   }
 }

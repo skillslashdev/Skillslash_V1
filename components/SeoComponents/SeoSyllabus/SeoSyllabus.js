@@ -22,6 +22,7 @@ function DataScienceSyllabus({
   redirectBl,
   redirectWeb,
   redirectDSA,
+  heading,
 }) {
   const [popups, setPopups] = useState(false);
 
@@ -42,7 +43,7 @@ function DataScienceSyllabus({
       })
     );
   };
-  console.log(seoSyllabus, "seoSyllabus");
+
   return (
     <section className={styles.Syllabus}>
       <Popup
@@ -77,7 +78,7 @@ function DataScienceSyllabus({
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
-            <h4>Syllabus</h4>
+            <h2>{heading}</h2>
           </div>
           <div>
             <button className={styles.buttonDownload} onClick={popupShow}>
@@ -97,7 +98,7 @@ function DataScienceSyllabus({
               <span className={styles.line}></span>
               <div className={styles.ques} style={{ borderBottom: "0" }}>
                 <div className={styles.headWrap}>
-                  <h2>{Module0.title}</h2>
+                  <h3>{Module0.title}</h3>
 
                   <p className={styles.sTitle}>{Module0.title1}</p>
                   <p className={styles.sDesc}>{Module0.descS}</p>
@@ -174,7 +175,7 @@ function DataScienceSyllabus({
                       handleChange(id);
                     }}
                   >
-                    <h2>Course Content</h2>
+                    <h3>Course Content</h3>
                     <span>
                       {Module0.open ? (
                         <MdKeyboardArrowUp className="icon" />

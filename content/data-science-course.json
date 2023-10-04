@@ -173,6 +173,18 @@
     "seoPage": false
   },
   "seoSection": {
+    "SeoCertificate": {
+      "subheading": "",
+      "popupHead": "",
+      "title": "",
+      "desc": "",
+      "src": "",
+      "altM": "",
+      "altR": "",
+      "CertificationPara": "",
+      "MicrosoftPara": "J ",
+      "RealWorkPara": ""
+    },
     "trainerMentor": "",
     "ProjectsPara": "",
     "CohortsPara": "",
