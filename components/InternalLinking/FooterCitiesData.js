@@ -72,7 +72,7 @@ export const DataScienceData = [
   {
     id: 15,
     city: " Data Science Course In Indore",
-    link: "/data-science-course-in-indore",
+    link: "/data-science-course-in-Indore",
   },
   {
     id: 16,
@@ -301,7 +301,7 @@ export const FullStackCity = [
   {
     id: 30,
     city: "Data Structures Algorithms Course",
-    link: "/data-structures-algorithms-course",
+    link: "/data-structures-and-algorithms-course",
   },
   {
     id: 31,
@@ -338,7 +338,7 @@ export const WebCity = [
   {
     id: 6,
     city: " Web Development Course In Kolkata",
-    link: "/web-development-course-in-Kolkata",
+    link: "/web-development-course-in-kolkata",
   },
   {
     id: 7,
@@ -405,7 +405,7 @@ export const BusinessCity = [
   {
     id: 6,
 
-    city: "BA Course training",
+    city: "Data Analytics Course Training Hyderabad",
     link: "/data-analytics-course-training-hyderabad",
   },
 ];
