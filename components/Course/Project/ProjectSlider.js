@@ -208,7 +208,11 @@ const ProjectSlider = ({
           </p>
         </div>
       </div> */}
-      <div className={styles.sliderWrap}>
+      <div
+        className={
+          redirectDs || redirectBa ? styles.sliderWrap : styles.sliderWraps
+        }
+      >
         {redirectDs || redirectBa ? (
           <div className={styles.categoryBar}>
             <div className={styles.categoryWrap}>
@@ -281,7 +285,12 @@ const ProjectSlider = ({
           ""
         )}
 
-        <ProjectSwiper swiperData={swiperData} redirectFs={redirectFs} />
+        <ProjectSwiper
+          swiperData={swiperData}
+          redirectFs={redirectFs}
+          redirectDs={redirectDs}
+          redirectBa={redirectBa}
+        />
         {/* {redirectWeb ? <WebSwiper /> : ""} */}
         {/* {redirectBa || redirectDs || redirectDe ? <DsSwiper /> : ""} */}
         {/* {redirectFs || redirectDSA ? <FsSwiper /> : ""} */}

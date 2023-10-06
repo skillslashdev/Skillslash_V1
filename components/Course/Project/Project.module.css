@@ -76,13 +76,20 @@
   align-items: center;
   justify-content: center;
 }
+.sliderWraps {
+  display: flex;
+  gap: 20px;
+
+  flex-flow: column;
+  margin: 40px 100px;
+}
 .sliderWrap {
   display: grid;
   grid-template-columns: 15% 83%;
   gap: 20px;
 
   flex-flow: column;
-  margin: 40px 80px;
+  margin: 40px 100px;
 }
 .categoryBar {
   display: flex;
@@ -200,11 +207,15 @@
   .projectHeader {
     padding: 40px 60px;
   }
+  .sliderWraps {
+    margin: 40px 80px;
+  }
+
   .header h5 {
     font-size: 21px;
   }
   .sliderWrap {
-    margin: 40px 60px;
+    margin: 40px 80px;
   }
   .seoPara {
     margin: 0 60px;
@@ -223,9 +234,13 @@
   .sliderWrap {
     margin: 40px;
   }
+  .sliderWraps {
+    margin: 40px 60px;
+  }
   .sliderWrap {
     grid-template-columns: 18% 80%;
   }
+
   .projectHeader {
     width: 100%;
     margin: 0;
@@ -246,6 +261,10 @@
   }
   .sliderWrap {
     grid-template-columns: 20% 78%;
+  }
+  .sliderWraps {
+    flex-flow: column;
+    margin: 40px;
   }
   .iconBox {
     width: 120px;
@@ -293,6 +312,10 @@
   .projectHeader {
     padding: 20px;
     flex-flow: column;
+  }
+  .sliderWraps {
+    flex-flow: column;
+    margin: 20px;
   }
   .projectWrap h4 {
     text-align: center;
