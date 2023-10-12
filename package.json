@@ -10,6 +10,7 @@
     "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "critters": "^0.0.7",
     "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
@@ -17,6 +18,7 @@
     "moment": "^2.29.4",
     "mongodb": "^4.11.0",
     "next": "^13.4.4",
+    "nodemailer": "^6.9.6",
     "react": "^18.2.0",
     "react-datepicker": "^4.8.0",
     "react-dom": "^18.2.0",

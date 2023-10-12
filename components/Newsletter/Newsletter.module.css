@@ -1,0 +1,32 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    position: relative;
+    background-size: contain;
+    margin: 0px 250px;
+    border-radius: 25px;
+    padding: 15px 0px;
+}
+.button {
+  width: max-content;
+  padding: 8px 34px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #f0f0f0;
+
+  margin-top: 20px;
+}
+
+.Inputs {
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+
+  outline: none;
+  background-color: transparent;
+  height: 30px;
+}
