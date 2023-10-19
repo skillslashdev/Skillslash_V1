@@ -72,7 +72,7 @@ export const DsData = [
   {
     id: 15,
     city: "Indore",
-    link: "/data-science-course-in-indore",
+    link: "/data-science-course-in-Indore",
   },
   {
     id: 16,
