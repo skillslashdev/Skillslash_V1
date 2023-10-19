@@ -152,7 +152,12 @@ function DataScienceSyllabus({
                       {Module0.content.map((content, i) => {
                         return (
                           <div key={content.chap.title}>
-                            <h3>{content.chap.title}</h3>
+                            {content.chap.title === "" ? (
+                              ""
+                            ) : (
+                              <h3>{content.chap.title}</h3>
+                            )}
+
                             {content.chap.desc.map((desc, i) => {
                               return (
                                 <div key={desc}>

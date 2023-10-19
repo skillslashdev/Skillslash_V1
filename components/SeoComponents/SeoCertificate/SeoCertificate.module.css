@@ -137,6 +137,10 @@
   padding: 10px 20px;
   font-weight: 400;
 }
+.imgWrap,
+.imgWrapper {
+  border: 4px solid white;
+}
 /* .imgWrap {
   width: max-content;
   height: max-content;
