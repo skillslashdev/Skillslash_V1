@@ -148,7 +148,7 @@ function DataScienceSyllabus({
                 <>
                   {Module0.open ? (
                     <div className={styles.ans}>
-                      <p>{Module0.desc}</p>
+                      {/* <p>{Module0.desc}</p> */}
                       {Module0.content.map((content, i) => {
                         return (
                           <div key={content.chap.title}>

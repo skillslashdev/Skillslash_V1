@@ -26,7 +26,7 @@ const AboutCourses = ({ content, AboutCourseHeading }) => {
                         </ul>
                       ) : (
                         <>
-                          <h3>{list.title}</h3>
+                          {/* <h3>{list.title}</h3> */}
                           <ul>
                             <li>{list.desc}</li>
                           </ul>

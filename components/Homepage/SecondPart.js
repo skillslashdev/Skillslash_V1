@@ -6,7 +6,7 @@ const Reviews = dynamic(() => import("../Review/Reviews"));
 const Footer = dynamic(() => import("../Footer/Footer"));
 
 const Hiring = dynamic(() => import("../Hiring/Hiring"));
-const Newsletter = dynamic(() => import("../Newsletter/Newsletter"));
+// const Newsletter = dynamic(() => import("../Newsletter/Newsletter"));
 const OurEvents = dynamic(() => import("../OurEvents/OurEvents"));
 
 const SecondPart = ({ homePage }) => {
@@ -23,7 +23,7 @@ const SecondPart = ({ homePage }) => {
       />
       <OurEvents />
       <MiddlePageCta homePage={homePage} />
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Footer />
     </>
   );
