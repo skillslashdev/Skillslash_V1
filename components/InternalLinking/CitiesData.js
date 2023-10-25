@@ -304,7 +304,7 @@ export const FsDataOther = [
     id: 7,
     city: "Other",
     title: "Data structures & algorithm system design",
-    link: "/data-structures-&-algorithm-system-design",
+    link: "/data-structures-algorithm-&-system-design",
   },
   {
     id: 8,
@@ -316,7 +316,7 @@ export const FsDataOther = [
     id: 9,
     city: "Other",
     title: "Data Structures Algorithms Course",
-    link: "/data-structures-algorithms-course",
+    link: "/data-structures-and-algorithms-course",
   },
   {
     id: 10,
@@ -355,7 +355,7 @@ export const WdData = [
   {
     id: 6,
     city: "Kolkata",
-    link: "/web-development-course-in-Kolkata",
+    link: "/web-development-course-in-kolkata",
   },
   {
     id: 7,

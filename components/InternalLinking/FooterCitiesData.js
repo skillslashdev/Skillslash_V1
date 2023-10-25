@@ -291,7 +291,7 @@ export const FullStackCity = [
   {
     id: 28,
     city: "Data structures & algorithm system design",
-    link: "/data-structures-&-algorithm-system-design",
+    link: "/data-structures-algorithm-&-system-design",
   },
   {
     id: 29,
