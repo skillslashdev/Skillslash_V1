@@ -74,6 +74,7 @@ import React, { useState, useEffect } from "react";
 import { getAllPostIds, getPostData } from "../lib/page";
 import BatchProfile from "../components/Course/BatchProfile/BatchProfile";
 import RelatedInfo from "../components/SeoComponents/ReleteadInfo/RelatedInfo";
+// import Newsletter from "../components/Newsletter/Newsletter";
 const VideoTestimonial = dynamic(() =>
   import("../components/VideoTestimonial/VideoTestimonial")
 );
@@ -804,7 +805,7 @@ export default function Home({
           redirectWeb={DataScienceCourseData.data.form.webDevelopment}
         />
         <FloatIcon />
-
+        {/* <Newsletter /> */}
         <Footer />
       </div>
     </>

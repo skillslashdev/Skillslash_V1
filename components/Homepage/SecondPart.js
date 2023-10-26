@@ -21,8 +21,9 @@ const SecondPart = ({ homePage }) => {
         title="Our Mission Is To Provide World-Class Education"
         desc="Our courses are designed for both students and working professionals. Hear from our students to know more."
       />
-      <OurEvents />
       <MiddlePageCta homePage={homePage} />
+      <OurEvents />
+
       {/* <Newsletter /> */}
       <Footer />
     </>

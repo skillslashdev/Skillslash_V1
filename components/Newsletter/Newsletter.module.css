@@ -1,67 +1,92 @@
-.container{
+.container {
+  margin-top: 70px;
   display: grid;
-  grid-template-columns: 40% 58%;
+  grid-template-columns: 60% 40%;
   gap: 10px;
-    justify-content: center;
-    align-items: center;
-    height: max-content;
-    position: relative;
-    background-size: contain;
-    background-color: #ebe8ff;
-   
-       padding: 15px 100px;
-       margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  position: relative;
+  background-size: contain;
+  background-color: #4f419a;
+
+  padding: 35px 100px;
+  margin-bottom: 20px;
 }
-.container h2{
-  color: #4f419a;
+.container h2 {
+  font-size: 37px;
+  color: white;
+  margin-top: 10px;
   margin-bottom: 0px;
 }
-.form{
+
+.form {
   display: flex;
   gap: 10px;
 }
 .button {
   width: max-content;
   padding: 2px 34px;
+  border-radius: 50px;
   font-size: 16px;
+  height: 50px;
   /* display: flex; */
   align-items: center;
   justify-content: center;
   position: relative;
-  color: #f0f0f0;
+  color: #4f419a;
+  background-color: white;
 }
 
 .Inputs {
-  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  border-radius: 50px;
   width: 70%;
-  padding: 10px;
-  outline: none;
-  background-color: transparent;
-  height: 30px;
-}
 
-@media(max-width: 641px){
-  .container{
-       padding: 15px 15px;
+  color: white;
+  background-color: #7c70d4;
+  padding: 10px 10px 10px 25px;
+  outline: none;
+  height: 50px;
+}
+.Inputs input {
+  border: 0;
+  outline: none;
+  color: white;
+  background-color: #7c70d4;
+}
+.leftContain {
+  margin-left: 60px;
+}
+.Inputs input::placeholder {
+  color: white;
+  font-size: 16px;
+}
+@media (max-width: 641px) {
+  .container {
+    padding: 15px 15px;
   }
-  .container h2{
+  .container h2 {
     font-size: 18px;
   }
-   .container p{
+  .container p {
     font-size: 10px;
     line-height: 3px;
   }
-  .button{
-        padding: 2px 17px;
+  .button {
+    padding: 2px 17px;
     font-size: 10px;
   }
 }
 
 @media (max-width: 481px) {
-   .container p{
-   display: none;
+  .container p {
+    display: none;
   }
-   .container h2{
+  .container h2 {
     text-align: center;
     font-size: 13px;
   }

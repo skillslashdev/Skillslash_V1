@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Newsletter.module.css";
-import MdOutlineEmail from "react-icons/md";
+import { MdOutlineMail } from "react-icons/md";
 
 const Newsletter = ({ id }) => {
   const [showMsg, setShowMsg] = useState();
@@ -51,10 +51,10 @@ const Newsletter = ({ id }) => {
   };
   return (
     <div className={styles.container}>
-      <div>
+      <div className={styles.leftContain}>
         <h2>Subscribe for new content</h2>
         <span>
-          <p style={{ marginTop: "5px", fontSize: "14px" }}>
+          <p style={{ marginTop: "5px", fontSize: "17px", color: "white" }}>
             By Becoming A Member, You Have Access Of Our Newsletter, Articles
           </p>
         </span>
@@ -62,17 +62,19 @@ const Newsletter = ({ id }) => {
 
       {/* <div id="message">{showMsg}</div> */}
       <form onSubmit={formSubmit} className={styles.form}>
-        <input
-          type="email"
-          required
-          name="email"
-          value={query.name}
-          className={styles.Inputs}
-          onChange={handleParam()}
-          placeholder="xyz@gmail.com"
-        />
+        <div className={styles.Inputs}>
+          <MdOutlineMail />
+          <input
+            type="email"
+            required
+            name="email"
+            value={query.name}
+            onChange={handleParam()}
+            placeholder="xyz@gmail.com"
+          />
+        </div>
         <button type="submit" className={styles.button}>
-          Submit
+          Subscribe
         </button>
       </form>
     </div>
