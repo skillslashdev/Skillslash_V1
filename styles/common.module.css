@@ -1,6 +1,23 @@
+.container{
+  background-color: #f8faff;
+}
+.container p{
+  font-size: 15px;
+}
 .top {
-  margin: 90px 100px 0px 100px;
+  margin: 90px 100px 60px 100px;
 }
 .top li {
   color: #646464;
+}
+.top h2{text-align: center;}
+.top h5{text-align: center;}
+.top a{
+  color: rgb(47, 47, 107);
+}
+
+@media(max-width:768px){
+  .top{
+        margin: 90px 51px 0px 51px;
+  }
 }
