@@ -47,6 +47,7 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
 
   const formSubmit = (e) => {
     e.preventDefault();
+    console.log(query.selectCourse);
     setLoading(true);
     const formData = new FormData();
     Object.entries(query).forEach(([key, value]) => {
@@ -66,6 +67,8 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
         url: "",
       })
     );
+    setValue();
+    setStartDate();
     if (popup) {
       const off = () => {
         setTrigger(false);
@@ -73,25 +76,33 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
       off();
     }
     setLoading(false);
-    if (query.selectCourse === "Adv Data Science and AI (Basic/Pro/ProMax)")
+    if (
+      query.selectCourse === "Adv DS&AI-ProMax" ||
+      query.selectCourse === "Adv DS&AI-Pro"
+    )
       router.push("/Thankyou/data-science");
-    if (query.selectCourse === "Full Stack Developer course with certification")
-      router.push("/Thankyou/full-stack");
+
+    if (query.selectCourse === "FS-ProMax") router.push("/Thankyou/full-stack");
     if (
       query.selectCourse === "Data Engineering Course with Industry Experience"
     )
       router.push("/Thankyou/data-engineering");
     if (query.selectCourse === "Blockchain program and certification")
       router.push("/Thankyou/blockchain");
-    if (query.selectCourse === "Business Analytics Program For Professionals")
+    if (
+      query.selectCourse === "BA-ProMax" ||
+      query.selectCourse === "BA-Pro" ||
+      query.selectCourse === "DA-Pro" ||
+      query.selectCourse === "DA-ProMax"
+    )
       router.push("/Thankyou/business-analytics");
+    if (query.selectCourse === "DSA + System Design") {
+      router.push("/Thankyou/dsa");
+    }
+    if (query.selectCourse === "Web") {
+      router.push("/Thankyou/web-development");
+    }
   };
-  if (query.selectCourse === "DSA + System Design") {
-    router.push("/Thankyou/dsa");
-  }
-  if (query.selectCourse === "Web Development Course") {
-    router.push("/Thankyou/web-development");
-  }
 
   const isWeekday = (date) => {
     const day = date.getDay();
@@ -194,19 +205,20 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
                 Select a course*
               </option>
 
-              <option value="Adv Data Science and AI (Basic/Pro/ProMax)">
-                Adv Data Science and AI (Basic/Pro/ProMax)
+              <option value="Adv DS&AI-ProMax">
+                Advance Data Science & AI ProMax
               </option>
-              <option value="Full Stack Developer course with certification">
-                Full Stack Developer course with certification
+              <option value="Adv DS&AI-Pro">
+                Advance Data Science & AI Pro
               </option>
-              <option value="DSA + System Design">DSA + System Design</option>
-              <option value="Blockchain program and certification">
-                Blockchain program and certification
+              <option value="DA-ProMax">Data Analytics ProMax</option>
+              <option value="DA-Pro">Data Analytics Pro</option>
+              <option value="BA-ProMax">Business Analytics ProMax</option>
+              <option value="BA-Pro">Business Analytics Pro</option>
+              <option value="FS-ProMax">
+                FullStack Software Development ProMax
               </option>
-              <option value="Business Analytics Program For Professionals">
-                Business Analytics Program For Professionals
-              </option>
+              <option value="Web">Web Development</option>
             </select>
           </fieldset>
         </div>
