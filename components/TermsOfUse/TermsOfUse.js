@@ -1,297 +1,153 @@
 import React from "react";
 import styles from "../../styles/common.module.css";
+import Footer from "../Footer/Footer";
 
 const TermsOfUse = () => {
   return (
-    <div className={styles.top}>
-      <h2>Welcome to Skillslash!</h2>
-      <p>
-        These terms and conditions outline the rules and regulations for the use
-        of Skillslash's Website, located at www.skillslash.com.
-      </p>
-      <p>
-        By accessing this website we assume you accept these terms and
-        conditions. Do not continue to use Skillslash if you do not agree to
-        take all of the terms and conditions stated on this page.
-      </p>
-      <p>
-        The following terminology applies to these Terms and Conditions, Privacy
-        Statement and Disclaimer Notice and all Agreements: "Client", "You" and
-        "Your" refers to you, the person log on this website and compliant to
-        the Company’s terms and conditions. "The Company", "Ourselves", "We",
-        "Our" and "Us", refers to our Company. "Party", "Parties", or "Us",
-        refers to both the Client and ourselves. All terms refer to the offer,
-        acceptance and consideration of payment necessary to undertake the
-        process of our assistance to the Client in the most appropriate manner
-        for the express purpose of meeting the Client’s needs in respect of
-        provision of the Company’s stated services, in accordance with and
-        subject to, prevailing law of Netherlands. Any use of the above
-        terminology or other words in the singular, plural, capitalization
-        and/or he/she or they, are taken as interchangeable and therefore as
-        referring to same.
-      </p>
-      <h3>Cookies</h3>
+    <>
+      <div className={styles.top}>
+        <h2>Terms and Conditions</h2>
+        <h4>Acceptance of Terms</h4>
+        <p>
+          By accessing or using the website or services of{" "}
+          <a href="https://skillslash.com/">Skillslash</a>, you agree to be
+          bound by these terms and conditions (the "Terms"). If you do not agree
+          to all of the Terms, then you may not access or use the Website or
+          Services.
+        </p>
+        <h4>Definitions</h4>
+        <p>
+          For the purposes of these Terms, the following terms shall have the
+          following meanings:
+        </p>
+        <ul>
+          <li>
+            <b>Account</b>: A user account created on the Website through which
+            a user can access and use the Services.
+          </li>
+          <li>
+            <b>Content</b>: Any text, images, videos, audio, or other materials
+            that are published or displayed on the Website or Services.
+          </li>
+          <li>
+            <b>Courses</b>: The online educational courses offered by the
+            Company on the Website.
+          </li>
+          <li>
+            <b>Services</b>: The online educational services and products
+            offered by the Company on the Website, including but not limited to
+            Courses, tutoring, and career counseling.
+          </li>
+          <li>
+            <b>User</b>: Any individual who accesses or uses the Website or
+            Services.
+          </li>
+        </ul>
+        <h4>Use of the Website and Services</h4>
+        <p>
+          The Company grants you a personal, non-exclusive, non-transferable
+          license to use the Website and Services for your personal education
+          and learning purposes only. You may not use the Website or Services
+          for any commercial purpose.
+        </p>
+        <p>
+          You agree to use the Website and Services in a responsible and ethical
+          manner. You will not:
+        </p>
+        <ul>
+          <li>
+            Use the Website or Services to violate any laws or regulations.
+          </li>
 
-      <p>
-        We employ the use of cookies. By accessing Skillslash, you agreed to use
-        cookies in agreement with the Skillslash's Privacy Policy.
-      </p>
-      <p>
-        Most interactive websites use cookies to let us retrieve the user’s
-        details for each visit. Cookies are used by our website to enable the
-        functionality of certain areas to make it easier for people visiting our
-        website. Some of our affiliate/advertising partners may also use
-        cookies.
-      </p>
-      <h3>License</h3>
+          <li>
+            Use the Website or Services to infringe on the intellectual property
+            rights of others.
+          </li>
 
-      <p>
-        Unless otherwise stated, Skillslash and/or its licensors own the
-        intellectual property rights for all material on Skillslash. All
-        intellectual property rights are reserved. You may access this from
-        Skillslash for your own personal use subjected to restrictions set in
-        these terms and conditions.
-      </p>
-      <p>You must not:</p>
-      <ul>
-        <li>Republish material from Skillslash</li>
+          <li>
+            Upload or transmit any Content that is harmful, threatening,
+            abusive, harassing, defamatory, obscene, vulgar, pornographic, or
+            racially, ethnically, or otherwise objectionable.
+          </li>
 
-        <li>Sell, rent or sub-license material from Skillslash </li>
+          <li>
+            Use the Website or Services to interfere with the use and enjoyment
+            of the Website or Services by other users.
+          </li>
+          <li>
+            Use the Website or Services to cheat on any Course or other
+            assessment.
+          </li>
+          <li>Use the Website or Services to plagiarize any Content.</li>
+        </ul>
 
-        <li>Reproduce, duplicate or copy material from Skillslash</li>
+        <h4>Intellectual Property</h4>
+        <p>
+          All Content on the Website and Services is owned by the Company or its
+          licensors. You are granted a limited license to access and use the
+          Content for your personal education and learning purposes only. You
+          may not copy, reproduce, modify, distribute, display, perform, or
+          transmit any Content without the prior written consent of the Company.
+        </p>
 
-        <li>Redistribute content from Skillslash</li>
-      </ul>
-      <p>
-        This Agreement shall begin on the date hereof. Our Terms and Conditions
-        were created with the help of the{" "}
-        <a href="https://www.termsandconditionsgenerator.com/">
-          Terms And Conditions Generator
-        </a>{" "}
-        and the{" "}
-        <a href="https://www.generateprivacypolicy.com/">
-          Privacy Policy Generator
-        </a>
-        .
-      </p>
-      <p>
-        Parts of this website offer an opportunity for users to post and
-        exchange opinions and information in certain areas of the website.
-        Skillslash does not filter, edit, publish or review Comments prior to
-        their presence on the website. Comments do not reflect the views and
-        opinions of Skillslash,its agents and/or affiliates. Comments reflect
-        the views and opinions of the person who post their views and opinions.
-        To the extent permitted by applicable laws, Skillslash shall not be
-        liable for the Comments or for any liability, damages or expenses caused
-        and/or suffered as a result of any use of and/or posting of and/or
-        appearance of the Comments on this website.
-      </p>
-      <p>
-        Skillslash reserves the right to monitor all Comments and to remove any
-        Comments which can be considered inappropriate, offensive or causes
-        breach of these Terms and Conditions.
-      </p>
-      <p>You warrant and represent that:</p>
-      <ul>
-        <li>
-          You are entitled to post the Comments on our website and have all
-          necessary licenses and consents to do so;
-        </li>
-
-        <li>
-          The Comments do not invade any intellectual property right, including
-          without limitation copyright, patent or trademark of any third party;
-        </li>
-
-        <li>
-          The Comments do not contain any defamatory, libelous, offensive,
-          indecent or otherwise unlawful material which is an invasion of
-          privacy
-        </li>
-
-        <li>
-          The Comments will not be used to solicit or promote business or custom
-          or present commercial activities or unlawful activity
-        </li>
-      </ul>
-      <p>
-        You hereby grant Skillslash a non-exclusive license to use, reproduce,
-        edit and authorize others to use, reproduce and edit any of your
-        Comments in any and all forms, formats or media.
-      </p>
-      <h3>Hyperlinking to our Content</h3>
-
-      <p>
-        The following organizations may link to our Website without prior
-        written approval:
-      </p>
-      <ul>
-        <li>Government agencies;</li>
-
-        <li>Search engines;</li>
-
-        <li>News organizations;</li>
-
-        <li>
-          Online directory distributors may link to our Website in the same
-          manner as they hyperlink to the Websites of other listed businesses;
-          and
-        </li>
-
-        <li>
-          System wide Accredited Businesses except soliciting non-profit
-          organizations, charity shopping malls, and charity fundraising groups
-          which may not hyperlink to our Web site.
-        </li>
-      </ul>
-      <p>
-        These organizations may link to our home page, to publications or to
-        other Website information so long as the link: (a) is not in any way
-        deceptive; (b) does not falsely imply sponsorship, endorsement or
-        approval of the linking party and its products and/or services; and (c)
-        fits within the context of the linking party’s site.
-      </p>
-      <p>
-        We may consider and approve other link requests from the following types
-        of organizations:
-      </p>
-      <ul>
-        <li>commonly-known consumer and/or business information sources</li>
-
-        <li>dot.com community sites</li>
-
-        <li>associations or other groups representing charities</li>
-
-        <li>online directory distributors</li>
-
-        <li>internet portals;</li>
-
-        <li>accounting, law and consulting firms</li>
-
-        <li>educational institutions and trade associations.</li>
-      </ul>
-      <p>
-        We will approve link requests from these organizations if we decide
-        that: (a) the link would not make us look unfavorably to ourselves or to
-        our accredited businesses; (b) the organization does not have any
-        negative records with us; (c) the benefit to us from the visibility of
-        the hyperlink compensates the absence of Skillslash; and (d) the link is
-        in the context of general resource information.
-      </p>
-      <p>
-        These organizations may link to our home page so long as the link: (a)
-        is not in any way deceptive; (b) does not falsely imply sponsorship,
-        endorsement or approval of the linking party and its products or
-        services; and (c) fits within the context of the linking party’s site.
-      </p>
-      <p>
-        If you are one of the organizations listed in paragraph 2 above and are
-        interested in linking to our website, you must inform us by sending an
-        e-mail to Skillslash. Please include your name, your organization name,
-        contact information as well as the URL of your site, a list of any URLs
-        from which you intend to link to our Website, and a list of the URLs on
-        our site to which you would like to link. Wait 2-3 weeks for a response.
-      </p>
-      <p>Approved organizations may hyperlink to our Website as follows:</p>
-      <ul>
-        <li>By use of our corporate name</li>
-
-        <li>By use of the uniform resource locator being linked to</li>
-
-        <li>
-          By use of any other description of our Website being linked to that
-          makes sense within the context and format of content on the linking
-          party’s site.
-        </li>
-      </ul>
-      <p>
-        No use of Skillslash's logo or other artwork will be allowed for linking
-        absent a trademark license agreement.
-      </p>
-      <h3>iFrames</h3>
-
-      <p>
-        Without prior approval and written permission, you may not create frames
-        around our Webpages that alter in any way the visual presentation or
-        appearance of our Website.
-      </p>
-      <h3>Content Liability</h3>
-
-      <p>
-        We shall not be hold responsible for any content that appears on your
-        Website. You agree to protect and defend us against all claims that is
-        rising on your Website. No link(s) should appear on any Website that may
-        be interpreted as libelous, obscene or criminal, or which infringes,
-        otherwise violates, or advocates the infringement or other violation of,
-        any third party rights.
-      </p>
-      <h3>Your Privacy</h3>
-
-      <p>Please read Privacy Policy</p>
-      <h3>Reservation of Rights</h3>
-
-      <p>
-        We reserve the right to request that you remove all links or any
-        particular link to our Website. You approve to immediately remove all
-        links to our Website upon request. We also reserve the right to amen
-        these terms and conditions and it’s linking policy at any time. By
-        continuously linking to our Website, you agree to be bound to and follow
-        these linking terms and conditions.
-      </p>
-      <h3>Removal of links from our website</h3>
-
-      <p>
-        If you find any link on our Website that is offensive for any reason,
-        you are free to contact and inform us any moment. We will consider
-        requests to remove links but we are not obligated to or so or to respond
-        to you directly.
-      </p>
-      <p>
-        We do not ensure that the information on this website is correct, we do
-        not warrant its completeness or accuracy; nor do we promise to ensure
-        that the website remains available or that the material on the website
-        is kept up to date.
-      </p>
-      <h3>Disclaimer</h3>
-
-      <p>
-        To the maximum extent permitted by applicable law, we exclude all
-        representations, warranties and conditions relating to our website and
-        the use of this website. Nothing in this disclaimer will:
-      </p>
-      <ul>
-        <li>
-          limit or exclude our or your liability for death or personal injury
-        </li>
-
-        <li>
-          limit or exclude our or your liability for fraud or fraudulent
-          misrepresentation
-        </li>
-
-        <li>
-          limit any of our or your liabilities in any way that is not permitted
-          under applicable law
-        </li>
-
-        <li>
-          exclude any of our or your liabilities that may not be excluded under
-          applicable law.
-        </li>
-      </ul>
-      <p>
-        The limitations and prohibitions of liability set in this Section and
-        elsewhere in this disclaimer: (a) are subject to the preceding
-        paragraph; and (b) govern all liabilities arising under the disclaimer,
-        including liabilities arising in contract, in tort and for breach of
-        statutory duty.
-      </p>
-      <p>
-        As long as the website and the information and services on the website
-        are provided free of charge, we will not be liable for any loss or
-        damage of any nature.
-      </p>
-    </div>
+        <h4>Disclaimer of Warranties</h4>
+        <p>
+          THE WEBSITE AND SERVICES ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE"
+          BASIS. THE COMPANY MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
+          BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+          PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+        </p>
+        <h4>Limitation of Liability</h4>
+        <p>
+          TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COMPANY SHALL NOT BE
+          LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+          OR EXEMPLARY DAMAGES ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF
+          THE WEBSITE OR SERVICES, EVEN IF THE COMPANY HAS BEEN ADVISED OF THE
+          POSSIBILITY OF SUCH DAMAGES.
+        </p>
+        <h4>Term and Termination</h4>
+        <p>
+          These Terms shall remain in full force and effect while you are using
+          the Website or Services. The Company may terminate your Account at any
+          time for any reason, with or without notice to you. Upon termination
+          of your Account, you will no longer have access to the Website or
+          Services.
+        </p>
+        <h4>Governing Law and Jurisdiction</h4>
+        <p>
+          These Terms shall be governed by and construed in accordance with the
+          laws of the State of Karnataka, India, without regard to its
+          principles of conflict of laws. Any dispute arising out of or in
+          connection with these Terms shall be subject to the exclusive
+          jurisdiction of the courts of Bangalore, Karnataka, India.
+        </p>
+        <h4>Entire Agreement</h4>
+        <p>
+          These Terms constitute the entire agreement between you and the
+          Company with respect to your use of the Website and Services. Any
+          prior or contemporaneous communications, representations, or
+          agreements, whether oral or written, shall have no force or effect.
+        </p>
+        <h4>Severability</h4>
+        <p>
+          If any provision of these Terms is held to be invalid or
+          unenforceable, such provision shall be struck from these Terms and the
+          remaining provisions shall remain in full force and effect.
+        </p>
+        <h4>Waiver</h4>
+        <p>
+          No waiver of any provision of these Terms shall be effective unless in
+          writing and signed by both parties.
+        </p>
+        <h4>Notices</h4>
+        <p>
+          All notices and other communications hereunder shall be in writing and
+          shall be deemed to have been duly given when delivered in person, upon
+          the first business day following deposit in the United.
+        </p>
+      </div>
+      <Footer />
+    </>
   );
 };
 
