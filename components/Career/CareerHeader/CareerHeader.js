@@ -28,7 +28,7 @@ const CareerHeader = () => {
         </div>
       )}
       <div className={style.contentWrapper}>
-        <h2>Build Careers For People Across The Globe</h2>
+        <h1>Build Careers For People Across The Globe</h1>
         <div className={style.paraWrap}>
           <p>
             Our mission is to make our learners achieve their desired

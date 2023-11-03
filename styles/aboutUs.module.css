@@ -152,7 +152,7 @@
     font-size: 37px;
   }
   .circle1 {
-    top: 27%;
+    top: 40%;
     left: 30%;
   }
   .values {
@@ -181,9 +181,9 @@
     font-size: 30px;
   }
   .circle1 {
-    top: 23%;
-    width: 50px;
-    height: 50px;
+       top: 41%;
+    width: 30px;
+    height: 30px;
   }
   .Play {
     font-size: 40px;
@@ -210,8 +210,8 @@
     padding-right: 70px;
   }
   .circle1 {
-    top: 9%;
-    left: 20%;
+   top: 13%;
+    left: 31%;
   }
   .circle2 {
     top: 64%;

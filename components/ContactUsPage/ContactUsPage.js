@@ -15,7 +15,7 @@ const ContactUsPage = () => {
         <div className={styles.contactHead}>
           <div className={styles.formSection}>
             <div className={styles.leftFromSection}>
-              <h4>Leave your query and we’ll reach out to you</h4>
+              <h1>Leave your query and we’ll reach out to you</h1>
               <div className={styles.formW}>
                 <ContactForm />
               </div>

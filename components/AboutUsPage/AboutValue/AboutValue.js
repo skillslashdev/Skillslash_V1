@@ -23,9 +23,9 @@ const AboutValue = () => {
             <p className={styles.pTop}>
               PROJECT BASED CERTIFICATION PLATFORM FOR PROFESSIONAL
             </p>
-            <h5>
+            <h1>
               Obtain certification as an <span>industry specialist</span>
-            </h5>
+            </h1>
             <p className="pBot">
               Old ways of learning, we feel, should be challenged. Besides, we
               intend to debunk myths about the importance of academic
