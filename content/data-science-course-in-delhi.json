@@ -7,7 +7,7 @@
     "ReviewSchema": {
       "@context": "https://schema.org/",
       "@type": "Product",
-      "name": "Data science course in Delhi",
+      "name": "Data science course in Delhi | Data Scientist Course - Skillslash",
       "brand": {
         "@type": "Brand",
         "name": "Skillslash"
@@ -2598,7 +2598,7 @@
   "seoAbout": [
     {
       "Module0": {
-        "title": "About Skillslash’s Data Science Course in Delhi powered by Microsoft ",
+        "title": "About Skillslash’s Data Science Course in Delhi  ",
         "content": [
           {
             "chap": {
@@ -2612,7 +2612,7 @@
             "chap": {
               "title": "",
               "desc": [
-                "At Skillslash, we've created a Data Science course in Delhi that's powered by Microsoft, so you can get the skills you need to excel in data science."
+                "At Skillslash, we've created a Data Science course in Delhi, so you can get the skills you need to excel in data science."
               ]
             }
           },
@@ -2969,13 +2969,13 @@
     },
     {
       "Module0": {
-        "title": "What can you expect from this Microsoft Powered data science course in Delhi ? ",
+        "title": "What can you expect from this data science course in Delhi ? ",
         "content": [
           {
             "chap": {
               "title": "",
               "desc": [
-                "Skillslash’s Data Science Powered by Microsoft course is an all-in-one Data Science Training & Education course delivered at an affordable Data Science Course Fees Structure. We don’t leave any stone unturned to equip you with the skills you need to be a top data scientist. With our Data Science course, you will have the chance to boost your resume with a Microsoft Certification and real-time work certification (from top multinational companies/ startups) once you complete the course. "
+                "Skillslash’s Data Science course is an all-in-one Data Science Training & Education course delivered at an affordable Data Science Course Fees Structure. We don’t leave any stone unturned to equip you with the skills you need to be a top data scientist. With our Data Science course, you will have the chance to boost your resume with a Microsoft Certification and real-time work certification (from top multinational companies/ startups) once you complete the course. "
               ]
             }
           },
