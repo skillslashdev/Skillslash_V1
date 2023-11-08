@@ -247,7 +247,7 @@
     display: inline;
     justify-self: flex-start;
     color: #4f419a;
-    cursor: pointer;
+    /*cursor: pointer;*/
     font-size: 24px;
     margin-right: 10px;
     margin-left: 5px;
@@ -261,28 +261,61 @@
     left: 0;
     margin: auto;
     width: 99vw;
-    height: max-content;
+    /*height: max-content;*/
+    height: 100%;
     border-radius: 0 5px 5px 0;
     background-color: white;
     flex-flow: column;
     position: absolute;
     z-index: 999;
+    animation: navAnimation 1500ms ease forwards;
+    transform: rotateY(90deg);
+    opacity: 0;
+    transform-origin: left;
   }
   .mobileWrapper .mobileMenu a {
     text-decoration: none;
+    
   }
   .mobileWrapper .mobileMenu span {
-    font-size: 18px;
+    font-size: 1.2rem;
     padding: 20px;
-    font-weight: bold;
-    cursor: pointer;
+    padding-left: 3rem;
+    font-size: 18px;
+    font-weight: 500;
+    /*cursor: pointer;*/
     width: 100%;
-    text-align: center;
+    text-align: left;
+    border-bottom: 0.2px solid #E6E6FA;
+    /*color: #4f419a;
+    background-color: #ebf1f8;*/
+    color: #565656;
+    background-color: white;
+    box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.2);
+    
   }
-  .mobileWrapper .mobileMenu span:hover {
+  .mobileWrapper .mobileMenu span:nth-child(1){
+    animation-delay: 300ms;
+  }
+  .mobileWrapper .mobileMenu span:nth-child(2){
+    animation-delay: 300ms;
+  }
+  .mobileWrapper .mobileMenu span:nth-child(3){
+    animation-delay: 300ms;
+  }
+  .mobileWrapper .mobileMenu span:nth-child(4){
+    animation-delay: 300ms;
+  }
+  @keyframes navAnimation {
+    to{
+      transform: rotateX(0);
+      opacity: 1;
+    }
+  }
+  /*.mobileWrapper .mobileMenu span:hover {
     color: #4f419a;
     background-color: #ebf1f8;
-  }
+  }*/
   .right {
     display: none;
   }
@@ -382,6 +415,7 @@
     left: 0;
     margin: auto;
     width: 100vw;
+
     height: max-content;
     border-radius: 0 0px 5px 5px;
     background-color: white;
@@ -393,17 +427,25 @@
     text-decoration: none;
   }
   .mobileWrapper .mobileMenu span {
-    font-size: 18px;
-    padding: 20px;
-    font-weight: bold;
-    cursor: pointer;
+    font-size: 15px;
+    /*padding: 20px;*/
+    font-weight: 500;
+    /*cursor: pointer;*/
     width: 100%;
-    text-align: center;
+    text-align: left;
+    padding-left: 3rem;
+    color: #565656;
+    background-color: white;
+    box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.2);
+    border-bottom: 0.2px solid #E6E6FA;
+    /*color: #4f419a;
+    background-color: #ebf1f8;*/
   }
-  .mobileWrapper .mobileMenu span:hover {
+  /*.mobileWrapper .mobileMenu span:hover {
     color: #4f419a;
     background-color: #ebf1f8;
-  }
+    
+  }*/
   .MegaBtn {
     display: none !important;
   }
