@@ -4,7 +4,7 @@ import styles from "../../styles/common.module.css";
 const PrivacyStatement = () => {
   return (
     <div className={styles.top}>
-      <h3>Privacy Policy</h3>
+      <h1>Privacy Policy</h1>
       <p>
         Skillslash maintains your privacy and takes data security and privacy
         extremely seriously. If you’re supplying your personal information while

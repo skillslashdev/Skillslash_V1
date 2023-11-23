@@ -6,7 +6,7 @@ const RefundsCancellation = () => {
   return (
     <div className={styles.container}>
       <div className={styles.top}>
-        <h2>Terms and Conditions for Online Live Classes</h2>
+        <h1>Terms and Conditions for Online Live Classes</h1>
         <p style={{ textAlign: "center" }}>Last Updated: 25 October 2023</p>
         <h5>
           These terms and conditions ("Terms") govern your use of our online

@@ -257,7 +257,7 @@ function DataScienceSyllabus({
       <div>
         <div className={styles.syllabusRight}>
           <h3 className={styles.rightHeading}>
-            Data Science Course in Pune <span>Curriculum</span>
+            Data Science Course <span>Curriculum</span>
           </h3>
           <p className={styles.rightDesc}>
             Data Science and AI courses Syllabus are curated by leading

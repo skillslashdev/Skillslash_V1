@@ -38,7 +38,7 @@ export default function index({ eventData }) {
       <Navbar course={false} />
 
       <div className={styles.event}>
-        <h2>Events on Skillslash</h2>
+        <h1>Events on Skillslash</h1>
         <div className={styles.eventTab}>
           <EventTab data={viewAllData} />
         </div>

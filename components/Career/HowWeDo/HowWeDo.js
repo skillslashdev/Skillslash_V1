@@ -15,8 +15,8 @@ const HowWeDo = () => {
             alt="How we do it"
             quality={100}
             style={{ objectFit: "contain" }}
-            width="350px"
-            height="398px"
+            width="350"
+            height="398"
           />
         </div>
         <div>
@@ -25,8 +25,8 @@ const HowWeDo = () => {
             alt="How we do it"
             quality={100}
             style={{ objectFit: "contain" }}
-            width="350px"
-            height="398px"
+            width="350"
+            height="398"
           />
         </div>
         <div>
@@ -35,8 +35,8 @@ const HowWeDo = () => {
             alt="How we do it"
             quality={100}
             style={{ objectFit: "contain" }}
-            width="350px"
-            height="398px"
+            width="350"
+            height="398"
           />
         </div>
       </div>
