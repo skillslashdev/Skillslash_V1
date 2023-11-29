@@ -35,6 +35,10 @@
 .viewN{
   display: none;
 }
+.contentWrapper h3,.contentWrapper h4,.contentWrapper h5,.contentWrapper h6{
+  font-size: 22px;
+      color: #646464;
+}
 @media (max-width: 961px) {
   .contentWrapper {
     padding: 40px;

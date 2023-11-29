@@ -16,6 +16,10 @@
   gap: 15px;
   align-items: center;
 }
+.headWrap h3{
+   font-size:17px;
+   font-weight: 400;
+}
 .imgWrap {
   display: flex;
   align-items: center;
@@ -344,7 +348,7 @@
     margin: 85px 30px;
   }
   .heading {
-    font-size: 34px;
+    font-size: 27px;
     margin: 0;
   }
   .line {

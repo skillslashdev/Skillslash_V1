@@ -36,9 +36,9 @@ const Reviews = ({
 
       <div className={styles.ReviewSlider}>
         <div className={styles.headings}>
-          <h4>
+          <h2>
             All <span>Reviews</span>
-          </h4>
+          </h2>
         </div>
         <ReviewSwiper event={event} review={review} />
       </div>

@@ -114,7 +114,7 @@
   padding-left: 30px;
   align-items: center;
 }
-.ratingText h5 {
+.ratingText h2 {
   font-size: 30px;
 }
 @media (max-width: 1281px) {

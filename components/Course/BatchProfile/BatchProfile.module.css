@@ -8,7 +8,7 @@
 .pBot {
   margin: 5px 0;
 }
-.batchProfileWrapper h4 span {
+.batchProfileWrapper h2 span {
 }
 .chartWrap {
   display: grid;
@@ -36,11 +36,11 @@
 .second2 {
   margin-top: 10px;
 }
-.second2 h5 {
+.second2 h3 {
   margin-bottom: 10px !important;
 }
 
-.chartWrap div h5 {
+.chartWrap div h3 {
   font-size: 20px;
   margin: 0;
 }

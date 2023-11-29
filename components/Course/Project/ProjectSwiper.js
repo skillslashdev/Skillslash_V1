@@ -87,7 +87,7 @@ const ProjectSwiper = memo(
           return (
             <SwiperSlide className={styles.ReviewBox} key={data.id}>
               <div className={styles.header}>
-                <h5>{data.title}</h5>
+                <h3>{data.title}</h3>
               </div>
               <div className={styles.body}>
                 <div className={styles.desc}>

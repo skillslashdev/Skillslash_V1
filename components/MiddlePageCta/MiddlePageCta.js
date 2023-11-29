@@ -86,10 +86,10 @@ const MiddlePageCta = ({
           />
         </div>
         <div className={styles.right}>
-          <h5>
+          <h2>
             Having Doubts? <br />
             Talk with our Experts
-          </h5>
+          </h2>
           <p>
             Elevate your career with our courses - gain the skills and knowledge
             that will set you apart and propel you toward success. Check your

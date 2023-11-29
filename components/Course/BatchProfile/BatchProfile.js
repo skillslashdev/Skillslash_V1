@@ -9,9 +9,9 @@ const BarChart = dynamic(() => import("./Chart/BarChart"));
 const BatchProfile = ({ seoPage, BatchProfilePara }) => {
   return (
     <div className={styles.batchProfileWrapper}>
-      <h4>
+      <h2>
         Batch <span>Profile</span>
-      </h4>
+      </h2>
       {/* {seoPage ? (
         <div dangerouslySetInnerHTML={{ __html: BatchProfilePara }}></div>
       ) : ( */}
@@ -23,12 +23,12 @@ const BatchProfile = ({ seoPage, BatchProfilePara }) => {
 
       <div className={styles.chartWrap}>
         <div className={styles.first}>
-          <h5>By Industry</h5>
+          <h3>By Industry</h3>
           <BarChart />
         </div>
         <div className={styles.secondWrap}>
           <div className={styles.second}>
-            <h5>By Qualification</h5>
+            <h3>By Qualification</h3>
             <div className={styles.noteBox}>
               <div className={styles.other}>
                 <span></span> Others
@@ -46,12 +46,12 @@ const BatchProfile = ({ seoPage, BatchProfilePara }) => {
             <PieChart />
           </div>
           <div className={styles.second2}>
-            <h5>By Cities</h5>
+            <h3>By Cities</h3>
             <CityGraph />
           </div>
         </div>
         <div className={styles.third}>
-          <h5>By Work Experience</h5>
+          <h3>By Work Experience</h3>
           <ProgressBar />
         </div>
       </div>

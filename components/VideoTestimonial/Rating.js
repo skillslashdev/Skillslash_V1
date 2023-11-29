@@ -13,7 +13,7 @@ const Rating = ({ ratingData }) => {
         />
       </div>
       <div className={styles.ratingText}>
-        <h5>Top Sites That Ranked Us</h5>
+        <h2>Top Sites That Ranked Us</h2>
       </div>
       <div className={styles.rightImg}>
         {ratingData.map((imgData) => {

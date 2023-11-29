@@ -24,7 +24,7 @@
   background-color: #d7d2f1;
   color: #4f419a;
 }
-.leftCta h4 {
+.leftCta h2 {
   color: #ffffff;
   margin: 0;
   font-weight: 700;
@@ -54,7 +54,7 @@
     grid-template-columns: 20% 40% 23%;
     position: relative;
   }
-  .leftCta h4 {
+  .leftCta h2 {
     font-size: 30px;
   }
   .leftCta button {

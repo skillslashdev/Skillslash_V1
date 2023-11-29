@@ -84,7 +84,7 @@ const VideoTestimonialSwiper = ({ event, review }) => {
 
               <div className={styles.nameWrap}>
                 <p className={styles.quote}>"{data.para}"</p>
-                <h5>{data.name}</h5>
+                <h3>{data.name}</h3>
               </div>
             </SwiperSlide>
           );

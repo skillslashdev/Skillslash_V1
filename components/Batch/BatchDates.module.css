@@ -88,13 +88,13 @@
   align-items: center;
   color: #4f419a;
 }
-.batchDetails h5 {
+.batchDetails h3 {
   font-size: 22px;
   margin: 0;
   line-height: 35px;
   color: white;
 }
-.batchDetailsI h5 {
+.batchDetailsI h3 {
   font-size: 22px;
   margin: 0;
   line-height: 35px;
@@ -219,11 +219,11 @@
     grid-template-columns: 12% 34% 21% 19%;
     gap: 0px;
   }
-  .batchDetails h5 {
+  .batchDetails h3 {
     font-size: 20px;
     line-height: 25px;
   }
-  .batchDetailsI h5 {
+  .batchDetailsI h3 {
     font-size: 20px;
     line-height: 25px;
     color: #4f419a;
@@ -255,11 +255,11 @@
     font-size: 12px;
     letter-spacing: 2px;
   }
-  .batchDetails h5 {
+  .batchDetails h3 {
     font-size: 18px;
     line-height: 25px;
   }
-  .batchDetailsI h5 {
+  .batchDetailsI h3 {
     font-size: 18px;
     line-height: 25px;
     color: #4f419a;
@@ -308,7 +308,7 @@
   .batchFilledMobile {
     display: none;
   }
-  .batchDetailsI h5 {
+  .batchDetailsI h3 {
     font-size: 15px;
     line-height: 25px;
     color: #4f419a;
@@ -345,7 +345,7 @@
     padding: 8px 15px;
     margin-right: 0px;
   }
-  .batchDetails h5 {
+  .batchDetails h3 {
     font-size: 14px;
   }
   .desc {

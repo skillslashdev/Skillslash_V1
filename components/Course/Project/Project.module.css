@@ -159,7 +159,7 @@
   flex-flow: column;
   gap: 20px;
 }
-.header h5 {
+.header h3 {
   font-size: 22px;
   margin: 0;
   font-weight: 700;
@@ -211,7 +211,7 @@
     margin: 40px 80px;
   }
 
-  .header h5 {
+  .header h3 {
     font-size: 21px;
   }
   .sliderWrap {
@@ -329,6 +329,9 @@
     flex-flow: column;
     align-items: center;
   }
+  .leftWrap h2{
+    font-size: 32px !important;
+  }
   .iconBox {
     width: 130px;
   }
@@ -352,8 +355,8 @@
     gap: 10px;
     grid-template-columns: 28% 70%;
   }
-  .header h5 {
-    font-size: 18px;
+  .header h3 {
+    font-size: 17px;
   }
   .ReviewBox {
     height: 350px !important;

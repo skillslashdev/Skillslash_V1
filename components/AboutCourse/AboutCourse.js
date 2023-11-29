@@ -6,15 +6,23 @@ const AboutCourses = ({ content, AboutCourseHeading }) => {
   const handler = () => {
     setRead(!read);
   };
+  var headingLevel = 3;
   return (
     <div className={styles.contentWrapper}>
-      <h4>{AboutCourseHeading.heading}</h4>
+      <h2>{AboutCourseHeading.heading}</h2>
       <p>{AboutCourseHeading.para}</p>
 
       {content.map((data, i) => {
+        const HeadingComponent = `h${headingLevel}`;
+
+        if (headingLevel === 6) {
+          headingLevel = 2; // Reset to h2
+        } else {
+          headingLevel++; // Increment for the next iteration
+        }
         return (
           <div key={i} className={read ? styles.view : styles.viewN}>
-            <h2>{data.data.heading}</h2>
+            <HeadingComponent>{data.data.heading}</HeadingComponent>
             <p>{data.data.para}</p>
             {data.data.listActive
               ? data.data.list.map((list, i) => {

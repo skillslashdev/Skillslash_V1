@@ -51,9 +51,9 @@ const TrainerSlider = ({
           />
         </div>
       </Popup>
-      <h4 className={style.heading}>
+      <h2 className={style.heading}>
         Our Trai<span>ners and Mentors</span>
-      </h4>
+      </h2>
       {seoPage ? (
         <div
           dangerouslySetInnerHTML={{ __html: trainerSlider }}

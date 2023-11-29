@@ -77,7 +77,7 @@ const Form = ({
     endPoint = "https://getform.io/f/e11a9831-3aef-43af-9b1a-93b36c58f7fb";
   }
   if (redirectWeb) {
-    endPoint = " https://getform.io/f/7287ef4b-b2a9-48f8-aca8-8bcfc7c00216";
+    endPoint = " https:/`/getform.io/f/7287ef4b-b2a9-48f8-aca8-8bcfc7c00216";
   }
   // Form Submit function
   const formSubmit = (e) => {

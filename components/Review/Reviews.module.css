@@ -15,12 +15,12 @@
   font-weight: 600;
   margin: 0;
 }
-.headings h4 {
+.headings h2 {
   font-size: 22px;
   color: #363636;
 }
-.headings h4 span {
-}
+/* .headings h2 span {
+} */
 .headings {
   display: flex;
   flex-flow: column;
@@ -89,7 +89,6 @@
 .nameWrap {
   width: 100%;
   display: flex;
-
   text-align: left;
   justify-content: flex-start;
   padding: 10px 0px;
@@ -114,7 +113,7 @@
   justify-content: center;
 }
 
-.ReviewBox h5 {
+.ReviewBox h3 {
   font-weight: 600;
   font-size: 18px;
   margin: 0;
@@ -122,7 +121,7 @@
   text-align: center;
 }
 
-.ReviewBox:hover h5 {
+.ReviewBox:hover h3 {
   color: white;
 }
 .ReviewBox:hover .readMore {

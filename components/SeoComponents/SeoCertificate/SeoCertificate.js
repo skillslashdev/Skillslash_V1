@@ -27,7 +27,7 @@ const Certificate = ({
       {redirectFs || redirectWeb || redirectDSA ? (
         <div className={styles.bottom}>
           <div className={styles.desc}>
-            <h4>Real Work Experience Certificate</h4>
+            <h3>Real Work Experience Certificate</h3>
             {seoPage ? (
               <div
                 dangerouslySetInnerHTML={{ __html: RealWorkPara }}
@@ -75,7 +75,7 @@ const Certificate = ({
       ) : (
         <div className={styles.DeskCert}>
           <div className={styles.topWrap}>
-            <h4 className={styles.dualHead}>{subheading}</h4>
+            <h2 className={styles.dualHead}>{subheading}</h2>
             {seoPage ? (
               <div
                 dangerouslySetInnerHTML={{ __html: CertificationPara }}
@@ -157,7 +157,7 @@ const Certificate = ({
                       </span>
                     </div>
                     <div className={styles.headingImg}>
-                      <h4>Microsoft Certification</h4>
+                      <h3>Microsoft Certification</h3>
                     </div>
                     {seoPage ? (
                       <div
@@ -209,7 +209,7 @@ const Certificate = ({
                   </div>
                 </div>
                 <div className={styles.desc}>
-                  <h4>Real Work Experience Certificate</h4>
+                  <h3>Real Work Experience Certificate</h3>
                   {seoPage ? (
                     <div
                       dangerouslySetInnerHTML={{ __html: RealWorkPara }}

@@ -43,8 +43,8 @@
   cursor: pointer;
 }
 
-.ques h2,
-.quesO h2 {
+.ques h3,
+.quesO h3 {
   font-size: 18px;
   margin: 0;
 
@@ -133,8 +133,8 @@
   .quesO {
     height: max-content;
   }
-  .ques h2,
-  .quesO h2 {
+  .ques h3,
+  .quesO h3 {
     font-size: 14px;
     margin: 0;
 

@@ -35,7 +35,7 @@ const BatchDates = memo(
             <div className="whiteP" />
           </div>
           <div className="RightPopup">
-            <h5>Apply For Counselling</h5>
+            <h3>Apply For Counselling</h3>
             <p>Fill the below Details to get started</p>
             <Form
               popup={true}
@@ -50,9 +50,9 @@ const BatchDates = memo(
             />
           </div>
         </Popup>
-        <h4 className={styles.MHeading}>
+        <h2 className={styles.MHeading}>
           Next coh<span>orts Dates</span>
-        </h4>
+        </h2>
 
         {batchDetails === "" ? (
           <p>Batch Date will be updated soon!</p>
@@ -86,10 +86,10 @@ const BatchDates = memo(
                         : styles.batchDetailsI
                     }
                   >
-                    <h5>
+                    <h3>
                       {data.batchType}&nbsp;
                       {data.batchStartTime}-{data.batchEndTime}
-                    </h5>
+                    </h3>
                     {data.activeBatch ? (
                       <p className={styles.desc}>{data.batchDesc} </p>
                     ) : (
@@ -182,7 +182,7 @@ const BatchDates = memo(
         </div>
         <div className={styles.batchDetailsWrap}>
           <div className={styles.batchDetails}>
-            <h5>Morning Batch, 08:00 to 10:00</h5>
+            <h3>Morning Batch, 08:00 to 10:00</h3>
             <p className={styles.desc}>
               Enrollment for this batch are no longer accepted
             </p>
@@ -231,7 +231,7 @@ const BatchDates = memo(
         </div>
         <div className={styles.batchDetailsWrap}>
           <div className={styles.batchDetails}>
-            <h5>Morning Batch, 08:00 to 10:00</h5>
+            <h3>Morning Batch, 08:00 to 10:00</h3>
             <p className={styles.desc}>
               Limited seats are available{" "}
               <span className={styles.red}> Hurry!</span>

@@ -22,9 +22,9 @@ const VideoTestimonial = ({ event }) => {
       <div className={styles.ReviewSlider}>
         <div className={styles.headings}>
           <p>What Our Learners has to say</p>
-          <h4>
+          <h2>
             Learners <span>Reviews</span>
-          </h4>
+          </h2>
         </div>
         <VideoTestimonialSwiper review={review} />
         <Rating ratingData={ratingData} />

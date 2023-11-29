@@ -58,7 +58,7 @@ const TrainerSwiper = memo(({ swiperData }) => {
           return (
             <SwiperSlide className={style.ReviewBox} key={data.id}>
               <div className={style.transition}>
-                <h5>{data.name}</h5>
+                <h3>{data.name}</h3>
                 <p>{data.position}</p>
                 <Image
                   src={mobile ? data.mImg : data.cImg}
@@ -72,7 +72,8 @@ const TrainerSwiper = memo(({ swiperData }) => {
               <div className={style.profile}>
                 <Image
                   src={data.pImg}
-                  alt="Prathap"
+                  alt="Trainer Profile image"
+                  title="Trainer image"
                   style={{ objectFit: "contain" }}
                   width={data.pWidth}
                   height={data.pHeight}

@@ -17,7 +17,7 @@ const CTA = ({ redirectDSA }) => {
         />
       </div>
       <div className={styles.leftCta}>
-        <h4>Get Free Career Counselling</h4>
+        <h2>Get Free Career Counselling</h2>
         <p className={styles.pTop}>For queries, feedback & assistance</p>
         <p className={styles.smallCTA}>(7AM -12 AM)</p>
         <a href="tel:+91-8391-911-911">

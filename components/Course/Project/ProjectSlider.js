@@ -141,7 +141,7 @@ const ProjectSlider = ({
       <div className={styles.projectHeader}>
         <div className={styles.leftWrap}>
           <p>Industry – partnered capstone projects</p>
-          <h4>Hands-on Projects</h4>
+          <h2>Hands-on Projects</h2>
         </div>
         <div className={styles.rightWrap}>
           <div className={styles.iconBox}>

@@ -56,9 +56,9 @@ const MGetHired = ({
             />
           </div>
         </Popup>
-        <h4>
+        <h2>
           Our <span>Alumni Placed @</span>
-        </h4>
+        </h2>
         {seoPage ? (
           <div
             dangerouslySetInnerHTML={{ __html: alumniPara }}

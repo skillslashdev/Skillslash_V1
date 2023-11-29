@@ -78,11 +78,11 @@ const Fee = memo(
 
         <div className={styles.fourthS}>
           {/* <p className="pTop"> Finance</p> */}
-          <h4>Program Fees</h4>
+          <h2>Program Fees</h2>
           <div className={styles.feeWrapperTop}>
             <p className="pBotS">{desc}</p>
 
-            <h6>Payment Partners</h6>
+            <h3>Payment Partners</h3>
             <div className={styles.bottom}>
               {/* <PartnerSlider swiperData={pPartner} /> */}
             </div>
@@ -91,11 +91,11 @@ const Fee = memo(
         <div className={styles.priceTableData}>
           <div className={styles.fourth1}>
             {/* <p className="pTop"> Finance</p> */}
-            <h4>Program Fees</h4>
+            <h2>Program Fees</h2>
             <div className={styles.feeWrapperTop}>
               <p className="pBotS">{desc}</p>
 
-              <h6>Payment Partners</h6>
+              <h3>Payment Partners</h3>
               <div className={styles.bottom}>
                 <div className={styles.bottom}>
                   <Image
