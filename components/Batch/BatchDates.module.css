@@ -5,6 +5,7 @@
   justify-content: center;
 }
 .MHeading {
+  font-size: 37px;
   margin-bottom: 20px;
 }
 .MHeading span {
@@ -209,6 +210,9 @@
   .BatchDates {
     margin: 40px 40px;
   }
+  .MHeading {
+    font-size: 33px;
+  }
 }
 @media (max-width: 1239px) {
   .batchDateWrap {
@@ -233,6 +237,9 @@
 @media (max-width: 1025px) {
   .BatchDates {
     margin: 40px 30px;
+  }
+  .MHeading {
+    font-size: 29px;
   }
 }
 @media (max-width: 961px) {
@@ -294,10 +301,16 @@
     align-items: center;
     gap: 5px;
   }
+  .MHeading {
+    font-size: 25px;
+  }
 }
 @media (max-width: 481px) {
   .BatchDates {
     margin: 30px 10px 10px 10px;
+  }
+  .MHeading {
+    font-size: 22px;
   }
   .batchDateWrap {
     border-left: 4px solid #4f419a;

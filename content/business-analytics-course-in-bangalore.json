@@ -81,6 +81,10 @@
     "heading1": "Get Hired",
     "heading": "Work on live projects to get hired at:"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why Join this Programme?",
     "Box1h5": "Certificate For Projects",
@@ -1038,6 +1042,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Have a look at the FAQ’s below to know more about our business analytics training, fees and project details."
   },
   "FaqDATA": [

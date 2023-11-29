@@ -329,8 +329,9 @@
     flex-flow: column;
     align-items: center;
   }
-  .leftWrap h2{
+  .leftWrap h2 {
     font-size: 32px !important;
+    text-align: center;
   }
   .iconBox {
     width: 130px;

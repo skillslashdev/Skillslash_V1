@@ -77,6 +77,10 @@
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why Join this Program?",
     "Box1h5": "Real Work Experience",
@@ -1259,6 +1263,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Go through the FAQs to know more about our Data Science course in Australia. Also, learn about our Data Science course fees, project certifications, other Data Science and AI course details."
   },
   "FaqDATA": [

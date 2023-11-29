@@ -5,8 +5,16 @@
   gap: 20px;
   flex-flow: column;
 }
+.viewPoint {
+  display: flex;
+  flex-flow: column;
+}
+.relatedWrap h3 {
+  margin: 0;
+}
 .pinCode,
 .location {
+  align-items: baseline;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;

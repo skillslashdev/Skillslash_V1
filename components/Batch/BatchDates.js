@@ -50,9 +50,9 @@ const BatchDates = memo(
             />
           </div>
         </Popup>
-        <h2 className={styles.MHeading}>
+        <h3 className={styles.MHeading}>
           Next coh<span>orts Dates</span>
-        </h2>
+        </h3>
 
         {batchDetails === "" ? (
           <p>Batch Date will be updated soon!</p>

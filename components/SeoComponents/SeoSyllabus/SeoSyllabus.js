@@ -87,42 +87,44 @@ function DataScienceSyllabus({
           </div>
         </div>
         <p>{syllabusDesc}</p>
+        <ul>
+          {state.map((syllabusData, i) => {
+            const { Module0 } = syllabusData;
 
-        {state.map((syllabusData, i) => {
-          const { Module0 } = syllabusData;
+            return (
+              <li className={styles.pointA} key={Module0.title}>
+                <BsDot className={styles.dot} />
+                <span className={styles.line}></span>
+                <div className={styles.FaqWrapper} key={Module0.title}>
+                  {/* {Module0.open ? ( */}
 
-          return (
-            <div className={styles.FaqWrapper} key={Module0.title}>
-              {/* {Module0.open ? ( */}
-              <BsDot className={styles.dot} />
-              <span className={styles.line}></span>
-              <div className={styles.ques} style={{ borderBottom: "0" }}>
-                <div className={styles.headWrap}>
-                  <h3>{Module0.title}</h3>
+                  <div className={styles.ques} style={{ borderBottom: "0" }}>
+                    <div className={styles.headWrap}>
+                      <h3>{Module0.title}</h3>
 
-                  <p className={styles.sTitle}>{Module0.title1}</p>
-                  <p className={styles.sDesc}>{Module0.descS}</p>
+                      <p className={styles.sTitle}>{Module0.title1}</p>
+                      <p className={styles.sDesc}>{Module0.descS}</p>
 
-                  {Module0.project ? (
-                    <div className={styles.logoImgWrap}>
-                      {Module0.projectImgSrc.map((imgData) => {
-                        return (
-                          <div className={styles.imgWrap} key={imgData.id}>
-                            <Image
-                              src={imgData.src}
-                              width={imgData.width}
-                              height={imgData.height}
-                              alt="Project by skillslash"
-                            />
-                          </div>
-                        );
-                      })}
-                    </div>
-                  ) : (
-                    ""
-                  )}
+                      {Module0.project ? (
+                        <div className={styles.logoImgWrap}>
+                          {Module0.projectImgSrc.map((imgData) => {
+                            return (
+                              <div className={styles.imgWrap} key={imgData.id}>
+                                <Image
+                                  src={imgData.src}
+                                  width={imgData.width}
+                                  height={imgData.height}
+                                  alt="Project by skillslash"
+                                />
+                              </div>
+                            );
+                          })}
+                        </div>
+                      ) : (
+                        ""
+                      )}
 
-                  {/* {Module0.project
+                      {/* {Module0.project
                       ? Module0.projectImgSrc.map((imgData) => {
                           return (
                             <div className={styles.imgWrap}>
@@ -137,128 +139,109 @@ function DataScienceSyllabus({
                           );
                         })
                       : ""} */}
-                </div>
-              </div>
-              {/* ) : (
-                <div className={styles.ques}>
-                  <div className={styles.headWrap}>
-                    <h2>{Module0.title}</h2>
-                    {Module0.project ? (
-                      <div className={styles.logoImgWrap}>
-                        {Module0.projectImgSrc.map((imgData) => {
-                          return (
-                            <div className={styles.imgWrap} key={imgData.id}>
-                              <Image
-                                src={imgData.src}
-                                width={imgData.width}
-                                height={imgData.height}
-                                alt="Project by skillslash"
-                              />
-                            </div>
-                          );
-                        })}
+                    </div>
+                  </div>
+                  {Module0.content.length === 0 ? (
+                    ""
+                  ) : (
+                    <div className={styles.ans}>
+                      <div
+                        className={styles.innerAns}
+                        onClick={() => {
+                          let id = i;
+                          handleChange(id);
+                        }}
+                      >
+                        <p className={styles.accorDHead}>Course Content</p>
+                        <span>
+                          {Module0.open ? (
+                            <MdKeyboardArrowUp className="icon" />
+                          ) : (
+                            <MdKeyboardArrowDown className="icon" />
+                          )}
+                        </span>
                       </div>
-                    ) : (
-                      ""
-                    )}
-                  </div>
-                </div>
-              )} */}
-              {Module0.content.length === 0 ? (
-                ""
-              ) : (
-                <div className={styles.ans}>
-                  <div
-                    className={styles.innerAns}
-                    onClick={() => {
-                      let id = i;
-                      handleChange(id);
-                    }}
-                  >
-                    <h3>Course Content</h3>
-                    <span>
                       {Module0.open ? (
-                        <MdKeyboardArrowUp className="icon" />
-                      ) : (
-                        <MdKeyboardArrowDown className="icon" />
-                      )}
-                    </span>
-                  </div>
-                  {Module0.open ? (
-                    <div>
-                      {Module0.project ? (
                         <div>
-                          <h5 className={styles.projectHead}>
-                            Project You Will Work On
-                          </h5>
-                          <div className={styles.projectView}>
-                            {Module0.projectInfo.map((imgData) => {
-                              return (
-                                <div
-                                  className={styles.projectSyllabus}
-                                  key={imgData.id}
-                                >
-                                  <p>{imgData.title}</p>
-                                  <Image
-                                    src={imgData.src}
-                                    width={imgData.width}
-                                    height={imgData.height}
-                                    alt="Project by skillslash"
-                                  />
-                                  <Link href="#project">
-                                    <button>View Details</button>
-                                  </Link>
-                                </div>
-                              );
-                            })}
-                          </div>
+                          {Module0.project ? (
+                            <div>
+                              <h5 className={styles.projectHead}>
+                                Project You Will Work On
+                              </h5>
+                              <div className={styles.projectView}>
+                                {Module0.projectInfo.map((imgData) => {
+                                  return (
+                                    <div
+                                      className={styles.projectSyllabus}
+                                      key={imgData.id}
+                                    >
+                                      <p>{imgData.title}</p>
+                                      <Image
+                                        src={imgData.src}
+                                        width={imgData.width}
+                                        height={imgData.height}
+                                        alt="Project by skillslash"
+                                      />
+                                      <Link href="#project">
+                                        <button>View Details</button>
+                                      </Link>
+                                    </div>
+                                  );
+                                })}
+                              </div>
+                            </div>
+                          ) : (
+                            ""
+                          )}
+
+                          <p>{Module0.desc}</p>
+
+                          {Module0.content.map((content, i) => {
+                            return (
+                              <div key={content.chap.title}>
+                                <ul className={styles.syllabusHead}>
+                                  <h4 className={styles.chapHead}>
+                                    {content.chap.title}
+                                  </h4>
+                                  {content.chap.desc.map((desc, i) => {
+                                    return (
+                                      <div key={desc}>
+                                        {desc === "" ? (
+                                          ""
+                                        ) : (
+                                          <li key={i} className={styles.points}>
+                                            {" "}
+                                            <BiCheck
+                                              className={styles.check}
+                                            />{" "}
+                                            {desc}
+                                          </li>
+                                        )}
+                                      </div>
+                                    );
+                                  })}
+                                </ul>
+                              </div>
+                            );
+                          })}
                         </div>
                       ) : (
                         ""
                       )}
-
-                      <p>{Module0.desc}</p>
-
-                      {Module0.content.map((content, i) => {
-                        return (
-                          <div key={content.chap.title}>
-                            <h5 className={styles.chapHead}>
-                              {content.chap.title}
-                            </h5>
-                            {content.chap.desc.map((desc, i) => {
-                              return (
-                                <div key={desc}>
-                                  {desc === "" ? (
-                                    ""
-                                  ) : (
-                                    <p key={desc} className={styles.points}>
-                                      {" "}
-                                      <BiCheck className={styles.check} />{" "}
-                                      {desc}
-                                    </p>
-                                  )}
-                                </div>
-                              );
-                            })}
-                          </div>
-                        );
-                      })}
                     </div>
-                  ) : (
-                    ""
                   )}
                 </div>
-              )}
-            </div>
-          );
-        })}
+              </li>
+            );
+          })}
+        </ul>
       </div>
 
       <div>
         <div className={styles.syllabusRight}>
-          <h3 className={styles.rightHeading}>
+          <h5 className={styles.rightHeading}>
             Data Science Course <span>Curriculum</span>
-          </h3>
+          </h5>
           <p className={styles.rightDesc}>
             Data Science and AI courses Syllabus are curated by leading
             faculties and industry leaders.

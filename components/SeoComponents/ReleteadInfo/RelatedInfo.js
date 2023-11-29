@@ -8,11 +8,23 @@ const RelatedInfo = ({ pinCode, relatedArea, relatedBlog, aboutCity }) => {
   return (
     <div className={styles.relatedWrap}>
       <div className={styles.pinCode}>
-        <h2>{aboutCity.title}</h2>
+        <h3>{aboutCity.title}</h3>
         <p>{aboutCity.desc}</p>
+        <div className={styles.viewPoint}>
+          {aboutCity.pointView
+            ? aboutCity.point.map((data, i) => {
+                return (
+                  <li key={i} style={{ color: "#646464" }}>
+                    {" "}
+                    {data}
+                  </li>
+                );
+              })
+            : ""}
+        </div>
       </div>
       <div className={styles.pinCode}>
-        <h2>{pinCode.heading}</h2>
+        <h3>{pinCode.heading}</h3>
         {pinCode.area.map((data, i) => {
           return <span key={i}>{data},</span>;
         })}
@@ -24,7 +36,7 @@ const RelatedInfo = ({ pinCode, relatedArea, relatedBlog, aboutCity }) => {
         })}
       </div>
       <div className={styles.rBlog}>
-        <h2>Related Blog</h2>
+        <h3>Related Blog</h3>
         <div className={styles.blogWrap}>
           {relatedBlog.map((data, i) => {
             return (

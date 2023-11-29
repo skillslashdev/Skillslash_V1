@@ -7,6 +7,10 @@
   margin: 0px 10px;
   position: relative;
 }
+.syllabusLeft ul {
+  margin: 0;
+  padding: 0;
+}
 .heading {
   font-size: 36px;
   margin: 0;
@@ -16,9 +20,9 @@
   gap: 15px;
   align-items: center;
 }
-.headWrap h3{
-   font-size:17px;
-   font-weight: 400;
+.headWrap h3 {
+  font-size: 17px;
+  font-weight: 400;
 }
 .imgWrap {
   display: flex;

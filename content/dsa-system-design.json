@@ -80,6 +80,10 @@
     "BatchDuration": "8 Months",
     "Placement": "Guaranteed job referral"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why sign up for this program?",
     "Box1h5": "Instructors from FAANG",
@@ -374,6 +378,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Know in detail about the syllabus of our data structures course, fees and scholarship"
   },
   "FaqDATA": [

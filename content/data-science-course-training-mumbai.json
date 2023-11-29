@@ -76,6 +76,10 @@
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why Join this Program?",
     "Box1h5": "Real Work Experience",
@@ -1258,6 +1262,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Learn more about our Data Science courses in mumbai by reading the FAQs. Find out more about our Data Analyst course in mumbai costs, project certifications, and other Data Analyst and AI course information."
   },
   "FaqDATA": [

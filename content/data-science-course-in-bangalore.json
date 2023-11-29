@@ -204,8 +204,23 @@
     "CohortsPara": "The dates of our upcoming sessions for Skillslash’s data science course in Bangalore are out! Mark your calendars, to begin your data science training in Bangalore, and discover what’s waiting for you ahead!",
     "BatchProfilePara": "This data science course in Bangalore is created to meet the needs of everyone form multiple industries, backgrounds and levels of experience. Whether you are a graduate, a postgraduate, an intermediate or a professional, our course is for you as we believe the diversity adds to the richness and interactivity of the data science course discussions.  ",
     "aboutCity": {
+      "pointView": true,
       "title": "Data Scientist Course in Bangalore",
-      "desc": "Bangalore is a vibrant and bustling metropolis in southern India. Known as the Silicon Valley of India, it is a major hub for technology and innovation, hosting numerous tech companies and startups. The city offers a unique blend of modernity and tradition, with a diverse cultural landscape, exquisite cuisine, and a pleasant climate. Bangalore is also renowned for its lush parks, educational institutions, and a thriving arts and music scene, making it a dynamic and sought-after destination for professionals and visitors alike."
+      "desc": "Bangalore is a vibrant and bustling metropolis in southern India. Known as the Silicon Valley of India, it is a major hub for technology and innovation, hosting numerous tech companies and startups. The city offers a unique blend of modernity and tradition, with a diverse cultural landscape, exquisite cuisine, and a pleasant climate. Bangalore is also renowned for its lush parks, educational institutions, and a thriving arts and music scene, making it a dynamic and sought-after destination for professionals and visitors alike.",
+      "point": [
+        "Cubbon Park",
+        "Vidhana Soudha",
+        "Lalbagh Botanical Garden",
+        "Bangalore Palace",
+        "Bannerghatta National Park"
+      ],
+      "link": [
+        "https://www.google.com/maps/place/Cubbon+Park/@12.9779291,77.5951549,15z/data=!4m6!3m5!1s0x3bae1673e7d0672f:0xc62ca5a6e943dfb8!8m2!3d12.9779291!4d77.5951549!16zL20vMGJtN2Q1?sa=X&ved=2ahUKEwjew7S7oLyCAxV9bWwGHTiGDWkQ_BJ6BAhdEAA&entry=tts",
+        "https://www.google.com/maps/place/Vidhana+Soudha/@12.9796734,77.5912443,15z/data=!4m6!3m5!1s0x3bae1672094c0ca7:0xffa0605b3255e77d!8m2!3d12.9796734!4d77.5912443!16zL20vMDF0aHhf?entry=ttu",
+        "https://www.google.com/maps/place/Lalbagh+Botanical+Garden/@12.9507432,77.5847773,15z/data=!4m6!3m5!1s0x3bae15c191f2d31d:0x8e110b99df2fbe22!8m2!3d12.9507432!4d77.5847773!16zL20vMDUxd3A0?sa=X&ved=2ahUKEwjX6ubHoLyCAxXZS2wGHXNVDrcQ_BJ6BAhlEAA&entry=tts",
+        "https://www.google.com/maps/place/Bengaluru+Palace/@13.0035068,77.5890953,15z/data=!4m6!3m5!1s0x3bae1649294a5637:0xb1f8b77e331512cf!8m2!3d13.0035068!4d77.5890953!16s%2Fm%2F02pf96d?sa=X&ved=2ahUKEwivyNDXoLyCAxX9d2wGHUC8AzkQ_BJ6BAhoEAA&entry=tts",
+        "https://www.google.com/maps/place/Bannerghatta+biological+park/@12.8010095,77.5749507,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae6ba87f09fc55:0x96b24101b2a3dcd9!8m2!3d12.8010043!4d77.5775256!16s%2Fg%2F11rsr_xg8f?entry=tts"
+      ]
     },
     "pinCode": {
       "heading": "Data Science course Training offered in Bangalore location:",
@@ -411,6 +426,10 @@
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
+  "TrainerHeading": "Our Data Science Program Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Data Science Course in Bangalore Reviews",
+  "ProjectHeading": "Data Science Projects in Bangalore",
   "BoxShape": {
     "title": "How Our Data Science Course in Bangalore is Best?",
     "Box1h5": "Data Science Capstone Project",
@@ -3598,6 +3617,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Data Science Course in Bangalore FAQs",
     "desc": "Go through the FAQ’s to know more about our Data Science course in Bangalore with unlimited job referrals, course fees and project details."
   },
   "FaqDATA": [

@@ -65,6 +65,10 @@
     "BatchDuration": "11 Months",
     "Placement": "Guaranteed job referral"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why Join this Program?",
     "Box1h5": "Real Work Experience",
@@ -487,6 +491,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Go through the FAQ’s to know more about our Full Stack program in bhubaneswar, artificial intelligence and machine learning course fees and project details."
   },
   "FaqDATA": [

@@ -50,6 +50,7 @@
     "CohortsPara": "The dates of our upcoming sessions for Skillslash’s data science course in Mumbai are out! Mark your calendars, to begin your data science training in Mumbai, and discover what’s waiting for you ahead!",
     "BatchProfilePara": "This data science course in Mumbai is created to meet the needs of everyone form multiple industries, backgrounds and levels of experience. It does not matter if you are a graduate, a postgraduate, or a professional, Skillslash's data science course in Mumbai is for everyone as we believe the diversity adds to the richness and interactivity of the data science course discussions",
     "aboutCity": {
+      "pointView": false,
       "title": "Data Scientist Course in Mumbai",
       "desc": "Mumbai is a vibrant and bustling metropolis in southern India.  It is a major hub for technology and innovation, hosting numerous tech companies and startups. The city offers a unique blend of modernity and tradition, with a diverse cultural landscape, exquisite cuisine, and a pleasant climate. Mumbai is also renowned for its lush parks, educational institutions, and a thriving arts and music scene, making it a dynamic and sought-after destination for professionals and visitors alike."
     },
@@ -1865,6 +1866,10 @@
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why Skillslash Data Science Program is unique ?",
     "Box1h5": "Real Work Experience In Data Science",
@@ -3085,6 +3090,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Go through the FAQs to know more about our Data Science course in Mumbai."
   },
   "FaqDATA": [
