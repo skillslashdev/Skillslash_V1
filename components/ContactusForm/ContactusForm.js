@@ -10,13 +10,7 @@ import setMinutes from "date-fns/setMinutes";
 import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 
-const ContactForm = ({
-  popup,
-  setTrigger,
-  syllabus,
-  coupon,
-  setShowCoupon,
-}) => {
+const ContactForm = ({ popup, setTrigger, syllabus }) => {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   //offset to maintain time zone difference
@@ -85,37 +79,32 @@ const ContactForm = ({
       off();
     }
     setLoading(false);
-    if (coupon) {
-      setShowCoupon(true);
-    } else {
-      if (
-        query.selectCourse === "Adv DS&AI-ProMax" ||
-        query.selectCourse === "Adv DS&AI-Pro"
-      )
-        router.push("/Thankyou/data-science");
 
-      if (query.selectCourse === "FS-ProMax")
-        router.push("/Thankyou/full-stack");
-      if (
-        query.selectCourse ===
-        "Data Engineering Course with Industry Experience"
-      )
-        router.push("/Thankyou/data-engineering");
-      if (query.selectCourse === "Blockchain program and certification")
-        router.push("/Thankyou/blockchain");
-      if (
-        query.selectCourse === "BA-ProMax" ||
-        query.selectCourse === "BA-Pro" ||
-        query.selectCourse === "DA-Pro" ||
-        query.selectCourse === "DA-ProMax"
-      )
-        router.push("/Thankyou/business-analytics");
-      if (query.selectCourse === "DSA + System Design") {
-        router.push("/Thankyou/dsa");
-      }
-      if (query.selectCourse === "Web") {
-        router.push("/Thankyou/web-development");
-      }
+    if (
+      query.selectCourse === "Adv DS&AI-ProMax" ||
+      query.selectCourse === "Adv DS&AI-Pro"
+    )
+      router.push("/Thankyou/data-science");
+
+    if (query.selectCourse === "FS-ProMax") router.push("/Thankyou/full-stack");
+    if (
+      query.selectCourse === "Data Engineering Course with Industry Experience"
+    )
+      router.push("/Thankyou/data-engineering");
+    if (query.selectCourse === "Blockchain program and certification")
+      router.push("/Thankyou/blockchain");
+    if (
+      query.selectCourse === "BA-ProMax" ||
+      query.selectCourse === "BA-Pro" ||
+      query.selectCourse === "DA-Pro" ||
+      query.selectCourse === "DA-ProMax"
+    )
+      router.push("/Thankyou/business-analytics");
+    if (query.selectCourse === "DSA + System Design") {
+      router.push("/Thankyou/dsa");
+    }
+    if (query.selectCourse === "Web") {
+      router.push("/Thankyou/web-development");
     }
   };
 
