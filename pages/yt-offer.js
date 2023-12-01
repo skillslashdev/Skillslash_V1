@@ -11,7 +11,7 @@ const ytOffer = () => {
       <Navbar course={false} />
       <div className={styles.divWrap}>
         <div className={styles.formWrapDiv}>
-          <h1 className={styles.heading}>Fill the form</h1>
+          <h1 className={styles.heading}>Fill the form to Register</h1>
           <ContactForm coupon={true} />
         </div>
         <div className={styles.rightWrap}>
