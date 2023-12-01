@@ -10,7 +10,7 @@ import setMinutes from "date-fns/setMinutes";
 import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 
-const ContactForm = ({ popup, setTrigger, syllabus }) => {
+const ContactForm = ({ popup, setTrigger, syllabus, coupon }) => {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   //offset to maintain time zone difference

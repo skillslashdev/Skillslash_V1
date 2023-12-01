@@ -12,7 +12,7 @@ const ytOffer = () => {
       <div className={styles.divWrap}>
         <div className={styles.formWrapDiv}>
           <h1 className={styles.heading}>Fill the form</h1>
-          <ContactForm />
+          <ContactForm coupon={true} />
         </div>
         <div className={styles.rightWrap}>
           <div className="bgWrap">
