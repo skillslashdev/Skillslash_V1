@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import "../styles/form.css";
 import { Roboto } from "next/font/google";
+import Script from "next/script";
 
 // import Script from "next/script";
 const roboto = Roboto({
@@ -13,11 +14,7 @@ const roboto = Roboto({
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      {/* <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=GTM-WJVZHTB`}
-      />
-
+      {/* 
       <Script strategy="lazyOnload">
         {`
             window.dataLayer = window.dataLayer || [];
@@ -32,6 +29,10 @@ function MyApp({ Component, pageProps }) {
       <main className={roboto.className}>
         <Component {...pageProps} />
       </main>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=GTM-WJVZHTB`}
+      />
     </>
   );
 }
