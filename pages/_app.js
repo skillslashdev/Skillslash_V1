@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=GTM-WJVZHTB`}
       />
-      {/* 
+
       <Script strategy="lazyOnload">
         {`
             window.dataLayer = window.dataLayer || [];
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
               page_path: window.location.pathname,
             });
                 `}
-      </Script> */}
+      </Script>
 
       <main className={roboto.className}>
         <Component {...pageProps} />
