@@ -14,6 +14,10 @@ const roboto = Roboto({
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=GTM-WJVZHTB`}
+      />
       {/* 
       <Script strategy="lazyOnload">
         {`
@@ -29,10 +33,6 @@ function MyApp({ Component, pageProps }) {
       <main className={roboto.className}>
         <Component {...pageProps} />
       </main>
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=GTM-WJVZHTB`}
-      />
     </>
   );
 }
