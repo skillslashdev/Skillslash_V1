@@ -10,6 +10,7 @@
     "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
+    "@next/third-parties": "^14.0.3",
     "bcrypt": "^5.1.1",
     "critters": "^0.0.7",
     "feed": "^4.2.2",
