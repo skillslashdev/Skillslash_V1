@@ -40,7 +40,7 @@ const InternalLinking = ({
 
   return (
     <div className={styles.wrapper}>
-      <h2>Our program in other cities</h2>
+      <h3>Our program in other cities</h3>
       <div className={styles.wrapContent}>
         <div
           className={other ? styles.header : styles.headerActive}

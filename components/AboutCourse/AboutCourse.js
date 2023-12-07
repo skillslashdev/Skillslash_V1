@@ -9,7 +9,7 @@ const AboutCourses = ({ content, AboutCourseHeading }) => {
   var headingLevel = 3;
   return (
     <div className={styles.contentWrapper}>
-      <h2>{AboutCourseHeading.heading}</h2>
+      <h3 className={styles.topHeading}>{AboutCourseHeading.heading}</h3>
       <p>{AboutCourseHeading.para}</p>
 
       {content.map((data, i) => {

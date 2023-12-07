@@ -10,7 +10,7 @@ import setMinutes from "date-fns/setMinutes";
 import addDays from "date-fns/addDays";
 import subDays from "date-fns/subDays";
 
-const ContactForm = ({ popup, setTrigger, syllabus }) => {
+const ContactForm = ({ popup, setTrigger, syllabus, coupon }) => {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   //offset to maintain time zone difference
@@ -42,6 +42,9 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
   };
 
   let endPoint = "https://getform.io/f/24a1a4e6-8116-4614-818d-0bff28469fd0";
+  if (coupon) {
+    endPoint = "https://getform.io/f/25203d46-56e6-47bc-9565-699764ab633c";
+  }
 
   // Form Submit function
 
@@ -76,6 +79,7 @@ const ContactForm = ({ popup, setTrigger, syllabus }) => {
       off();
     }
     setLoading(false);
+
     if (
       query.selectCourse === "Adv DS&AI-ProMax" ||
       query.selectCourse === "Adv DS&AI-Pro"

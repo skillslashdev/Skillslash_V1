@@ -23,7 +23,8 @@ p {
 
   color: #646464;
 }
-h4 {
+h4,
+h2 {
   font-weight: 700;
   font-size: 37px;
   line-height: 43px;
@@ -528,7 +529,8 @@ button {
   .RightPopup p {
     margin-bottom: 5px;
   }
-  h4 {
+  h4,
+  h2 {
     font-size: 27px;
   }
   .wrapperHeading hr {
@@ -559,7 +561,8 @@ button {
   .popupModal {
     display: flex;
   }
-  h4 {
+  h4,
+  h2 {
     font-size: 25px;
     line-height: 28px;
   }
@@ -588,7 +591,8 @@ button {
   }
 }
 @media (max-width: 641px) {
-  h4 {
+  h4,
+  h2 {
     font-size: 22px;
   }
   .wrapperHeading h4 {
@@ -604,7 +608,8 @@ button {
   }
 }
 @media (max-width: 481px) {
-  h4 {
+  h4,
+  h2 {
     font-size: 26px;
     margin: 0;
     color: rgb(61, 61, 61);
@@ -659,6 +664,10 @@ button {
     display: flex;
     position: relative;
     width: 100vw;
+  }
+  .WrapperDiv {
+    display: flex;
+    flex-flow: column;
   }
   .FlDiv {
     display: flex;

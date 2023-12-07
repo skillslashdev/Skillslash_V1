@@ -510,6 +510,10 @@
     "BatchDuration": "11 Months",
     "Placement": "Guaranteed job referral"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why Join this Program?",
     "Box1h5": "Real Work Experience",
@@ -884,6 +888,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Learn from experts in live-interactive classes under Advanced Full stack Software Development course with Guaranteed job referral."
   },
   "FaqDATA": [

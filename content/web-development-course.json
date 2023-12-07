@@ -507,6 +507,10 @@
     "BatchDuration": "7 Months",
     "Placement": "100% Job Referral"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why Skillslash?",
     "Box1h5": "Ace Developers Interviews",
@@ -1077,6 +1081,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Check out our FAQs on the Web Development course about course features, fees, scholarships, and much more."
   },
   "FaqDATA": [

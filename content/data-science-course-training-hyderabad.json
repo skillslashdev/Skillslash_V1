@@ -76,6 +76,10 @@
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why skillslash Data Science Program is unique?",
     "Box1h5": "Real Work Experience",
@@ -1403,6 +1407,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Go through the FAQ’s to know more about our Data Science course in Hyderabad with unlimited job referrals, course fees and project details."
   },
   "FaqDATA": [

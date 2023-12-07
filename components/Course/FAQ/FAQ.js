@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./FAQ.module.css";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
-function FAQ({ FaqData, desc }) {
+function FAQ({ FaqData, desc, heading }) {
   const [state, setState] = useState(FaqData);
 
   const handleChange = (index) => {
@@ -25,7 +25,7 @@ function FAQ({ FaqData, desc }) {
       itemType="https://schema.org/FAQPage"
     >
       <div className={styles.headWrap}>
-        <h2 style={{ marginBottom: "20px" }}>Frequently Asked Questions</h2>
+        <h2 style={{ marginBottom: "20px" }}>{heading}</h2>
 
         <p className={styles.pBot} style={{ marginBottom: "20px" }}>
           {desc}
@@ -40,6 +40,7 @@ function FAQ({ FaqData, desc }) {
             return (
               <li
                 className={styles.FaqWrapper}
+                key={id}
                 style={{
                   listStyle: "none",
                 }}

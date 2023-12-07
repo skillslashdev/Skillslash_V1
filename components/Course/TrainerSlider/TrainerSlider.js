@@ -16,6 +16,7 @@ const TrainerSlider = ({
   redirectWeb,
   redirectAI,
   seoPage,
+  heading,
   trainerSlider,
 }) => {
   const [swiperData, setSwiperData] = useState(dsTrainer);
@@ -51,9 +52,7 @@ const TrainerSlider = ({
           />
         </div>
       </Popup>
-      <h2 className={style.heading}>
-        Our Trai<span>ners and Mentors</span>
-      </h2>
+      <h2 className={style.heading}>{heading}</h2>
       {seoPage ? (
         <div
           dangerouslySetInnerHTML={{ __html: trainerSlider }}

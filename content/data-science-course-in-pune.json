@@ -197,6 +197,7 @@
     "CohortsPara": "We are thrilled to announce the dates for our upcoming cohorts dates for our data science course in Pune. So, mark your calendars, to begin your data science course journey, improve your skills and discover new opportunities.",
     "BatchProfilePara": "Our data science course in Pune is tailored to meet the needs of people from multiple industries, whether you are a graduate, a post graduate, an intermediate or a professional. We believe the diversity adds to the richness of the data science course discussions.",
     "aboutCity": {
+      "pointView": false,
       "title": "Data Scientist Course in Pune",
       "desc": "Pune is a vibrant and bustling metropolis in southern India. Known as the Silicon Valley of India, it is a major hub for technology and innovation, hosting numerous tech companies and startups. The city offers a unique blend of modernity and tradition, with a diverse cultural landscape, exquisite cuisine, and a pleasant climate. Pune is also renowned for its lush parks, educational institutions, and a thriving arts and music scene, making it a dynamic and sought-after destination for professionals and visitors alike."
     },
@@ -839,6 +840,10 @@
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why Skillslash Data Science Program is unique ?",
     "Box1h5": "Real Work Experience",
@@ -3450,6 +3455,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Go through the FAQs to know more about our Data Science course in Pune ."
   },
   "FaqDATA": [

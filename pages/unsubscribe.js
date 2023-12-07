@@ -11,27 +11,27 @@ const unsubscribeMail = () => {
   let email = parts[1];
   console.log(email, " emailFrontend");
 
-  const unsubscribe = async () => {
-    console.log("called");
-    try {
-      const unsubscribeResult = await fetch("api/v1/deleteNewsletter", {
-        method: "POST",
-        body: JSON.stringify({ email }),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }).then((t) => t.json());
+  // const unsubscribe = async () => {
+  //   console.log("called");
+  //   try {
+  //     const unsubscribeResult = await fetch("api/v1/deleteNewsletter", {
+  //       method: "POST",
+  //       body: JSON.stringify({ email }),
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //     }).then((t) => t.json());
 
-      if (unsubscribeResult.status === 200) {
-        setShowMsg(unsubscribeResult.msg);
-      } else {
-        console.error("Failed to unsubscribe:", unsubscribeResult.msg);
-      }
-    } catch (error) {
-      console.error(error);
-    }
-  };
-  unsubscribe();
+  //     if (unsubscribeResult.status === 200) {
+  //       setShowMsg(unsubscribeResult.msg);
+  //     } else {
+  //       console.error("Failed to unsubscribe:", unsubscribeResult.msg);
+  //     }
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // };
+  // unsubscribe();
 
   return (
     <>

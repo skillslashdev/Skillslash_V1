@@ -8,14 +8,7 @@ import { IoIosArrowForward } from "react-icons/io";
 // import FsSwiper from "./FsSwiper";
 
 const ProjectSwiper = dynamic(() => import("./ProjectSwiper"));
-import {
-  DsProject,
-  FsProject,
-  webProject,
-  BaProject,
-  ProjectPara,
-  seoPage,
-} from "./ProjectData";
+import { DsProject, FsProject, webProject, BaProject } from "./ProjectData";
 
 const ProjectSlider = ({
   redirectDs,
@@ -26,6 +19,7 @@ const ProjectSlider = ({
   redirectDSA,
   seoPage,
   ProjectsPara,
+  heading,
 }) => {
   const [swiperData, setSwiperData] = useState(
     DsProject.filter((DsProject) => {
@@ -141,7 +135,7 @@ const ProjectSlider = ({
       <div className={styles.projectHeader}>
         <div className={styles.leftWrap}>
           <p>Industry – partnered capstone projects</p>
-          <h2>Hands-on Projects</h2>
+          <h2>{heading}</h2>
         </div>
         <div className={styles.rightWrap}>
           <div className={styles.iconBox}>
@@ -170,44 +164,6 @@ const ProjectSlider = ({
       ) : (
         ""
       )}
-      {/* <div className={styles.line}>
-        <div className={styles.left}>
-          <p>
-            <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/toolsProject.webp"
-              width={33}
-              height={33}
-              alt="learn 20+ data science tools"
-              loading="lazy"
-            />
-            Practice with 20+ tools
-          </p>
-        </div>
-        <div className={styles.middle}>
-          <p>
-            <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/industry-expert-project.webp"
-              alt="work on industry projects"
-              width={39}
-              height={39}
-              loading="lazy"
-            />
-            Designed by Industry Experts
-          </p>
-        </div>
-        <div className={styles.right}>
-          <p>
-            <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/chat-project.webp"
-              alt="get real-work Experience"
-              width={31}
-              height={31}
-              loading="lazy"
-            />
-            Get Real-world Experience
-          </p>
-        </div>
-      </div> */}
       <div
         className={
           redirectDs || redirectBa ? styles.sliderWrap : styles.sliderWraps

@@ -16,6 +16,7 @@ const MGetHired = ({
   redirectWeb,
   redirectAI,
   seoPage,
+  headingSection,
   alumniPara,
 }) => {
   const [swiperData, setSwiperData] = useState(dsAlumni);
@@ -56,9 +57,7 @@ const MGetHired = ({
             />
           </div>
         </Popup>
-        <h2>
-          Our <span>Alumni Placed @</span>
-        </h2>
+        <h4>{headingSection}</h4>
         {seoPage ? (
           <div
             dangerouslySetInnerHTML={{ __html: alumniPara }}

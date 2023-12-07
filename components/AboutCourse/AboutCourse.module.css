@@ -13,6 +13,9 @@
   line-height: 26px;
   color: #646464;
 }
+.topHeading {
+  font-size: 37px !important;
+}
 .contentWrapper h3 {
   color: #646464;
 }
@@ -28,15 +31,19 @@
   color: #4f419a;
   cursor: pointer;
 }
-.view{
+.view {
   display: flex;
   flex-flow: column;
 }
-.viewN{
+.viewN {
   display: none;
 }
-.contentWrapper h3,.contentWrapper h4,.contentWrapper h5,.contentWrapper h6{
+.contentWrapper h3,
+.contentWrapper h4,
+.contentWrapper h5,
+.contentWrapper h6 {
   font-size: 22px;
+  color: #646464;
       color: #646464;
       margin: 0px;
 }
@@ -44,9 +51,15 @@
   .contentWrapper {
     padding: 40px;
   }
+  .topHeading {
+    font-size: 27px !important;
+  }
 }
 @media (max-width: 481px) {
   .contentWrapper {
     padding: 20px;
+  }
+  .topHeading {
+    font-size: 22px !important;
   }
 }

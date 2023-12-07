@@ -217,6 +217,10 @@
     "BatchDuration": "09 Months",
     "Placement": "Guaranteed job referral"
   },
+  "TrainerHeading": "Our Trainer and Mentor",
+  "AlumniHeading": "Our Alumni Placed @",
+  "ReviewHeading": "Learners Reviews",
+  "ProjectHeading": "Hands-on Projects",
   "BoxShape": {
     "title": "Why Join Data Analytics Courses online?",
     "Box1h5": "Data analytics projects Certification ",
@@ -1372,6 +1376,7 @@
     }
   ],
   "FAQ": {
+    "heading": "Frequently Asked Questions",
     "desc": "Here’s a list of FAQs on Skillslash’s Data Analytics course that brings understanding to enrich an effective career ahead."
   },
   "FaqDATA": [

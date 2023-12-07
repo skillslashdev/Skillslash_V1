@@ -5,13 +5,17 @@
   gap: 20px;
   padding: 23px 0;
 }
+.FAQ ul {
+  margin: 0;
+  padding: 0;
+}
 .headWrap {
   padding: 20px 100px;
   width: 100%;
   background-color: #f4f1ff;
 }
 .headWrap p {
-  margin: 0 ;
+  margin: 0;
 }
 .quesWrap {
   margin: 0px 100px;
@@ -142,12 +146,12 @@
     font-weight: 400;
     color: 000;
   }
-    .ans p {
+  .ans p {
     font-size: 14px;
   }
   .pBot {
     margin-top: 10px !important;
-  font-size: 13px;
-  font-weight: 500;
-}
+    font-size: 13px;
+    font-weight: 500;
+  }
 }
