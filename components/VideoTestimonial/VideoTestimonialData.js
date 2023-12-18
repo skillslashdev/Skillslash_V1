@@ -1,13 +1,5 @@
 export const dsReview = [
   {
-    id: 5,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Abhishek-Borai.webp",
-    name: "Abhishek Bourai, Data Scientist",
-    link: "SK0PjYcukoE",
-    alt: "Abhishek Bourai ",
-    para: "Skillslash and it's Microsoft Certification course helped me to get my dream job",
-  },
-  {
     id: 2,
     img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Meenakshi.webp",
     name: "Meenakshi,  Data Scientist",

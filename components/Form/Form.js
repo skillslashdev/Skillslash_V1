@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Form.module.css";
 import "react-phone-number-input/style.css";
-import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
-
+import PhoneInput from "react-phone-number-input";
 import { useRouter } from "next/router";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import DatePicker from "react-datepicker";
