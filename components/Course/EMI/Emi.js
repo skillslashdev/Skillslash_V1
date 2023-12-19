@@ -106,37 +106,11 @@ const Emi = ({
         </p>
         <div className={styles.top}>
           <div className={styles.topEmiLeft}>
-            <h6>Starting at {price} </h6>
-            <p>EMI starting from: {emi}</p>
+            <h6>Course Fee {price} </h6>
+            {/* <p>EMI starting from: {emi}</p> */}
           </div>
           <div className={styles.topEmiRight}>
             <button onClick={popupShow}>Apply Now</button>
-          </div>
-        </div>
-
-        <div className={styles.emiLeftMiddle}>
-          <h5>Payment Partner</h5>
-          <div className={styles.bottom}>
-            <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/liquiloans.webp"
-              alt="liqiLoans"
-              width="90"
-              height="40"
-            />
-
-            <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/propelld.webp"
-              alt="propelld"
-              width="90"
-              height="40"
-            />
-
-            <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/zest-logo.webp"
-              alt="Zest"
-              width="80"
-              height="24"
-            />
           </div>
         </div>
       </div>

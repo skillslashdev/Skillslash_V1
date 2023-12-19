@@ -689,69 +689,20 @@ export default function Home({
             />
           </div>
         </div>
-        {DataScienceCourseData.data.form.webDevelopment || redirectFs ? (
-          <div id="fee">
-            <Emi
-              web={DataScienceCourseData.data.form.webDevelopment}
-              price={DataScienceCourseData.data.Fee.ProPrice}
-              emi={DataScienceCourseData.data.Fee.emi}
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
-            />
-          </div>
-        ) : mobile ? (
-          <div id="fee">
-            <NewPricingTable
-              dataScience={false}
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-              changeFee={DataScienceCourseData.data.Fee.FullStack}
-              desc={DataScienceCourseData.data.Fee.desc}
-              desc1={DataScienceCourseData.data.Fee.desc1}
-              BasicPrice={DataScienceCourseData.data.Fee.BasicPrice}
-              BasicDesc={DataScienceCourseData.data.Fee.BasicDesc}
-              ProPrice={DataScienceCourseData.data.Fee.ProPrice}
-              ProDesc={DataScienceCourseData.data.Fee.ProDesc}
-              ProMaxPrice={DataScienceCourseData.data.Fee.ProMaxPrice}
-              ProMaxDesc={DataScienceCourseData.data.Fee.ProMaxDesc}
-              web={DataScienceCourseData.data.form.webDevelopment}
-              price={DataScienceCourseData.data.Fee.ProPrice}
-              emi={DataScienceCourseData.data.Fee.emi}
-            />
-          </div>
-        ) : (
-          <div id="fee">
-            <Fee
-              dataScience={false}
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-              changeFee={DataScienceCourseData.data.Fee.FullStack}
-              desc={DataScienceCourseData.data.Fee.desc}
-              desc1={DataScienceCourseData.data.Fee.desc1}
-              BasicPrice={DataScienceCourseData.data.Fee.BasicPrice}
-              BasicDesc={DataScienceCourseData.data.Fee.BasicDesc}
-              ProPrice={DataScienceCourseData.data.Fee.ProPrice}
-              ProDesc={DataScienceCourseData.data.Fee.ProDesc}
-              ProMaxPrice={DataScienceCourseData.data.Fee.ProMaxPrice}
-              ProMaxDesc={DataScienceCourseData.data.Fee.ProMaxDesc}
-              web={DataScienceCourseData.data.form.webDevelopment}
-              price={DataScienceCourseData.data.Fee.ProPrice}
-              emi={DataScienceCourseData.data.Fee.emi}
-            />
-          </div>
-        )}
+
+        <div id="fee">
+          <Emi
+            web={DataScienceCourseData.data.form.webDevelopment}
+            price={DataScienceCourseData.data.Fee.ProPrice}
+            emi={DataScienceCourseData.data.Fee.emi}
+            redirectDs={DataScienceCourseData.data.form.dataScience}
+            redirectFs={DataScienceCourseData.data.form.FullStack}
+            redirectDe={DataScienceCourseData.data.form.DataEngineering}
+            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
+            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
+            redirectDSA={DataScienceCourseData.data.form.dsa}
+          />
+        </div>
 
         <div id="date">
           {batchDateData === "" ? (
