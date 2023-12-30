@@ -15,8 +15,7 @@ const FirstPart = ({ homePage }) => {
         spanTitleText=""
         homePage={homePage}
         desc="Get real work experience and certifications. Learn from industry experts and get placed in top product companies!"
-        backgroundImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/background-home-page.webp"
-        mainHeaderImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/home-page-girl-new-design.webp"
+        backgroundImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/new-home-page-header.webp"
         iconImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/HomepageDataCollection.webp"
         usp1=" Live Interactive "
         usp2=" Company "
@@ -31,10 +30,8 @@ const FirstPart = ({ homePage }) => {
       />
       <ProgramInfo homePage={homePage} />
 
-      <div className={styles.Explore} id="explore">
-        <h4 className={styles.ExploreH}>Explore Our Courses</h4>
-        <Tabs />
-      </div>
+      <Tabs />
+
       <BoxAnimation />
     </>
   );

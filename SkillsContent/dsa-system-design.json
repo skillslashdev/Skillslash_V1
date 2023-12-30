@@ -1,0 +1,145 @@
+{
+  "header": {
+    "deskTopPara": "India’s 1st",
+    "mTopPara": "India’s 1st",
+    "title": "DSA + System Design",
+    "spanTitle": " (FAANG interviews)",
+    "spanTitleText": "Live Project based Self-paced Learning",
+    "desc": "This course =  Video lesson + Live Doubt session + Live Project session",
+    "hour": "18+",
+    "link": "https://skillslash-pvt-ltd.learnyst.com/learn/DSA---System-Design--FAANG-interviews-",
+    "offerPrice": "₹ 3,999",
+    "actualPrice": "₹ 7,999",
+    "discount": "50%"
+  },
+  "seoSyllabus": [
+    {
+      "Module0": {
+        "title": " Module 1 - Data Structures and Algorithms ",
+        "desc": "This module helps you to master the algorithms and data structures interview in FAANG & top product based MNCs. You will be solving 250+ coding challenges under guidance of expert mentors working in Tier 1 companies like Microsoft, Amazon, Adobe, Facebook, Google etc.",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "Array basics, Problem solving techniques with example",
+                "Time Complexity & Bit manipulations",
+                "Sorting, Searching & String Algorithms",
+                "Linked list",
+                "Two pointer techniques",
+                "Stack & Queue - Implementation & Problems.",
+                "Tree, Trie, Ternary Search tree",
+                "Recursion & Greedy Algorithms",
+                "Combinatorial problems with backtracking",
+                "Hashing",
+                "Graph Theory",
+                "Dynamic Programming"
+              ]
+            }
+          },
+
+          {
+            "chap": {
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
+            }
+          }
+        ],
+        "id": 1,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 2 - System Design in Depth",
+        "desc": "",
+        "content": [
+          {
+            "chap": {
+              "title": "Chapter 1: System Design fundamentals",
+              "desc": [
+                "OOD : Object-oriented analysis and design , Design patterns",
+                "CAP Theorem in distributed Computer Systems",
+                "Load balancing - Caching - Distributed And Global Cache",
+                "CDN, Proxy, Web Socket, Polling",
+                "Database Indexing, Sharding, Normalization, ACID, SQL vs NoSQL",
+                "Messaging Queue",
+                "Multithreading and Synchronization"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 2: High Level Design With Projects",
+              "desc": [
+                "Introduction to common MicroService design patterns",
+                "Microservices & System components in real world",
+                "Event Driven, Domain Driven, Rest API driven Architectures",
+                "3 Real time projects"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 3: Low Level Design With Projects",
+              "desc": [
+                "OOD and Design Patterns",
+                "API Design",
+                "DB Schema Design for NoSQL and SQL",
+                "Common LLD and API design questions"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chapter 4: Mini Projects :",
+              "desc": [
+                "Designing Facebook news feed",
+                "Designing web crawler",
+                "Designing Uber Backend",
+                "Designing youtube"
+              ]
+            }
+          },
+
+          {
+            "chap": {
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
+            }
+          }
+        ],
+        "id": 2,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 3 - Advance Data Structures & Algorithms",
+        "desc": "",
+        "content": [
+          {
+            "chap": {
+              "title": "",
+              "desc": [
+                "LRU cache Like Problems",
+                "Advance Tree - Segment tree, Suffix tree, Red black tree, K-D tree",
+                "Advance Dynamic Programming",
+                "CDN, Proxy, Web Socket, Polling",
+                "Solve 30+ hard level coding interview questions from FAANG companies."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Note: For more details download Download Brochure",
+              "desc": []
+            }
+          }
+        ],
+        "id": 3,
+        "open": false
+      }
+    }
+  ]
+}

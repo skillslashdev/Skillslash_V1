@@ -544,7 +544,7 @@ export default function Home({
             </div>
           )}
 
-          <MiddlePageCta
+          {/* <MiddlePageCta
             homePage={false}
             redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
             redirectDs={DataScienceCourseData.data.form.dataScience}
@@ -552,7 +552,7 @@ export default function Home({
             redirectDe={DataScienceCourseData.data.form.DataEngineering}
             redirectWeb={DataScienceCourseData.data.form.webDevelopment}
             redirectDSA={DataScienceCourseData.data.form.dsa}
-          />
+          /> */}
         </div>
         {DataScienceCourseData.data.form.seoPage ? (
           <SeoCertificate
@@ -757,13 +757,13 @@ export default function Home({
           </div>
 
           <BottomBar changeBottom={true} />
-          {mobile ? (
+          {/* {mobile ? (
             ""
           ) : (
             <div className="cta" id="cta">
               <CTA redirectDSA={DataScienceCourseData.data.form.dsa} />
             </div>
-          )}
+          )} */}
         </div>
         {DataScienceCourseData.data.form.seoPage ? (
           <RelatedInfo
@@ -785,6 +785,7 @@ export default function Home({
         />
         <FloatIcon />
         {/* <Newsletter /> */}
+        <CustomPopup />
         <Footer />
       </div>
     </>

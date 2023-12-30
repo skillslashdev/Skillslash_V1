@@ -1,5 +1,5 @@
 import styles from "./Reviews.module.css";
-import React, { useEffect, useState, memo } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { BsFillStarFill } from "react-icons/bs";
 import { FaStarHalf } from "react-icons/fa";
@@ -13,7 +13,7 @@ import { Pagination, FreeMode } from "swiper";
 import Image from "next/image";
 const ReviewPopup = dynamic(() => import("../ReviewPopup/ReviewPopup"));
 
-const ReviewSwiper = memo(({ event, review }) => {
+const ReviewSwiper = ({ event, review }) => {
   // const [mobile, setMobile] = useState(false);
 
   const [PImg, setPImg] = useState();
@@ -174,6 +174,6 @@ const ReviewSwiper = memo(({ event, review }) => {
   ) : (
     ""
   );
-});
+};
 
 export default ReviewSwiper;

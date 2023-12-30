@@ -14,8 +14,6 @@ import getDay from "date-fns/getDay";
 
 const Form = ({
   popup,
-  redirectZoom,
-  link,
   placement,
   EventTitle,
   setTrigger,

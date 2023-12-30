@@ -77,12 +77,12 @@ const MGetHired = ({
         </div> */}
         </div>
       </div>
-      <div className={style.button}>
+      {/* <div className={style.button}>
         <button onClick={popupShow}>
           <BsDownload className={style.icon} />
           Placement Report
         </button>
-      </div>
+      </div> */}
     </>
   );
 };

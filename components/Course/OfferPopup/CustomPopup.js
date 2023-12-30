@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./OfferPopup.module.css";
 import { AiFillCloseCircle } from "react-icons/ai";
-import Popup from "../../Popup/Popup";
-import Form from "../../Form/Form";
+import Link from "next/link";
 
 const CustomPopup = ({
   dataScience,
@@ -35,43 +34,40 @@ const CustomPopup = ({
   };
   return (
     <div className={open ? styles.OfferPopupCus : styles.hide}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
-          <Form
-            popup={true}
-            setTrigger={setPopups}
-            dataScience={dataScience}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectBa={redirectBa}
-            redirectBl={redirectBl}
-            redirectDe={redirectDe}
-            redirectWeb={redirectWeb}
-            redirectDSA={redirectDSA}
-          />
-        </div>
-      </Popup>
       <AiFillCloseCircle className={styles.Icon} onClick={handelOpen} />
       <div className={styles.Offer}>
-        <h6>New Batch Starts From 7th June</h6>
+        <h6>Grab 50% Discount on All Our Bundle</h6>
         <p>
-          <strong>Available Batch Details</strong> :<br />
+          <strong>Available Course Details</strong> :<br />
         </p>
 
         <li>
-          <strong>Morning Batch:</strong> 31st May, 8 AM to 10 AM
+          <strong>Data Science & AI Bootcamp - Professionals:</strong>
+          <s style={{ marginRight: "5px" }}> MRP ₹11,999</s>
+          <s> 5,999</s> 3000
         </li>
         <li>
-          <strong>Evening Batch:</strong> 7th June, 8 PM to 10 PM
+          <strong>Data Science & AI Bootcamp - College Students:</strong>
+          <s style={{ marginRight: "5px" }}> MRP ₹9,999</s>
+          <s>4,999 </s>2500
+        </li>
+        <li>
+          <strong>Data Analytics- Non Tech Professionals:</strong>{" "}
+          <s style={{ marginRight: "5px" }}>MRP ₹7,999 </s>
+          <s>3,999 </s>2000
+        </li>
+        <li>
+          <strong>DSA and System Design :</strong>
+          <s style={{ marginRight: "5px" }}>MRP ₹7,999 </s>
+          <s>3,999</s> 2000
         </li>
 
-        <p className={styles.faded}>** Terms & Conditions applied</p>
-        <button onClick={popupShow}>Apply For Scholarship Now!</button>
+        <Link
+          href="https://wa.me/+918391911911?text=ChatWithUs"
+          style={{ marginTop: "20px" }}
+        >
+          <button>Start Learning!</button>
+        </Link>
       </div>
     </div>
   );

@@ -2,9 +2,6 @@ import React, { useEffect, useState } from "react";
 import styles from "./FirstSection.module.css";
 import { AiOutlineDownload } from "react-icons/ai";
 import Image from "next/image";
-import dynamic from "next/dynamic";
-const Popup = dynamic(() => import("../../Popup/Popup"));
-const Form = dynamic(() => import("../../Form/Form"));
 import TextAnimation from "../../Animation/TextAnimation";
 
 const FirstSection = ({
@@ -75,35 +72,6 @@ const FirstSection = ({
         />
       </div>
 
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          {changeHeading ? (
-            <h5>Download Program Handbook</h5>
-          ) : (
-            <h5>
-              Get a chance to experience our live-interactive class before
-              enrolling
-            </h5>
-          )}
-          <p>Fill the below Details to get started</p>
-          <Form
-            popup={true}
-            setTrigger={setPopups}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectBa={redirectBa}
-            redirectBl={redirectBl}
-            redirectDe={redirectDe}
-            redirectWeb={redirectWeb}
-            redirectDSA={redirectDSA}
-            changeRedirect={changeRedirect}
-          />
-        </div>
-      </Popup>
-
       <div className={styles.left}>
         <div className={styles.paraWrap}>
           <p className={styles.pTop}>{deskTopPara}</p>
@@ -138,21 +106,6 @@ const FirstSection = ({
           redirectWeb={redirectWeb}
         />
 
-        <div className={styles.btnWrapper}>
-          <button
-            onClick={() => popupShow(true, false)}
-            className={styles.btn2}
-          >
-            <AiOutlineDownload className={styles.download} />
-            Program Handbook
-          </button>
-          <button
-            onClick={() => popupShow(false, true)}
-            className={styles.btn1}
-          >
-            Demo Class
-          </button>
-        </div>
         <div className={styles.uspFeatures}>
           <div className={styles.left}>
             <div className={styles.uspFeatures1}>

@@ -66,12 +66,12 @@ const TrainerSlider = ({
         <div className={style.slider}>
           <TrainerSwiper swiperData={swiperData} />
         </div>
-        <div className={style.button}>
+        {/* <div className={style.button}>
           <button onClick={popupShow}>
             <BsDownload className={style.icon} />
             More Trainer Details
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

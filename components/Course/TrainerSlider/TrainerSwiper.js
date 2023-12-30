@@ -1,4 +1,4 @@
-import React, { useState, useEffect, memo } from "react";
+import React, { useState, useEffect } from "react";
 import style from "./TrainSlider.module.css";
 import Image from "next/image";
 import "swiper/css";
@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const TrainerSwiper = memo(({ swiperData }) => {
+const TrainerSwiper = ({ swiperData }) => {
   const [mobile, setMobile] = useState(false);
   // const [slidesPerView, setSlidesPerView] = useState(3);
   // const [spaceBetween, setSpaceBetween] = useState(60);
@@ -88,6 +88,6 @@ const TrainerSwiper = memo(({ swiperData }) => {
   ) : (
     ""
   );
-});
+};
 
 export default TrainerSwiper;

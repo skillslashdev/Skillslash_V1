@@ -3,7 +3,7 @@ import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 import Image from "next/image";
 import Link from "next/link";
 import TabData from "./TabData";
-import styles from "./Tabs.module.css";
+import styles from "../Skills/Home/Tabs/Tabs.module.css";
 
 import { MdOutlineLocalFireDepartment, MdDataSaverOff } from "react-icons/md";
 import { BsLaptop } from "react-icons/bs";
@@ -28,6 +28,9 @@ const Tabs = () => {
 
   return (
     <div className={styles.wrapper}>
+      <h2 className="text-4xl font-medium max-sm:text-2xl">
+        Explore Our Courses
+      </h2>
       <div className={styles.MenuTabs}>
         <div className={styles.leftPanel}>
           <>
@@ -83,98 +86,154 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/advance-data-science-ai-tab-header.webp"
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header.webp"
                       alt="data science course"
-                      width={406}
-                      height={253}
+                      width={232}
+                      height={250}
                       className={styles.gridBanner}
                       loading="lazy"
                     />
                   </div>
-
                   <div className={styles.gridInnerBox}>
-                    <h4>Advanced Data Science and AI Course</h4>
-                    <div className={styles.lines}></div>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />9 Months
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      15+ Industry Projects
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      EMI @INR 5801/month
-                    </span>
-                    <div className={styles.line}></div>
-                    <Link href="/advanced-data-science-and-ai-course-with-real-work-experience">
-                      <button className={styles.gridBtn}>View Program</button>
-                    </Link>
+                    <h4 className="mb-1">
+                      Data Science & AI Bootcamp - Professionals
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 228+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Professionals">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Professionals">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
-
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Business-analytics-course-tab-header.webp"
-                      alt="business analytics course"
-                      width={406}
-                      height={199}
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header+final+year.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
                       className={styles.gridBanner}
                       loading="lazy"
                     />
                   </div>
                   <div className={styles.gridInnerBox}>
-                    <h4>Business Analytics Program For Professionals</h4>
-                    <div className={styles.lines}></div>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />8 Months
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      10+ Industry Projects
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      EMI @INR 5408/month
-                    </span>
-                    <div className={styles.line}></div>
-                    <Link href="/business-analytics-course">
-                      <button className={styles.gridBtn}>View Program</button>
-                    </Link>
+                    <h4 className="mb-1">
+                      Data Science & AI Bootcamp - Final Year Student
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 246+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Final-Year-Student">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Final-Year-Student">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
-
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
-                      alt="full stack course"
-                      width={406}
-                      height={253}
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data-analytics-image.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
                       className={styles.gridBanner}
                       loading="lazy"
                     />
                   </div>
                   <div className={styles.gridInnerBox}>
-                    <h4>Full Stack Developer Course With Certification</h4>
-                    <div className={styles.lines}></div>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      10 Months
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      5+ Industry Projects
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      EMI @INR 7916/month
-                    </span>
-                    <div className={styles.line}></div>
-                    <Link href="/full-stack-developer-course">
-                      <button className={styles.gridBtn}>View Program</button>
-                    </Link>
+                    <h4 className="mb-1">
+                      Data Analytics- Non Tech Professionals
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 206+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Analytics--Non-Tech-Professionals">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Analytics--Non-Tech-Professionals">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -199,7 +258,7 @@ const Tabs = () => {
                       oneYear ? styles.ActiveSpanIcon : styles.spanIcon
                     }
                   />
-                  {TabData[1].title}
+                  Self Peaced
                 </span>
                 <IoIosArrowDown />
               </span>
@@ -221,7 +280,7 @@ const Tabs = () => {
                       oneYear ? styles.ActiveSpanIcon : styles.spanIcon
                     }
                   />
-                  {TabData[1].title}
+                  Self Peaced
                 </span>
 
                 <IoIosArrowForward />
@@ -232,72 +291,606 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/advance-data-science-ai-tab-header.webp"
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header.webp"
                       alt="data science course"
-                      width={406}
-                      height={253}
+                      width={232}
+                      height={250}
                       className={styles.gridBanner}
                       loading="lazy"
                     />
                   </div>
-
                   <div className={styles.gridInnerBox}>
-                    <h4>Advanced Data Science and AI Course</h4>
-                    <div className={styles.lines}></div>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />9 Months
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      15+ Industry Projects
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      EMI @INR 5801/month
-                    </span>
-                    <div className={styles.line}></div>
-                    <Link href="/advanced-data-science-and-ai-course-with-real-work-experience">
-                      <button className={styles.gridBtn}>View Program</button>
-                    </Link>
+                    <h4 className="mb-1">
+                      Data Science & AI Bootcamp - Professionals
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 228+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Professionals">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Professionals">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
-
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Business-analytics-course-tab-header.webp"
-                      alt="business analytics course"
-                      width={406}
-                      height={199}
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header+final+year.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
                       className={styles.gridBanner}
                       loading="lazy"
                     />
                   </div>
                   <div className={styles.gridInnerBox}>
-                    <h4>Business Analytics Program For Professionals</h4>
-                    <div className={styles.lines}></div>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />8 Months
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      10+ Industry Projects
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      EMI @INR 5408/month
-                    </span>
-                    <div className={styles.line}></div>
-                    <Link href="/business-analytics-course">
-                      <button className={styles.gridBtn}>View Program</button>
-                    </Link>
+                    <h4 className="mb-1">
+                      Data Science & AI Bootcamp - Final Year Student
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 246+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Final-Year-Student">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Final-Year-Student">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data-analytics-image.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">
+                      Data Analytics- Non Tech Professionals
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 206+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Analytics--Non-Tech-Professionals">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Analytics--Non-Tech-Professionals">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Dsa-system-design-header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">
+                      DSA + System Design (FAANG interviews)
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 320+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="/selfpaced/dsa-system-design.json">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="/selfpaced/dsa-system-design.json">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/ml-with-statitics-header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">
+                      Machine Learning with Applied Statistics
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 6+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Machine-Learning-with-Applied-Statistics">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Machine-Learning-with-Applied-Statistics">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/NLP-header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">Natural Language Processing</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 9+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/NLP-for-Data-Science">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/NLP-for-Data-Science">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/SQL-header-immage.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">SQL</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 16+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/SQL-Course">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/SQL-Course">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/python-header-image.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">Python For Data Science</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 64+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/PYTHON-BOOTCAMP">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/PYTHON-BOOTCAMP">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Power-BI-header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">Power BI</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 5+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/PowerBI-Quiz">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/PowerBI-Quiz">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/computer+vision+header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">Computer Vision</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 5+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Computer-Vision-Course">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Computer-Vision-Course">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Deep-learnings-header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">Deep Learning</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 6+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Deep-Learning-quiz">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Deep-Learning-quiz">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Tableau+header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">TABLEAU</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 160+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Tableau-Quiz">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Tableau-Quiz">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
             ) : (
               ""
             )}
-            {mobile ? (
+            {/* {mobile ? (
               <span
                 key={TabData[2].id}
                 id="2"
@@ -413,7 +1006,7 @@ const Tabs = () => {
               </div>
             ) : (
               ""
-            )}
+            )} */}
           </>
         </div>
         {mobile ? (
@@ -425,97 +1018,154 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/advance-data-science-ai-tab-header.webp"
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header.webp"
                       alt="data science course"
-                      width={406}
-                      height={253}
+                      width={232}
+                      height={250}
                       className={styles.gridBanner}
                       loading="lazy"
                     />
                   </div>
                   <div className={styles.gridInnerBox}>
-                    <h4>Advanced Data Science and AI Course</h4>
-                    <div className={styles.lines}></div>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />9 Months
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      15+ Industry Projects
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      EMI @INR 5801/month
-                    </span>
-                    <div className={styles.line}></div>
-                    <Link href="/advanced-data-science-and-ai-course-with-real-work-experience">
-                      <button className={styles.gridBtn}>View Program</button>
-                    </Link>
+                    <h4 className="mb-1">
+                      Data Science & AI Bootcamp - Professionals
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 228+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Professionals">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Professionals">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
-
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Business-analytics-course-tab-header.webp"
-                      alt="business analytics course"
-                      width={406}
-                      height={199}
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header+final+year.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
                       className={styles.gridBanner}
                       loading="lazy"
                     />
                   </div>
                   <div className={styles.gridInnerBox}>
-                    <h4>Business Analytics Program For Professionals</h4>
-                    <div className={styles.lines}></div>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />8 Months
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      10+ Industry Projects
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      EMI @INR 5408/month
-                    </span>
-                    <div className={styles.line}></div>
-                    <Link href="/business-analytics-course">
-                      <button className={styles.gridBtn}>View Program</button>
-                    </Link>
+                    <h4 className="mb-1">
+                      Data Science & AI Bootcamp - Final Year Student
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 246+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Final-Year-Student">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Final-Year-Student">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
-
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
-                      alt="full stack course"
-                      width={406}
-                      height={253}
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data-analytics-image.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
                       className={styles.gridBanner}
                       loading="lazy"
                     />
                   </div>
                   <div className={styles.gridInnerBox}>
-                    <h4>Full Stack Developer Course With Certification</h4>
-                    <div className={styles.lines}></div>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      10 Months
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      5+ Industry Projects
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      EMI @INR 7916/month
-                    </span>
-                    <div className={styles.line}></div>
-                    <Link href="/full-stack-developer-course">
-                      <button className={styles.gridBtn}>View Program</button>
-                    </Link>
+                    <h4 className="mb-1">
+                      Data Analytics- Non Tech Professionals
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 206+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Analytics--Non-Tech-Professionals">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Analytics--Non-Tech-Professionals">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -527,72 +1177,606 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/advance-data-science-ai-tab-header.webp"
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header.webp"
                       alt="data science course"
-                      width={406}
-                      height={253}
+                      width={232}
+                      height={250}
                       className={styles.gridBanner}
                       loading="lazy"
                     />
                   </div>
-
                   <div className={styles.gridInnerBox}>
-                    <h4>Advanced Data Science and AI Course</h4>
-                    <div className={styles.lines}></div>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />9 Months
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      15+ Industry Projects
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      EMI @INR 5801/month
-                    </span>
-                    <div className={styles.line}></div>
-                    <Link href="/advanced-data-science-and-ai-course-with-real-work-experience">
-                      <button className={styles.gridBtn}>View Program</button>
-                    </Link>
+                    <h4 className="mb-1">
+                      Data Science & AI Bootcamp - Professionals
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 228+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Professionals">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Professionals">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
-
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Business-analytics-course-tab-header.webp"
-                      alt="business analytics course"
-                      width={406}
-                      height={199}
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header+final+year.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
                       className={styles.gridBanner}
                       loading="lazy"
                     />
                   </div>
                   <div className={styles.gridInnerBox}>
-                    <h4>Business Analytics Program For Professionals</h4>
-                    <div className={styles.lines}></div>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />8 Months
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      10+ Industry Projects
-                    </span>
-                    <span>
-                      <BsCheck className={styles.gridIcon} />
-                      EMI @INR 5408/month
-                    </span>
-                    <div className={styles.line}></div>
-                    <Link href="/business-analytics-course">
-                      <button className={styles.gridBtn}>View Program</button>
-                    </Link>
+                    <h4 className="mb-1">
+                      Data Science & AI Bootcamp - Final Year Student
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 246+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Final-Year-Student">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Science---AI-Bootcamp---Final-Year-Student">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data-analytics-image.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">
+                      Data Analytics- Non Tech Professionals
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 206+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Data-Analytics--Non-Tech-Professionals">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Data-Analytics--Non-Tech-Professionals">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Dsa-system-design-header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">
+                      DSA + System Design (FAANG interviews)
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 320+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="/selfpaced/dsa-system-design.json">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="/selfpaced/dsa-system-design.json">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/ml-with-statitics-header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">
+                      Machine Learning with Applied Statistics
+                    </h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 6+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Machine-Learning-with-Applied-Statistics">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Machine-Learning-with-Applied-Statistics">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/NLP-header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">Natural Language Processing</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 9+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/NLP-for-Data-Science">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/NLP-for-Data-Science">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/SQL-header-immage.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">SQL</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 16+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/SQL-Course">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/SQL-Course">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/python-header-image.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">Python For Data Science</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 64+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/PYTHON-BOOTCAMP">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/PYTHON-BOOTCAMP">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Power-BI-header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">Power BI</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 5+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/PowerBI-Quiz">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/PowerBI-Quiz">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/computer+vision+header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">Computer Vision</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 5+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Computer-Vision-Course">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Computer-Vision-Course">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Deep-learnings-header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">Deep Learning</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 6+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Deep-Learning-quiz">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Deep-Learning-quiz">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.gridBox}>
+                  <div className={styles.gridImg}>
+                    <Image
+                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Tableau+header.webp"
+                      alt="data science course"
+                      width={232}
+                      height={250}
+                      className={styles.gridBanner}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className={styles.gridInnerBox}>
+                    <h4 className="mb-1">TABLEAU</h4>
+                    <div>
+                      <span>
+                        <BsCheck className={styles.gridIcon} /> 160+ hrs
+                        self-paced videos
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Quizzes and assignments
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        1:1 Doubt clearing session
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />2 Live
+                        instructor-led projects
+                      </span>
+                      <span>
+                        <BsCheck className={styles.gridIcon} />
+                        Triple Certification
+                      </span>
+                    </div>
+                    <div className="flex gap-3 mt-2">
+                      <Link href="https://courses.skillslash.com/learn/Tableau-Quiz">
+                        <button className="border-[1px] border-[#646464] border-solid bg-transparent px-[9px] py-1 text-[#646464] font-normal text-xs">
+                          View Details
+                        </button>
+                      </Link>
+                      <Link href="https://courses.skillslash.com/learn/Tableau-Quiz">
+                        <button className={styles.gridBtn}>
+                          Start Learning
+                        </button>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
             ) : (
               ""
             )}
-
+            {/* 
             {nonTech ? (
               <div className={styles.gridWrap}>
                 <div className={styles.gridBox}>
@@ -700,7 +1884,7 @@ const Tabs = () => {
               </div>
             ) : (
               ""
-            )}
+            )} */}
           </div>
         )}
       </div>

@@ -24,7 +24,7 @@
 .left {
   display: flex;
   align-items: center;
-  justify-content: center;
+
   gap: 30px;
 }
 .ham {
@@ -133,13 +133,11 @@
 .right button {
   position: relative;
   transform: translate(-1%, -1%);
-  padding: 15px 30px;
-  text-transform: uppercase;
+  padding: 8px 20px;
   text-decoration: none;
   color: #fff;
   background: #4f419a;
   border: none;
-  letter-spacing: 2px;
   font-size: 16px;
 }
 
@@ -235,7 +233,6 @@
     width: 100%;
     display: flex;
     margin-right: 10px;
-    justify-content: space-between;
   }
   .left button {
     width: max-content;
@@ -275,7 +272,6 @@
   }
   .mobileWrapper .mobileMenu a {
     text-decoration: none;
-    
   }
   .mobileWrapper .mobileMenu span {
     font-size: 1.2rem;
@@ -286,28 +282,27 @@
     /*cursor: pointer;*/
     width: 100%;
     text-align: left;
-    border-bottom: 0.2px solid #E6E6FA;
+    border-bottom: 0.2px solid #e6e6fa;
     /*color: #4f419a;
     background-color: #ebf1f8;*/
     color: #565656;
     background-color: white;
     box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.2);
-    
   }
-  .mobileWrapper .mobileMenu span:nth-child(1){
+  .mobileWrapper .mobileMenu span:nth-child(1) {
     animation-delay: 300ms;
   }
-  .mobileWrapper .mobileMenu span:nth-child(2){
+  .mobileWrapper .mobileMenu span:nth-child(2) {
     animation-delay: 300ms;
   }
-  .mobileWrapper .mobileMenu span:nth-child(3){
+  .mobileWrapper .mobileMenu span:nth-child(3) {
     animation-delay: 300ms;
   }
-  .mobileWrapper .mobileMenu span:nth-child(4){
+  .mobileWrapper .mobileMenu span:nth-child(4) {
     animation-delay: 300ms;
   }
   @keyframes navAnimation {
-    to{
+    to {
       transform: rotateX(0);
       opacity: 1;
     }
@@ -361,8 +356,7 @@
   .left {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-items: flex-start;
     gap: 0px;
   }
 
@@ -437,7 +431,7 @@
     color: #565656;
     background-color: white;
     box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.2);
-    border-bottom: 0.2px solid #E6E6FA;
+    border-bottom: 0.2px solid #e6e6fa;
     /*color: #4f419a;
     background-color: #ebf1f8;*/
   }

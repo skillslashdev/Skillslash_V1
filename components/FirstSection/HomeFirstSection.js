@@ -4,7 +4,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 const VideoPopup = dynamic(() => import("../VideoPopup/VideoPopup"));
 import TextAnimation from "../Animation/TextAnimation";
-import { BsPlayFill, BsArrowRightShort } from "react-icons/bs";
+import { BsArrowRightShort } from "react-icons/bs";
 
 const HomeFirstSection = ({
   deskTopPara,
@@ -46,13 +46,12 @@ const HomeFirstSection = ({
           <p className={styles.pTop}>{deskTopPara}</p>
         </div>
         <h1 className={styles.homeH1}>
-          Experiential Project-Based
+          Self-peaced Live Project-Based
           <br /> Learning Platform
         </h1>
         <p className={styles.pBotM}>
-          Enjoy the benefits of dual certification. Become Microsoft-certified
-          with our program and also receive real-work certification from top
-          MNC/Startups
+          Access comprehensive lessons with live doubt-clearing classes. Work on
+          Live Projects & acquire Project and Internship certifications.
         </p>
         <TextAnimation homePage={true} />
         <div className={styles.btnWrapper}>
@@ -62,10 +61,6 @@ const HomeFirstSection = ({
               <BsArrowRightShort className="bIconS" />
             </button>
           </a>
-          <span>
-            <BsPlayFill className={styles.playIcon} onClick={videoSHow} />
-            <p>Intro Video</p>
-          </span>
         </div>
 
         <div className={styles.uspFeatures}>
@@ -132,16 +127,7 @@ const HomeFirstSection = ({
         </div>
       </div>
       <div className={styles.right}>
-        <div className={styles.imgWrapper}>
-          <Image
-            src={mainHeaderImg}
-            alt="skillslash student taking data science course"
-            style={{ objectFit: "contain" }}
-            width={width}
-            priority
-            height={height}
-          />
-        </div>
+        <div className={styles.imgWrapper}></div>
       </div>
     </section>
   );

@@ -85,11 +85,11 @@ function DataScienceSyllabus({
           <div>
             <h4>Syllabus</h4>
           </div>
-          <div>
+          {/* <div>
             <button className={styles.buttonDownload} onClick={popupShow}>
               Download Brochure
             </button>
-          </div>
+          </div> */}
         </div>
         <p>{syllabusDesc}</p>
 
@@ -110,8 +110,6 @@ function DataScienceSyllabus({
                   <div className={styles.headWrap}>
                     <h2
                       style={{
-                        paddingBottom: "25px",
-                        paddingTop: "25px",
                         borderBottom: "4px solid #4f419a",
                       }}
                     >
@@ -271,7 +269,7 @@ function DataScienceSyllabus({
               )}
             </div>
           </div>
-          <div className={styles.PProgramMain} style={{ marginTop: "20px" }}>
+          {/* <div className={styles.PProgramMain} style={{ marginTop: "20px" }}>
             <div className={styles.PProgram}>
               <p>Request More Information</p>
             </div>
@@ -287,7 +285,7 @@ function DataScienceSyllabus({
                 redirectDSA={redirectDSA}
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

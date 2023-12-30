@@ -9,11 +9,8 @@ import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import dynamic from "next/dynamic";
-const Popup = dynamic(() => import("../Popup/Popup"));
-const Form = dynamic(() => import("../Form/Form"));
 const MegaMenu = dynamic(() => import("../MegaMenu/MegaMenu"));
 // import CountDownTimer from "../CountdownTimer/CountdownTimer";
-const ContactForm = dynamic(() => import("../ContactusForm/ContactusForm"));
 
 // const calculateTimeLeft = () => {
 //   let year = new Date();
@@ -32,22 +29,13 @@ const ContactForm = dynamic(() => import("../ContactusForm/ContactusForm"));
 
 //   return timeLeft;
 // };
-const Navbar = ({
-  dataScience,
-  course,
-  redirectDs,
-  redirectFs,
-  redirectDe,
-  redirectBa,
-  redirectBl,
-  redirectWeb,
-  event,
-}) => {
+const Navbar = ({ link, event }) => {
   const [show, setShow] = useState(false);
   const [icon, setIcon] = useState(false);
   const [popups, setPopups] = useState(false);
   const [mobile, setMobile] = useState(false);
-  
+  const actualLink =
+    link === undefined ? "https://courses.skillslash.com/learn" : link;
   useEffect(() => {
     let width = window.innerWidth;
     if (width < 481) {
@@ -82,63 +70,37 @@ const Navbar = ({
 
   return (
     <div>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
-          {course ? (
-            <Form
-              popup={true}
-              setTrigger={setPopups}
-              dataScience={dataScience}
-              redirectDs={redirectDs}
-              redirectFs={redirectFs}
-              redirectBa={redirectBa}
-              redirectBl={redirectBl}
-              redirectDe={redirectDe}
-              redirectWeb={redirectWeb}
-            />
-          ) : (
-            <ContactForm setTrigger={setPopups} popup={true} />
-          )}
-        </div>
-      </Popup>
       <nav className={styles.nav}>
         <div className={styles.left}>
-        
           {/*<FaBars
             className={styles.ham}
             onClick={() => {
               showMenu();
               setIcon(false);
             }}*/}
-          
-          {
-            !show?
+
+          {!show ? (
             <FaBars
-            className={styles.ham}
-            onClick = {() =>{
-              showMenu();
-              setIcon(false);
-              ;}}
-          />:
-          <p className={styles.ham} style = {{fontSize: "45px", margin:"0"} }
-            onClick = {() =>{
-              showMenu();
-              setIcon(false);
-            
-              
-            }}>⨯
+              className={styles.ham}
+              onClick={() => {
+                showMenu();
+                setIcon(false);
+              }}
+            />
+          ) : (
+            <p
+              className={styles.ham}
+              style={{ fontSize: "45px", margin: "0" }}
+              onClick={() => {
+                showMenu();
+                setIcon(false);
+              }}
+            >
+              ⨯
+            </p>
+          )}
 
-          </p>
-          
-          }
-          
-
-        <div className={show ? styles.mobileWrapper : styles.hide}>
+          <div className={show ? styles.mobileWrapper : styles.hide}>
             <div className={styles.mobileMenu}>
               <span onClick={showMenu}>
                 <Link href="/event">Events</Link>
@@ -155,7 +117,7 @@ const Navbar = ({
                 <a href="/blog">Blogs</a>
               </span>
             </div>
-          </div> 
+          </div>
 
           <a href="/">
             <Image
@@ -194,9 +156,6 @@ const Navbar = ({
           ) : (
             ""
           )}
-          <button onClick={popupShow} className={styles.mbtn}>
-            Apply Now
-          </button>
         </div>
         <div className={styles.right}>
           {event ? (
@@ -227,9 +186,9 @@ const Navbar = ({
               <span>
                 <a href="/blog">Blog</a>
               </span>
-              <button onClick={popupShow}>
-                Apply Now <MdOutlineArrowForward />
-              </button>
+              <Link href={actualLink}>
+                <button>Start Learning</button>
+              </Link>
             </>
           )}
         </div>

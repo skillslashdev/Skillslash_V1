@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import { useState, useEffect } from "react";
 const SecondPart = dynamic(() => import("../components/Homepage/SecondPart"));
 import FirstPart from "../components/Homepage/FirstPart";
+import CustomPopup from "../components/Course/OfferPopup/CustomPopup";
 // import MiddlePageCta from "../components/MiddlePageCta/MiddlePageCta";
 const OfferPopup = dynamic(() =>
   import("../components/Course/OfferPopup/OfferPopup")
@@ -44,7 +45,7 @@ export default function Home() {
 
   return (
     <>
-      <Navbar course={false} />
+      <Navbar course={false} link="https://courses.skillslash.com/learn" />
       <div className={styles.container}>
         <Head>
           <title>Skillslash - Project Based Learning Platform.</title>
@@ -65,6 +66,7 @@ export default function Home() {
         )}
         <FirstPart homePage={true} />
         <SecondPart homePage={true} />
+        <CustomPopup />
       </div>
     </>
   );

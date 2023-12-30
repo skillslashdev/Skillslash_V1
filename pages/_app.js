@@ -1,20 +1,20 @@
+// import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 import "../styles/form.css";
 import { GoogleTagManager } from "@next/third-parties/google";
-import { Roboto } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
-// import Script from "next/script";
-const roboto = Roboto({
-  weight: ["100", "400", "700", "900"],
-  style: ["normal", "italic"],
+const montserrat = Montserrat({
+  weight: ["300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
   display: "swap",
+  fallback: ["Arial", "sans-serif"],
 });
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <main className={roboto.className}>
+      <main className={montserrat.className}>
         <Component {...pageProps} />
         <GoogleTagManager gtmId="GTM-WJVZHTB" />
       </main>

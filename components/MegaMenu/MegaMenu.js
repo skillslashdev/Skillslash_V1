@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
 import styles from "./MegaMenu.module.css";
 import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
-import { MdOutlineLocalFireDepartment, MdDataSaverOff } from "react-icons/md";
-import { BsLaptop, BsDot } from "react-icons/bs";
+import {
+  MdOutlineLocalFireDepartment,
+  MdDataSaverOff,
+  MdOutlineLiveTv,
+} from "react-icons/md";
+import { BsDot } from "react-icons/bs";
 
 const MegaMenu = ({ handleIcon }) => {
   const [popular, setPopular] = useState(true);
@@ -41,6 +45,219 @@ const MegaMenu = ({ handleIcon }) => {
               <IoIosArrowDown />
             </span>
             {popular ? (
+              <div className={styles.gridPanel}>
+                <div
+                  className={styles.mInnerBox}
+                  onClick={() => handleIcon(false)}
+                >
+                  <a href="/selfpaced/data-science-&-aI-bootcamp-professionals">
+                    <div className={styles.mInnerBoxDiv}>
+                      <h5>Data Science & AI Bootcamp - Professionals</h5>
+                      <span>
+                        <div>2 Live Projects</div>
+                        <BsDot className={styles.dot} />
+                        <div>self-paced videos</div>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <a href="/selfpaced/data-science-&-aI-bootcamp-final-year">
+                  <div
+                    className={styles.mInnerBox}
+                    onClick={() => handleIcon(false)}
+                  >
+                    <div className={styles.mInnerBoxDiv}>
+                      <h5>Data Science & AI Bootcamp - Final Year Student</h5>
+                      <span>
+                        <div>2 Live Projects</div>
+                        <BsDot className={styles.dot} />
+                        <div>self-paced videos</div>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="/business-analytics-course">
+                  <div
+                    className={styles.mInnerBox}
+                    onClick={() => handleIcon(false)}
+                  >
+                    <div className={styles.mInnerBoxDiv}>
+                      <h5>Data Analytics- Non Tech Professionals</h5>
+                      <span>
+                        <div>2 Live Projects</div>
+                        <BsDot className={styles.dot} />
+                        <div>self-paced videos</div>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            ) : (
+              ""
+            )}
+          </>
+        ) : (
+          <span
+            className={popular ? styles.activeSpan : styles.normalSpan}
+            onClick={() => {
+              setPopular(true);
+              setDataScience(false);
+              setSoftware(false);
+            }}
+          >
+            <div className={styles.innerSpan}>
+              <MdOutlineLocalFireDepartment className={styles.MenuIcon} />
+              Popular Courses
+            </div>
+            <IoIosArrowForward />
+          </span>
+        )}
+        {mobile ? (
+          <>
+            <span
+              className={DataScience ? styles.activeSpan : styles.normalSpan}
+              onClick={() => {
+                setPopular(false);
+                setDataScience(true);
+                setSoftware(false);
+              }}
+            >
+              <div className={styles.innerSpan}>
+                <MdDataSaverOff className={styles.MenuIcon} />
+                <div>Self Paced</div>
+              </div>
+              <IoIosArrowDown />
+            </span>
+            {DataScience ? (
+              <div className={styles.gridPanel}>
+                <div
+                  className={styles.mInnerBox}
+                  onClick={() => handleIcon(false)}
+                >
+                  <a href="/selfpaced/data-science-&-aI-bootcamp-professionals">
+                    <div className={styles.mInnerBoxDiv}>
+                      <h5>Data Science & AI Bootcamp - Professionals</h5>
+                      <span>
+                        <div>2 Live Projects</div>
+                        <BsDot className={styles.dot} />
+                        <div>self-paced videos</div>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <a href="/selfpaced/data-science-&-aI-bootcamp-final-year">
+                  <div
+                    className={styles.mInnerBox}
+                    onClick={() => handleIcon(false)}
+                  >
+                    <div className={styles.mInnerBoxDiv}>
+                      <h5>Data Science & AI Bootcamp - Final Year Student</h5>
+                      <span>
+                        <div>2 Live Projects</div>
+                        <BsDot className={styles.dot} />
+                        <div>self-paced videos</div>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="/selfpaced/data-analytics-non-tech-professionals">
+                  <div
+                    className={styles.mInnerBox}
+                    onClick={() => handleIcon(false)}
+                  >
+                    <div className={styles.mInnerBoxDiv}>
+                      <h5>Data Analytics- Non Tech Professionals</h5>
+                      <span>
+                        <div>2 Live Projects</div>
+                        <BsDot className={styles.dot} />
+                        <div>self-paced videos</div>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="/selfpaced/dsa-system-design.json">
+                  <div
+                    className={styles.mInnerBox}
+                    onClick={() => handleIcon(false)}
+                  >
+                    <div className={styles.mInnerBoxDiv}>
+                      <h5>DSA + System Design (FAANG interviews)</h5>
+                      <span>
+                        <div>2 Live Projects</div>
+                        <BsDot className={styles.dot} />
+                        <div>self-paced videos</div>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+                <a href="/selfpaced/dsa-system-design.json">
+                  <div
+                    className={styles.mInnerBox}
+                    onClick={() => handleIcon(false)}
+                  >
+                    <div className={styles.mInnerBoxDiv}>
+                      <h5>Python For Data Science</h5>
+                      <span>
+                        <div>2 Live Projects</div>
+                        <BsDot className={styles.dot} />
+                        <div>self-paced videos</div>
+                      </span>
+                    </div>
+                  </div>
+                </a>{" "}
+                <a href="/selfpaced/dsa-system-design.json">
+                  <div
+                    className={styles.mInnerBox}
+                    onClick={() => handleIcon(false)}
+                  >
+                    <div className={styles.mInnerBoxDiv}>
+                      <h5>Machine Learning with Applied Statistics</h5>
+                      <span>
+                        <div>2 Live Projects</div>
+                        <BsDot className={styles.dot} />
+                        <div>self-paced videos</div>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            ) : (
+              ""
+            )}
+          </>
+        ) : (
+          <span
+            className={DataScience ? styles.activeSpan : styles.normalSpan}
+            onClick={() => {
+              setPopular(false);
+              setDataScience(true);
+              setSoftware(false);
+            }}
+          >
+            <div className={styles.innerSpan}>
+              <MdDataSaverOff className={styles.MenuIcon} />
+              <div>Self Paced</div>
+            </div>
+            <IoIosArrowForward />
+          </span>
+        )}
+        {mobile ? (
+          <>
+            <span
+              className={software ? styles.activeSpan : styles.normalSpan}
+              onClick={() => {
+                setPopular(false);
+                setDataScience(false);
+                setSoftware(true);
+              }}
+            >
+              <div className={styles.innerSpan}>
+                <MdOutlineLiveTv className={styles.MenuIcon} />
+                <div>Live classes</div>
+              </div>
+              <IoIosArrowDown />
+            </span>
+            {software ? (
               <div className={styles.gridPanel}>
                 <div
                   className={styles.mInnerBox}
@@ -94,129 +311,6 @@ const MegaMenu = ({ handleIcon }) => {
           </>
         ) : (
           <span
-            className={popular ? styles.activeSpan : styles.normalSpan}
-            onClick={() => {
-              setPopular(true);
-              setDataScience(false);
-              setSoftware(false);
-            }}
-          >
-            <div className={styles.innerSpan}>
-              <MdOutlineLocalFireDepartment className={styles.MenuIcon} />
-              Popular Courses
-            </div>
-            <IoIosArrowForward />
-          </span>
-        )}
-        {mobile ? (
-          <>
-            <span
-              className={DataScience ? styles.activeSpan : styles.normalSpan}
-              onClick={() => {
-                setPopular(false);
-                setDataScience(true);
-                setSoftware(false);
-              }}
-            >
-              <div className={styles.innerSpan}>
-                <MdDataSaverOff className={styles.MenuIcon} />
-                <div>Data science and AI</div>
-              </div>
-              <IoIosArrowDown />
-            </span>
-            {DataScience ? (
-              <div className={styles.gridPanel}>
-                <a
-                  href="/advanced-data-science-and-ai-course-with-real-work-experience"
-                  onClick={() => handleIcon(false)}
-                >
-                  <div className={styles.mInnerBox}>
-                    <div className={styles.mInnerBoxDiv}>
-                      <h5>Advance Data science and AI course</h5>
-                      <span>
-                        <div>9 Months</div>
-                        <BsDot className={styles.dot} />
-                        <div>Live Classes</div>
-                      </span>
-                    </div>
-                  </div>
-                </a>
-                <a
-                  href="/business-analytics-course"
-                  onClick={() => handleIcon(false)}
-                >
-                  <div className={styles.mInnerBox}>
-                    <div className={styles.mInnerBoxDiv}>
-                      <h5>Business Analytics course for professionals</h5>
-                      <span>
-                        <div>8 Months</div>
-                        <BsDot className={styles.dot} />
-                        <div>Live Classes</div>
-                      </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            ) : (
-              ""
-            )}
-          </>
-        ) : (
-          <span
-            className={DataScience ? styles.activeSpan : styles.normalSpan}
-            onClick={() => {
-              setPopular(false);
-              setDataScience(true);
-              setSoftware(false);
-            }}
-          >
-            <div className={styles.innerSpan}>
-              <MdDataSaverOff className={styles.MenuIcon} />
-              <div>Data science and AI</div>
-            </div>
-            <IoIosArrowForward />
-          </span>
-        )}
-        {mobile ? (
-          <>
-            <span
-              className={software ? styles.activeSpan : styles.normalSpan}
-              onClick={() => {
-                setPopular(false);
-                setDataScience(false);
-                setSoftware(true);
-              }}
-            >
-              <div className={styles.innerSpan}>
-                <BsLaptop className={styles.MenuIcon} />
-                Software Development
-              </div>
-              <IoIosArrowDown />
-            </span>
-            {software ? (
-              <div className={styles.gridPanel}>
-                <a href="/full-stack-developer-course">
-                  <div
-                    className={styles.mInnerBox}
-                    onClick={() => handleIcon(false)}
-                  >
-                    <div className={styles.mInnerBoxDiv}>
-                      <h5>Full Stack Developer course with certification</h5>
-                      <span>
-                        <div>10 Months</div>
-                        <BsDot className={styles.dot} />
-                        <div>Live Classes</div>
-                      </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            ) : (
-              ""
-            )}
-          </>
-        ) : (
-          <span
             className={software ? styles.activeSpan : styles.normalSpan}
             onClick={() => {
               setPopular(false);
@@ -225,8 +319,8 @@ const MegaMenu = ({ handleIcon }) => {
             }}
           >
             <div className={styles.innerSpan}>
-              <BsLaptop className={styles.MenuIcon} />
-              Software Development
+              <MdOutlineLiveTv className={styles.MenuIcon} />
+              <div>Live Classes</div>
             </div>
             <IoIosArrowForward />
           </span>
@@ -236,47 +330,44 @@ const MegaMenu = ({ handleIcon }) => {
         <h6>Learn from top experts</h6>
         {popular ? (
           <div className={styles.gridPanel}>
-            <a href="/advanced-data-science-and-ai-course-with-real-work-experience">
+            <div className={styles.mInnerBox} onClick={() => handleIcon(false)}>
+              <a href="/selfpaced/data-science-&-aI-bootcamp-professionals">
+                <div className={styles.mInnerBoxDiv}>
+                  <h5>Data Science & AI Bootcamp - Professionals</h5>
+                  <span>
+                    <div>Live Doubt Sessions</div>
+                    <BsDot className={styles.dot} />
+                    <div>Live Project Sessions</div>
+                  </span>
+                </div>
+              </a>
+            </div>
+            <a href="/selfpaced/data-science-&-aI-bootcamp-final-year">
               <div
                 className={styles.mInnerBox}
                 onClick={() => handleIcon(false)}
               >
                 <div className={styles.mInnerBoxDiv}>
-                  <h5>Advance Data science and AI course</h5>
+                  <h5>Data Science & AI Bootcamp - Final Year Student</h5>
                   <span>
-                    <div>9 Months</div>
+                    <div>Live Doubt Sessions</div>
                     <BsDot className={styles.dot} />
-                    <div>Live Classes</div>
+                    <div>Live Project Sessions</div>
                   </span>
                 </div>
               </div>
             </a>
-            <a href="/full-stack-developer-course">
+            <a href="/selfpaced/data-analytics-non-tech-professional">
               <div
                 className={styles.mInnerBox}
                 onClick={() => handleIcon(false)}
               >
                 <div className={styles.mInnerBoxDiv}>
-                  <h5>Full Stack Developer course with certification</h5>
+                  <h5>Data Analytics- Non Tech Professionals</h5>
                   <span>
-                    <div>10 Months</div>
+                    <div>Live Doubt Sessions</div>
                     <BsDot className={styles.dot} />
-                    <div>Live Classes</div>
-                  </span>
-                </div>
-              </div>
-            </a>
-            <a href="/business-analytics-course">
-              <div
-                className={styles.mInnerBox}
-                onClick={() => handleIcon(false)}
-              >
-                <div className={styles.mInnerBoxDiv}>
-                  <h5>Business Analytics course for professionals</h5>
-                  <span>
-                    <div>8 Months</div>
-                    <BsDot className={styles.dot} />
-                    <div>Live Classes</div>
+                    <div>Live Project Sessions</div>
                   </span>
                 </div>
               </div>
@@ -287,32 +378,89 @@ const MegaMenu = ({ handleIcon }) => {
         )}
         {DataScience ? (
           <div className={styles.gridPanel}>
-            <a href="/advanced-data-science-and-ai-course-with-real-work-experience">
-              <div className={styles.mInnerBox}>
-                <div
-                  className={styles.mInnerBoxDiv}
-                  onClick={() => handleIcon(false)}
-                >
-                  <h5>Advance Data science and AI course</h5>
+            <div className={styles.mInnerBox} onClick={() => handleIcon(false)}>
+              <a href="/selfpaced/data-science-&-aI-bootcamp-professionals">
+                <div className={styles.mInnerBoxDiv}>
+                  <h5>Data Science & AI Bootcamp - Professionals</h5>
                   <span>
-                    <div>9 Months</div>
+                    <div>Live Project Sessions</div>
                     <BsDot className={styles.dot} />
-                    <div>Live Classes</div>
+                    <div>Live Doubt Sessions</div>
                   </span>
                 </div>
-              </div>
-            </a>
-            <a href="/business-analytics-course">
+              </a>
+            </div>
+            <a href="/selfpaced/data-science-&-aI-bootcamp-final-year">
               <div
                 className={styles.mInnerBox}
                 onClick={() => handleIcon(false)}
               >
                 <div className={styles.mInnerBoxDiv}>
-                  <h5>Business Analytics course for professionals</h5>
+                  <h5>Data Science & AI Bootcamp - Final Year Student</h5>
                   <span>
-                    <div>8 Months</div>
+                    <div>Live Project Sessions</div>
                     <BsDot className={styles.dot} />
-                    <div>Live Classes</div>
+                    <div>Live Doubt Sessions</div>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <a href="/selfpaced/data-analytics-non-tech-professionals">
+              <div
+                className={styles.mInnerBox}
+                onClick={() => handleIcon(false)}
+              >
+                <div className={styles.mInnerBoxDiv}>
+                  <h5>Data Analytics- Non Tech Professionals</h5>
+                  <span>
+                    <div>Live Project Sessions</div>
+                    <BsDot className={styles.dot} />
+                    <div>Live Doubt Sessions</div>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <a href="/selfpaced/dsa-system-design.json">
+              <div
+                className={styles.mInnerBox}
+                onClick={() => handleIcon(false)}
+              >
+                <div className={styles.mInnerBoxDiv}>
+                  <h5>DSA + System Design (FAANG interviews)</h5>
+                  <span>
+                    <div>Live Project Sessions</div>
+                    <BsDot className={styles.dot} />
+                    <div>Live Doubt Sessions</div>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <a href="/selfpaced/dsa-system-design.json">
+              <div
+                className={styles.mInnerBox}
+                onClick={() => handleIcon(false)}
+              >
+                <div className={styles.mInnerBoxDiv}>
+                  <h5>Python For Data Science</h5>
+                  <span>
+                    <div>Live Project Sessions</div>
+                    <BsDot className={styles.dot} />
+                    <div>Live Doubt Sessions</div>
+                  </span>
+                </div>
+              </div>
+            </a>{" "}
+            <a href="/selfpaced/dsa-system-design.json">
+              <div
+                className={styles.mInnerBox}
+                onClick={() => handleIcon(false)}
+              >
+                <div className={styles.mInnerBoxDiv}>
+                  <h5>Machine Learning with Applied Statistics</h5>
+                  <span>
+                    <div>Live Project Sessions</div>
+                    <BsDot className={styles.dot} />
+                    <div>Live Doubt Sessions</div>
                   </span>
                 </div>
               </div>
@@ -323,6 +471,18 @@ const MegaMenu = ({ handleIcon }) => {
         )}
         {software ? (
           <div className={styles.gridPanel}>
+            <div className={styles.mInnerBox} onClick={() => handleIcon(false)}>
+              <a href="/advanced-data-science-and-ai-course-with-real-work-experience">
+                <div className={styles.mInnerBoxDiv}>
+                  <h5>Advance Data science and AI course</h5>
+                  <span>
+                    <div>9 Months</div>
+                    <BsDot className={styles.dot} />
+                    <div>Live Classes</div>
+                  </span>
+                </div>
+              </a>
+            </div>
             <a href="/full-stack-developer-course">
               <div
                 className={styles.mInnerBox}
@@ -338,16 +498,15 @@ const MegaMenu = ({ handleIcon }) => {
                 </div>
               </div>
             </a>
-
-            <a href="/web-development-course">
+            <a href="/business-analytics-course">
               <div
                 className={styles.mInnerBox}
                 onClick={() => handleIcon(false)}
               >
                 <div className={styles.mInnerBoxDiv}>
-                  <h5>Web Development course with certification</h5>
+                  <h5>Business Analytics course for professionals</h5>
                   <span>
-                    <div>7 Months</div>
+                    <div>8 Months</div>
                     <BsDot className={styles.dot} />
                     <div>Live Classes</div>
                   </span>

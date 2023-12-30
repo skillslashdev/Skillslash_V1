@@ -22,7 +22,7 @@ const ProgramInfo = ({
                 height={40}
                 alt="increase you salary by 170%"
               />
-              <p>170% Average Salary Hike</p>
+              <p>Triple Certification</p>
             </>
           ) : (
             <>
@@ -46,7 +46,7 @@ const ProgramInfo = ({
             height={40}
             alt="learn directly from live classes"
           />
-          <p>Live Interactive Sessions</p>
+          <p>Live Doubt Clearing Sessions</p>
           {/* <h5>{BatchDuration}</h5> */}
         </div>
         <div className={styles.right}>
@@ -59,7 +59,7 @@ const ProgramInfo = ({
                 height={40}
                 alt="hiring"
               />
-              <p>400+ Hiring Partners</p>
+              <p>Career Support</p>
             </>
           ) : (
             <>
